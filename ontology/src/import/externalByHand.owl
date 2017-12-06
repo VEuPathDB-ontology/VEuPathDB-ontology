@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/externalByHand.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/externalByHand.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/externalByHand.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+        
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000546 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000546">
+        <rdfs:label xml:lang="en">injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/REO_0000699 -->
+    <!-- REO is deprecated, need to use another term in the future -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/REO_0000699">
+        <rdfs:label xml:lang="en">social role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
+    </owl:Class>
+	social role    
+    
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125666000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125666000">
+        <rdfs:label xml:lang="en">Burn</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000118>burns</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+    
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125670008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125670008">
+        <rdfs:label xml:lang="en">Foreign body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/128936008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128936008">
+        <rdfs:label xml:lang="en">Bacterial infection of skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/282026002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/282026002">
+        <rdfs:label xml:lang="en">Soft tissue injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/31986002 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/31986002">
+        <rdfs:label xml:lang="en">Animal bite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000118>Animal bite (morphologic abnormality)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/7520000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/7520000">
+        <rdfs:label xml:lang="en">Pyrexia of unknown origin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/27942005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/27942005">
+        <rdfs:label xml:lang="en">shock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000118>shock</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="MEDDRA"/>
+    </owl:Class>
+
+
+    <!-- http://purl.bioontology.org/ontology/MEDDRA/10017076 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10017076">
+        <rdfs:label xml:lang="en">Fracture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000118>fracture (bone)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+    </owl:Class>
+
+	
+   
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000169">
+        <rdfs:label xml:lang="en">summing data transformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000116>tracker: https://github.com/obcs/obcs/issues/7</obo:IAO_0000116>
+        <obo:IAO_0000119>http://dictionary.reference.com/browse/summing</obo:IAO_0000119>
+        <dc:source>PRISM</dc:source>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000115>A data transformation that add two or more numbers, magnitudes, quantities, or particulars as determined by or as if by the mathematical process of addition.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBCS_0000170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000170">
+        <rdfs:label xml:lang="en">sum value</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000169"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000116>Tracker:https://github.com/obcs/obcs/issues/7</obo:IAO_0000116>
+        <obo:IAO_0000119>Jie Zheng</obo:IAO_0000119>
+        <obo:IAO_0000115>A data item that is produced as the output of a summing data transformation and represents the total value of the input data.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
+        <dc:source>PRISM</dc:source>
+    </owl:Class>
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
