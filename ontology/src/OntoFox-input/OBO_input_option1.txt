@@ -613,12 +613,15 @@ IDO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
 http://purl.obolibrary.org/obo/IDO_0000586 #infection
+http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
 subClassOf http://purl.obolibrary.org/obo/IDO_0000586
 http://purl.obolibrary.org/obo/IDO_0000586 #infection
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -670,7 +673,9 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimenhttp://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimenhttp://purl.obolibrary.org/obo/OBI_0002534 #lung specimenhttp://purl.obolibrary.org/obo/OBI_1110041 #lymph node cell specimenhttp://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimenhttp://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
-http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
+http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
+http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivo
+http://purl.obolibrary.org/obo/OBI_0000967 #container
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
@@ -681,7 +686,9 @@ http://purl.obolibrary.org/obo/OBI_1110041 #lymph node cell specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
 http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
-
+http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivosubClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0000967 #container
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 
 [Source term retrieval setting]
 includeNoIntermediates
