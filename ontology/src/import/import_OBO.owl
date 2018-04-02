@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl"/>
     
 
@@ -19,35 +20,44 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
-        <rdfs:label>textual definition</rdfs:label>
-        <rdfs:label>definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label>label</rdfs:label>
-        <rdfs:label xml:lang="en">label</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
     <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -65,10 +75,10 @@
     <!-- http://purl.obolibrary.org/obo/STATO_0000101 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000101">
-        <rdfs:label>has numerator</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000115 xml:lang="en">the relationship between a fraction and the number above the line</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>has numerator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -76,10 +86,10 @@
     <!-- http://purl.obolibrary.org/obo/STATO_0000259 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000259">
-        <rdfs:label>has denominator</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:IAO_0000115 xml:lang="en">the relationship between a fraction and the number below the line (or divisor)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>has denominator</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -122,9 +132,9 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
-        <rdfs:label xml:lang="en">function</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">function</rdfs:label>
     </owl:Class>
     
 
@@ -138,10 +148,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15854 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15854">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cinchona alkaloid that is cinchonidine in which the hydrogen at the 6-position of the quinoline ring is substituted by methoxy.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinine</rdfs:label>
     </owl:Class>
     
 
@@ -155,10 +165,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33281">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent</rdfs:label>
     </owl:Class>
     
 
@@ -166,10 +176,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal atom</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal atom</rdfs:label>
     </owl:Class>
     
 
@@ -177,10 +187,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_3638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3638">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroquine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aminoquinoline that is quinoline which is substituted at position 4 by a [5-(diethylamino)pentan-2-yl]amino group at at position 7 by chlorine. It is used for the treatment of malaria, hepatic amoebiasis, lupus erythematosus, light-sensitive skin eruptions, and rheumatoid arthritis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroquine</rdfs:label>
     </owl:Class>
     
 
@@ -188,10 +198,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
-        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">the role of a material entity to prevent, diagnose, treat, or study disease and/or its effects</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
     </owl:Class>
     
 
@@ -199,10 +209,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
-        <rdfs:label xml:lang="en">drug product</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug product</rdfs:label>
     </owl:Class>
     
 
@@ -210,9 +220,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00017631 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00017631">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artemether</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artemether</rdfs:label>
     </owl:Class>
     
 
@@ -220,9 +230,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00019223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00019223">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumefantrine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumefantrine</rdfs:label>
     </owl:Class>
     
 
@@ -230,9 +240,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021246">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Injectable Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Injectable Solution</rdfs:label>
     </owl:Class>
     
 
@@ -240,9 +250,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021247">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -250,10 +260,10 @@
     <!-- http://purl.obolibrary.org/obo/ERO_0002033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family relationship</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between persons related as members of a domestic group, or a number of domestic groups linked through descent from a common ancestor, marriage, or adoption</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">family relationship</rdfs:label>
     </owl:Class>
     
 
@@ -261,12 +271,12 @@
     <!-- http://purl.obolibrary.org/obo/FOODON_00001287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001287">
-        <rdfs:label xml:lang="en">mushroom</rdfs:label>
-        <rdfs:label xml:lang="en">mushroom as food source</rdfs:label>
-        <rdfs:label xml:lang="en">mushroom food product</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A mushroom (or toadstool) is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or on its food source.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">mushroom</rdfs:label>
+        <rdfs:label xml:lang="en">mushroom as food source</rdfs:label>
+        <rdfs:label xml:lang="en">mushroom food product</rdfs:label>
     </owl:Class>
     
 
@@ -274,10 +284,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renal insufficiency</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reduction in the level of performance of the kidneys in areas of function comprising the concentration of urine, removal of wastes, the maintenance of electrolyte balance, homeostasis of blood pressure, and calcium metabolism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renal insufficiency</rdfs:label>
     </owl:Class>
     
 
@@ -285,10 +295,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
     </owl:Class>
     
 
@@ -296,10 +306,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000421 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000421">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epistaxis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epistaxis, or nosebleed, refers to a hemorrhage localized in the nose.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epistaxis</rdfs:label>
     </owl:Class>
     
 
@@ -307,10 +317,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000692">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal alignment, positioning, or spacing of the teeth, i.e., misaligned teeth.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
     </owl:Class>
     
 
@@ -318,10 +328,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000952 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaundice</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow pigmentation of the skin or sclera due to bilirubin, which in turn is the result of increased bilirubin concentration in the bloodstream.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaundice</rdfs:label>
     </owl:Class>
     
 
@@ -329,10 +339,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000989">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruritus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruritus is an itch or a sensation that makes a person want to scratch. This term refers to an abnormally increased disposition to experience pruritus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruritus</rdfs:label>
     </owl:Class>
     
 
@@ -340,10 +350,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001259">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coma</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete absence of wakefulness and content of conscience, which manifests itself as a lack of response to any kind of external stimuli.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coma</rdfs:label>
     </owl:Class>
     
 
@@ -351,10 +361,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001892">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal bleeding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal susceptibility to bleeding, often referred to as a bleeding diathesis. A bleeding diathesis may be related to vascular, platelet and coagulation defects.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal bleeding</rdfs:label>
     </owl:Class>
     
 
@@ -362,9 +372,9 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001944">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehydration</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehydration</rdfs:label>
     </owl:Class>
     
 
@@ -372,10 +382,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forceful ejection of the contents of the stomach through the mouth by means of a series of involuntary spasmic contractions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
     </owl:Class>
     
 
@@ -383,10 +393,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) and perceived to originate in the abdomen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
     </owl:Class>
     
 
@@ -394,10 +404,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalgia, or pain sensed in various parts of the head, not confined to the area of distribution of any nerve.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
     </owl:Class>
     
 
@@ -405,9 +415,9 @@
     <!-- http://purl.obolibrary.org/obo/HP_0003249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003249">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genital ulcers</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genital ulcers</rdfs:label>
     </owl:Class>
     
 
@@ -415,9 +425,9 @@
     <!-- http://purl.obolibrary.org/obo/HP_0004395 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
     </owl:Class>
     
 
@@ -425,10 +435,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0011801 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011801">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlargement of parotid gland</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased size of the parotid gland.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlargement of parotid gland</rdfs:label>
     </owl:Class>
     
 
@@ -436,10 +446,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0011848 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011848">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal colic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>A type of abdominal pain that comes and goes in waves, most often starting and ending suddenly and being of severe intensity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal colic</rdfs:label>
     </owl:Class>
     
 
@@ -447,10 +457,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0012531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012531">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
     </owl:Class>
     
 
@@ -458,10 +468,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0100845 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100845">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaphylactic shock</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acute hypersensitivity reaction due to exposure to a previously encountered antigen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaphylactic shock</rdfs:label>
     </owl:Class>
     
 
@@ -469,10 +479,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0200039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200039">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pustule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small elevation of the skin containing cloudy or purulent material usually consisting of necrotic inflammatory cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pustule</rdfs:label>
     </owl:Class>
     
 
@@ -480,10 +490,10 @@
     <!-- http://purl.obolibrary.org/obo/HP_0200043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verrucae</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warts, benign growths on the skin or mucous membranes that cause cosmetic problems as well as pain and discomfort. Warts most often occur on the hands, feet, and genital areas.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verrucae</rdfs:label>
     </owl:Class>
     
 
@@ -521,10 +531,10 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000401 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000401">
-        <rdfs:label xml:lang="en">one dimensional cartesian spatial coordinate datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A cartesion spatial coordinate datum that  uses one value to specify a position along a one dimensional spatial region</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">one dimensional cartesian spatial coordinate datum</rdfs:label>
     </owl:Class>
     
 
@@ -532,10 +542,10 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000408">
-        <rdfs:label xml:lang="en">length measurement datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of length quality</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">length measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -543,10 +553,10 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000414 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000414">
-        <rdfs:label xml:lang="en">mass measurement datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of mass quality</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">mass measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -560,10 +570,10 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0000405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000405">
-        <rdfs:label xml:lang="en">pathogen role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role borne by pathogen in virtue of the fact that it or one of its products is sufficiently close to an organism towards which it has the pathogenic disposition to allow realization of the pathogenic disposition.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">pathogen role</rdfs:label>
     </owl:Class>
     
 
@@ -571,10 +581,10 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000566">
-        <rdfs:label xml:lang="en">primary infection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000586"/>
         <obo:IAO_0000115 xml:lang="en">An infection bearing the primary infection role.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">primary infection</rdfs:label>
     </owl:Class>
     
 
@@ -582,10 +592,10 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0000586 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000586">
-        <rdfs:label xml:lang="en">infection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A part of an extended organism that itself has as part a population of one or more infectious agents and that (1) exists as a result of processes initiated by members of the infectious agent population and is (2) clinically abnormal in virtue of the presence of this infectious agent population, or (3) has a disposition to bring clinical abnormality to immunocompetent organisms of the same Species as the host (the organism corresponding to the extended organism) through transmission of a member or offspring of a member of the infectious agent population.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <rdfs:label xml:lang="en">infection</rdfs:label>
     </owl:Class>
     
 
@@ -599,9 +609,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis lupus familiaris</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_314146"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canis lupus familiaris</rdfs:label>
     </owl:Class>
     
 
@@ -609,10 +619,10 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029">
-        <rdfs:label xml:lang="en">medication material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity that is bearer of a medication role.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">medication material</rdfs:label>
     </owl:Class>
     
 
@@ -620,10 +630,10 @@
     <!-- http://purl.obolibrary.org/obo/OBIB_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000036">
-        <rdfs:label xml:lang="en">buffy coat specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processed specimen which is the output of a density gradient centrifugation of an anticoagulated blood specimen that contains most of the white blood cells and platelets.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">buffy coat specimen</rdfs:label>
     </owl:Class>
     
 
@@ -655,10 +665,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000097">
-        <rdfs:label xml:lang="en">participant under investigation role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role that is realized through the execution of a study design in which the bearer of the role participates and in which data about that bearer is collected.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">participant under investigation role</rdfs:label>
     </owl:Class>
     
 
@@ -666,10 +676,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
-        <rdfs:label xml:lang="en">population</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">population</rdfs:label>
     </owl:Class>
     
 
@@ -689,10 +699,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000655 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000655">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a material entity derived from a portion of blood collected from an organism</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood specimen</rdfs:label>
     </owl:Class>
     
 
@@ -700,10 +710,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000725 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000725">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host role</rdfs:label>
     </owl:Class>
     
 
@@ -711,10 +721,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000810 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000810">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informed consent process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process in which a person or their legal representative is informed about key facts about potential risks and benefits of a process and makes a documented decision as to whether the person in question will participate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">informed consent process</rdfs:label>
     </owl:Class>
     
 
@@ -722,10 +732,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A medical organization at which sick or injured people are given clinical care</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital</rdfs:label>
     </owl:Class>
     
 
@@ -733,10 +743,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000852 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000852">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record of missing knowledge</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a information content entity created to indicate that information about something is not available to the person recording it.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record of missing knowledge</rdfs:label>
     </owl:Class>
     
 
@@ -744,10 +754,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">categorical measurement datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement datum that is reported on a categorical scale</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">categorical measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -755,10 +765,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that has been intentionally physically modified.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">processed specimen</rdfs:label>
     </owl:Class>
     
 
@@ -766,10 +776,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000967 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000967">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">container</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device that can be used to restrict the location of material entities over time</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">container</rdfs:label>
     </owl:Class>
     
 
@@ -777,10 +787,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000968 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000968">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that is designed to perform a function in a scientific investigation, but is not a reagent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device</rdfs:label>
     </owl:Class>
     
 
@@ -794,10 +804,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001169">
-        <rdfs:label xml:lang="en">age since birth measurement datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">age since birth measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -805,10 +815,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001171">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half life datum (t 1/2)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time it takes for 50% of a class of stochastic processes to occur. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half life datum (t 1/2)</rdfs:label>
     </owl:Class>
     
 
@@ -816,10 +826,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001185">
-        <rdfs:label xml:lang="en">selectively maintained organism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">selectively maintained organism</rdfs:label>
     </owl:Class>
     
 
@@ -827,10 +837,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001305 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001305">
-        <rdfs:label xml:lang="en">genotype information</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001404"/>
         <obo:IAO_0000115 xml:lang="en">a genetic characteristics information that is about the genetic material of an organism and minimally includes information about the genetic background and can in addition contain information about specific alleles, genetic modifications, etc.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">genotype information</rdfs:label>
     </owl:Class>
     
 
@@ -838,10 +848,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001404 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001404">
-        <rdfs:label xml:lang="en">genetic characteristics information</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">a data item that is about genetic material including polymorphisms, disease alleles, and haplotypes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">genetic characteristics information</rdfs:label>
     </owl:Class>
     
 
@@ -855,10 +865,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001554">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate measurement datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that represents the number of events occuring over a time interval</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -866,10 +876,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0001876 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001876">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell culture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity comprised of cultured cells and the media in which they are being propagated or stored.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell culture</rdfs:label>
     </owl:Class>
     
 
@@ -877,10 +887,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002502">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrospinal fluid specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from cerbrospinal fluid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrospinal fluid specimen</rdfs:label>
     </owl:Class>
     
 
@@ -888,10 +898,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002508">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sputum specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from sputum.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sputum specimen</rdfs:label>
     </owl:Class>
     
 
@@ -899,10 +909,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002512 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002512">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from bone marrow.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow specimen</rdfs:label>
     </owl:Class>
     
 
@@ -910,10 +920,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002515 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002515">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from pleural fluid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid specimen</rdfs:label>
     </owl:Class>
     
 
@@ -921,10 +931,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002534 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002534">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from lung.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung specimen</rdfs:label>
     </owl:Class>
     
 
@@ -932,10 +942,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0100016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100016">
-        <rdfs:label xml:lang="en">blood plasma specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <obo:IAO_0000115 xml:lang="en">a material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">blood plasma specimen</rdfs:label>
     </owl:Class>
     
 
@@ -955,10 +965,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0400065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400065">
-        <rdfs:label xml:lang="en">light source</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:IAO_0000115 xml:lang="en">A light source is an optical subsystem that provides light for use in a distant area using a delivery system (e.g., fiber optics). Light sources may include one of a variety of lamps (e.g., xenon, halogen, mercury). Most light sources are operated from line power, but some may be powered from batteries. They are mostly used in endoscopic, microscopic, and other examination and/or in surgical procedures. The light source is part of the optical subsystem. In a flow cytometer the light source directs high intensity light at particles at the interrogation point. The light source in a flow cytometer is usually a laser.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">light source</rdfs:label>
     </owl:Class>
     
 
@@ -966,10 +976,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0600004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600004">
-        <rdfs:label xml:lang="en">human subject enrollment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to obtain a population of human subjects to participate in an investigation by determining eligibility of subjects and obtaining informed consent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">human subject enrollment</rdfs:label>
     </owl:Class>
     
 
@@ -977,10 +987,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600007">
-        <rdfs:label xml:lang="en">administering substance in vivo</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process by which a substance is intentionally given to an organism resulting in exposure of the organism to that substance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">administering substance in vivo</rdfs:label>
     </owl:Class>
     
 
@@ -988,10 +998,10 @@
     <!-- http://purl.obolibrary.org/obo/OBI_1110041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110041">
-        <rdfs:label xml:lang="en">lymph node cell specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell specimen comprised of a mixed population of cells obtained by processing whole lymph node into individual cells, typically performed using a sieve. This population includes T cells, B cells, macrophages, and other cell types.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">lymph node cell specimen</rdfs:label>
     </owl:Class>
     
 
@@ -999,10 +1009,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
-        <rdfs:label>clinical finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical finding</rdfs:label>
     </owl:Class>
     
 
@@ -1010,10 +1020,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
-        <rdfs:label>clinical history</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&#39;s family.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&apos;s family.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical history</rdfs:label>
     </owl:Class>
     
 
@@ -1021,10 +1031,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000018">
-        <rdfs:label>laboratory finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115 xml:lang="en">A representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>laboratory finding</rdfs:label>
     </owl:Class>
     
 
@@ -1032,10 +1042,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000027">
-        <rdfs:label>clinical phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 xml:lang="en">A clinically abnormal phenotype.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -1043,10 +1053,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000056">
-        <rdfs:label>laboratory test</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 xml:lang="en">A measurement assay that has as input a patient-derived specimen, and as output a result that represents a quality of the specimen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>laboratory test</rdfs:label>
     </owl:Class>
     
 
@@ -1054,10 +1064,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
-        <rdfs:label>diagnosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -1065,10 +1075,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000083">
-        <rdfs:label>physical examination finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115 xml:lang="en">TODO: Define.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>physical examination finding</rdfs:label>
     </owl:Class>
     
 
@@ -1076,10 +1086,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
-        <rdfs:label>treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>treatment</rdfs:label>
     </owl:Class>
     
 
@@ -1087,10 +1097,10 @@
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000001">
-        <rdfs:label xml:lang="en">human social role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A social role inhering in a human being.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <rdfs:label xml:lang="en">human social role</rdfs:label>
     </owl:Class>
     
 
@@ -1098,10 +1108,10 @@
     <!-- http://purl.obolibrary.org/obo/OPL_0000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000232">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasite organism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism living in, with, or on another organism in parasitism.  Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasite organism</rdfs:label>
     </owl:Class>
     
 
@@ -1115,10 +1125,10 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000383 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000383">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female</rdfs:label>
     </owl:Class>
     
 
@@ -1126,10 +1136,10 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000384">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdfs:label>
     </owl:Class>
     
 
@@ -1137,11 +1147,11 @@
     <!-- http://purl.obolibrary.org/obo/PCO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000024">
-        <rdfs:label xml:lang="en">household</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity that consists of one or more people who live in the same dwelling and also share at meals or living accommodation, and may consist of a single family or some other grouping of people.
 </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
+        <rdfs:label xml:lang="en">household</rdfs:label>
     </owl:Class>
     
 
@@ -1155,10 +1165,10 @@
     <!-- http://purl.obolibrary.org/obo/SO_0001000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA_16S</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large polynucleotide in Bacteria and Archaea, which functions as the small subunit of the ribosome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA_16S</rdfs:label>
     </owl:Class>
     
 
@@ -1166,10 +1176,10 @@
     <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047">
-        <rdfs:label xml:lang="en">count</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">a count is a data item denoted by an integer and represented the number of instances or occurences of an entity</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
+        <rdfs:label xml:lang="en">count</rdfs:label>
     </owl:Class>
     
 
@@ -1177,9 +1187,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000064">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joint pain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">joint pain</rdfs:label>
     </owl:Class>
     
 
@@ -1187,9 +1197,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000124">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizure</rdfs:label>
     </owl:Class>
     
 
@@ -1197,10 +1207,10 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000174">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wasting</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wasting is a nutrition, metabolism, and development symptom characterized by the unintended loss of weight and lean body tissue characteristic of many diseases (as cancer, tuberculosis, and AIDS).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wasting</rdfs:label>
     </owl:Class>
     
 
@@ -1208,9 +1218,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000475 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000475">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">underweight</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">underweight</rdfs:label>
     </owl:Class>
     
 
@@ -1218,10 +1228,10 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000523 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000523">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anorexia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anorexia is a nutrition, metabolism, and development symptom characterized by a loss of appetite especially when prolonged.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anorexia</rdfs:label>
     </owl:Class>
     
 
@@ -1229,9 +1239,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000596">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convulsion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convulsion</rdfs:label>
     </owl:Class>
     
 
@@ -1239,10 +1249,10 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000614">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cough</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cough is a respiratory system and chest symptom characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cough</rdfs:label>
     </owl:Class>
     
 
@@ -1250,9 +1260,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000642 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000642">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory distress</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory distress</rdfs:label>
     </owl:Class>
     
 
@@ -1260,9 +1270,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0000672 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000672">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abscess</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abscess</rdfs:label>
     </owl:Class>
     
 
@@ -1270,9 +1280,9 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0019148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019148">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">septicemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">septicemia</rdfs:label>
     </owl:Class>
     
 
@@ -1280,10 +1290,10 @@
     <!-- http://purl.obolibrary.org/obo/SYMP_0019177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019177">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatigue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue is a neurological and physiological symptom characterized by a weariness or exhaustion from labor, exertion, or stress.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatigue</rdfs:label>
     </owl:Class>
     
 
@@ -1297,10 +1307,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 24 hours.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
     </owl:Class>
     
 
@@ -1308,10 +1318,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which in science is taken to be equal to 30 days.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is approximately equal to the length of time of one of cycle of the moon&apos;s phases which in science is taken to be equal to 30 days.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">month</rdfs:label>
     </owl:Class>
     
 
@@ -1319,10 +1329,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
     </owl:Class>
     
 
@@ -1330,10 +1340,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which represents a standard measurement of how much of a given substance there is mixed with another substance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration unit</rdfs:label>
     </owl:Class>
     
 
@@ -1341,10 +1351,10 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
     </owl:Class>
     
 
@@ -1352,11 +1362,11 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0002755 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002755">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular course of eating and drinking adopted by a person or animal. This does not include DIET THERAPY, a specific diet prescribed in the treatment of a disease.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diet</rdfs:label>
     </owl:Class>
     
 
@@ -1364,14 +1374,14 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004950 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004950">
-        <rdfs:label xml:lang="en">date of birth</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115>The point in time at which an individual was born.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label xml:lang="en">date of birth</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
