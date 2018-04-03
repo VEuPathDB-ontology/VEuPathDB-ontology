@@ -6473,14 +6473,18 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001305"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A genotype information of pathogenic organism such as fungi, parasite.</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001305"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A genotype information of parasite organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">parasite organism genotype information</rdfs:label>
     </owl:Class>
     
@@ -7382,6 +7386,26 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A quality inheres in parasite organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">parasite phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000758">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001305"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14209"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A genotype information of fungus.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fungal organism genotype information</rdfs:label>
     </owl:Class>
     
 
