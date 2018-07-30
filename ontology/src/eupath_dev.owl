@@ -166,6 +166,7 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000274 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000274">
+        <obo:IAO_0000115>The order variables will appear in under a given parent term. Left blank if alphabetical order is accepted</obo:IAO_0000115>
         <rdfs:comment>annotation used for specifing the order of terms displayed on the EuPathDB website  </rdfs:comment>
         <rdfs:label xml:lang="en">display order</rdfs:label>
     </owl:AnnotationProperty>
@@ -216,11 +217,55 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000755">
         <obo:IAO_0000112>In a data file, there is a column with name &apos;age&apos;. It mapped to EuPath ontology term &apos;age at visit&apos;. We can add &apos;implements variable&apos; annotation with value &apos;age&apos; to term &apos;age at visit&apos;.</obo:IAO_0000112>
-        <obo:IAO_0000115>The name of column header in a data file that corresponds to a given ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000115>Column header for each variable from the original datasets (use format from datasets, not data dictionary).</obo:IAO_0000115>
         <obo:IAO_0000118>column header</obo:IAO_0000118>
-        <obo:IAO_0000118>data variable</obo:IAO_0000118>
-        <rdfs:label>implements variable</rdfs:label>
+        <rdfs:label>variable</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0001000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001000">
+        <obo:IAO_0000115>The column order of variables in the original data files</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">colOrder</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0001001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001001">
+        <obo:IAO_0000115>The original file name for the data file the variable was found in, or a shortened version of the file name that contains all relevant information to identify the data file.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dataset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0001002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001002">
+        <obo:IAO_0000115>The highest level parent term (Household, Participant, Observation, Specimen) the variable falls under.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">category</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0001003 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001003">
+        <obo:IAO_0000115>The variable description from the data dictionary. Useful for assigning display labels. To be provided either directly from the data provider in their codebook or filled out by ClinEpi Outreach before handing over to Ontology.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">codebookDescription</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0001004 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001004">
+        <obo:IAO_0000115>All possible responses and their mapped terms for each variable, from the data dictionary. Useful for value mapping.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">codebookValues</rdfs:label>
     </owl:AnnotationProperty>
     
 
