@@ -85,16 +85,28 @@
         <rdfs:label xml:lang="en">Burn</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000118>burns</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
     
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/22097005 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/22097005">
+        <rdfs:label xml:lang="en">Tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <obo:IAO_0000118>Tree (organism)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
+    </owl:Class>
+    
+
 
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125670008 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125670008">
         <rdfs:label xml:lang="en">Foreign body</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
 
 
@@ -104,7 +116,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/128936008">
         <rdfs:label xml:lang="en">Bacterial infection of skin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
 
 
@@ -114,7 +126,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/282026002">
         <rdfs:label xml:lang="en">Soft tissue injury</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
 
 
@@ -125,7 +137,7 @@
         <rdfs:label xml:lang="en">Animal bite</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000118>Animal bite (morphologic abnormality)</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
 
 
@@ -135,7 +147,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/7520000">
         <rdfs:label xml:lang="en">Pyrexia of unknown origin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT"/>
     </owl:Class>
 
 
@@ -145,7 +157,7 @@
         <rdfs:label xml:lang="en">shock</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000118>shock</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="MEDDRA"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MEDDRA"/>
     </owl:Class>
 
 
@@ -155,7 +167,7 @@
         <rdfs:label xml:lang="en">Fracture</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000118>fracture (bone)</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="SNOMED"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MEDDRA"/>
     </owl:Class>
 
 	
@@ -170,6 +182,7 @@
         <dc:source>PRISM</dc:source>
         <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000115>A data transformation that add two or more numbers, magnitudes, quantities, or particulars as determined by or as if by the mathematical process of addition.</obo:IAO_0000115>
+       <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
     </owl:Class>
     
 
@@ -189,7 +202,7 @@
         <obo:IAO_0000119>Jie Zheng</obo:IAO_0000119>
         <obo:IAO_0000115>A data item that is produced as the output of a summing data transformation and represents the total value of the input data.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <dc:source>PRISM</dc:source>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
     </owl:Class>
     
 
