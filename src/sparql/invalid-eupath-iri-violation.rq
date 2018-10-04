@@ -1,0 +1,11 @@
+# Every IRI in the EUPATH namespace must have a seven digit ID.
+
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?s ?label
+WHERE {
+  ?s ?p ?o .
+  FILTER (STRSTARTS(str(?s), "http://purl.obolibrary.org/obo/EUPATH_"))
+  FILTER (!regex(str(?s), "^http://purl.obolibrary.org/obo/EUPATH_\\d{7}$"))
+  OPTIONAL { ?s rdfs:label ?label }
+}
