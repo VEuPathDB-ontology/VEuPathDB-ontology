@@ -1226,6 +1226,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <obo:IAO_0000115 xml:lang="en">a diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has malaria</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">diagnosis of malaria</rdfs:label>
     </owl:Class>
     
@@ -1324,6 +1326,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
+        <obo:IAO_0000115 xml:lang="en">a malaria characterized by serious organ failures or abnormalities including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and jaundice.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">severe malaria</rdfs:label>
     </owl:Class>
     
@@ -1429,6 +1433,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000115 xml:lang="en">a human being who bears a participant under investigation role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>human study subject</obo:IAO_0000118>
         <rdfs:label xml:lang="en">human participant under investigation</rdfs:label>
     </owl:Class>
@@ -1860,7 +1866,9 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000097"/>
+        <obo:EUPATH_0000273 xml:lang="en">a febrile quality of an abnormally high temperature</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">elevated temperature</rdfs:label>
     </owl:Class>
     
@@ -1900,6 +1908,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:EUPATH_0000273 xml:lang="en">an organism that is the bearer of a partipant under investigation role</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>study subject</obo:IAO_0000118>
         <rdfs:label xml:lang="en">participant under investigation</rdfs:label>
     </owl:Class>
@@ -3445,6 +3455,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a publicly accessible water well without a constructed barrier built around it to limit movement of waste or runoff into it</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from open public well</rdfs:label>
     </owl:Class>
     
@@ -3460,6 +3472,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a water well with a constructed barrier built around it to limit movement of waste or runoff into the well and the well is located in the yard of a dwelling</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from open well in yard</rdfs:label>
     </owl:Class>
     
@@ -3475,6 +3489,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">drinking water accessed through a plumbing fixture located inside a human dwelling</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from pipe into dwelling</rdfs:label>
     </owl:Class>
     
@@ -3490,6 +3506,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:EUPATH_0000273>drinking water obtained through a plumbing fixture located in the yard of a human dwelling</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from pipe into yard</rdfs:label>
     </owl:Class>
     
@@ -3550,6 +3568,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000598"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a freshwater spring without a constructed barrier built around it that would limit movement of waste or runoff into it</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from unprotected freshwater spring</rdfs:label>
     </owl:Class>
     
@@ -3596,6 +3616,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001554"/>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement datum that represents the number of parasite organisms removed from the bearer of a host role by means of the biological processes of the bearer of the host role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>clearance rate</obo:IAO_0000118>
         <rdfs:label>parasite clearance rate</rdfs:label>
     </owl:Class>
@@ -3606,6 +3628,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is the result of measuring the time it takes for the biological processes of the bearer of a host role to remove parasite organisms within it, until such time as the organisms cannot be detected</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>clearance time</obo:IAO_0000118>
         <rdfs:label>parasite clearance time</rdfs:label>
     </owl:Class>
@@ -3720,6 +3744,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that represents the beginning of the first process in which a parasitemia is realized</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>parasitemia start</obo:IAO_0000118>
         <rdfs:label>parasitemia start time</rdfs:label>
     </owl:Class>
@@ -3730,6 +3756,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that describes the success, failure, or indeterminacy of a treatment</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>treatment outcome</obo:IAO_0000118>
         <rdfs:label>treatment outcome information</rdfs:label>
     </owl:Class>
@@ -3845,6 +3873,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a process in which a human being occupying a dwelling participates. It either specifies the bearer of the function that is realized in the process, or it specifies that the process does not occur in the dwelling or its yard.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information on dwelling facilities</rdfs:label>
     </owl:Class>
     
@@ -3854,6 +3884,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a information content entity that is about a part of a dwelling</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information on dwelling physical characteristics</rdfs:label>
     </owl:Class>
     
@@ -3863,6 +3895,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a household and is an estimator of capabilities of household members to participate in processes that maintain their health, social status, and economic freedom</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>socioeconomic factor</rdfs:label>
     </owl:Class>
     
@@ -3872,6 +3906,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is about an investigation and is the specified output of a data transformation that has only clinical visit data as input</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>aggregated clinical visit information</rdfs:label>
     </owl:Class>
     
@@ -3881,6 +3917,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a genotype information that is about the genetic material of a human being</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>human genotype information</rdfs:label>
     </owl:Class>
     
@@ -3890,6 +3928,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a part of a study design execution that is part of an investigation under which a human being is a participant</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information on participant study details</rdfs:label>
     </owl:Class>
     
@@ -3899,6 +3939,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a part of a health care encounter that occurs in a hospital facility</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label>hospitalization information</rdfs:label>
     </owl:Class>
@@ -3928,6 +3970,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a clinical visit is scheduled or unscheduled</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>clinical visit type information</rdfs:label>
     </owl:Class>
     
@@ -3955,6 +3999,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000049"/>
+        <obo:IAO_0000115 xml:lang="en">a clinical visit that realizes the concretization of a protocol specifying the time of the visit</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>scheduled clinical visit</rdfs:label>
     </owl:Class>
     
@@ -3964,6 +4010,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000049"/>
+        <obo:IAO_0000115 xml:lang="en">a clinical visit that occurs at a time that is not mentioned in a protocol that directs the time of the visit</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>unscheduled clinical visit</rdfs:label>
     </owl:Class>
     
@@ -3973,6 +4021,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a malaria diagnosis and describes the severity of the disease or the basis for the diagnosis</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>malaria severity and basis information</rdfs:label>
     </owl:Class>
     
@@ -3982,6 +4032,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <obo:IAO_0000115 xml:lang="en">a diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has a disease other than malaria</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>diagnosis other than malaria</rdfs:label>
     </owl:Class>
     
@@ -3991,6 +4043,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a participant under investigation and specifies the hospital admitting the participant</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>hospital admission information</rdfs:label>
     </owl:Class>
     
@@ -4000,6 +4054,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is about a human being who bears a patient role and specifies the date of the patient&apos;s admission to a hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>date of hospital admission</rdfs:label>
     </owl:Class>
     
@@ -4009,6 +4065,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is about a human being who bears a patient role and specifies the date of the patient&apos;s discharge from a hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>date of hospital discharge</rdfs:label>
     </owl:Class>
     
@@ -4029,6 +4087,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a collection of Anopheles funestus</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>Anopheles funestus related information</rdfs:label>
     </owl:Class>
     
@@ -4047,6 +4107,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a number of mosquitos that have given birth</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>mosquito parity information</rdfs:label>
     </owl:Class>
     
@@ -4056,6 +4118,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an entomological data item that is the specified output of an analyte assay to determine whether a sporozoite is present in any insect in a collection of insects</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>sporozoite testing information</rdfs:label>
     </owl:Class>
     
@@ -4065,6 +4129,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is the specified output of a data transformation that has only sporozoite testing information as input</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>aggregated sporozoite testing information</rdfs:label>
     </owl:Class>
     
@@ -4504,6 +4570,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000374">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that is about a human being and specifies whether that human being is joined to another human being in marriage</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>marital status</rdfs:label>
     </owl:Class>
     
@@ -4513,6 +4581,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a human being plans to change within two years the dwelling which that human being occupies</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of whether a person plan to move</rdfs:label>
     </owl:Class>
     
@@ -4531,6 +4601,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that represents the time a human being resides in a human dwelling</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>years of living in the dwelling</rdfs:label>
     </owl:Class>
     
@@ -4540,6 +4612,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is about a human being, has years as its unit, and represents the time interval that the human being has lived in a geographic location where the inhabitants share a common trait</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>years of living in the community</rdfs:label>
     </owl:Class>
     
@@ -4549,6 +4623,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000379">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a site, within a human dwelling and its yard, to which any resident of the dwelling has access</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of common areas in a dwelling</rdfs:label>
     </owl:Class>
     
@@ -4558,6 +4634,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum that has the square meter as its measurement label and is the result of a measurement of area that is covered by a roof</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>covered area measured in square meter</rdfs:label>
     </owl:Class>
     
@@ -4577,6 +4655,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum that is the result of a measurement of area and has the square meter as its measurement label</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>total area measured in square meter</rdfs:label>
     </owl:Class>
     
@@ -4613,6 +4693,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a geographic location in which part of a journey occurs</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of place visited during a trip</rdfs:label>
     </owl:Class>
     
@@ -4632,6 +4714,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Person: John Judkins</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a patient diagnosed with malaria and describes geographic locations the patient visited</obo:IAO_0000115>
         <rdfs:label>information about travel before malaria</rdfs:label>
     </owl:Class>
     
@@ -4651,6 +4735,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000390">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is about a human dwelling and specifies the most recent date on which the dwelling was fumigated, i.e. filled with pesticide</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>date of last fumigation</rdfs:label>
     </owl:Class>
     
@@ -4669,6 +4755,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a human participant under investigation is a contact for malaria, based on the partipant&apos;s association with sites in which malaria infections are known to occur</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of contact with malaria</rdfs:label>
     </owl:Class>
     
@@ -4678,6 +4766,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a human participant under investigation and specifies whether the person is present for a scheduled clinical visit</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of participant status at visit</rdfs:label>
     </owl:Class>
     
@@ -4696,6 +4786,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a domesticated animal that is raised in an agricultural setting to produce labor and commodities</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of livestock</rdfs:label>
     </owl:Class>
     
@@ -4705,6 +4797,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a domesticated animal that is kept for pleasure rather than utility</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of pets</rdfs:label>
     </owl:Class>
     
@@ -4723,6 +4817,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000398">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a bed net to which insecticide was applied in the past six months</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of insecticide-treated bed nets that treated less than 6 months ago</rdfs:label>
     </owl:Class>
     
@@ -4732,6 +4828,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a bed net to which insecticide was applied before the previous six months</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of insecticide-treated bed nets that treated more than 6 months ago</rdfs:label>
     </owl:Class>
     
@@ -4741,6 +4839,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000400">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of bed net to which long last insecticide is administered</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of long last insecticide-treated bed nets</rdfs:label>
     </owl:Class>
     
@@ -4750,6 +4850,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:EUPATH_0000273 xml:lang="en">a count of the number of instances of a bed net to which insecticide has not been applied</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of untreated bed net</rdfs:label>
     </owl:Class>
     
@@ -4787,6 +4889,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000405">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">an organization that administrates a medical care center that provides healthcare services on an outpatient basis</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>clinic</rdfs:label>
     </owl:Class>
     
@@ -4834,6 +4938,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000410">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a participant under investigation self-administered antimalarial drugs in the past 2 weeks</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of whether took antimalarial drugs in last 2 weeks</rdfs:label>
     </owl:Class>
     
@@ -4843,6 +4949,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000411">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a human participant under investigation that has a disease and specifies the disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of existing illness</rdfs:label>
     </owl:Class>
     
@@ -4852,6 +4960,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a human participant under investigation and specifies whether the participant has a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of whether having an existing illness</rdfs:label>
     </owl:Class>
     
@@ -4861,6 +4971,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000413">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that is about a health care provider role that is realized in a treatment to alleviate symptoms of a fever. It either specifies whether this role is borne by a hospital or clinic, private practice, or the patient, or it specifies that this information is missing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of where a fever person treated</rdfs:label>
     </owl:Class>
     
@@ -4900,6 +5012,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a human being is manifesting a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of whether a person is sick now</rdfs:label>
     </owl:Class>
     
@@ -4928,6 +5042,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000420">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies any locations in which a diagnostic process has occurred in the past twelve months that resulted in a diagnosis of malaria</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of where malaria diagnosed in last 12 months</rdfs:label>
     </owl:Class>
     
@@ -4937,6 +5053,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a parasite in a life cycle stage in which reproduction is asexual</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of asexual parasite</rdfs:label>
     </owl:Class>
     
@@ -4975,6 +5093,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000425">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is part of a diagnosis of malaria and specifies the species of the infectious agent causing the malaria</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>information of malaria parasite infection diagnosis past year</rdfs:label>
     </owl:Class>
     
@@ -5273,6 +5393,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000455">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is about a sequencing assay and is the ratio of the count of mapped reads to the total count of reads</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">proportion mapped reads</rdfs:label>
     </owl:Class>
     
@@ -5575,7 +5697,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>Person: Jie Zheng, Grant Dorsey</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a presence of parasite that indicates whether parasites too small to be seen under light microscopy are present in a specimen. It is the specified output of a loop-mediated isothermal amplification assay</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Grant Dorsey, John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>presence of submicrosopic parasites by LAMP</obo:IAO_0000118>
         <obo:IAO_0000119>Penn group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
@@ -6064,6 +6187,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000530">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 xml:lang="en">a site in which a global positioning system receiver produces a data item specifying the location of the site</obo:IAO_0000115>
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">location where GPS coordinates were taken</rdfs:label>
@@ -6219,7 +6343,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000543">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">a research organization that is located in an area where malaria is endemic and is one of many centers established by the National institute of Allergy and Infectious Diseases with the following aims: to design and conduct multidisciplinary research on the epidemiology, transmission, and pathogenesis of malaria in its specific region, to design and conduct special projects to capitalize on new opportunities and emerging public health needs, and to build clinical research capacity and improve malaria control and prevention</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">ICEMR organization</rdfs:label>
     </owl:Class>
@@ -6254,7 +6379,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000546">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000526"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">gametocyte density by microscope that is the output of an assay that realizes an analyte role that inheres in Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium falciparum gametocyte density by microscope</rdfs:label>
     </owl:Class>
@@ -6265,7 +6391,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000547">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000526"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">gametocyte density by microscope that is the output of an assay that realizes an analyte role that inheres in Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium vivax gametocyte density by microscope</rdfs:label>
     </owl:Class>
@@ -6288,7 +6415,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000549">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000536"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">parasite density by PCR that is the output of an assay that realizes an analyte role that inheres in Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium vivax parasite density by PCR</rdfs:label>
     </owl:Class>
@@ -6299,7 +6427,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000550">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000537"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">parasite density by microscope that is the output of an assay that realizes an analyte role that inheres in Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium falciparum parasite density by microscope</rdfs:label>
     </owl:Class>
@@ -6310,7 +6439,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000551">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000537"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">parasite density by microscope that is the output of an assay that realizes an analyte role that inheres in Plasmodium vivax</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium vivax parasite density by microscope</rdfs:label>
     </owl:Class>
@@ -6321,7 +6451,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000536"/>
-        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">parasite density by PCR that is the output of an assay that realizes an analyte role that inheres in Plasmodium falciparum</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium falciparum parasite density by PCR</rdfs:label>
     </owl:Class>
@@ -6561,6 +6692,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is about some virulence and is the count of infectious agents that kill half of a collection of human beings infected with the agents</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">virulence score (LDt50)</rdfs:label>
     </owl:Class>
     
@@ -6570,6 +6703,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000576">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is about some virulence and is the proportion of the number of human beings with a disease (caused by the bearer of the virulence) that die of the disease</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">virulence score (slope)</rdfs:label>
     </owl:Class>
     
@@ -6707,6 +6842,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000588">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000087"/>
+        <obo:IAO_0000115 xml:lang="en">household information that specifies whether the household relocated during its time under investigation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of whether a family move</rdfs:label>
     </owl:Class>
     
@@ -6727,6 +6864,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about the bearer of a host role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">host information</rdfs:label>
     </owl:Class>
     
@@ -6736,6 +6875,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000590">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002755"/>
+        <obo:IAO_0000115 xml:lang="en">the diet of an animal that is the bearer of a host role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:comment>type of diet depending on the host, for animals omnivore, herbivore etc., for humans high-fat, meditteranean etc.; can include multiple diet types</rdfs:comment>
         <rdfs:label xml:lang="en">host&apos;s diet</rdfs:label>
     </owl:Class>
@@ -6767,6 +6908,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000592">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that is about a collection of bee larvae and specifies whether tetracycline was administered to the larvae</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of whether bee larvae treated with tetracycline</rdfs:label>
     </owl:Class>
     
@@ -6801,6 +6944,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000595">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count that is about a dwelling and is also the result of counting the instances of a child that occupies the dwelling</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">number of child occupants in a dwelling</rdfs:label>
     </owl:Class>
     
@@ -6820,6 +6965,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000597">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about a dwelling, is expressed as a percent, has a count of adult occupants of the dwelling as the numerator, and has a count of all occupants of the dwelling as the denominator</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">percent adult occupants in a dwelling</rdfs:label>
     </owl:Class>
     
@@ -6829,6 +6976,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000598">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about a dwelling, is expressed as a percent, has a count of male occupants of the dwelling as the numerator, and has a count of all occupants of the dwelling as the denominator</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">percent male occupants in a dwelling</rdfs:label>
     </owl:Class>
     
@@ -6838,6 +6987,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000599">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a mother received an antimicrobial agent</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of whether antibiotics given to mom</rdfs:label>
     </owl:Class>
     
@@ -6847,6 +6998,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000600">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about an antimicrobial agent given to a mother and specifies the agent by chemical compound</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of class of antibiotics given to mom</rdfs:label>
     </owl:Class>
     
@@ -6856,6 +7009,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000601">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies the trimester of a pregnancy for which a mother receives an antimicrobial agent</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of trimester antibiotics given to mom</rdfs:label>
     </owl:Class>
     
@@ -6875,6 +7030,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000115 xml:lang="en">a protocol that, when concretized, is realized in an assay that uses chemical or biological means to infer the sequence of a biomaterial</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">sequencing protocol</rdfs:label>
     </owl:Class>
     
@@ -6894,6 +7051,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000605">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about an investigation and has as parts only the most significant information content entities that result from the investigation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">summary information of investigation</rdfs:label>
     </owl:Class>
     
@@ -6909,6 +7068,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a symbol that denotes the bearer of a participant under investigation role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">participant identifier</rdfs:label>
     </owl:Class>
     
@@ -6918,6 +7079,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000607">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about weight loss occurring in a three-month period</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of weight loss in last three months</rdfs:label>
     </owl:Class>
     
@@ -6927,6 +7090,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000608">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000115 xml:lang="en">a protocol such that, if it is concretized and its concretization is realized, its concretization is realized in a planned process that has as its objective collecting a specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">specimen collection protocol</rdfs:label>
     </owl:Class>
     
@@ -6936,6 +7101,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000609">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity about the bearer of a specimen role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">specimen information</rdfs:label>
     </owl:Class>
     
@@ -6945,6 +7112,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000610">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000309"/>
+        <obo:IAO_0000115 xml:lang="en">symptom or sign information that results from an examination of either the skin of the patient or a process in which the skin participates</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">skin symptom or sign information</rdfs:label>
     </owl:Class>
     
@@ -6954,6 +7123,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000611">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a specimen collection process</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">specimen source information</rdfs:label>
     </owl:Class>
     
@@ -6972,6 +7143,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000613">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000115 xml:lang="en">a specimen collection time measurement datum that is the measure of a time when specimens are collected after an infection starts</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">specimen collection time post infection</rdfs:label>
     </owl:Class>
     
@@ -6981,6 +7154,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000614">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about the thickness of the ear of the patient</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">ear thickness</rdfs:label>
     </owl:Class>
     
@@ -6990,6 +7165,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that specifies the rate at which water passes through the epidermis of the patient into the air</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">transepidermal water loss</rdfs:label>
     </owl:Class>
     
@@ -7008,6 +7185,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000617">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000609"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical measurement datum that is about the skin of a human being and specifies whether the skin is either dry, moist, or sebaceous</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">skin type swabbed</rdfs:label>
     </owl:Class>
     
@@ -7017,6 +7196,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000618">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that is about a portion of skin that has a disorder hypothesized to be clinically significant. It specifies the degree to which a portion of skin is clinically abnormal.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">skin pathology score</rdfs:label>
     </owl:Class>
     
@@ -7026,6 +7207,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000619">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a treatment</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">number of treatments</rdfs:label>
     </owl:Class>
     
@@ -7035,6 +7218,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about increased thickness of the skin</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">degree of skin thickening</rdfs:label>
     </owl:Class>
     
@@ -7044,6 +7229,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000621">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that specifies the size of a disorder on the skin of a patient</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">lesion size</rdfs:label>
     </owl:Class>
     
@@ -7053,6 +7240,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:EUPATH_0000273 xml:lang="en">skin symptom or sign information that is about a lesion on the axilla of a patient and specifies the extent of damage to the tissue before a treatment to alleviate the lesion</obo:EUPATH_0000273>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">axillary lesion score before treatment</rdfs:label>
     </owl:Class>
     
@@ -7062,6 +7251,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000623">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the axilla of a patient and specifies the extent of damage to the tissue during a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">axillary lesion score during treatment</rdfs:label>
     </owl:Class>
     
@@ -7071,6 +7262,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the axilla of a patient and specifies the extent of damage to the tissue that remains after a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">axillary lesion score after treatment</rdfs:label>
     </owl:Class>
     
@@ -7080,6 +7273,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the groin of a patient and specifies the extent of damage to the tissue before a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">groin lesion score before treatment</rdfs:label>
     </owl:Class>
     
@@ -7089,6 +7284,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000626">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the groin of a patient and specifies the extent of damage to the tissue during a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">groin lesion score during treatment</rdfs:label>
     </owl:Class>
     
@@ -7098,6 +7295,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000627">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the groin of a patient and specifies the extent of damage to the tissue that remains after a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">groin lesion score after treatment</rdfs:label>
     </owl:Class>
     
@@ -7107,6 +7306,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on a pinna of a patient and specifies the extent of damage to the tissue before a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pinna lesion score before treatment</rdfs:label>
     </owl:Class>
     
@@ -7116,6 +7317,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000629">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on a pinna of a patient and specifies the extent of damage to the tissue during a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pinna lesion score during treatment</rdfs:label>
     </owl:Class>
     
@@ -7125,6 +7328,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on a pinna of a patient and specifies the extent of damage to the tissue that remains after a treatment to alleviate the lesion</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pinna lesion score after treatment</rdfs:label>
     </owl:Class>
     
@@ -7134,6 +7339,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000631">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000291"/>
+        <obo:IAO_0000115 xml:lang="en">treatment outcome information that specifies whether the treatment of a skin lesion was successful</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of whether skin lesion cured after treatment</rdfs:label>
     </owl:Class>
     
@@ -7143,6 +7350,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that represents the time interval between the first appearance of a skin lesion and the time it is swabbed for specimen collection</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">skin lesion duration</rdfs:label>
     </owl:Class>
     
@@ -7161,6 +7370,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000634">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that specifies the area of a part of a patient&apos;s skin that participates in an inflammation process</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">degree of skin inflammation</rdfs:label>
     </owl:Class>
     
@@ -7170,6 +7381,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">a measurement datum that is a measurement of the hydration of the outer epidermis</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Pubmed 2459872 &amp;  https://academic.oup.com/jn/article/134/8/2110S/4688890</obo:IAO_0000119>
         <rdfs:label xml:lang="en">corneometry</rdfs:label>
     </owl:Class>
     
@@ -7179,6 +7393,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000636">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000309"/>
+        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies the degree to which alopecia has been realized in a patient</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">degree of hairloss</rdfs:label>
     </owl:Class>
     
@@ -7188,6 +7404,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000637">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
+        <obo:IAO_0000115 xml:lang="en">a skin symptom or sign information that specifies whether the patient has atopic dermatitis</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">information of affected by atopic dermatitis</rdfs:label>
     </owl:Class>
     
@@ -7208,6 +7426,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+        <obo:IAO_0000115 xml:lang="en">a population that is the bearer of a study group role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">study group</rdfs:label>
     </owl:Class>
     
@@ -7217,6 +7437,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000640">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
+        <obo:IAO_0000115 xml:lang="en">a symbol that denotes a cage that has the function to keep an animal that is the bearer of a participant under investigation role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">animal cage number for experiment</rdfs:label>
     </owl:Class>
     
@@ -7226,6 +7448,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
+        <obo:IAO_0000115 xml:lang="en">a symbol that denotes a cage that has the function to keep a mouse that is the bearer of a participant under investigation role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">mouse number in a cage</rdfs:label>
     </owl:Class>
     
