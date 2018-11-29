@@ -880,8 +880,8 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000744"/>
-        <rdfs:label xml:lang="en">traditional house</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_traditional house</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3578,14 +3578,14 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000603"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">drinking water from water truck</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_drinking water from water truck</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3787,11 +3787,11 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000291"/>
         <obo:IAO_0000116>Shannon Takala Harrison:  Also not sure about LF, it could either be late failure or lost to follow-up. 
 Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000118>LF</obo:IAO_0000118>
-        <rdfs:label>late failure</rdfs:label>
+        <rdfs:label>obsolete_late failure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3821,9 +3821,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000291"/>
         <obo:IAO_0000118>LTF</obo:IAO_0000118>
-        <rdfs:label>Late Treatment Failure</rdfs:label>
+        <rdfs:label>obsolete_Late Treatment Failure</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3981,7 +3981,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label>aggregated entomological measurement data</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an entomological data item that results from either (a) counting insect collections from multiple catches of live specimens or (b) an averaging data transformation that has single catch entomological measurement data as input</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">aggregated entomological measurement data</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">aggregated entomological data item</rdfs:label>
     </owl:Class>
     
 
@@ -3990,7 +3993,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <rdfs:label>individual entomological measurement data</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">an entomological data item that is the specified output of an assay that has a collection of insect specimens as specified input; this collection is the specified output of exactly one catch of live specimens</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">individual entomological measurement data</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">single catch entomological measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -4140,7 +4146,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label>entomological measurement data</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a data item that is about a collection of insects</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">entomological measurement data</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">entomological data item</rdfs:label>
     </owl:Class>
     
 
@@ -4583,7 +4592,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a human being plans to change within two years the dwelling which that human being occupies</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <rdfs:label>information of whether a person plan to move</rdfs:label>
+        <rdfs:label xml:lang="en">information of whether a person plans to move</rdfs:label>
     </owl:Class>
     
 
@@ -4819,7 +4828,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a bed net to which insecticide was applied in the past six months</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <rdfs:label>number of insecticide-treated bed nets that treated less than 6 months ago</rdfs:label>
+        <rdfs:label xml:lang="en">number of insecticide-treated bed nets treated less than 6 months ago</rdfs:label>
     </owl:Class>
     
 
@@ -4830,7 +4839,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a bed net to which insecticide was applied before the previous six months</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <rdfs:label>number of insecticide-treated bed nets that treated more than 6 months ago</rdfs:label>
+        <rdfs:label xml:lang="en">number of insecticide-treated bed nets treated more than 6 months ago</rdfs:label>
     </owl:Class>
     
 
@@ -4929,7 +4938,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label>information of whether took antimalarial drugs as advised</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a patient complies with a dose specification that specifies the dose of malaria medication to self-administer</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">information on whether antimalarial drugs taken as advised</rdfs:label>
     </owl:Class>
     
 
@@ -5520,8 +5531,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000469">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000457"/>
-        <rdfs:label xml:lang="en">first strand unique average read length</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_first strand unique average read length</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -6761,7 +6772,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000581">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <rdfs:label xml:lang="en">baby&apos;s delivery</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a health care encounter in which a health care provider assists a mother in the birth of a child</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">baby&apos;s delivery</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">mode of baby delivery</rdfs:label>
     </owl:Class>
     
 
@@ -6934,8 +6948,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">information of specimen obtained from the mother or chid</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_information of specimen obtained from the mother or chid</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -7361,7 +7375,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
-        <rdfs:label xml:lang="en">degree of skin readness</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies the degree of erythema</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">degree of skin redness</rdfs:label>
     </owl:Class>
     
 
