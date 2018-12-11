@@ -1450,17 +1450,6 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000053">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000103"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <obo:IAO_0000115>A material entity whichis part of a dwelling for providing fresh air to the dwelling.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1874,7 +1863,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000097"/>
-        <obo:EUPATH_0000273 xml:lang="en">a febrile quality of an abnormally high temperature</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">a febrile quality of an abnormally high temperature</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">elevated temperature</rdfs:label>
     </owl:Class>
@@ -1916,7 +1905,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:EUPATH_0000273 xml:lang="en">an organism that is the bearer of a partipant under investigation role</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">an organism that is the bearer of a partipant under investigation role</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>study subject</obo:IAO_0000118>
         <rdfs:label xml:lang="en">participant under investigation</rdfs:label>
@@ -3457,13 +3446,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a publicly accessible water well without a constructed barrier built around it to limit movement of waste or runoff into it</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a publicly accessible water well without a constructed barrier built around it to limit movement of waste or runoff into it</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from open public well</rdfs:label>
     </owl:Class>
@@ -3474,13 +3457,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000255">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a water well with a constructed barrier built around it to limit movement of waste or runoff into the well and the well is located in the yard of a dwelling</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a water well with a constructed barrier built around it to limit movement of waste or runoff into the well and the well is located in the yard of a dwelling</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from open well in yard</rdfs:label>
     </owl:Class>
@@ -3491,12 +3468,6 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">drinking water accessed through a plumbing fixture located inside a human dwelling</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from pipe into dwelling</rdfs:label>
@@ -3508,13 +3479,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:EUPATH_0000273>drinking water obtained through a plumbing fixture located in the yard of a human dwelling</obo:EUPATH_0000273>
+        <obo:IAO_0000115>drinking water obtained through a plumbing fixture located in the yard of a human dwelling</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from pipe into yard</rdfs:label>
     </owl:Class>
@@ -3573,13 +3538,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000598"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:EUPATH_0000273 xml:lang="en">drinking water that is obtained from a freshwater spring without a constructed barrier built around it that would limit movement of waste or runoff into it</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a freshwater spring without a constructed barrier built around it that would limit movement of waste or runoff into it</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">drinking water from unprotected freshwater spring</rdfs:label>
     </owl:Class>
@@ -4905,7 +4864,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000401">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:EUPATH_0000273 xml:lang="en">a count of the number of instances of a bed net to which insecticide has not been applied</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a bed net to which insecticide has not been applied</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label>number of untreated bed net</rdfs:label>
     </owl:Class>
@@ -7375,7 +7334,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000622">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
-        <obo:EUPATH_0000273 xml:lang="en">skin symptom or sign information that is about a lesion on the axilla of a patient and specifies the extent of damage to the tissue before a treatment to alleviate the lesion</obo:EUPATH_0000273>
+        <obo:IAO_0000115 xml:lang="en">skin symptom or sign information that is about a lesion on the axilla of a patient and specifies the extent of damage to the tissue before a treatment to alleviate the lesion</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">axillary lesion score before treatment</rdfs:label>
     </owl:Class>

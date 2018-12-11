@@ -2,7 +2,7 @@
 http://purl.obolibrary.org/obo/eupath/dev/import_OBO2.owl
 
 ############################################################
-# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO
+# ENVO, CL, BTO, PO, UBERON, REO, FLU
 ############################################################
 ############################################################
 [Source ontology]
@@ -96,14 +96,16 @@ http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
 
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000004
-http://purl.obolibrary.org/obo/ENVO_01000420 #building part
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
+http://purl.obolibrary.org/obo/ENVO_0100420 #building part
+subClassOf http://purl.obolibrary.org/obo/ENVO_0000070 #construction
 
 
 [Source term retrieval setting]
@@ -346,8 +348,36 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
-[Source ontology]APOLLO_SV[Low level source term URIs]http://purl.obolibrary.org/obo/APOLLO_SV_00000232 #clade name[Top level source term URIs and target direct superclass URIs]http://purl.obolibrary.org/obo/IAO_0020000 #identifiersubClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity[Source term retrieval setting]includeNoIntermediates[Source annotation URIs]http://www.w3.org/2000/01/rdf-schema#labelhttp://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+[Source ontology]
+APOLLO_SV
 
-[ S o u r c e   o n t o l o g y ]  G E N E P I O   [ L o w   l e v e l   s o u r c e   t e r m   U R I s ]  h t t p : / / p u r l . o b o l i b r a r y . o r g / o b o / G E N E P I O _ 0 0 0 0 0 9 2   # r e a d   c o v e r a g e   [ T o p   l e v e l   s o u r c e   t e r m   U R I s   a n d   t a r g e t   d i r e c t   s u p e r c l a s s   U R I s ]  h t t p : / / p u r l . o b o l i b r a r y . o r g / o b o / G E N E P I O _ 0 0 0 0 0 9 2   # r e a d   c o v e r a g e  s u b C l a s s O f   h t t p : / / p u r l . o b o l i b r a r y . o r g / o b o / O B I _ 0 0 0 0 6 7 9   # a v e r a g e   v a l u e   [ S o u r c e   t e r m   r e t r i e v a l   s e t t i n g ]  i n c l u d e NoI n t e r m e d i a t e s   [ S o u r c e   a n n o t a t i o n   U R I s ]  h t t p : / / w w w . w 3 . o r g / 2 0 0 0 / 0 1 / r d f - s c h e m a # l a b e l  h t t p : / / p u r l . o b o l i b r a r y . o r g / o b o / I A O _ 0 0 0 0 1 1 5   # i a o : d e f i n i t i o n 
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_0000232 #clade name
 
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+GENEPIO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
+subClassOf http://purl.obolibrary.org/obo/OBI_0000679 #average value
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
