@@ -92,15 +92,21 @@ http://purl.obolibrary.org/obo/ENVO_01000458 #concrete
 http://purl.obolibrary.org/obo/ENVO_01000475 #brick
 http://purl.obolibrary.org/obo/ENVO_01000514 #tile
 http://purl.obolibrary.org/obo/ENVO_01000603 #water truck
-
+http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000004
+http://purl.obolibrary.org/obo/ENVO_0100420 #building part
+subClassOf http://purl.obolibrary.org/obo/ENVO_0000070 #construction
+http://purl.obolibrary.org/obo/BFO_0000004 #independent continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000002 #continuant
 
 
 [Source term retrieval setting]
@@ -343,4 +349,36 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
+[Source ontology]
+APOLLO_SV
 
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/APOLLO_SV_0000232 #clade name
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+GENEPIO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
+subClassOf http://purl.obolibrary.org/obo/OBI_0000679 #average value
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
