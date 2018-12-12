@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/eupath_merged.owl#"
-     xml:base="http://purl.obolibrary.org/obo/eupath/eupath_merged.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -10,8 +10,8 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/eupath_merged.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-11/eupath_merged.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-11/eupath.owl"/>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-11</owl:versionInfo>
     </owl:Ontology>
     
@@ -2313,6 +2313,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
@@ -2471,6 +2472,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
@@ -2821,6 +2823,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000064"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
@@ -2864,7 +2867,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/DOID_4409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4409">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_16"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2723"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">folliculitis</rdfs:label>
@@ -3287,6 +3289,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9993">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060158"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_26"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
@@ -3346,6 +3349,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021246">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000060"/>
@@ -3370,6 +3374,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000060"/>
@@ -3427,8 +3432,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large expanse of saline water usually connected with an ocean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -3728,7 +3731,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome is an ecosystem to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -3807,7 +3809,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00002004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.</obo:IAO_0000115>
@@ -4503,7 +4504,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_01000813 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000813">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115>A material part of an astronomical body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -4593,6 +4593,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity used to build a dwelling or part of a dwelling.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -4605,6 +4606,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>A material entity for accommodation, such as a building, part of a building, caravan, houseboat or other mobile home. A tent is not normally considered to be substantial.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</obo:IAO_0000116>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
@@ -4631,6 +4633,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a roof.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -4643,6 +4646,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">deprecated in favor of ENVO_01000472 &apos;building roof&apos;</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_roof</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4664,6 +4668,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a floor</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -4687,6 +4692,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a wall.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -4699,6 +4705,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4716,6 +4723,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_traditional house</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4726,6 +4734,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_modern house</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4776,6 +4785,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_open eaves</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4786,6 +4796,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_closed eaves</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -4848,7 +4859,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000099"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -4868,6 +4879,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>A material entity that consists of an energy source for lighting.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
@@ -5003,6 +5015,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116>replaced by EFO_0004950: date of birth</obo:IAO_0000116>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">obsolete_date of birth</rdfs:label>
@@ -5112,6 +5125,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM observation, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_diagnosis of complicated malaria with high parasite density</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -5185,6 +5199,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -5205,6 +5220,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -5262,6 +5278,8 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <obo:IAO_0000115 xml:lang="en">a human being who bears a participant under investigation role</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>human study subject</obo:IAO_0000118>
@@ -5305,6 +5323,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_CDC light trap assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -5327,6 +5346,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000112>quinine used in malaria medication 
 blood used in transfusion for replacement blood lost during surgery or due to a serious injury.</obo:IAO_0000112>
         <obo:IAO_0000115>A material entity that is bearer of a medication role.</obo:IAO_0000115>
@@ -5384,6 +5404,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000060"/>
@@ -5404,6 +5425,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -5532,6 +5554,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000537"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -5673,7 +5696,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000097"/>
         <obo:IAO_0000115>A phenotypic abnormality of a subjective fever as reported by the study participant or their parent/guardian</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
         <obo:IAO_0000119>Grant Dorsey</obo:IAO_0000119>
@@ -5707,6 +5730,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:comment>A ventilation function to provide fresh air to a dwelling.</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete_dwelling ventilation function</rdfs:label>
@@ -5729,6 +5753,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 xml:lang="en">an organism that is the bearer of a partipant under investigation role</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>study subject</obo:IAO_0000118>
@@ -5812,6 +5837,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7313,6 +7339,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -7329,6 +7356,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -7345,6 +7373,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -7372,6 +7401,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -7434,6 +7464,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000279">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_symptomatic episode</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7444,6 +7475,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000280">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7454,6 +7486,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000281">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_pyrimethamine and chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7464,6 +7497,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000282">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_pyrimethamine, mefloquine and chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7474,6 +7508,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000283">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_pyrimethamine resistant, chloroquine sensitive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7484,6 +7519,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000284">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR prism, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_record of unknown information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7494,6 +7530,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000285">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116>same as EUPATH_0000282: pyrimethamine, mefloquine and chloroquine resistant</obo:IAO_0000116>
         <rdfs:label>obsolete_pyrimethamine,chloroquine, and mefloquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7504,6 +7541,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000286 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000286">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>not responsive to SAG therapy</obo:IAO_0000118>
         <rdfs:label>obsolete_sodium antimony gluconate resistant</rdfs:label>
@@ -7515,6 +7553,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000287">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>Sensitive to SAG</obo:IAO_0000118>
         <rdfs:label>obsolete_sodium antimony gluconate sensitive</rdfs:label>
@@ -7526,6 +7565,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000288">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM observation, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_no malaria parasite infection diagnosis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7571,6 +7611,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000292">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>ETF</obo:IAO_0000118>
         <rdfs:label>obsolete_early treatment failure</rdfs:label>
@@ -7582,6 +7623,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000293">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>LCF</obo:IAO_0000118>
         <rdfs:label>obsolete_late clinical failure</rdfs:label>
@@ -7593,6 +7635,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000294">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116>Shannon Takala Harrison:  Also not sure about LF, it could either be late failure or lost to follow-up. 
 Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
@@ -7606,6 +7649,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000295 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000295">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116>Shannon Takala Harrison: LOSS probably also means the patient was lost to follow-up. 
 Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">no longer used</obo:IAO_0000116>
@@ -7619,6 +7663,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000296">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>LPF</obo:IAO_0000118>
         <rdfs:label>obsolete_late parasitological failure</rdfs:label>
@@ -7630,6 +7675,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000297">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>LTF</obo:IAO_0000118>
         <rdfs:label>obsolete_Late Treatment Failure</rdfs:label>
@@ -7641,6 +7687,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000298 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000298">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116>Shannon Takala Harrison: Not sure what NULL means; it could also indicate lost to follow-up. 
 Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
@@ -7654,6 +7701,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000299">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>VIVAX</obo:IAO_0000118>
         <rdfs:label>obsolete_have a subsequent P. vivax infection</rdfs:label>
@@ -7665,6 +7713,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000300">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118>WTH</obo:IAO_0000118>
         <rdfs:label>obsolete_withdrew from the study</rdfs:label>
@@ -7676,6 +7725,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000301">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_summary information about a dwelling</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7976,6 +8026,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000328">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_clinical visit information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8389,6 +8440,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000373">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_information of whether malaria medication is given</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8506,6 +8558,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000384">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_days of travel</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8516,6 +8569,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000385">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_information of whether ship is taken during a trip</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8612,6 +8666,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000394">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_information of whether address has changed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8644,6 +8699,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000397 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000397">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_bed net treatment information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8698,6 +8754,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000402">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_blood pressure measurement datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8718,6 +8775,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000404 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000404">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_information of whether a census form filled at enrollment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8728,6 +8786,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000405">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 xml:lang="en">an organization that administrates a medical care center that provides healthcare services on an outpatient basis</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label xml:lang="en">obsolete_clinic organization</rdfs:label>
@@ -8837,6 +8896,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000415 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000415">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_information of whether a person is family head</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8847,6 +8907,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000416">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_hospital registration number</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -8911,6 +8972,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000422 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000422">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:label>obsolete_number of sexual parasite</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9232,6 +9294,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000454 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000454">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">deprecated in favor of GENEPIO_0000092 &apos;read coverage&apos;</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9253,6 +9316,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000456 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000456">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9263,6 +9327,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000457 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000457">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9273,6 +9338,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000458 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000458">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9283,6 +9349,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000459">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9293,6 +9360,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000460">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9303,6 +9371,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000461 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000461">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9313,6 +9382,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000462">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded non unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9323,6 +9393,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000463">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded non unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9333,6 +9404,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000464">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded non unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9343,6 +9415,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000465">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_unstranded non unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9353,6 +9426,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000466">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9363,6 +9437,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000467">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9373,6 +9448,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000468 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000468">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9383,6 +9459,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000469">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9393,6 +9470,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000470">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand non unique unstranded unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9403,6 +9481,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000471">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand non unique unstranded unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9413,6 +9492,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000472 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000472">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand non unique unstranded unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9423,6 +9503,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000473">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_first strand non unique unstranded unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9433,6 +9514,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000474">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand unique unstranded non unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9443,6 +9525,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000475 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000475">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand unique unstranded non unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9453,6 +9536,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000476 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000476">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand unique unstranded non unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9463,6 +9547,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000477 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000477">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand unique unstranded non unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9473,6 +9558,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000478">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand non unique first strand unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9483,6 +9569,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000479 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000479">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand non unique first strand unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9493,6 +9580,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000480 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000480">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand non unique first strand unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9503,6 +9591,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000481 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000481">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_second strand non unique first strand unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9513,6 +9602,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000482 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000482">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29444.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain 12C</rdfs:label>
@@ -9524,6 +9614,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000483">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29445.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain L26</rdfs:label>
@@ -9714,6 +9805,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000498">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>A region of the 16S rRNA gene that was PCR amplified and sequenced.</obo:IAO_0000115>
         <obo:IAO_0000116>replaced by: SO_0001000: rRNA_16S</obo:IAO_0000116>
         <obo:IAO_0000117>Person: Daniel Beiting, Jie Zheng</obo:IAO_0000117>
@@ -9738,6 +9830,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000500 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000500">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_bronchial wash specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9748,6 +9841,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000501 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000501">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_bronchoalveolar lavage fluid specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9758,6 +9852,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000502">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_lung aspirate specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9768,6 +9863,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000503 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000503">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_lung lesion specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9778,6 +9874,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000504">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_lung mold bronch specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9788,6 +9885,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000505 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000505">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_lung nodule specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9798,6 +9896,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000506">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_TGH specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9808,6 +9907,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000507 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000507">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_TGH mold iso specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9818,6 +9918,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000508">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_number of contigs</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9828,6 +9929,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000509">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_number of genes called</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9838,6 +9940,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000510 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000510">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_number of bases</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9848,6 +9951,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000511">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_lesion on arm specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -9911,6 +10015,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000516">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">deprecated in favor of HP_0003111 &apos;Abnormality of ion homeostasis&apos;</obo:IAO_0000116>
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
@@ -9923,6 +10028,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000517 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000517">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29447.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P37005</rdfs:label>
@@ -10366,6 +10472,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000554">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29449.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain 19F</rdfs:label>
@@ -10377,6 +10484,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000555 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000555">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29434.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P78048</rdfs:label>
@@ -10388,6 +10496,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000556 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000556">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29450.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P37037</rdfs:label>
@@ -10399,6 +10508,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000557">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29451.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P37039</rdfs:label>
@@ -10410,6 +10520,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000558">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain SC5314</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -10420,6 +10531,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000559 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000559">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29435.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P57072</rdfs:label>
@@ -10431,6 +10543,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000560 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000560">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPath/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29441.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P76055</rdfs:label>
@@ -10442,6 +10555,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000561 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000561">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29442.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P76067</rdfs:label>
@@ -10453,6 +10567,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000562 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000562">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29439.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P57055</rdfs:label>
@@ -10464,6 +10579,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000563">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29443.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P78042</rdfs:label>
@@ -10475,6 +10591,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000564">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29436.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P34048</rdfs:label>
@@ -10486,6 +10603,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000565">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29453.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P87</rdfs:label>
@@ -10497,6 +10615,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000566 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000566">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29452.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain GC75</rdfs:label>
@@ -10508,6 +10627,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000567">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29438.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P75016</rdfs:label>
@@ -10519,6 +10639,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000568">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29440.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P75063</rdfs:label>
@@ -10530,6 +10651,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000569">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29446.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P94015</rdfs:label>
@@ -10541,6 +10663,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000570">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29448.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P60002</rdfs:label>
@@ -10552,6 +10675,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000571">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.beiresources.org/Catalog/Fungi/NR-29437.aspx</obo:IAO_0000119>
         <rdfs:label xml:lang="en">obsolete_Candida albicans strain P75010</rdfs:label>
@@ -10574,6 +10698,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001305"/>
         <obo:IAO_0000115>A genotype information of parasite organism.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">parasite organism genotype information</rdfs:label>
     </owl:Class>
@@ -10583,6 +10708,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000573">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">deprecated in favor of APOLLO_SV_00000232 &apos;clade name&apos;</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_genetic clade of organism</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -10848,6 +10974,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000594">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">same as EUPATH_0000496</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_information of specimen obtained from the mother or chid</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -11092,6 +11219,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000616 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000616">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was microbiomeDB, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_site of ear swabbed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -12472,6 +12600,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001305"/>
         <obo:IAO_0000115>A genotype information of fungus.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fungal organism genotype information</rdfs:label>
     </owl:Class>
@@ -12489,6 +12618,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14209"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001185"/>
         <obo:IAO_0000115>A Fungus that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred Fungus</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fungal strain</rdfs:label>
     </owl:Class>
@@ -12506,6 +12638,8 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000759"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5476"/>
         <obo:IAO_0000115>A Candida albicans that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred Candida albicans</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Candida albicans strain</rdfs:label>
     </owl:Class>
@@ -12523,6 +12657,8 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
         <obo:IAO_0000115>A parasite that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred parasite organisms</obo:IAO_0000115>
         <rdfs:label xml:lang="en">parasite strain</rdfs:label>
     </owl:Class>
@@ -12760,6 +12896,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000064"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
@@ -12792,6 +12929,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/HP_0000952 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000046"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13816,6 +13954,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5476">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14209"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Candida albicans</rdfs:label>
     </owl:Class>
@@ -15052,6 +15191,7 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that has been intentionally physically modified.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -18641,7 +18781,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001630"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003830"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin musculomebranous barrier that separates the abdominal and thoracic cavities. Often used for breathing control</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -18757,7 +18896,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0001796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thick watery refractive medium that fills the space between the lens and the cornea[WP].</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -18806,7 +18944,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001987">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004120"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ of metabolic interchange between fetus and mother, partly of embryonic origin and partly of maternal origin[GO]. The fetal portion of the placenta is known as the villous chorion. The maternal portion is known as the decidua basalis. The two portions are held together by anchoring villi that are anchored to the decidua basalis by the cytotrophoblastic shell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">placenta</rdfs:label>
@@ -18828,7 +18965,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004119"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005181"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015212"/>
@@ -18897,7 +19033,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002349 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002349">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004923"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005983"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010314"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the middle layer of the heart, comprised mainly of striated cardiac muscle fibers</obo:IAO_0000115>
@@ -18934,7 +19069,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002370">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002368"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004177"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005057"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure of largely lymphoid tissue that functions in cell-mediated immunity by being the site where T cells develop.</obo:IAO_0000115>
@@ -19117,7 +19251,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0004802 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004802">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005911"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010499"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi</obo:IAO_0000115>
@@ -19218,7 +19351,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0005384 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004802"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019306"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelium that lines the nasal cavity.</obo:IAO_0000115>
@@ -19290,7 +19422,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0007592 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007592">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000485"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simple columnar epithelium in which the luminal side of the cells bears cilia. Examples: epithelium of trachea, epithelium of uterine tube.[FMA]</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -19405,7 +19536,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/UBERON_0010499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000485"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007592"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epithelium composed of a single layer of cells, appearing as layered because the column-shaped cells vary in height so the nuclei are at different levels. The basal portions of all the cells are in contact with the basement membrane. It lines the respiratory system and the male reproductive tract. The cilia in the respiratory tract are motile, while the stereocilia in the male reproductive tract are immobile.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
@@ -19463,7 +19593,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0017672">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005172"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005177"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A viscus that is part of a abdomen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal viscera</rdfs:label>
