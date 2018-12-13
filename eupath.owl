@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -11,8 +12,14 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-11/eupath.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-11</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-12/eupath.owl"/>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dc:creator>John Judkins</dc:creator>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-12</owl:versionInfo>
+        <dc:creator>Cristian Cocos</dc:creator>
+        <dc:creator>Jie Zheng</dc:creator>
+        <rdfs:comment xml:lang="en">The EuPath ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen Database Bioinformatics Resource Center (EuPathDB; http://eupathdb.org). The EuPath ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the EuPath ontology is primarily intended to be used for support of the EuPathDB sites. Terms with EuPath ontology IDs that are not specific to EuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</rdfs:comment>
+        <dc:creator>Chris Stoeckert</dc:creator>
     </owl:Ontology>
     
 
@@ -568,6 +575,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
@@ -595,6 +608,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:label>Source</rdfs:label>
         <rdfs:label xml:lang="en-us">Source</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -7339,13 +7358,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_drinking water from protected public well</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7356,13 +7369,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000259">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000598"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">from ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_drinking water from freshwater spring</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7373,13 +7380,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_drinking water from protected well in yard</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -7401,13 +7402,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000262">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000603"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000116 xml:lang="en">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label xml:lang="en">obsolete_drinking water from water truck</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
