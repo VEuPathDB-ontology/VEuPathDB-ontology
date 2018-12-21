@@ -60,11 +60,14 @@ http://purl.obolibrary.org/obo/ENVO_01000550 #composting toilet
 http://purl.obolibrary.org/obo/ENVO_01000527 #flush toilet fixture  
 http://purl.obolibrary.org/obo/ENVO_01000603 #water truck       
 
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/ENVO_01000517 #pit latrine
+subClassOf http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -101,11 +104,12 @@ http://purl.obolibrary.org/obo/ENVO_00000486 #shoreline
 http://purl.obolibrary.org/obo/ENVO_00000098 #island            
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ENVO_0000002 #anthropogenic geographic feature       
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature  
+http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature       
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
@@ -145,9 +149,6 @@ http://purl.obolibrary.org/obo/ENVO_01000597 #pressure lamp
 http://purl.obolibrary.org/obo/ENVO_01000573 #battery-powered electric lamp
 http://purl.obolibrary.org/obo/ENVO_01000254 #environmental system
 http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
-http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature
-http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -167,8 +168,6 @@ http://purl.obolibrary.org/obo/ENVO_01000254 #environmental system
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
 subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 
 [Source term retrieval setting]
 includeNoIntermediates
