@@ -283,6 +283,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">building</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permanent walled and roofed construction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000078">
@@ -590,7 +601,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002043">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wastewater treatment plant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -632,7 +643,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002173">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hospital</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <obo:IAO_0000115>A hospital is a building in which health care services are  provided by specialized staff and equipment.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -958,7 +969,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000517">
         <rdfs:label>pit latrine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000516"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pit latrine is a latrine which is constructed by digging a hole in the ground.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -991,7 +1002,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000532">
         <rdfs:label>covered pit latrine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000517"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A covered pit latrine is a building which comprises a pit latrine sheltered by an outhouse.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
