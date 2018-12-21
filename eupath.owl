@@ -12,10 +12,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-13/eupath.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-20/eupath.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator>John Judkins</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-13</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-20</owl:versionInfo>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
         <rdfs:comment xml:lang="en">The EuPath ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen Database Bioinformatics Resource Center (EuPathDB; http://eupathdb.org). The EuPath ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the EuPath ontology is primarily intended to be used for support of the EuPathDB sites. Terms with EuPath ontology IDs that are not specific to EuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</rdfs:comment>
@@ -12101,7 +12101,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000708">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education years of mothe of subject</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education years of mother of subject</rdfs:label>
     </owl:Class>
     
 
@@ -12228,6 +12228,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000596"/>
+        <obo:IAO_0000115 xml:lang="en">A human waste disposal that has the function of disposing of waste material produced by a human child</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human child waste disposal</rdfs:label>
     </owl:Class>
     
