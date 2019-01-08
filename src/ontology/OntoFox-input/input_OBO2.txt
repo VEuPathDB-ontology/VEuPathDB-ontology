@@ -2,64 +2,104 @@
 http://purl.obolibrary.org/obo/eupath/dev/import_OBO2.owl
 
 ############################################################
-# ENVO, CL, BTO, PO, UBERON, REO, FLU
+# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO, CMO, GAZ, GO, OMP
 ############################################################
 ############################################################
+
 [Source ontology]
-#cell type ontology
+#Environment ontology
 ENVO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/ENVO_00000035 #marsh             
-http://purl.obolibrary.org/obo/ENVO_00000078 #farm              
-http://purl.obolibrary.org/obo/ENVO_00000111 #forest            
-http://purl.obolibrary.org/obo/ENVO_00000233 #swamp             
-http://purl.obolibrary.org/obo/ENVO_00001995 #rock              
-http://purl.obolibrary.org/obo/ENVO_00001998 #soil              
-http://purl.obolibrary.org/obo/ENVO_00002001 #waste water       
-http://purl.obolibrary.org/obo/ENVO_00002003 #feces             
-http://purl.obolibrary.org/obo/ENVO_00002006 #water             
-http://purl.obolibrary.org/obo/ENVO_00002007 #sediment          
-http://purl.obolibrary.org/obo/ENVO_00002008 #dust              
-http://purl.obolibrary.org/obo/ENVO_00002010 #saline water      
-http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water       
-http://purl.obolibrary.org/obo/ENVO_00002018 #sewage            
-http://purl.obolibrary.org/obo/ENVO_00002034 #biofilm           
-http://purl.obolibrary.org/obo/ENVO_00002040 #wood              
-http://purl.obolibrary.org/obo/ENVO_00002042 #surface water     
-http://purl.obolibrary.org/obo/ENVO_00002044 #sludge            
-http://purl.obolibrary.org/obo/ENVO_00002138 #beach sand        
-http://purl.obolibrary.org/obo/ENVO_00002170 #compost           
-http://purl.obolibrary.org/obo/ENVO_00002228 #pond water        
-http://purl.obolibrary.org/obo/ENVO_00002261 #forest soil       
+http://purl.obolibrary.org/obo/ENVO_00000014 #canal
+http://purl.obolibrary.org/obo/ENVO_00000016 #sea
+http://purl.obolibrary.org/obo/ENVO_00000020 #lake
+http://purl.obolibrary.org/obo/ENVO_00000022 #river
+http://purl.obolibrary.org/obo/ENVO_00000023 #stream
+http://purl.obolibrary.org/obo/ENVO_00000025 #reservoir
+http://purl.obolibrary.org/obo/ENVO_00000027 #spring
+http://purl.obolibrary.org/obo/ENVO_00000033 #pond
+http://purl.obolibrary.org/obo/ENVO_00000035 #marsh
+http://purl.obolibrary.org/obo/ENVO_00000051 #hot spring
+http://purl.obolibrary.org/obo/ENVO_00000056 #fishpond
+http://purl.obolibrary.org/obo/ENVO_00000070 #construction
+http://purl.obolibrary.org/obo/ENVO_00000078 #farm
+http://purl.obolibrary.org/obo/ENVO_00000098 #island
+http://purl.obolibrary.org/obo/ENVO_00000111 #forest
+http://purl.obolibrary.org/obo/ENVO_00000233 #swamp
+http://purl.obolibrary.org/obo/ENVO_00000296 #rice field
+http://purl.obolibrary.org/obo/ENVO_00000377 #artificial lake
+http://purl.obolibrary.org/obo/ENVO_00000428 #biome
+http://purl.obolibrary.org/obo/ENVO_00000449 #drinking water reservoir
+http://purl.obolibrary.org/obo/ENVO_00000486 #shoreline
+http://purl.obolibrary.org/obo/ENVO_00000501 #Bed
+http://purl.obolibrary.org/obo/ENVO_00001995 #rock
+http://purl.obolibrary.org/obo/ENVO_00001998 #soil
+http://purl.obolibrary.org/obo/ENVO_00002001 #waste water 
+http://purl.obolibrary.org/obo/ENVO_00002003 #feces
+http://purl.obolibrary.org/obo/ENVO_00002006 #water
+http://purl.obolibrary.org/obo/ENVO_00002007 #sediment
+http://purl.obolibrary.org/obo/ENVO_00002008 #dust
+http://purl.obolibrary.org/obo/ENVO_00002010 #saline water
+http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
+http://purl.obolibrary.org/obo/ENVO_00002018 #sewage
+http://purl.obolibrary.org/obo/ENVO_00002034 #biofilm
+http://purl.obolibrary.org/obo/ENVO_00002040 #wood
+http://purl.obolibrary.org/obo/ENVO_00002042 #surface water
+http://purl.obolibrary.org/obo/ENVO_00002043 #wastewater treatment plant
+http://purl.obolibrary.org/obo/ENVO_00002044 #sludge
+http://purl.obolibrary.org/obo/ENVO_00002138 #beach sand
+http://purl.obolibrary.org/obo/ENVO_00002170 #compost
+http://purl.obolibrary.org/obo/ENVO_00002173 #hospital
+http://purl.obolibrary.org/obo/ENVO_00002228 #pond water
+http://purl.obolibrary.org/obo/ENVO_00002261 #forest soil
 http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water    
-http://purl.obolibrary.org/obo/ENVO_00003096 #tap water         
-http://purl.obolibrary.org/obo/ENVO_00003097 #bore hole water   
-http://purl.obolibrary.org/obo/ENVO_00005749 #farm soil         
-http://purl.obolibrary.org/obo/ENVO_00005750 #grassland soil    
-http://purl.obolibrary.org/obo/ENVO_00005772 #orchard soil      
-http://purl.obolibrary.org/obo/ENVO_00005773 #pasture soil      
-http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere       
+http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
+http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
+http://purl.obolibrary.org/obo/ENVO_00003096 #tap water
+http://purl.obolibrary.org/obo/ENVO_00003097 #bore hole water
+http://purl.obolibrary.org/obo/ENVO_00005749 #farm soil
+http://purl.obolibrary.org/obo/ENVO_00005750 #grassland soil
+http://purl.obolibrary.org/obo/ENVO_00005772 #orchard soil
+http://purl.obolibrary.org/obo/ENVO_00005773 #pasture soil
+http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
-http://purl.obolibrary.org/obo/ENVO_00010505 #aerosol           
-http://purl.obolibrary.org/obo/ENVO_01000001 #mud               
-http://purl.obolibrary.org/obo/ENVO_01000017 #sand              
-http://purl.obolibrary.org/obo/ENVO_01000458 #concrete          
-http://purl.obolibrary.org/obo/ENVO_01000473 #thatch            
-http://purl.obolibrary.org/obo/ENVO_01000516 #toilet fixture    
+http://purl.obolibrary.org/obo/ENVO_00010505 #aerosol
+http://purl.obolibrary.org/obo/ENVO_01000001 #mud
+http://purl.obolibrary.org/obo/ENVO_01000002 #water well
+http://purl.obolibrary.org/obo/ENVO_01000017 #sand
+http://purl.obolibrary.org/obo/ENVO_01000458 #concrete
+http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
+http://purl.obolibrary.org/obo/ENVO_01000473 #thatch
+http://purl.obolibrary.org/obo/ENVO_01000475 #brick
+http://purl.obolibrary.org/obo/ENVO_01000514 #tile
+http://purl.obolibrary.org/obo/ENVO_01000516 #toilet fixture
+http://purl.obolibrary.org/obo/ENVO_01000517 #pit latrine
 http://purl.obolibrary.org/obo/ENVO_01000527 #flush toilet fixture
 http://purl.obolibrary.org/obo/ENVO_01000530 #ventilated improved pit latrine
-http://purl.obolibrary.org/obo/ENVO_00000428 #biome
-http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-http://purl.obolibrary.org/obo/ENVO_01000599 #river water       
-http://purl.obolibrary.org/obo/ENVO_01000560 #charcoal          
-http://purl.obolibrary.org/obo/ENVO_01000475 #brick             
-http://purl.obolibrary.org/obo/ENVO_01000514 #tile              
-http://purl.obolibrary.org/obo/ENVO_01000550 #composting toilet 
-http://purl.obolibrary.org/obo/ENVO_01000527 #flush toilet fixture  
-http://purl.obolibrary.org/obo/ENVO_01000603 #water truck       
-http://purl.obolibrary.org/obo/ENVO_01000517 #pit latrine
+http://purl.obolibrary.org/obo/ENVO_01000532 #covered pit latrine
+http://purl.obolibrary.org/obo/ENVO_01000533 #covered pit latrine with slab floor
+http://purl.obolibrary.org/obo/ENVO_01000550 #composting toilet
+http://purl.obolibrary.org/obo/ENVO_01000560 #charcoal
+http://purl.obolibrary.org/obo/ENVO_01000577 #Radio
+http://purl.obolibrary.org/obo/ENVO_01000578 #Cassette player
+http://purl.obolibrary.org/obo/ENVO_01000579 #Television
+http://purl.obolibrary.org/obo/ENVO_01000580 #Telephone (mobile or non-mobile)
+http://purl.obolibrary.org/obo/ENVO_01000581 #Mobile phone
+http://purl.obolibrary.org/obo/ENVO_01000582 #Landline phone
+http://purl.obolibrary.org/obo/ENVO_01000583 #Refrigerator
+http://purl.obolibrary.org/obo/ENVO_01000584 #Table
+http://purl.obolibrary.org/obo/ENVO_01000586 #Chair
+http://purl.obolibrary.org/obo/ENVO_01000588 #Sofa
+http://purl.obolibrary.org/obo/ENVO_01000594 #Cabinet
+http://purl.obolibrary.org/obo/ENVO_01000595 #Closet
+http://purl.obolibrary.org/obo/ENVO_01000595 #Cupboard
+http://purl.obolibrary.org/obo/ENVO_01000596 #Clock
+http://purl.obolibrary.org/obo/ENVO_01000598 #freshwater spring
+http://purl.obolibrary.org/obo/ENVO_01000599 #river water
+http://purl.obolibrary.org/obo/ENVO_01000603 #water truck
+http://purl.obolibrary.org/obo/ENVO_01000614 #Bicycle
+http://purl.obolibrary.org/obo/ENVO_01000615 #Motorcycle/Scooter 
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -67,8 +107,17 @@ http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-http://purl.obolibrary.org/obo/ENVO_01000517 #pit latrine
-subClassOf http://purl.obolibrary.org/obo/ENVO_01000516 #toilet fixture
+http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+http://purl.obolibrary.org/obo/ENVO_00002034 #biofilm
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -77,69 +126,7 @@ includeComputedIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
-[Source ontology]
-ENVO # geographical features
 
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ENVO_01000533 #covered pit latrine with slab floor   
-http://purl.obolibrary.org/obo/ENVO_00002043 #wastewater treatment plant    
-http://purl.obolibrary.org/obo/ENVO_00000014 #canal             
-http://purl.obolibrary.org/obo/ENVO_00000016 #sea               
-http://purl.obolibrary.org/obo/ENVO_00000020 #lake              
-http://purl.obolibrary.org/obo/ENVO_00000022 #river             
-http://purl.obolibrary.org/obo/ENVO_00000023 #stream            
-http://purl.obolibrary.org/obo/ENVO_00000025 #reservoir         
-http://purl.obolibrary.org/obo/ENVO_00000027 #spring            
-http://purl.obolibrary.org/obo/ENVO_00000033 #pond              
-http://purl.obolibrary.org/obo/ENVO_00000051 #hot spring        
-http://purl.obolibrary.org/obo/ENVO_00000056 #fishpond          
-http://purl.obolibrary.org/obo/ENVO_01000744 #human dwelling    
-http://purl.obolibrary.org/obo/ENVO_01000532 #covered pit latrine   
-http://purl.obolibrary.org/obo/ENVO_01000002 #water well        
-http://purl.obolibrary.org/obo/ENVO_01000598 #freshwater spring 
-http://purl.obolibrary.org/obo/ENVO_00002173 #hospital                
-http://purl.obolibrary.org/obo/ENVO_00000296 #rice field            
-http://purl.obolibrary.org/obo/ENVO_00000377 #artificial lake   
-http://purl.obolibrary.org/obo/ENVO_00000449 #drinking water reservoir  
-http://purl.obolibrary.org/obo/ENVO_00000486 #shoreline         
-http://purl.obolibrary.org/obo/ENVO_00000098 #island    
-http://purl.obolibrary.org/obo/ENVO_00000073 #building
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature       
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-http://purl.obolibrary.org/obo/ENVO_01000532 #covered pit latrine   
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000073 #building
-
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-[Source ontology]
-ENVO # solid landforms
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ENVO_00000176 #elevation         
-http://purl.obolibrary.org/obo/ENVO_00000182 #plateau           
-http://purl.obolibrary.org/obo/ENVO_00000067 #cave              
-http://purl.obolibrary.org/obo/ENVO_00000081 #mountain          
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-####################
 [Source ontology]
 #import ENVO using MIREOT strategy
 ENVO
@@ -152,7 +139,14 @@ http://purl.obolibrary.org/obo/ENVO_01000567 #paraffin lantern
 http://purl.obolibrary.org/obo/ENVO_01000597 #pressure lamp
 http://purl.obolibrary.org/obo/ENVO_01000573 #battery-powered electric lamp
 http://purl.obolibrary.org/obo/ENVO_01000254 #environmental system
-http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
+http://purl.obolibrary.org/obo/ENVO_00000856 #city
+http://purl.obolibrary.org/obo/ENVO_01000744 #human dwelling
+http://purl.obolibrary.org/obo/ENVO_00000182 #plateau
+http://purl.obolibrary.org/obo/ENVO_00000081 #mountain
+http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
+http://purl.obolibrary.org/obo/ENVO_00000067 #cave
+http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
+http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -170,8 +164,23 @@ http://purl.obolibrary.org/obo/ENVO_01000573 #battery-powered electric lamp
 subClassOf http://purl.obolibrary.org/obo/ENVO_01000572 #electric lamp
 http://purl.obolibrary.org/obo/ENVO_01000254 #environmental system
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-http://purl.obolibrary.org/obo/ENVO_01000472 #building roof
-subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
+http://purl.obolibrary.org/obo/ENVO_00000856 #city
+subClassOf http://purl.obolibrary.org/obo/GAZ_00000448 #geographic location
+http://purl.obolibrary.org/obo/ENVO_01000744 #human dwelling
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
+http://purl.obolibrary.org/obo/ENVO_00000182 #plateau
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
+http://purl.obolibrary.org/obo/ENVO_00000081 #mountain
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
+http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+http://purl.obolibrary.org/obo/ENVO_00000067 #cave
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -238,8 +247,11 @@ http://purl.obolibrary.org/obo/UBERON_0007356 #crop
 http://purl.obolibrary.org/obo/UBERON_0019204 #skin epithelium
 http://purl.obolibrary.org/obo/UBERON_0001796 #aqueous humor of eyeball
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
-http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism
-http://purl.obolibrary.org/obo/UBERON_0000466 #immaterial anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism, Pregnancy status
+http://purl.obolibrary.org/obo/UBERON_0000466 #immaterial anatomical entity, Host body habitat
+
+http://purl.obolibrary.org/obo/UBERON_0000061 #Host body site
+http://purl.obolibrary.org/obo/UBERON_0000463 #Host body product
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -402,6 +414,77 @@ http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
 subClassOf http://purl.obolibrary.org/obo/OBI_0000679 #average value
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0000027 #White blood cell count (per mm3)
+http://purl.obolibrary.org/obo/CMO_0000289 #Respiration rate (breaths/min)
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000027 #White blood cell count (per mm3)
+subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
+http://purl.obolibrary.org/obo/CMO_0000289 #Respiration rate (breaths/min)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+GAZ
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GAZ_00000448 #Geographic location
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GAZ_00000448 #Geographic location
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+OMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
 
 [Source term retrieval setting]
 includeNoIntermediates

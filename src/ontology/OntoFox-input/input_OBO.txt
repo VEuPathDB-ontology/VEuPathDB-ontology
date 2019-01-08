@@ -31,13 +31,25 @@ EFO
 
 [Low level source term URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
-http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth, Birth date
+
+http://www.ebi.ac.uk/efo/EFO_0005056 #Age at death
+http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
+http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
+http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
+http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
+http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
 subClassOf http://purl.obolibrary.org/obo/OBI_0000272 #protocol
 http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
 subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -77,6 +89,70 @@ http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine
 http://purl.obolibrary.org/obo/NCBITaxon_5476 #Candida albicans
 http://purl.obolibrary.org/obo/NCBITaxon_4751 #Fungi
 
+http://purl.obolibrary.org/obo/NCBITaxon_102285 #Hymenolepis nana
+http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+http://purl.obolibrary.org/obo/NCBITaxon_10508 #Adenovirus
+http://purl.obolibrary.org/obo/NCBITaxon_10912 #Rotavirus
+http://purl.obolibrary.org/obo/NCBITaxon_110766 #Entamoeba coli
+http://purl.obolibrary.org/obo/NCBITaxon_110788 #Endolimax nana
+http://purl.obolibrary.org/obo/NCBITaxon_122928 #Norovirus GI
+http://purl.obolibrary.org/obo/NCBITaxon_122929 #Norovirus GII
+http://purl.obolibrary.org/obo/NCBITaxon_127906 #Vibrio cholerae O1
+http://purl.obolibrary.org/obo/NCBITaxon_1288825 #Shigella flexneri serotype 2B
+http://purl.obolibrary.org/obo/NCBITaxon_142786 #Norovirus
+http://purl.obolibrary.org/obo/NCBITaxon_1496 #Clostridium difficile
+http://purl.obolibrary.org/obo/NCBITaxon_1617964 #Shigella flexneri serotype 4C
+http://purl.obolibrary.org/obo/NCBITaxon_1935182 #Shigella flexneri serotype X
+http://purl.obolibrary.org/obo/NCBITaxon_194 #Campylobacter
+http://purl.obolibrary.org/obo/NCBITaxon_195 #Campylobacter coli
+http://purl.obolibrary.org/obo/NCBITaxon_197 #Campylobacter jejuni
+http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_210 #Helicobacter pylori
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_33277 #Ancylostomatoidea
+http://purl.obolibrary.org/obo/NCBITaxon_36087 #Trichuris trichiura
+http://purl.obolibrary.org/obo/NCBITaxon_374923 #Shigella flexneri serotype 1A
+http://purl.obolibrary.org/obo/NCBITaxon_39733 #Astrovirus
+http://purl.obolibrary.org/obo/NCBITaxon_41434 #Shigella flexneri serotype 1B
+http://purl.obolibrary.org/obo/NCBITaxon_424717 #Shigella flexneri serotype 3A
+http://purl.obolibrary.org/obo/NCBITaxon_424718 #Shigella flexneri serotype 5A
+http://purl.obolibrary.org/obo/NCBITaxon_424720 #Shigella flexneri serotype Y
+http://purl.obolibrary.org/obo/NCBITaxon_42897 #Shigella flexneri serotype 2A
+http://purl.obolibrary.org/obo/NCBITaxon_435321 #Shigella flexneri serotype 3B
+http://purl.obolibrary.org/obo/NCBITaxon_44417 #Cyclospora
+http://purl.obolibrary.org/obo/NCBITaxon_472572 #Chilomastix mesnili
+http://purl.obolibrary.org/obo/NCBITaxon_51022 #Ancylostoma duodenale
+http://purl.obolibrary.org/obo/NCBITaxon_51028 #Enterobius vermicularis
+http://purl.obolibrary.org/obo/NCBITaxon_51031 #Necator americanus
+http://purl.obolibrary.org/obo/NCBITaxon_562 #Escherichia coli
+http://purl.obolibrary.org/obo/NCBITaxon_56625 #Isospora
+http://purl.obolibrary.org/obo/NCBITaxon_5740 #Giardia
+http://purl.obolibrary.org/obo/NCBITaxon_5759 #Entamoeba histolytica
+http://purl.obolibrary.org/obo/NCBITaxon_5806 #Cryptosporidium
+http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+http://purl.obolibrary.org/obo/NCBITaxon_590 #Salmonella
+http://purl.obolibrary.org/obo/NCBITaxon_6181 #Schistosoma
+http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_6202 #Taenia
+http://purl.obolibrary.org/obo/NCBITaxon_621 #Shigella boydii
+http://purl.obolibrary.org/obo/NCBITaxon_6216 #Hymenolepis diminuta
+http://purl.obolibrary.org/obo/NCBITaxon_622 #Shigella dysenteriae
+http://purl.obolibrary.org/obo/NCBITaxon_623 #Shigella flexneri
+http://purl.obolibrary.org/obo/NCBITaxon_624 #Shigella sonnei
+http://purl.obolibrary.org/obo/NCBITaxon_6248 #Strongyloides stercoralis
+http://purl.obolibrary.org/obo/NCBITaxon_6252 #Ascaris lumbricoides
+http://purl.obolibrary.org/obo/NCBITaxon_630 #Yersinia enterocolitica
+http://purl.obolibrary.org/obo/NCBITaxon_642 #Aeromonas
+http://purl.obolibrary.org/obo/NCBITaxon_662 #Vibrio
+http://purl.obolibrary.org/obo/NCBITaxon_666 #Vibrio cholerae
+http://purl.obolibrary.org/obo/NCBITaxon_670 #Vibrio parahaemolyticus
+http://purl.obolibrary.org/obo/NCBITaxon_703 #Plesiomonas shigelloides
+http://purl.obolibrary.org/obo/NCBITaxon_71585 #Balantidium coli
+http://purl.obolibrary.org/obo/NCBITaxon_817 #Bacteroides fragilis
+http://purl.obolibrary.org/obo/NCBITaxon_95341 #Sapovirus
+http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine breed
+http://purl.obolibrary.org/obo/NCBITaxon_984898 #Shigella flexneri serotype 4A
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_314146 #Euarchontoglires
@@ -84,6 +160,126 @@ http://purl.obolibrary.org/obo/NCBITaxon_4751 #Fungi
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33154 #Opisthokonta
 http://purl.obolibrary.org/obo/NCBITaxon_5476 #Candida albicans
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_4751 #Fungi
+http://purl.obolibrary.org/obo/NCBITaxon_10508 #Adenovirus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+http://purl.obolibrary.org/obo/NCBITaxon_110766 #Entamoeba coli
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_110788 #Endolimax nana
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_122928 #Norovirus GI
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_142786 #Norovirus
+http://purl.obolibrary.org/obo/NCBITaxon_122929 #Norovirus GII
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_142786 #Norovirus
+http://purl.obolibrary.org/obo/NCBITaxon_127906 #Vibrio cholerae O1
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_1288825 #Shigella flexneri serotype 2B
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_142786 #Norovirus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+http://purl.obolibrary.org/obo/NCBITaxon_1496 #Clostridium difficile
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_1617964 #Shigella flexneri serotype 4C
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_1935182 #Shigella flexneri serotype X
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_194 #Campylobacter
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_195 #Campylobacter coli
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_194 #Campylobacter
+http://purl.obolibrary.org/obo/NCBITaxon_197 #Campylobacter jejuni
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_194 #Campylobacter
+http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_210 #Helicobacter pylori
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/NCBITaxon_33277 #Ancylostomatoidea
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_36087 #Trichuris trichiura
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_374923 #Shigella flexneri serotype 1A
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_39733 #Astrovirus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+http://purl.obolibrary.org/obo/NCBITaxon_41434 #Shigella flexneri serotype 1B
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_424717 #Shigella flexneri serotype 3A
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_424718 #Shigella flexneri serotype 5A
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_424720 #Shigella flexneri serotype Y
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_42897 #Shigella flexneri serotype 2A
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_435321 #Shigella flexneri serotype 3B
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_44417 #Cyclospora
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_472572 #Chilomastix mesnili
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_51022 #Ancylostoma duodenale
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_51028 #Enterobius vermicularis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_51031 #Necator americanus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_562 #Escherichia coli
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_56625 #Isospora
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_5740 #Giardia
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_5759 #Entamoeba histolytica
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_5806 #Cryptosporidium
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_590 #Salmonella
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_6181 #Schistosoma
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_6202 #Taenia
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_621 #Shigella boydii
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_6216 #Hymenolepis diminuta
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_622 #Shigella dysenteriae
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_623 #Shigella flexneri
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_624 #Shigella sonnei
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+http://purl.obolibrary.org/obo/NCBITaxon_6248 #Strongyloides stercoralis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_6252 #Ascaris lumbricoides
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_630 #Yersinia enterocolitica
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_642 #Aeromonas
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_662 #Vibrio
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_666 #Vibrio cholerae
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_662 #Vibrio
+http://purl.obolibrary.org/obo/NCBITaxon_670 #Vibrio parahaemolyticus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_662 #Vibrio
+http://purl.obolibrary.org/obo/NCBITaxon_703 #Plesiomonas shigelloides
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_71585 #Balantidium coli
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_817 #Bacteroides fragilis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_95341 #Sapovirus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Virus
+http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine breed
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_314146 #Euarchontoglires
+http://purl.obolibrary.org/obo/NCBITaxon_984898 #Shigella flexneri serotype 4A
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -101,11 +297,16 @@ http://purl.obolibrary.org/obo/IAO_0000115
 NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus
+http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus, Fungal organism
+
+http://purl.obolibrary.org/obo/NCIT_C123491 #Iodamoeba butschlii
+http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33154 #Opisthokonta
+http://purl.obolibrary.org/obo/NCIT_C123491 #Iodamoeba butschlii
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -122,9 +323,21 @@ FOODON
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
 
+http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
+http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
+http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
+http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -160,9 +373,13 @@ OPL
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OPL_0000232
 
+http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OPL_0000232 #parasite organism
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -179,7 +396,7 @@ IAO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
-http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum, Height (cm)
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
 
 [Top level source term URIs and target direct superclass URIs]
@@ -210,6 +427,23 @@ http://purl.obolibrary.org/obo/CHEBI_15854 #quinine
 http://purl.obolibrary.org/obo/CHEBI_33521 #metal atom
 http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
 
+http://purl.obolibrary.org/obo/CHEBI_10023 #Voriconazole
+http://purl.obolibrary.org/obo/CHEBI_15765 #L-dopa
+http://purl.obolibrary.org/obo/CHEBI_16240 #Hydrogen peroxide (H2O2)
+http://purl.obolibrary.org/obo/CHEBI_23888 #Compound
+http://purl.obolibrary.org/obo/CHEBI_2682 #Amphotericin B
+http://purl.obolibrary.org/obo/CHEBI_34905 #Paraquat
+http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
+http://purl.obolibrary.org/obo/CHEBI_3638 #Chloroquine
+http://purl.obolibrary.org/obo/CHEBI_46081 #Fluconazole
+http://purl.obolibrary.org/obo/CHEBI_474180 #Caspofungin
+http://purl.obolibrary.org/obo/CHEBI_55346 #Anidulafungin
+http://purl.obolibrary.org/obo/CHEBI_600520 #Micafungin
+http://purl.obolibrary.org/obo/CHEBI_6076 #Itraconazole
+http://purl.obolibrary.org/obo/CHEBI_63609 #Mefloquine
+http://purl.obolibrary.org/obo/CHEBI_64355 #Posaconazole
+http://purl.obolibrary.org/obo/CHEBI_8405 #Primaquine
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
@@ -219,6 +453,39 @@ http://purl.obolibrary.org/obo/CHEBI_33521 #metal atom
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+http://purl.obolibrary.org/obo/CHEBI_10023 #Voriconazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_15765 #L-dopa
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_16240 #Hydrogen peroxide (H2O2)
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_23888 #Compound
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/CHEBI_2682 #Amphotericin B
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34905 #Paraquat
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_3638 #Chloroquine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_46081 #Fluconazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
+http://purl.obolibrary.org/obo/CHEBI_474180 #Caspofungin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_55346 #Anidulafungin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_600520 #Micafungin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_6076 #Itraconazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
+http://purl.obolibrary.org/obo/CHEBI_63609 #Mefloquine
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/CHEBI_64355 #Posaconazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
+http://purl.obolibrary.org/obo/CHEBI_8405 #Primaquine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 
 
 [Source term retrieval setting]
@@ -289,6 +556,33 @@ http://purl.obolibrary.org/obo/OBI_0001171 #half life datum (t 1/2)
 http://purl.obolibrary.org/obo/OBI_0001185 #selectively maintained organism
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 
+http://purl.obolibrary.org/obo/OBI_0000626 #DNA sequencing
+http://purl.obolibrary.org/obo/OBI_0000651 #Urine sample
+http://purl.obolibrary.org/obo/OBI_0000655 #Blood sample
+http://purl.obolibrary.org/obo/OBI_0000659 #Sample collection
+http://purl.obolibrary.org/obo/OBI_0000810 #Informed consent
+http://purl.obolibrary.org/obo/OBI_0000995 #Administration of material to specimen
+http://purl.obolibrary.org/obo/OBI_0001141 #Host ID
+http://purl.obolibrary.org/obo/OBI_0001169 #Age
+http://purl.obolibrary.org/obo/OBI_0001169 #Age (years)
+http://purl.obolibrary.org/obo/OBI_0001616 #Sample ID
+http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
+http://purl.obolibrary.org/obo/OBI_0001619 #Date of sample collection
+http://purl.obolibrary.org/obo/OBI_0001619 #Sample collection date
+http://purl.obolibrary.org/obo/OBI_0001620 #Latitude (degrees)
+http://purl.obolibrary.org/obo/OBI_0001621 #Longitude (degrees)
+http://purl.obolibrary.org/obo/OBI_0001622 #Title
+http://purl.obolibrary.org/obo/OBI_0001627 #Country
+http://purl.obolibrary.org/obo/OBI_0001891 #Sequencing center
+http://purl.obolibrary.org/obo/OBI_0001895 #Sample collector
+http://purl.obolibrary.org/obo/OBI_0001898 #Notes
+http://purl.obolibrary.org/obo/OBI_0001901 #Alternative sample ID
+http://purl.obolibrary.org/obo/OBI_0100026 #Host organism
+http://purl.obolibrary.org/obo/OBI_0100051 #Sample type
+http://purl.obolibrary.org/obo/OBI_0400065 #Lighting source
+http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0001876 #cell culture
 subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
@@ -329,6 +623,54 @@ subClassOf http://purl.obolibrary.org/obo/OBI_0100026
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 
+http://purl.obolibrary.org/obo/OBI_0000626 #DNA sequencing
+subClassOf http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
+http://purl.obolibrary.org/obo/OBI_0000651 #Urine sample
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0000655 #Blood sample
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0000659 #Sample collection
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000810 #Informed consent
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OBI_0000995 #Administration of material to specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0001141 #Host ID
+subClassOf http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+http://purl.obolibrary.org/obo/OBI_0001169 #Age
+subClassOf http://purl.obolibrary.org/obo/OBI_0001167 #age measurement datum
+http://purl.obolibrary.org/obo/OBI_0001616 #Sample ID
+subClassOf http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://purl.obolibrary.org/obo/OBI_0001620 #Latitude (degrees)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/OBI_0001621 #Longitude (degrees)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/OBI_0001622 #Title
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/OBI_0001627 #Country
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/OBI_0001891 #Sequencing center
+subClassOf http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0001895 #Sample collector
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapiens
+http://purl.obolibrary.org/obo/OBI_0001898 #Notes
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/OBI_0001901 #Alternative sample ID
+subClassOf http://purl.obolibrary.org/obo/OBI_0001616 #specimen identifier
+http://purl.obolibrary.org/obo/OBI_0100026 #Host organism
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/OBI_0100051 #Sample type
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/OBI_0400065 #Lighting source
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
+http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+
+
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -343,7 +685,7 @@ http://purl.obolibrary.org/obo/IAO_0000115
 OGMS
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis, Health status
 http://purl.obolibrary.org/obo/OGMS_0000014 #clinical finding
 http://purl.obolibrary.org/obo/OGMS_0000090 #treatment
 #http://purl.obolibrary.org/obo/OGMS_0000031 #disease
@@ -408,12 +750,16 @@ OBIB
 http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
 http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
 
+http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
 http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
+http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -431,11 +777,25 @@ PATO
 http://purl.obolibrary.org/obo/PATO_0000383 #female
 http://purl.obolibrary.org/obo/PATO_0000384 #male
 
+http://purl.obolibrary.org/obo/PATO_0000047 #Sex
+http://purl.obolibrary.org/obo/PATO_0001415 #Morbidity
+http://purl.obolibrary.org/obo/PATO_0001895 #Mating type
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0000383 #female
 subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
 http://purl.obolibrary.org/obo/PATO_0000384 #male
 subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
+
+http://purl.obolibrary.org/obo/PATO_0000047 #Sex
+subClassOf http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
+http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/PATO_0001415 #Morbidity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/PATO_0001895 #Mating type
+subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -474,6 +834,23 @@ http://purl.obolibrary.org/obo/HP_0001259 #coma
 http://purl.obolibrary.org/obo/HP_0000083 #Renal insufficiency
 http://purl.obolibrary.org/obo/HP_0012531 #Pain
 http://purl.obolibrary.org/obo/HP_0003111 #Abnormality of ion homeostasis
+
+http://purl.obolibrary.org/obo/HP_0000083 #Renal failure
+http://purl.obolibrary.org/obo/HP_0000952 #Jaundice
+http://purl.obolibrary.org/obo/HP_0000975 #Sweating
+http://purl.obolibrary.org/obo/HP_0000980 #Paleness
+http://purl.obolibrary.org/obo/HP_0001259 #Coma
+http://purl.obolibrary.org/obo/HP_0001744 #Splenomegaly
+http://purl.obolibrary.org/obo/HP_0001892 #Abnormal bleeding
+http://purl.obolibrary.org/obo/HP_0001944 #Dehydration, maternal report
+http://purl.obolibrary.org/obo/HP_0002013 #Vomiting
+http://purl.obolibrary.org/obo/HP_0002018 #Nausea
+http://purl.obolibrary.org/obo/HP_0002027 #Abdominal pain
+http://purl.obolibrary.org/obo/HP_0002098 #Respiratory distress
+http://purl.obolibrary.org/obo/HP_0002315 #Headache
+http://purl.obolibrary.org/obo/HP_0003419 #Lower back pain
+http://purl.obolibrary.org/obo/HP_0100598 #Pulmonary edema
+http://purl.obolibrary.org/obo/HP_0100749 #Chest pain
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -522,6 +899,38 @@ subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/HP_0003111 #Abnormality of ion homeostasis
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 
+http://purl.obolibrary.org/obo/HP_0000083 #Renal failure
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0000952 #Jaundice
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0000975 #Sweating
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0000980 #Paleness
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001259 #Coma
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001744 #Splenomegaly
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001892 #Abnormal bleeding
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001944 #Dehydration, maternal report
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002013 #Vomiting
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002018 #Nausea
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002027 #Abdominal pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002098 #Respiratory distress
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002315 #Headache
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0003419 #Lower back pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0100598 #Pulmonary edema
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0100749 #Chest pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -555,7 +964,7 @@ http://purl.obolibrary.org/obo/IAO_0000115
 SO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/SO_0001000 #rRNA_16S
+http://purl.obolibrary.org/obo/SO_0001000 #Region of 16S rRNA sequenced
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0001000 #rRNA_16S
@@ -588,6 +997,10 @@ http://purl.obolibrary.org/obo/SYMP_0000614 #cough
 http://purl.obolibrary.org/obo/SYMP_0000642 #respiratory distress
 http://purl.obolibrary.org/obo/SYMP_0019177 #Fatigue
 
+http://purl.obolibrary.org/obo/SYMP_0000007 #Spontaneous bleeding
+http://purl.obolibrary.org/obo/SYMP_0000099 #Aches or pains
+http://purl.obolibrary.org/obo/SYMP_0000610 #Dizziness
+http://purl.obolibrary.org/obo/SYMP_0019174 #Chills
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SYMP_0000174 #wasting
@@ -619,6 +1032,16 @@ http://purl.obolibrary.org/obo/SYMP_0000642 #respiratory distress
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/SYMP_0019177 #Fatigue
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+
+ttp://purl.obolibrary.org/obo/SYMP_0000007 #Spontaneous bleeding
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/SYMP_0000099 #Aches or pains
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/SYMP_0000610 #Dizziness
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/SYMP_0019174 #Chills
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+
 
 
 [Source term retrieval setting]
@@ -722,21 +1145,32 @@ http://purl.obolibrary.org/obo/IAO_0000115
 OBI
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimenhttp://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimenhttp://purl.obolibrary.org/obo/OBI_0002534 #lung specimenhttp://purl.obolibrary.org/obo/OBI_1110041 #lymph node cell specimenhttp://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimenhttp://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
+http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimen
+http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002534 #lung specimen
+http://purl.obolibrary.org/obo/OBI_1110041 #lymph node cell specimen
+http://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimen
+http://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
 http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
 http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivo
-http://purl.obolibrary.org/obo/OBI_0000967 #container
+http://purl.obolibrary.org/obo/OBI_0000967 #container
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
-http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
-http://purl.obolibrary.org/obo/OBI_0002534 #lung specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organismhttp://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimensubClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002534 #lung specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002515 #pleural fluid specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 http://purl.obolibrary.org/obo/OBI_0002508 #sputum specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 http://purl.obolibrary.org/obo/OBI_1110041 #lymph node cell specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
 http://purl.obolibrary.org/obo/OBI_0000810 #informed consent process
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
-http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivosubClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivo
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
 http://purl.obolibrary.org/obo/OBI_0000967 #container
 subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 
