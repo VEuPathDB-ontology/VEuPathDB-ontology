@@ -1621,6 +1621,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25641">
         <rdfs:label>Reference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
         <obo:IAO_0000115>A note acknowledging a source of information or quoting a passage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
@@ -2713,6 +2714,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004309">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number ofÂ PLATELETSÂ per unit volume in a sample of venousÂ BLOOD.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
@@ -2723,6 +2725,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of times the HEART VENTRICLES contract per unit of time, usually per minute.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
@@ -2733,6 +2736,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004348">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematocrit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The volume of packed RED BLOOD CELLS in a blood specimen. The volume is measured by centrifugation in a tube with graduated markings, or with automated blood cell counters. It is an indicator of erythrocyte status in disease. For example, ANEMIA shows a low value; POLYCYTHEMIA, a high value.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
@@ -2754,15 +2758,10 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age at death</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The age at which death occurs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-    </rdf:Description>
 </rdf:RDF>
 
 

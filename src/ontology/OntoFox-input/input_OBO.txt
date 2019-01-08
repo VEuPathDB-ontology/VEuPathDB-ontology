@@ -50,6 +50,15 @@ http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
 subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
 http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://www.ebi.ac.uk/efo/EFO_0005056 #Age at death
+subClassOf http://purl.obolibrary.org/obo/OBI_0001167 #age measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -288,9 +297,6 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 
-
-
-
 ############################################################
 [Source ontology]
 #comment here
@@ -307,6 +313,8 @@ http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33154 #Opisthokonta
 http://purl.obolibrary.org/obo/NCIT_C123491 #Iodamoeba butschlii
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 
 [Source term retrieval setting]
 includeNoIntermediates
