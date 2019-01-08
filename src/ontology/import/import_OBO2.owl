@@ -87,6 +87,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
@@ -141,6 +153,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white blood cell count</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000289">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiration rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
@@ -151,11 +183,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic geographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature&#39;resulting from the influence of human beings on nature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrographic feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A geographical feature associated with water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000014">
         <rdfs:label>canal</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial watercourse with no flow or a controlled flow used for navigation, drainage or irrigation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -166,7 +221,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large expanse of saline water usually connected with an ocean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -177,7 +234,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lake</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body of water or other liquid of considerable size contained in a depression on a landmass.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -199,7 +256,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000023">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear body of water flowing on the Earth&#39;s surface.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -228,11 +285,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flowing body of water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000033">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pond</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body of water, usually of smaller size than a lake.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -265,8 +333,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000056">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fishpond</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pond or lake used for the artificial culture of fish.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An accumulation of water of varying size.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -283,11 +362,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000073">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">building</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permanent walled and roofed construction.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -386,8 +476,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000296">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice field</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paddy field for the cultivation of rice.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000330">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalagmite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000191"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A speleothem projecting vertically upwards from a cave floor and formed by precipitation from drips.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -397,8 +498,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000377">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial lake</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lake purposefully constructed.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -434,6 +535,29 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoreline</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The line of contact between a body of water and the land.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000501 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000501">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The portion of the ground surface which lies below water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000856">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">city</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incorporated populated place.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -479,20 +603,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000022"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An excreta material which is composed primarily of feces, an excreta consisting of waste products expelled from an animal&#39;s digestive tract through the anus (or cloaca) during defecation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesoscopic physical object</rdfs:label>
-        <rdfs:label>physical object of mesoscopic geological size</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -568,7 +678,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002034">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biofilm</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A complex aggregation of microorganisms marked by the excretion of a protective and adhesive matrix; usually adhering to a substratum.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -708,7 +818,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003074">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manufactured product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that has been processed by humans or their technology in any way, including intermediate products as well as final products.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -849,7 +959,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water well</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -914,7 +1024,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000472">
         <rdfs:label>building roof</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A roof is the covering on the uppermost part of a building which provides protection from animals and weather, notably rain, but also heat, wind and sunlight. A roof is also the framing or structure which supports the covering</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -1098,6 +1208,160 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000577">
+        <rdfs:label xml:lang="en">radio device</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A device capable of receiving and/or transmitting information encoded in electromagnetic radiation through wave modulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000578">
+        <rdfs:label xml:lang="en">cassette player</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A cassette deck is a device capable of playing and recording audio compact cassettes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000579">
+        <rdfs:label xml:lang="en">television set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A television set is a device that combines a tuner, display, and loudspeakers for the purpose of converting digital or analog information signals into moving images and sound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000580">
+        <rdfs:label xml:lang="en">telephone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A telephone is a telecommunications device which converts sound into electronic signals suitable for transmission via cables or other transmission media, and reconverts such signals into sound waves.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000581">
+        <rdfs:label xml:lang="en">mobile phone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000580"/>
+        <obo:IAO_0000115>A mobile phone is a telephone which transmits sound information to a mobile phone network via radio transmissions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000582">
+        <rdfs:label xml:lang="en">landline telephone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000580"/>
+        <obo:IAO_0000115>A landline telephone is a telephone which is connected to a telephone network with wires through which electronic signals are carried.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000583">
+        <rdfs:label xml:lang="en">refrigerator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A refrigerator is a device which consists of a thermally insulated compartment and a mechanical, chemical, or electronic heat pump that transfers heat from the inside of the fridge to its external environment such that the inside of the fridge is cooled to a temperature below the ambient temperature of the room</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000584">
+        <rdfs:label xml:lang="en">table</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000587"/>
+        <obo:IAO_0000115>A table is a form of furniture with a flat horizontal upper surface used to support objects, for storage, show, and/or manipulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000586">
+        <rdfs:label xml:lang="en">chair</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000587"/>
+        <obo:IAO_0000115>A chair is a piece of furniture with a raised surface commonly used to seat a single person.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000587">
+        <rdfs:label xml:lang="en">piece of furniture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A piece of furniture is a movable object intended to support various human activities such as seating (e.g., chairs, stools and sofas) and sleeping (e.g., beds).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000588">
+        <rdfs:label xml:lang="en">sofa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000587"/>
+        <obo:IAO_0000115>A sofa is a bench which is partially or entirely upholstered, and often fitted with springs and tailored cushions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000594">
+        <rdfs:label xml:lang="en">cabinet</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000587"/>
+        <obo:IAO_0000115>A cabinet is a roughly cuboidal piece of furniture which is used to store miscellaneous items in compartments accessible through doors or drawers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000595">
+        <rdfs:label xml:lang="en">cupboard</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000594"/>
+        <obo:IAO_0000115>A cupboard is a cabinet which is used indoors to store household objects such as food, crockery, textiles and liquor, and to protect them from dust and dirt</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000596">
+        <rdfs:label xml:lang="en">clock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A clock is an instrument which may indicate, keep, and/or co-ordinate time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000597">
@@ -1130,12 +1394,67 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000601">
+        <rdfs:label xml:lang="en">motor vehicle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000604"/>
+        <obo:IAO_0000115>A motor vehicle is a vehicle which is propelled by an engine or motor and that does not operate on rails.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000603">
         <rdfs:label xml:lang="en">water truck</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000601"/>
         <obo:IAO_0000115>A water truck is a truck which transports water.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000604">
+        <rdfs:label xml:lang="en">vehicle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A vehicle is a mobile machine which transports people or cargo.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000614">
+        <rdfs:label xml:lang="en">bicycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000604"/>
+        <obo:IAO_0000115>A bicycle is a human-powered, pedal-driven, single-track vehicle, having two wheels attached to a frame, one behind the other.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000615">
+        <rdfs:label xml:lang="en">motorcycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000601"/>
+        <obo:IAO_0000115>A motorcycle is a two- or three-wheeled motor vehicle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000617">
+        <rdfs:label xml:lang="en">lentic water body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
+        <obo:IAO_0000115>A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -1145,8 +1464,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000744">
         <rdfs:label xml:lang="en">human dwelling</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &#39;substantial&#39; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &#39;open fields beyond&#39;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000813">
+        <rdfs:label xml:lang="en">astronomical body part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
+        <obo:IAO_0000115>A material part of an astronomical body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -1219,6 +1550,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0000092">
@@ -1226,6 +1568,23 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
         <obo:IAO_0000115>Coverage (read depth or depth) is the average number of reads representing a given nucleotide in the reconstructed sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/genepio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016570">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histone modification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The covalent alteration of one or more amino acid residues within a histone protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
 
@@ -1254,12 +1613,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000679"/>
@@ -1269,6 +1622,17 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0400065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400065"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMP_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMP_0000274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent resistance phenotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A microbial phenotype related to the resistance or sensitivity of a microbe to antimicrobial agents that kill (microbiocidal) or inhibit growth (microbiostatic) of a microbe.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omp.owl"/>
+    </owl:Class>
     
 
 
@@ -1302,6 +1666,12 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical entity that is or was part of a plant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
     
 
 
@@ -2549,6 +2919,30 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0019304"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>

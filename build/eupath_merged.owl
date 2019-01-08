@@ -12,10 +12,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/eupath_merged.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2018-12-20/eupath_merged.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2019-01-08/eupath_merged.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator>John Judkins</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-12-20</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-01-08</owl:versionInfo>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
         <rdfs:comment xml:lang="en">The EuPath ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen Database Bioinformatics Resource Center (EuPathDB; http://eupathdb.org). The EuPath ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the EuPath ontology is primarily intended to be used for support of the EuPathDB sites. Terms with EuPath ontology IDs that are not specific to EuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</rdfs:comment>
@@ -3426,22 +3426,8 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic feature</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature
-resulting from the influence of human beings on nature.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic geographic feature</rdfs:label>
     </owl:Class>
     
 
@@ -3449,7 +3435,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial watercourse with no flow or a controlled flow used for navigation, drainage or irrigation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label>canal</rdfs:label>
@@ -3461,8 +3447,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large expanse of saline water usually connected with an ocean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</rdfs:label>
@@ -3473,7 +3457,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body of water or other liquid of considerable size contained in a depression on a landmass.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lake</rdfs:label>
@@ -3495,7 +3479,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear body of water flowing on the Earth&apos;s surface.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</rdfs:label>
@@ -3525,21 +3509,10 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flowing body of water.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">watercourse</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body of water, usually of smaller size than a lake.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pond</rdfs:label>
@@ -3572,21 +3545,10 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pond or lake used for the artificial culture of fish.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fishpond</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An accumulation of water of varying size.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water body</rdfs:label>
     </owl:Class>
     
 
@@ -3602,21 +3564,10 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feature that has been constructed by deliberate human effort.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">construction</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A permanent walled and roofed construction.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">building</rdfs:label>
@@ -3693,7 +3644,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000191 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000191">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115>A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -3716,7 +3666,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paddy field for the cultivation of rice.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice field</rdfs:label>
@@ -3727,8 +3677,8 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000377 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lake purposefully constructed.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial lake</rdfs:label>
@@ -4186,7 +4136,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_01000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water well</rdfs:label>
     </owl:Class>
@@ -4306,7 +4256,12 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01000517 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000517"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000516"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pit latrine is a latrine which is constructed by digging a hole in the ground.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:label>pit latrine</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4324,7 +4279,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_01000530 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000530">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000516"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000517"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ventilated improved pit latrine is a pit latrine which includes a vent pipe fitted to the pit with a flyscreen covering the pipe&apos;s outlet. Air currents moving across the outlet of the vent pipe create a vaccum which draws odors out of the latrine&apos;s superstructure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label>ventilated improved pit latrine</rdfs:label>
@@ -4475,21 +4430,10 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000617 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000617">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
-        <obo:IAO_0000115>A lentic water body is a water body in which the accumulated water, in its totality, has very little to no directed flow.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label xml:lang="en">lentic water body</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000744 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &apos;substantial&apos; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &apos;open fields beyond&apos;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label xml:lang="en">human dwelling</rdfs:label>
@@ -11338,739 +11282,6 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000643 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000643">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000579"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age since birth in days at time of death</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000644 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000644">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000579"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age since birth in days at time of examination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000645 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000579"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age since birth in days at time of socioeconomic survey</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000646 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000646">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether taken alcohol during pregnancy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000647 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000647">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1-acid glycoprotein concentration in mg per dL</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000648 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of alcoholic drinks a week</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000649 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item of measurement or proportions of the human body.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropometry datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000650 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000650">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley scales of infant and Toddler development</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000651 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000651">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley cognitive raw score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000652 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000652">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley expressive communication raw score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000653 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000653">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley fine motor raw score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000654 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000654">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley gross motor raw score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000655 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000655">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley receptive language score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000656 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000656">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000650"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bayley social-emotional raw score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000657 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000657">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head circumference at enrollment in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000658 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement datum of human at enrollment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000659 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length measurement datum at enrollment in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000660 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000660">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass measurement datum at enrollment in gram</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000661 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000661">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body mass index</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000662 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000662">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000661"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMI for age z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000345"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">educational years of caregiver of subject</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000664 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000664">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total number of days with bloody stool</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000665 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000665">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether a child had diarrhea</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000666 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000666">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether a child had loose stools</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000667 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000667">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether a child is dead</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000668 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000668">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether a child received BCG vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000669 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether a child received OPV vaccine</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000670 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000670">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of diarrhea episode</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000671 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of human death</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000672 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000672">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether drinking stored water</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000673 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether drinking untreated water</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000674 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E Coli test by PCR</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000675 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enteropathic E coli test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000676 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000676">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether father lives in household</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000677 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">educational years of father</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000678 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000679 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000679">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ferritin concentration in ng per ml</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000680 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000680">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frequency of water retrieval</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000681 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000681">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of when hand washing taken</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000682 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000682">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head circum for age z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000683 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head circumference in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000684 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000345"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">highest education head of household</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000685 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000685">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000345"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">highest education of caregiver</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000686 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000686">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hygienic process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000687 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iodine concentration in ug per L</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000688 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000688">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lead concentration in ug per ml</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000689 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000689">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recumbent length or height for age z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000690 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000690">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal age in year since birth at time of 1st delivery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000691 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000691">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001169"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal age in year since birth at birth of child</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000692 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000661"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal BMI in kg per square meter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000693 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal height in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000694 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal number of living children</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000695 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000695">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal number of pregnancies</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000696 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000696">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal pregnancy history</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000697 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000697">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal smoking amount</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000698 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000698">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight measurment datum of mother of subject</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000699 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000686"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand washing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000700 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking water treatment protocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000701 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000701">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stool microbiology test finding</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000702 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stool microbiology test protocol</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000703 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000703">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative microorganism presence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000704 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positive microorganism presence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000705 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000705">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid upper-arm circumference in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000706 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether mother of subject smoking during pregnancy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000707 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether mother of subject lives in household</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">education years of mother of subject</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000709 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000709">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marital status of mother of subject</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000710 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item of standard deviations of the actual mid-upper arm circumference (MUAC) of a child from the median MUAC of the children of his/her age as determined from the standard sample</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mid-upper arm circumference for age z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000711 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000711">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether having mucus in stool</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000712 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000712">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of children under 5 years old in a dwelling</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000713 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000713">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average number of loose stools</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000714 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000714">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of persons sleeping in a dwelling</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000715 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000715">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of sleeping rooms in a dwelling</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000716 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000716">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parental information of a child</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000717 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000717">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000051"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">participant in a case study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000718 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000718">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of whether having infant death previously</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000719 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000719">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recumbent length or height measurement datum in cm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000720 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000720">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respondent&apos;s relationship to child</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000721 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinol concentration in ug per dL</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000722 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000596"/>
-        <obo:IAO_0000115 xml:lang="en">A human waste disposal that has the function of disposing of waste material produced by a human child</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human child waste disposal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000723 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000723">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soluble tranferrin receptor concentration in ug per ml</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000724 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000724">
@@ -12080,105 +11291,6 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
         <rdfs:label>stool test for microorganisms</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000725 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000725">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000095"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human participant identifier of matched case</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000726 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time to retrieve water</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000727 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000727">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total family income information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000728 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000728">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment arm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000729 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccination information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000730 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000730">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of water availability at water source</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000731 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information of water for a household</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000732 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000732">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight measurement datum in kg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000733 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000733">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight for age z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000734 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weight for length/height z-score</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000735 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000735">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc concentration in ug per ml</rdfs:label>
     </owl:Class>
     
 
@@ -12245,57 +11357,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000741 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000741">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="en">number of diarrheal episodes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000742 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="en">number of diarrheal days</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000743 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000743">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="en">number of days monitored</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000744 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="en">percent of days with diarrhea</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000745">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115>A time measurement datum of duration of an individual acquires, develops, or first experiences a condition or symptoms of a disease or disorder.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time to onset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000746 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000746">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">summary information of diarrhea episode</rdfs:label>
     </owl:Class>
     
 
@@ -20091,8 +19158,20 @@ This interpretation is *not* the same as an at-all-times relation
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
+        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A human waste disposal that has the function of disposing of waste material produced by a human child</obo:IAO_0000115>
     </rdf:Description>
 </rdf:RDF>
 
