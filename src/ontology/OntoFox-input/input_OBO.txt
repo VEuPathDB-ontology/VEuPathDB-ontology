@@ -162,6 +162,10 @@ http://purl.obolibrary.org/obo/NCBITaxon_95341 #Sapovirus
 http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine breed
 http://purl.obolibrary.org/obo/NCBITaxon_984898 #Shigella flexneri serotype 4A
 
+http://purl.obolibrary.org/obo/NCBITaxon_12637 #Dengue
+http://purl.obolibrary.org/obo/NCBITaxon_114292 #Typhus
+http://purl.obolibrary.org/obo/NCBITaxon_37124 #Chikungunya
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_314146 #Euarchontoglires
@@ -289,6 +293,13 @@ http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine breed
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_314146 #Euarchontoglires
 http://purl.obolibrary.org/obo/NCBITaxon_984898 #Shigella flexneri serotype 4A
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_620 #Shigella
+
+http://purl.obolibrary.org/obo/NCBITaxon_12637 #Dengue
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses
+http://purl.obolibrary.org/obo/NCBITaxon_114292 #Typhus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_37124 #Chikungunya
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -860,6 +871,11 @@ http://purl.obolibrary.org/obo/HP_0003419 #Lower back pain
 http://purl.obolibrary.org/obo/HP_0100598 #Pulmonary edema
 http://purl.obolibrary.org/obo/HP_0100749 #Chest pain
 
+http://purl.obolibrary.org/obo/HP_0031273 #shock
+http://purl.obolibrary.org/obo/HP_0200026 #eye pain 
+http://purl.obolibrary.org/obo/HP_0030766 #ear pain
+http://purl.obolibrary.org/obo/HP_0001945 #fever
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
@@ -938,6 +954,15 @@ subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/HP_0100598 #Pulmonary edema
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/HP_0100749 #Chest pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+
+http://purl.obolibrary.org/obo/HP_0031273 #shock
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0200026 #eye pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0030766 #ear pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001945 #fever
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 
 [Source term retrieval setting]
