@@ -2,7 +2,7 @@
 http://purl.obolibrary.org/obo/eupath/dev/import_OBO2.owl
 
 ############################################################
-# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO, CMO, GAZ, GO, OMP
+# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO, CMO, GAZ, GO, OMP, PDRO, ICO
 ############################################################
 ############################################################
 
@@ -181,6 +181,13 @@ subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 
+#added 2019-08-23
+http://purl.obolibrary.org/obo/ENVO_01000600 #rainwater
+subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
+http://purl.obolibrary.org/obo/ENVO_01000469 #exterior wall
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
+http://purl.obolibrary.org/obo/ENVO_01000426 #room
+subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -258,6 +265,9 @@ http://purl.obolibrary.org/obo/UBERON_0000463 #Host body product
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
+#added 2019-08-23
+http://purl.obolibrary.org/obo/UBERON_0000014 #zone of skin
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -485,6 +495,41 @@ http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+#added 2019-08-23
+[Source ontology]
+PDRO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PDRO_0000001 #health care prescription
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PDRO_0000001 #health care prescription
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+ICO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ICO_0000094 #follow-up visit
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ICO_0000094 #follow-up visit
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 [Source term retrieval setting]
 includeNoIntermediates

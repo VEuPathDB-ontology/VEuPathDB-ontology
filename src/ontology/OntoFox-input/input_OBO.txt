@@ -80,6 +80,10 @@ http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
 http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
 subClassOf http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuant
 
+#added 2019-08-23
+http://purl.obolibrary.org/obo/ERO_0001362 #immunoassay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -301,6 +305,32 @@ subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
 http://purl.obolibrary.org/obo/NCBITaxon_37124 #Chikungunya
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_10239 #Viruses
 
+#added 2019-08-23
+http://purl.obolibrary.org/obo/NCBITaxon_12967 #Blastocystis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_5758 #Entamoeba
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_1773 #Mycobacterium tuberculosis
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_9925 #Capra hircus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_9940 #Ovis aries
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_9685 #Felis catus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_9913 #Bos taurus
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_9989 #Rodentia
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_314146 #Euarchontoglires
+http://purl.obolibrary.org/obo/NCBITaxon_1549675 #Galloanserae
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_32524 #Amniota
+http://purl.obolibrary.org/obo/NCBITaxon_6251 #Ascaris
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33213 #Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_686 #Vibrio cholerae O1 biovar El Tor
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_127906 #Vibrio Cholerae O1
+http://purl.obolibrary.org/obo/NCBITaxon_45888 #Vibrio cholerae O139
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_666 #Vibrio Cholerae
+
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -328,6 +358,14 @@ http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/NCIT_C53693 #Dog breed
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
+
+#added 2019-08-23
+http://purl.obolibrary.org/obo/NCIT_C53693 #IV Fluid
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
+http://purl.obolibrary.org/obo/NCIT_C85819 #thick smear technique
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/NCIT_C85820 #thin smear technique
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 
 [Source term retrieval setting]
@@ -379,6 +417,8 @@ http://purl.obolibrary.org/obo/OMRSE_00000001
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -508,6 +548,13 @@ http://purl.obolibrary.org/obo/CHEBI_64355 #Posaconazole
 subClassOf http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
 http://purl.obolibrary.org/obo/CHEBI_8405 #Primaquine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_2676 #amoxycillin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_25106 #macrolide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38068 #antimalarial
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23888 #drug
+
 
 
 [Source term retrieval setting]
@@ -691,7 +738,15 @@ http://purl.obolibrary.org/obo/OBI_0500000 #Study design
 subClassOf http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
 http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
-
+# added 2019-08-22
+http://purl.obolibrary.org/obo/OBI_0002119 #microscopy assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OBI_0500026 #eligibility criterion
+subClassOf http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/OBI_0001930 #categorical value specification
+subClassOf http://purl.obolibrary.org/obo/OBI_0001933 #value specification
+http://purl.obolibrary.org/obo/OBI_0000674 #center value
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -817,7 +872,10 @@ http://purl.obolibrary.org/obo/PATO_0001415 #Morbidity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
 http://purl.obolibrary.org/obo/PATO_0001895 #Mating type
 subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
-
+http://purl.obolibrary.org/obo/PATO_0001621 #decreased turgor
+subClassOf http://purl.obolibrary.org/obo/PATO_0001620 #turgor
+http://purl.obolibrary.org/obo/PATO_0001620 #turgor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -878,7 +936,6 @@ http://purl.obolibrary.org/obo/HP_0031273 #shock
 http://purl.obolibrary.org/obo/HP_0200026 #eye pain 
 http://purl.obolibrary.org/obo/HP_0030766 #ear pain
 http://purl.obolibrary.org/obo/HP_0001945 #fever
-
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
@@ -967,6 +1024,33 @@ http://purl.obolibrary.org/obo/HP_0030766 #ear pain
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/HP_0001945 #fever
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+
+#added 2019-08-23
+http://purl.obolibrary.org/obo/HP_0001254 #Lethargy
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0007185 #Loss of consciousness
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0001959 #Polydipsia
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0000490 #Deeply set eye
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0007392 #Excessive wrinkled skin
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0000711 #Restlessness
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0003418 #Back pain
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0011446 #Abnormality of higher mental function
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0032178 #Flaky paint dermatosis
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0010741 #Pedal edema
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0004372 #Reduced consciousness/confusion
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+http://purl.obolibrary.org/obo/HP_0002789 #Tachypnea
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -1077,7 +1161,8 @@ http://purl.obolibrary.org/obo/SYMP_0000610 #Dizziness
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 http://purl.obolibrary.org/obo/SYMP_0019174 #Chills
 subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
-
+http://purl.obolibrary.org/obo/SYMP_0000260 #dry mouth
+subClassOf http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 
 
 [Source term retrieval setting]
