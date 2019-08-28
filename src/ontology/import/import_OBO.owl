@@ -449,17 +449,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EFO_0005528 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EFO_0005528">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115>Quantification of the content of parasites in the blood, used as a measurement of parasite load in the organism and an indication of the degree of an active parasitic infection</obo:IAO_0000115>
-        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
-        <rdfs:label>parasitemia measurement</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
@@ -3287,6 +3276,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The age at which death occurs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age at death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005528 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115>Quantification of the content of parasites in the blood, used as a measurement of parasite load in the organism and an indication of the degree of an active parasitic infection</obo:IAO_0000115>
+        <obo:IAO_0000412>http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <rdfs:label>parasitemia measurement</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
