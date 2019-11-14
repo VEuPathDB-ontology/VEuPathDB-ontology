@@ -6606,7 +6606,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
-        <obo:IAO_0000115>A processed specimen consisting of red blood cells isolated from whole blood by centrifugation. </obo:IAO_0000115>
+        <obo:IAO_0000115>A processed specimen consisting of red blood cells isolated from whole blood by centrifugation.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>RBC specimen</obo:IAO_0000118>
         <obo:IAO_0000118>erythrocyte specimen</obo:IAO_0000118>
@@ -8701,6 +8701,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the total times of a person who infected with P. vivax in his lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <rdfs:label>number of infections with P. vivax in lifetime</rdfs:label>
     </owl:Class>
     
@@ -8710,7 +8711,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A count of the total times of a person who infected with P. falciparum last year.</obo:IAO_0000115>
+        <obo:IAO_0000115>A count of the total times of a person who infected with P. vivax last year.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <rdfs:label>number of infections with P. vivax in the last year</rdfs:label>
     </owl:Class>
     
@@ -8720,7 +8722,8 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A count of the total times of a person who infected with P. vivax in his lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000115>A count of the total times of a person who infected with P. falciparum in his lifetime.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <rdfs:label>number of infections with P. falciparum in lifetime</rdfs:label>
     </owl:Class>
     
@@ -8731,6 +8734,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the total times of a person who infected with P. falciparum last year.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
         <rdfs:label>number of infections with P. falciparum in the last year</rdfs:label>
     </owl:Class>
     
@@ -10914,7 +10918,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000548">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000527"/>
-        <obo:IAO_0000115>A scalar measurement datum that is about gametocyte density measured by RT-PCR.</obo:IAO_0000115>
+        <obo:IAO_0000115>A gametocyte density by RT-PCR that is about Plasmodium vivax.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Plasmodium vivax gametocyte density by RT-PCR</rdfs:label>
@@ -25086,15 +25090,6 @@ This interpretation is *not* the same as an at-all-times relation
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -25102,6 +25097,15 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
