@@ -170,6 +170,15 @@ http://purl.obolibrary.org/obo/NCBITaxon_12637 #Dengue
 http://purl.obolibrary.org/obo/NCBITaxon_114292 #Typhus
 http://purl.obolibrary.org/obo/NCBITaxon_37124 #Chikungunya
 
+http://purl.obolibrary.org/obo/NCBITaxon_36330 #Plasmodium ovale
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+http://purl.obolibrary.org/obo/NCBITaxon_5833 #Plasmodium falciparum
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+http://purl.obolibrary.org/obo/NCBITaxon_5855 #Plasmodium vivax
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+http://purl.obolibrary.org/obo/NCBITaxon_5858 #Plasmodium malariae
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_9615 #Canine
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
@@ -331,6 +340,12 @@ subClassOf http://purl.obolibrary.org/obo/NCBITaxon_127906 #Vibrio Cholerae O1
 http://purl.obolibrary.org/obo/NCBITaxon_45888 #Vibrio cholerae O139
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_666 #Vibrio Cholerae
 
+http://purl.obolibrary.org/obo/NCBITaxon_36330 #Plasmodium ovale
+
+http://purl.obolibrary.org/obo/NCBITaxon_5833 #Plasmodium falciparum
+http://purl.obolibrary.org/obo/NCBITaxon_5855 #Plasmodium vivax
+http://purl.obolibrary.org/obo/NCBITaxon_5858 #Plasmodium malariae
+
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -413,12 +428,15 @@ OMRSE
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001
+http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -506,6 +524,64 @@ http://purl.obolibrary.org/obo/CHEBI_63609 #Mefloquine
 http://purl.obolibrary.org/obo/CHEBI_64355 #Posaconazole
 http://purl.obolibrary.org/obo/CHEBI_8405 #Primaquine
 
+http://purl.obolibrary.org/obo/CHEBI_3770 #co-trimoxazole
+http://purl.obolibrary.org/obo/CHEBI_17833 #gentamycin
+http://purl.obolibrary.org/obo/CHEBI_17698 #chloramphenicol
+http://purl.obolibrary.org/obo/CHEBI_48923 #erythromycin
+http://purl.obolibrary.org/obo/CHEBI_2955 #azithromycin
+http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
+http://purl.obolibrary.org/obo/CHEBI_2676 #amoxicillin
+http://purl.obolibrary.org/obo/CHEBI_28971 #ampicillin
+http://purl.obolibrary.org/obo/CHEBI_100147 #nalidixic acid
+http://purl.obolibrary.org/obo/CHEBI_100241 #ciprofloxacin
+http://purl.obolibrary.org/obo/CHEBI_51213 #pivmecillinam hydrochloride
+
+http://purl.obolibrary.org/obo/CHEBI_16130 #DDT
+http://purl.obolibrary.org/obo/CHEBI_3093 #bifenthrin
+http://purl.obolibrary.org/obo/CHEBI_32888 #gamma-hexachlorocyclohexane
+http://purl.obolibrary.org/obo/CHEBI_3390 #carbaryl
+http://purl.obolibrary.org/obo/CHEBI_34556 #bendiocarb
+http://purl.obolibrary.org/obo/CHEBI_34631 #chlorpyrifos
+http://purl.obolibrary.org/obo/CHEBI_34632 #chlorpyrifos-methyl
+http://purl.obolibrary.org/obo/CHEBI_34690 #dichlorvos
+http://purl.obolibrary.org/obo/CHEBI_34696 #dieldrin
+http://purl.obolibrary.org/obo/CHEBI_34703 #diflubenzuron
+http://purl.obolibrary.org/obo/CHEBI_34714 #dimethoate
+http://purl.obolibrary.org/obo/CHEBI_34757 #fenitrothion
+http://purl.obolibrary.org/obo/CHEBI_34761 #fenthion
+http://purl.obolibrary.org/obo/CHEBI_34839 #methoprene
+http://purl.obolibrary.org/obo/CHEBI_34911 #permethrin
+http://purl.obolibrary.org/obo/CHEBI_34917 #phenthoate
+http://purl.obolibrary.org/obo/CHEBI_34938 #propoxur
+http://purl.obolibrary.org/obo/CHEBI_38476 #carbosulfan
+http://purl.obolibrary.org/obo/CHEBI_38677 #famphur
+http://purl.obolibrary.org/obo/CHEBI_38680 #fenamiphos
+http://purl.obolibrary.org/obo/CHEBI_38843 #pirimiphos-methyl
+http://purl.obolibrary.org/obo/CHEBI_38845 #profenofos
+http://purl.obolibrary.org/obo/CHEBI_38954 #temephos
+http://purl.obolibrary.org/obo/CHEBI_39178 #clothianidin
+http://purl.obolibrary.org/obo/CHEBI_39211 #spinosad
+http://purl.obolibrary.org/obo/CHEBI_39260 #pyriproxyfen
+http://purl.obolibrary.org/obo/CHEBI_39314 #beta-cyfluthrin
+http://purl.obolibrary.org/obo/CHEBI_39325 #lambda-cyhalothrin
+http://purl.obolibrary.org/obo/CHEBI_39331 #alpha-cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_39332 #beta-cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_39347 #chlorfenapyr
+http://purl.obolibrary.org/obo/CHEBI_39348 #etofenprox
+http://purl.obolibrary.org/obo/CHEBI_39397 #tetramethrin
+http://purl.obolibrary.org/obo/CHEBI_4034 #cyfluthrin
+http://purl.obolibrary.org/obo/CHEBI_4035 #cyhalothrin
+http://purl.obolibrary.org/obo/CHEBI_4042 #cypermethrin
+http://purl.obolibrary.org/obo/CHEBI_4388 #deltamethrin
+http://purl.obolibrary.org/obo/CHEBI_5063 #fipronil
+http://purl.obolibrary.org/obo/CHEBI_5870 #imidacloprid
+http://purl.obolibrary.org/obo/CHEBI_6649 #malaoxon
+http://purl.obolibrary.org/obo/CHEBI_6651 #malathion
+http://purl.obolibrary.org/obo/CHEBI_6842 #methoxychlor
+http://purl.obolibrary.org/obo/CHEBI_6908 #trichlorfon
+http://purl.obolibrary.org/obo/CHEBI_82108 #chlorphoxim
+http://purl.obolibrary.org/obo/CHEBI_8811 #resmethrin
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
@@ -555,7 +631,119 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_38068 #antimalarial
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23888 #drug
 
+http://purl.obolibrary.org/obo/CHEBI_3770 #co-trimoxazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_17833 #gentamycin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_17698 #chloramphenicol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_48923 #erythromycin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_2955 #azithromycin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_2676 #amoxicillin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_28971 #ampicillin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_100147 #nalidixic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_100241 #ciprofloxacin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_51213 #pivmecillinam hydrochloride
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 
+http://purl.obolibrary.org/obo/CHEBI_16130 #DDT
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_3093 #bifenthrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_32888 #gamma-hexachlorocyclohexane
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_3390 #carbaryl
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34556 #bendiocarb
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34631 #chlorpyrifos
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34632 #chlorpyrifos-methyl
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34690 #dichlorvos
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34696 #dieldrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34703 #diflubenzuron
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34714 #dimethoate
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34757 #fenitrothion
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34761 #fenthion
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34839 #methoprene
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34911 #permethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34917 #phenthoate
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_34938 #propoxur
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38476 #carbosulfan
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38677 #famphur
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38680 #fenamiphos
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38843 #pirimiphos-methyl
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38845 #profenofos
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_38954 #temephos
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39178 #clothianidin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39211 #spinosad
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39260 #pyriproxyfen
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39314 #beta-cyfluthrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39325 #lambda-cyhalothrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39331 #alpha-cypermethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39332 #beta-cypermethrin
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/CHEBI_39347 #chlorfenapyr
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39348 #etofenprox
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_39397 #tetramethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_4034 #cyfluthrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_4035 #cyhalothrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_4042 #cypermethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_4388 #deltamethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_5063 #fipronil
+subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/CHEBI_5870 #imidacloprid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_6649 #malaoxon
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_6651 #malathion
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_6842 #methoxychlor
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_6908 #trichlorfon
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_82108 #chlorphoxim
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_8811 #resmethrin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -652,6 +840,32 @@ http://purl.obolibrary.org/obo/OBI_0400065 #Lighting source
 http://purl.obolibrary.org/obo/OBI_0500000 #Study design
 http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
 
+http://purl.obolibrary.org/obo/OBI_0002490 #medication time value specification
+http://purl.obolibrary.org/obo/OBI_0002491 #medication dose value specification
+http://purl.obolibrary.org/obo/OBI_0002492 #case role in case-control study
+http://purl.obolibrary.org/obo/OBI_0002493 #control role in case-control study
+http://purl.obolibrary.org/obo/OBI_0002624 #case-control study design
+http://purl.obolibrary.org/obo/OBI_0000661 #enzyme-linked immunosorbent assay
+
+http://purl.obolibrary.org/obo/OBI_0000680 #whole organism preparation
+http://purl.obolibrary.org/obo/OBI_0000415 #PCR
+http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+http://purl.obolibrary.org/obo/OBI_0000858 #record of unknown sex
+http://purl.obolibrary.org/obo/OBI_0000893 #real time polymerase chain reaction assay
+http://purl.obolibrary.org/obo/OBI_0000951 #compound treatment design
+http://purl.obolibrary.org/obo/OBI_0001247 #genotyping by high throughput sequencing assay
+http://purl.obolibrary.org/obo/OBI_0001274 #genotyping by array assay
+http://purl.obolibrary.org/obo/OBI_0001310 #species comparison design
+http://purl.obolibrary.org/obo/OBI_0001444 #genotyping design
+http://purl.obolibrary.org/obo/OBI_0001464 #strain comparison design
+http://purl.obolibrary.org/obo/OBI_0002001 #Illumina HiSeq 2000
+http://purl.obolibrary.org/obo/OBI_0300311 #observation design
+http://purl.obolibrary.org/obo/OBI_0300311 #observation design
+http://purl.obolibrary.org/obo/OBI_0302716 #pool of specimens
+http://purl.obolibrary.org/obo/OBI_0000220 #reference subject role
+http://purl.obolibrary.org/obo/OBI_0001598 #sampling time measurement datum
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0001876 #cell culture
 subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
@@ -747,6 +961,52 @@ http://purl.obolibrary.org/obo/OBI_0001930 #categorical value specification
 subClassOf http://purl.obolibrary.org/obo/OBI_0001933 #value specification
 http://purl.obolibrary.org/obo/OBI_0000674 #center value
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://purl.obolibrary.org/obo/OBI_0002490 #medication time value specification
+subClassOf http://purl.obolibrary.org/obo/OBI_0001931 #scalar value specification
+http://purl.obolibrary.org/obo/OBI_0002491 #medication dose value specification
+subClassOf http://purl.obolibrary.org/obo/OBI_0001931 #scalar value specification
+http://purl.obolibrary.org/obo/OBI_0002492 #case role in case-control study
+subClassOf http://purl.obolibrary.org/obo/OBI_0000097 #participant under investigation role
+http://purl.obolibrary.org/obo/OBI_0002493 #control role in case-control study
+subClassOf http://purl.obolibrary.org/obo/OBI_0000097 #participant under investigation role
+http://purl.obolibrary.org/obo/OBI_0002624 #case-control study design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0000661 #enzyme-linked immunosorbent assay
+subClassOf http://purl.obolibrary.org/obo/ERO_0001362 #immunoassay
+
+http://purl.obolibrary.org/obo/OBI_0000680 #whole organism preparation
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OBI_0000415 #PCR
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
+http://purl.obolibrary.org/obo/OBI_0000858 #record of unknown sex
+subClassOf http://purl.obolibrary.org/obo/OBI_0000852 #record of missing knowledge
+http://purl.obolibrary.org/obo/OBI_0000893 #real time polymerase chain reaction assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OBI_0000951 #compound treatment design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0001247 #genotyping by high throughput sequencing assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+http://purl.obolibrary.org/obo/OBI_0001274 #genotyping by array assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000435 #genotyping assay
+http://purl.obolibrary.org/obo/OBI_0001310 #species comparison design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0001444 #genotyping design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0001464 #strain comparison design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0002001 #Illumina HiSeq 2000
+subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
+http://purl.obolibrary.org/obo/OBI_0300311 #observation design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+http://purl.obolibrary.org/obo/OBI_0302716 #pool of specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimens
+http://purl.obolibrary.org/obo/OBI_0000220 #reference subject role
+subClassOf http://purl.obolibrary.org/obo/OBI_0000097 #participant under investigation role
+http://purl.obolibrary.org/obo/OBI_0001598 #sampling time measurement datum
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -858,6 +1118,18 @@ http://purl.obolibrary.org/obo/PATO_0000047 #Sex
 http://purl.obolibrary.org/obo/PATO_0001415 #Morbidity
 http://purl.obolibrary.org/obo/PATO_0001895 #Mating type
 
+http://purl.obolibrary.org/obo/PATO_0000033 #concentration of
+http://purl.obolibrary.org/obo/PATO_0000122 #length
+http://purl.obolibrary.org/obo/PATO_0000146 #temperature
+http://purl.obolibrary.org/obo/PATO_0000383 #female
+http://purl.obolibrary.org/obo/PATO_0000384 #male
+http://purl.obolibrary.org/obo/PATO_0000462 #absent
+http://purl.obolibrary.org/obo/PATO_0000467 #present
+http://purl.obolibrary.org/obo/PATO_0001152 #susceptible toward
+http://purl.obolibrary.org/obo/PATO_0001178 #resistant to
+http://purl.obolibrary.org/obo/PATO_0001338 #mixed sex
+http://purl.obolibrary.org/obo/PATO_0002368 #nulliparous
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0000383 #female
 subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
@@ -875,6 +1147,25 @@ subClassOf http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
 http://purl.obolibrary.org/obo/PATO_0001621 #decreased turgor
 subClassOf http://purl.obolibrary.org/obo/PATO_0001620 #turgor
 http://purl.obolibrary.org/obo/PATO_0001620 #turgor
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+
+http://purl.obolibrary.org/obo/PATO_0000033 #concentration of
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0000122 #length
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0000146 #temperature
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0000462 #absent
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0000467 #present
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0001152 #susceptible toward
+subClassOf http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
+http://purl.obolibrary.org/obo/PATO_0001178 #resistant to
+subClassOf http://purl.obolibrary.org/obo/PATO_0001995 #organismal quality
+http://purl.obolibrary.org/obo/PATO_0001338 #mixed sex
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/PATO_0002368 #nulliparous
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
 
 [Source term retrieval setting]
@@ -1184,6 +1475,9 @@ http://purl.obolibrary.org/obo/STATO_0000047 #count
 http://purl.obolibrary.org/obo/STATO_0000101 #has numerator
 http://purl.obolibrary.org/obo/STATO_0000259 #has denominator
 
+http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
+subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/STATO_0000047 #count
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027
@@ -1208,6 +1502,7 @@ IDO
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
 http://purl.obolibrary.org/obo/IDO_0000586 #infection
 http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
+http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
@@ -1216,6 +1511,8 @@ http://purl.obolibrary.org/obo/IDO_0000586 #infection
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality 
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -1236,8 +1533,48 @@ http://purl.obolibrary.org/obo/UO_0000035 #month
 http://purl.obolibrary.org/obo/UO_0000033 #day
 http://purl.obolibrary.org/obo/UO_0000196 #pH
 http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
-
-
+http://purl.obolibrary.org/obo/UO_0000023 #microgram
+http://purl.obolibrary.org/obo/UO_0000024 #nanogram
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+http://purl.obolibrary.org/obo/UO_0000033 #day
+http://purl.obolibrary.org/obo/UO_0000169 #parts per million
+http://purl.obolibrary.org/obo/UO_0000170 #parts per billion
+http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000188 #pi
+http://purl.obolibrary.org/obo/UO_0000189 #count unit
+http://purl.obolibrary.org/obo/UO_0000190 #ratio
+http://purl.obolibrary.org/obo/UO_0000191 #fraction
+http://purl.obolibrary.org/obo/UO_0000192 #molecule count
+http://purl.obolibrary.org/obo/UO_0000193 #purity percentage
+http://purl.obolibrary.org/obo/UO_0000194 #confluence percentage
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+http://purl.obolibrary.org/obo/UO_0000197 #liter per kilogram
+http://purl.obolibrary.org/obo/UO_0000198 #milliliter per kilogram
+http://purl.obolibrary.org/obo/UO_0000199 #microliter per kilogram
+http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+http://purl.obolibrary.org/obo/UO_0000201 #cells per milliliter
+http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000203 #katal per cubic meter
+http://purl.obolibrary.org/obo/UO_0000204 #katal per liter
+http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000206 #milliliter per cubic meter
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+http://purl.obolibrary.org/obo/UO_0000273 #milligram per liter
+http://purl.obolibrary.org/obo/UO_0000274 #microgram per milliliter
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+http://purl.obolibrary.org/obo/UO_0000309 #milligram per square meter
+http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+http://purl.obolibrary.org/obo/UO_0000182 #density unit
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UO_0000036 #year
@@ -1251,6 +1588,90 @@ subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
 http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
 subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
 
+http://purl.obolibrary.org/obo/UO_0000023 #microgram
+subClassOf http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000024 #nanogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000033 #day
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000169 #parts per million
+subClassOf http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000170 #parts per billion
+subClassOf http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000187 #percent
+subClassOf http://purl.obolibrary.org/obo/UO_0000190 #ratio
+http://purl.obolibrary.org/obo/UO_0000188 #pi
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000189 #count unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000190 #ratio
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000191 #fraction
+subClassOf http://purl.obolibrary.org/obo/UO_0000190
+http://purl.obolibrary.org/obo/UO_0000192 #molecule count
+subClassOf http://purl.obolibrary.org/obo/UO_0000189 #count unit
+http://purl.obolibrary.org/obo/UO_0000193 #purity percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000194 #confluence percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000197 #liter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000198 #milliliter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000199 #microliter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000201 #cells per milliliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000203 #katal per cubic meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000204 #katal per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000206 #milliliter per cubic meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000273 #milligram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000274 #microgram per milliliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000309 #milligram per square meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000003 #time unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000182 #density unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
 
 [Source term retrieval setting]
 includeNoIntermediates

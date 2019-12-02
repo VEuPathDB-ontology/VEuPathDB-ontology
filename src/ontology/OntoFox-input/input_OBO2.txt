@@ -2,7 +2,7 @@
 http://purl.obolibrary.org/obo/eupath/dev/import_OBO2.owl
 
 ############################################################
-# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO, CMO, GAZ, GO, OMP, PDRO, ICO
+# ENVO, CL, BTO, PO, UBERON, REO, FLU, APOLLO_SV, GENEPIO, CMO, GAZ, GO, OMP, PDRO, ICO, VO, SO
 ############################################################
 ############################################################
 
@@ -101,6 +101,7 @@ http://purl.obolibrary.org/obo/ENVO_01000603 #water truck
 http://purl.obolibrary.org/obo/ENVO_01000614 #Bicycle
 http://purl.obolibrary.org/obo/ENVO_01000615 #Motorcycle/Scooter 
 
+http://purl.obolibrary.org/obo/ENVO_01000462 #cement
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
@@ -117,7 +118,8 @@ http://purl.obolibrary.org/obo/ENVO_00002034 #biofilm
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-
+http://purl.obolibrary.org/obo/ENVO_01000462 #cement
+subClassOf http://purl.obolibrary.org/obo/ENVO_0010001 #anthropogenic environmental material
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -260,10 +262,23 @@ http://purl.obolibrary.org/obo/UBERON_0000466 #immaterial anatomical entity, Hos
 http://purl.obolibrary.org/obo/UBERON_0000061 #Host body site
 http://purl.obolibrary.org/obo/UBERON_0000463 #Host body product
 
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism
+http://purl.obolibrary.org/obo/UBERON_0000069 #larval stage
+http://purl.obolibrary.org/obo/UBERON_0000070 #pupal stage
+http://purl.obolibrary.org/obo/UBERON_0018241 #prime adult stage
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/UBERON_0000069 #larval stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000070 #pupal stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0018241 #prime adult stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
 
 #added 2019-08-23
 http://purl.obolibrary.org/obo/UBERON_0000014 #zone of skin
@@ -420,10 +435,13 @@ GENEPIO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
+http://purl.obolibrary.org/obo/GENEPIO_0001742 #subnational region
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GENEPIO_0000092 #read coverage
 subClassOf http://purl.obolibrary.org/obo/OBI_0000679 #average value
+http://purl.obolibrary.org/obo/GENEPIO_0001742 #subnational region
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -439,11 +457,19 @@ CMO
 http://purl.obolibrary.org/obo/CMO_0000027 #White blood cell count (per mm3)
 http://purl.obolibrary.org/obo/CMO_0000289 #Respiration rate (breaths/min)
 
+http://purl.obolibrary.org/obo/CMO_0000381 #partial pressure of blood oxygen (Po2)
+http://purl.obolibrary.org/obo/CMO_0000005 #diastolic blood pressure
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CMO_0000027 #White blood cell count (per mm3)
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 http://purl.obolibrary.org/obo/CMO_0000289 #Respiration rate (breaths/min)
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+
+http://purl.obolibrary.org/obo/CMO_0000381 #partial pressure of blood oxygen (Po2)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/CMO_0000005 #diastolic blood pressure
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -537,3 +563,62 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000574 #route of administration
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000574 #route of administration
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
+
+[Source ontology]
+SO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SO_0000105 #chromosome_arm
+http://purl.obolibrary.org/obo/SO_0000207 #simple_sequence_length_variation
+http://purl.obolibrary.org/obo/SO_0000289 #microsatellite
+http://purl.obolibrary.org/obo/SO_0000703 #experimental_result_region
+http://purl.obolibrary.org/obo/SO_0000704 #gene
+http://purl.obolibrary.org/obo/SO_0001027 #genotype
+http://purl.obolibrary.org/obo/SO_0001505 #reference_genome
+http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001564 #gene_variant
+http://purl.obolibrary.org/obo/SO_0001763 #variant_frequency
+http://purl.obolibrary.org/obo/SO_0001769 #variant_phenotype
+http://purl.obolibrary.org/obo/SO_1000036 #inversion
+http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
+http://purl.obolibrary.org/obo/SO_0001026 #genome
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SO_0000105 #chromosome_arm
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000207 #simple_sequence_length_variation
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000289 #microsatellite
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000703 #experimental_result_region
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000704 #gene
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0001027 #genotype
+subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001505 #reference_genome
+subClassOf http://purl.obolibrary.org/obo/SO_0001026 #genome
+http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001564 #gene_variant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001763 #variant_frequency
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001769 #variant_phenotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_1000036 #inversion
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
+subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001026 #genome
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
