@@ -21,7 +21,7 @@
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
         <dc:creator>John Judkins</dc:creator>
-	<dc:title>VEuPathDB Ontology</dc:title>
+        <dc:title>VEuPathDB Ontology</dc:title>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <rdfs:comment xml:lang="en">The VEuPathDB ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen, Host and Vector Genomics Resource (VEuPathDB; https://veupathdb.org). The VEuPathDB ontology was previously named the EuPathDB ontology prior to EuPathDB joining with VectorBase.The ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the VEuPath ontology is primarily intended to be used for support of the VEuPathDB sites. Terms with VEuPathDB ontology IDs that are not specific to VEuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</rdfs:comment>
     </owl:Ontology>
@@ -88,8 +88,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000263">
         <rdfs:comment>Label of terms used in Amazonia data dictionary. It is in Spanish.</rdfs:comment>
-        <rdfs:label xml:lang="en">Amazonia data dictionary label (es)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Amazonia data dictionary label (es)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -98,8 +98,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000264">
         <rdfs:comment>English label used in Amazonia project for display on the website</rdfs:comment>
-        <rdfs:label xml:lang="en">Amazonia preferred label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Amazonia preferred label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -108,8 +108,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000265">
         <rdfs:comment>Spanish label used in Amazonia project for display on the website</rdfs:comment>
-        <rdfs:label xml:lang="en">Amazonia preferred label (es)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Amazonia preferred label (es)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -118,8 +118,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000266">
         <rdfs:comment>label of term used in the ontology</rdfs:comment>
-        <rdfs:label xml:lang="en">ontological label</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_ontological label</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -128,8 +128,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000267">
         <rdfs:comment>Label of terms used in PRISM data dictionary. It is in English.</rdfs:comment>
-        <rdfs:label xml:lang="en">PRISM data dictionary label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_PRISM data dictionary label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -138,8 +138,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000268">
         <rdfs:comment>English label used in Prism project for display on the website</rdfs:comment>
-        <rdfs:label xml:lang="en">PRISM preferred label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_PRISM preferred label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -148,8 +148,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000269">
         <rdfs:comment>Term description provided by Amazonia group</rdfs:comment>
-        <rdfs:label xml:lang="en">Amazonia description</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <rdfs:label xml:lang="en">obsolete_Amazonia description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -171,7 +171,8 @@
 - category: used for organize the filter in the website, not ontology term
 - variable: term in the data dictionary of project. Should have mapped ontology term associate with it
 - value: controlled vocubulary used for annotation of variable in the data dictionary. Should have mapped ontology term associate with it</rdfs:comment>
-        <rdfs:label xml:lang="en">term type</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_term type</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -180,7 +181,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000272">
         <rdfs:comment>specify ICEMR term original from which database</rdfs:comment>
-        <rdfs:label xml:lang="en">resource ID</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_resource ID</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -189,8 +191,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000273">
         <rdfs:comment>definition of term in ontology</rdfs:comment>
-        <rdfs:label xml:lang="en">ontological definition</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <rdfs:label xml:lang="en">obsolete_ontological definition</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -198,8 +200,8 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000274 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000274">
-        <obo:IAO_0000115>The order variables will appear in under a given parent term. Left blank if alphabetical order is accepted</obo:IAO_0000115>
-        <rdfs:comment>annotation used for specifing the order of terms displayed on the EuPathDB website  </rdfs:comment>
+        <obo:IAO_0000115>An annotation property used to specify the order of terms displayed on a website.</obo:IAO_0000115>
+        <obo:IAO_0000118>displayOrder</obo:IAO_0000118>
         <rdfs:label xml:lang="en">display order</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -209,8 +211,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000329">
         <rdfs:comment>Label of terms used in Indian data dictionary. It is in English.</rdfs:comment>
-        <rdfs:label xml:lang="en">Indian data dictionary label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Indian data dictionary label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -219,8 +221,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000330">
         <rdfs:comment>English label used in Indian project for display on the website</rdfs:comment>
-        <rdfs:label xml:lang="en">Indian preferred label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Indian preferred label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -229,8 +231,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000331">
         <rdfs:comment>Term description provided by Indian group</rdfs:comment>
-        <rdfs:label xml:lang="en">Indian description</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <rdfs:label xml:lang="en">obsolete_Indian description</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -239,8 +241,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000332">
         <rdfs:comment>Translated English label of terms in Amazonia data dictionary.</rdfs:comment>
-        <rdfs:label xml:lang="en">Amazonia data dictionary label (en)</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <rdfs:label xml:lang="en">obsolete_Amazonia data dictionary label (en)</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -261,7 +263,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001000">
         <obo:IAO_0000115>The column order of variables in the original data files</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">colOrder</rdfs:label>
+        <obo:IAO_0000118>colOrder</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">column order</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -270,7 +273,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001001">
         <obo:IAO_0000115>The original file name for the data file the variable was found in, or a shortened version of the file name that contains all relevant information to identify the data file.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">dataFile</rdfs:label>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dataFile</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">data file</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -288,7 +292,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001003">
         <obo:IAO_0000115>The variable description from the data dictionary. Useful for assigning display labels. To be provided either directly from the data provider in their codebook or filled out by ClinEpi Outreach before handing over to Ontology.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">codebookDescription</rdfs:label>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookDescription</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">codebook description</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -297,7 +302,8 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001004">
         <obo:IAO_0000115>All possible responses and their mapped terms for each variable, from the data dictionary. Useful for value mapping.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">codebookValues</rdfs:label>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookValues</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">codebook values</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -305,8 +311,19 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0001005 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001005">
-        <obo:IAO_0000115>Indicate whether variable will be grouped under a multi-filter category.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">multifilter</rdfs:label>
+        <obo:IAO_0000115>An annotation that specifies how a term is used in generation search filters on a website. It has five options:
+
+category: a term to organize the variables for exploration on the website
+
+variable: a variable in the dataset
+
+variable, derived: one term that is calculated, using the data in two or more other variables
+
+multifilter: any value below it in the hierarchy will be displayed as a multifilter
+
+value: the value of a multifilter</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">termType</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">term type</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -837,9 +854,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000005 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000005">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:label xml:lang="en">material may be used for</rdfs:label>
+        <obo:IAO_0000116>no longer in use</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">obsolete_material may be used for</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -847,7 +864,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000044 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000044">
-        <rdfs:label xml:lang="en">symptom or sign of</rdfs:label>
+        <rdfs:label xml:lang="en">manifestation of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -865,11 +882,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000061 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000061">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <obo:IAO_0000115>A relation between a drug product and (one of) its active ingredient.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">has active ingredient</rdfs:label>
+        <obo:IAO_0000116>replaced with RO:0002248</obo:IAO_0000116>
+        <rdfs:label>obsolete_has active ingredient</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -931,6 +947,9 @@ there is some c that is a concretization of g
 every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan</obo:IAO_0000119>
+        <rdfs:comment>
+            <rdf:Description/>
+        </rdfs:comment>
         <rdfs:comment>
             <rdf:Description/>
         </rdfs:comment>
@@ -1394,6 +1413,18 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000119>Allen</obo:IAO_0000119>
         <rdfs:label xml:lang="en">starts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002248 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002248">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000643"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A relationship that holds between a substance and a chemical entity, if the chemical entity is part of the substance, and the chemical entity forms the biologically active component of the substance.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has active ingredient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3730,7 +3761,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000061"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3638"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3754,7 +3785,7 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000061"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
                 <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3638"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4995,6 +5026,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000600"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000601 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000601">
@@ -5952,7 +5989,7 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000005"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000061"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
                         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15854"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -11228,8 +11265,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000574 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000574">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">NLST Clade of organism</rdfs:label>
+        <obo:IAO_0000116>was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">obsolete_NLST Clade of organism</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13326,11 +13364,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010603">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Aeromonas was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Aeromonas was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aeromonas, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Aeromonas by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Aeromonas by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -13391,7 +13429,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Hymenolepis diminuta was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Hymenolepis diminuta was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hymenolepis diminuta, by microscopy</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
@@ -13494,12 +13532,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Entamoeba histolytica was detected by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000116>projects using equivalent term that has different ID</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica, by ELISA</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Entamoeba histolytica by ELISA</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of Entamoeba histolytica by ELISA</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13508,11 +13547,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Plesiomonas shigelloides was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Plesiomonas shigelloides was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plesiomonas shigelloides, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plesiomonas shigelloides by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plesiomonas shigelloides by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -13547,11 +13586,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010805">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -13586,11 +13625,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010825">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -13599,7 +13638,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010829">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Yersinia enterocolitica was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Yersinia enterocolitica was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yersinia enterocolitica, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
@@ -13664,11 +13703,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010998">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14160,11 +14199,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O1 was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O1 was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14173,11 +14212,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015291">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies that the Vibrio cholerae Inaba serotype was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether the Vibrio cholerae Inaba serotype was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1, serotype Inaba, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae Inaba by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae Inaba by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14186,11 +14225,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies that the Vibrio cholerae Ogawa serotype was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether the Vibrio cholerae Ogawa serotype was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1, serotype Ogawa, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae Ogawa by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae Ogawa by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14199,11 +14238,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies that Vibrio cholerae O139 was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O139 was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O139, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O139 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O139 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14212,11 +14251,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Salmonella typhi was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Salmonella typhi was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella typhi, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella typhi by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella typhi by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14225,11 +14264,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a Salmonella serotype other than typhi was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a Salmonella serotype other than typhi was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella non-typhi, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14251,11 +14290,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a species of Campylobacter other than Campylobacter jejuni or Campylobacter coli was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a species of Campylobacter other than Campylobacter jejuni or Campylobacter coli was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter (non-jejuni or coli), by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of non-jejuni non-coli Campylobacter by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of non-jejuni non-coli Campylobacter by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14264,11 +14303,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4b was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4b was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 4B, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4b by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4b by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14277,11 +14316,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 5b was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 5b was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 5B, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5b by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5b by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14290,11 +14329,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 6 was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 6 was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 6, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 6 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 6 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14303,11 +14342,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14316,11 +14355,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter coli was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter coli was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter coli, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter coli by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter coli by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14329,11 +14368,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter jejuni was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Campylobacter jejuni was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter jejuni, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter jejuni by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter jejuni by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14342,11 +14381,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14355,11 +14394,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella boydii was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella boydii was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella boydii, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella boydii by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella boydii by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14368,11 +14407,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella dysenteriae was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella dysenteriae was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella dysenteriae, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteriae by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteriae by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14381,11 +14420,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio parahaemolyticus was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio parahaemolyticus was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio parahaemolyticus, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio parahaemolyticus by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio parahaemolyticus by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14394,11 +14433,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella sonnei was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella sonnei was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella sonnei, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella sonnei by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella sonnei by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14407,11 +14446,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 4A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14420,11 +14459,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4c was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 4c was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 4C, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4c by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4c by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14433,11 +14472,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 5a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 5a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 5A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14446,11 +14485,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype X was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype X was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype X, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri X by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri X by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14459,11 +14498,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype Y was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype Y was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype Y, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri Y by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri Y by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14510,12 +14549,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0015423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015423">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Escherichia coli was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000116>projects using equivalent term that has different ID</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. coli, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Escherichia coli by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of Escherichia coli by differential medium assay</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -14563,11 +14603,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015441">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella dysenteriae serotype 1 was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella dysenteriae serotype 1 was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella dysenteriae serotype 1, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteria 1 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteria 1 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14576,11 +14616,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 7 was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 7 was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 7, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 7 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 7 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14589,11 +14629,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015443">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 1A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14602,11 +14642,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015444">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1b was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1b was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 1B, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1b by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1b by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14615,11 +14655,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015445">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 2A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14628,11 +14668,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015446">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2b was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2b was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 2B, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2b by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2b by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14641,11 +14681,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015447">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14654,11 +14694,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015448">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3b was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3b was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3B, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3b by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3b by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14667,11 +14707,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015449">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3c was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3c was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3C, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3c by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3c by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14680,11 +14720,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015450">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 7a was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 7a was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 7A, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of whether Shigella flexneri 7a by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of whether Shigella flexneri 7a by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14732,11 +14772,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015461">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O1 biovar El Tor was detected by bacteriology</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O1 biovar El Tor was detected by differential medium assay</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1 El Tor, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 El Tor by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 El Tor by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14744,12 +14784,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0015462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015462">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O1 was detected by bacteriology</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is the specified output of a differential medium assay that has the objective of determining whether a specimen contains Vibrio cholerae serogroup O1</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae 01, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data about Vibrio cholerae O1 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -14757,12 +14797,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0015463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015463">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Vibrio cholerae O139 was detected by bacteriology</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is the specified output of a differential medium assay that has the objective of determining whether a specimen contains Vibrio cholerae serogroup O139</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O139, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O139 by bacteriology</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data about Vibrio cholerae O139 by differential medium assay</rdfs:label>
     </owl:Class>
     
 
@@ -16518,7 +16558,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">States visited in last 12 months</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPath</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subnational region relocated from within past 12 months</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subnational region visited within past 12 months</rdfs:label>
     </owl:Class>
     
 
@@ -16957,6 +16997,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010741"/>
     
 
 
@@ -21912,6 +21958,12 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002119"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002502">
@@ -22299,6 +22351,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:inSubset xml:lang="en">NIAID GSCID-BRC</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500026"/>
     
 
 
@@ -22771,6 +22829,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPL_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000181">
@@ -22904,6 +22968,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PDRO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PDRO_0000001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
@@ -23017,6 +23087,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <rdfs:label xml:lang="en">count</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000190"/>
     
 
 
@@ -24599,6 +24675,643 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010599 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Adenovirus was detected in feces by enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenovirus, by ELISA</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Adenovirus in feces by enzyme-linked immunosorbent assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010607 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Ascaris lumbricoides was detected in feces by a microscopy assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascaris lumbricoides, by microscopy</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Ascaris lumbricoides in feces by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010611 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Astrovirus was detected in feces by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrovirus, by ELISA</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Astrovirus in feces by enzyme-linked immunosorbent assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010615 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Trichuris trichiura was detected in feces by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichuris trichiura, by microscopy</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Trichuris trichiura by microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010623 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Balantioides coil was detected in feces by a microscopy assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balantidium coli, by microscopy</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Balantidium coli in feces by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010630 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Escherichia coli by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010643 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Chilomastix mesnili was detected in feces by a microscopy assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilomastix mesnili, by microscopy</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Chilomastix mesnili in feces by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010651 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Cyclospora was detected in feces by microscopy</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclospora, by microscopy</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Cyclospora by microscopy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010695 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Entamoeba histolytica was detected in feces by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica, by ELISA</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Entamoeba histolytica by ELISA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010797 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Salmonella was detected in feces by a differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010875 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether bacteria were detected in an organism identification assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any bacteria, by any method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of bacteria by assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010889 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a pathogen organism was detected in an organism identification assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any pathogen, by any method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of pathogen by assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0010931 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0010931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a virus was detected in an organism identification assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any virus, by any method</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of virus by assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011000 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Cryptosporidium was detected in feces by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium, by ELISA</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Cryptosporidium in feces by enzyme-linked immunosorbent assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011854 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011854">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Blastocystis in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blastocystis Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Blastocystis in stool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011855 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Clostridium difficile in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clostridium difficile Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Clostridium difficile in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011856 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011856">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Entamoeba in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Entamoeba in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011864 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Hymenolepis nana in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hymenolepis nana Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Hymenolepis nana in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011865 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011865">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Mycobacterium tuberculosis in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycobacterium tuberculosis Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Mycobacterium tuberculosis in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0011868 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0011868">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Plesiomonas in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plesiomonas Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Plesiomonas in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015309 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a Vibrio serogroup other than O1 or O139 was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae non-O1/O139, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae non-(O1 or O139) in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015312 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether a species of Vibrio other than cholerae or parahaemolyticus was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio (other species), by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio non-(cholerae or parahaemolyticus) in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015343 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cryptosporidium hominis in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium hominis Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Cryptosporidium hominis in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015344 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cryptosporidium parvum in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium parvum Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Cryptosporidium parvum in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015345 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cyclospora in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclospora Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Cyclospora in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015350 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Enterocytozoon bieneusi in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterocytozoon bieneusi Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Enterocytozoon bieneusi in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015351 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Entamoeba histolytica in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Entamoeba histolyica in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015352 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Encephalitozoon intestinalis in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encephalitozoon intestinalis Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Encephalitozoon intestinalis in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015360 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Giardia in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Giardia in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015361 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Helicobacter pylori in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helicobacter pylori Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Helicobacter pylori in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015362 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Isospora in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isospora Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Isospora in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015363 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015363">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Necator in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Necator Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Necator in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015366 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Rotavirus in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotavirus Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Rotavirus in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015381 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Salmonella in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Salmonella in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015382 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Sapovirus in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sapovirus Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Sapovirus in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015386 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Strongyloides in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongyloides Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Strongyloides in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015387 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Trichuris in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trichuris Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold cycle for Trichuris in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015388 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Vibrio cholerae in a feces specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae Ct value, by TAC result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TaqMan threshold value for Vibrio cholerae in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015441 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella dysenteriae serotype 1 was detected by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella dysenteriae serotype 1, by bacteriology result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteria serotype 1 by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015442 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 7 was detected by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 7, by bacteriology result</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 7 by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015443 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1a was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 1A, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 1a in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015444 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 1b was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 1B, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 1b in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015445 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2a was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 2A, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 2a in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015446 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 2b was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 2B, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 2b in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015447 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3a was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3A, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 3a in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015448 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3b was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3B, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 3b in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0015449 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0015449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Shigella flexneri serotype 3c was detected in feces by differential medium assay</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri serotype 3C, by bacteriology</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri serotype 3c in feces by differential medium assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0022059 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0022059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a real time polymerase chain reaction assay that has the objective of determining the number of Plasmodium vivax in a blood specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax Ct value, by qPCR</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qPCR threshold cycle for Plasmodium vivax in blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/EUPATH_0022060 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/EUPATH_0022060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000190"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the threshold cycle that is the specified output of a real time polymerase chain reaction assay that has the objective of determining the amount of Plasmodium falciparum in a blood specimen</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum Ct value, by qPCR</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qPCR threshold cycle for Plasmodium falciparum in blood</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -25104,16 +25817,16 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -25129,6 +25842,10 @@ This interpretation is *not* the same as an at-all-times relation
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000686">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:comment>Deprecated in favor of CHEBI:38068</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
         <obo:OBI_0001886 xml:lang="en">Specimen Collection Location - Location</obo:OBI_0001886>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
