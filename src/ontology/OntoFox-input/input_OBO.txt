@@ -39,7 +39,7 @@ http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
 http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
 http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
 http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
-
+http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
@@ -58,6 +58,8 @@ http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
 subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
 http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
 subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum 
 
 
 [Source term retrieval setting]
@@ -1376,10 +1378,52 @@ SO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/SO_0001000 #Region of 16S rRNA sequenced
+http://purl.obolibrary.org/obo/SO_0000105 #chromosome_arm
+http://purl.obolibrary.org/obo/SO_0000207 #simple_sequence_length_variation
+http://purl.obolibrary.org/obo/SO_0000289 #microsatellite
+http://purl.obolibrary.org/obo/SO_0000703 #experimental_result_region
+http://purl.obolibrary.org/obo/SO_0000704 #gene
+http://purl.obolibrary.org/obo/SO_0001027 #genotype
+http://purl.obolibrary.org/obo/SO_0001505 #reference_genome
+http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001564 #gene_variant
+http://purl.obolibrary.org/obo/SO_0001763 #variant_frequency
+http://purl.obolibrary.org/obo/SO_0001769 #variant_phenotype
+http://purl.obolibrary.org/obo/SO_1000036 #inversion
+http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
+http://purl.obolibrary.org/obo/SO_0001026 #genome
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0001000 #rRNA_16S
 subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000105 #chromosome_arm
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000207 #simple_sequence_length_variation
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000289 #microsatellite
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000703 #experimental_result_region
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000704 #gene
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0001027 #genotype
+subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001505 #reference_genome
+subClassOf http://purl.obolibrary.org/obo/SO_0001026 #genome
+http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001564 #gene_variant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001763 #variant_frequency
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0001769 #variant_phenotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_1000036 #inversion
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
+subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
+http://purl.obolibrary.org/obo/SO_0001026 #genome
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
 
 [Source term retrieval setting]
 includeNoIntermediates
