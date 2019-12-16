@@ -23,9 +23,7 @@ http://purl.obolibrary.org/obo/ENVO_00000035 #marsh
 http://purl.obolibrary.org/obo/ENVO_00000051 #hot spring
 http://purl.obolibrary.org/obo/ENVO_00000056 #fishpond
 http://purl.obolibrary.org/obo/ENVO_00000070 #construction
-http://purl.obolibrary.org/obo/ENVO_00000078 #farm
 http://purl.obolibrary.org/obo/ENVO_00000098 #island
-http://purl.obolibrary.org/obo/ENVO_00000111 #forest
 http://purl.obolibrary.org/obo/ENVO_00000233 #swamp
 http://purl.obolibrary.org/obo/ENVO_00000296 #rice field
 http://purl.obolibrary.org/obo/ENVO_00000377 #artificial lake
@@ -62,7 +60,6 @@ http://purl.obolibrary.org/obo/ENVO_00005749 #farm soil
 http://purl.obolibrary.org/obo/ENVO_00005750 #grassland soil
 http://purl.obolibrary.org/obo/ENVO_00005772 #orchard soil
 http://purl.obolibrary.org/obo/ENVO_00005773 #pasture soil
-http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 http://purl.obolibrary.org/obo/ENVO_00010505 #aerosol
 http://purl.obolibrary.org/obo/ENVO_01000001 #mud
@@ -149,7 +146,10 @@ http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
 http://purl.obolibrary.org/obo/ENVO_00000067 #cave
 http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
 http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-
+http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere
+http://purl.obolibrary.org/obo/ENVO_00000078 #farm
+http://purl.obolibrary.org/obo/ENVO_00000111 #forest
+http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_01000574 #candle
@@ -182,14 +182,20 @@ http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
 subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-
-#added 2019-08-23
 http://purl.obolibrary.org/obo/ENVO_01000600 #rainwater
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_01000469 #exterior wall
 subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
 http://purl.obolibrary.org/obo/ENVO_01000426 #room
 subClassOf http://purl.obolibrary.org/obo/ENVO_00000070 #construction
+http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere
+subClassOf http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
+http://purl.obolibrary.org/obo/ENVO_00000078 #farm
+subClassOf http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
+http://purl.obolibrary.org/obo/ENVO_00000111 #forest
+subClassOf http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
+http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
 
 [Source term retrieval setting]
 includeNoIntermediates

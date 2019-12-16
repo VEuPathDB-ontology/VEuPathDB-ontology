@@ -20,9 +20,6 @@
      -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
@@ -33,6 +30,9 @@
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
@@ -1122,6 +1122,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
@@ -1614,6 +1620,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005"/>
     
 
 
@@ -2215,6 +2227,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001175">
+        <rdfs:label xml:lang="en">selective organism creation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an objective specification to generate a population or type of organism within species that have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001185">
@@ -2730,12 +2753,34 @@ defines and states the requirements (positive or negative) for an entity to be c
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_1110021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110021">
+        <rdfs:label xml:lang="en">infection process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <obo:IAO_0000115 xml:lang="en">the detrimental process in which an infectious agent colonizes or replicates in a host environment</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_1110041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110041">
         <rdfs:label xml:lang="en">lymph node cell specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell specimen comprised of a mixed population of cells obtained by processing whole lymph node into individual cells, typically performed using a sieve. This population includes T cells, B cells, macrophages, and other cell types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_1110122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1110122">
+        <rdfs:label xml:lang="en">pathologic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">abnormal, harmful processes caused by or associated with a disease</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     

@@ -4011,7 +4011,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/ENVO_00000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001199"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area of land which is used for the cultivation of crops or grazing of livestock, including any agricultural constructions therein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farm</rdfs:label>
@@ -4044,7 +4043,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/ENVO_00000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001199"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area with a high density of trees. A small forest may be called a wood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forested area</rdfs:label>
@@ -4518,7 +4516,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <!-- http://purl.obolibrary.org/obo/ENVO_00005801 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00005801">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The narrow region of soil that is directly influenced by root secretions and associated soil microorganisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizosphere</rdfs:label>
@@ -4625,17 +4622,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A system which has the disposition to environ one or more material entities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental system</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000408 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label>environmental zone</rdfs:label>
     </owl:Class>
     
 
@@ -5139,17 +5125,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
         <obo:IAO_0000115>An environmental system which includes both living and non-living components.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label xml:lang="en">ecosystem</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01001199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
-        <obo:IAO_0000115>An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label xml:lang="en">terrestrial environmental zone</rdfs:label>
     </owl:Class>
     
 
@@ -16721,6 +16696,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
+        <rdfs:label>geographic location</rdfs:label>
     </owl:Class>
     
 
@@ -20117,6 +20095,27 @@ All subtype will be defined by textual definition now.</obo:IAO_0000232>
     <!-- http://purl.obolibrary.org/obo/OBI_0001185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001185">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001175"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -22655,7 +22654,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000115 xml:lang="en">the detrimental process in which an infectious agent colonizes or replicates in a host environment</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">infection</rdfs:label>
     </owl:Class>
     
 
@@ -25653,12 +25651,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GAZ_00001102 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001102">
@@ -25830,6 +25822,9 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -25837,29 +25832,6 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
-        <obo:OBI_0001886 xml:lang="en">Specimen Collection Location - Location</obo:OBI_0001886>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
-        <oboInOwl:inSubset xml:lang="en">NIAID GSCID-BRC</oboInOwl:inSubset>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</obo:IAO_0000111>
-        <obo:OBI_GSCID_BRC_Field_ID xml:lang="en">CS13</obo:OBI_GSCID_BRC_Field_ID>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
