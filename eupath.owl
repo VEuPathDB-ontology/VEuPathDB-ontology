@@ -12,14 +12,14 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2019-12-03/eupath.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2019-12-16/eupath.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator>John Judkins</dc:creator>
         <dc:title>VEuPathDB Ontology</dc:title>
         <rdfs:comment xml:lang="en">The VEuPathDB ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen, Host and Vector Genomics Resource (VEuPathDB; https://veupathdb.org). The VEuPathDB ontology was previously named the EuPathDB ontology prior to EuPathDB joining with VectorBase.The ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the VEuPath ontology is primarily intended to be used for support of the VEuPathDB sites. Terms with VEuPathDB ontology IDs that are not specific to VEuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</rdfs:comment>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-12-03</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-12-16</owl:versionInfo>
         <dc:creator>Chris Stoeckert</dc:creator>
     </owl:Ontology>
     
@@ -4667,7 +4667,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area of land which is used for the cultivation of crops or grazing of livestock, including any agricultural constructions therein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">farm</rdfs:label>
@@ -4701,7 +4701,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_00000111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area with a high density of trees. A small forest may be called a wood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forested area</rdfs:label>
@@ -5315,7 +5315,7 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/ENVO_01000408 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label>environmental zone</rdfs:label>
@@ -5859,17 +5859,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115>An environmental system which includes both living and non-living components.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <rdfs:label xml:lang="en">ecosystem</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01001199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
-        <obo:IAO_0000115>An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <rdfs:label xml:lang="en">terrestrial environmental zone</rdfs:label>
     </owl:Class>
     
 
@@ -17631,6 +17620,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/gaz.owl</obo:IAO_0000412>
+        <rdfs:label>geographic location</rdfs:label>
     </owl:Class>
     
 
@@ -20888,7 +20880,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An objective specification maintains some or all of the qualities of a material over time.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
-        <obo:IAO_0000119>PERSON: Bjoern Peters</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material maintenance objective</rdfs:label>
     </owl:Class>
@@ -21316,9 +21307,41 @@ All subtype will be defined by textual definition now.</obo:IAO_0000232>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an objective specification to generate a population or type of organism within species that have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">selective organism creation objective</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001185">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001175"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred organisms</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -24034,7 +24057,8 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000115 xml:lang="en">the detrimental process in which an infectious agent colonizes or replicates in a host environment</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">infection</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">infection process</rdfs:label>
     </owl:Class>
     
 
@@ -24079,6 +24103,7 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000115 xml:lang="en">abnormal, harmful processes caused by or associated with a disease</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">IEDB</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">pathologic process</rdfs:label>
     </owl:Class>
     
@@ -24672,7 +24697,7 @@ defines and states the requirements (positive or negative) for an entity to be c
     <!-- http://purl.obolibrary.org/obo/SO_0001027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001507"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genotype is a variant genome, complete or incomplete.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genotype</rdfs:label>
@@ -27840,12 +27865,6 @@ defines and states the requirements (positive or negative) for an entity to be c
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GAZ_00001102 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GAZ_00001102">
@@ -28020,21 +28039,6 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -28046,25 +28050,17 @@ This interpretation is *not* the same as an at-all-times relation
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
-        <obo:OBI_0001886 xml:lang="en">Specimen Collection Location - Location</obo:OBI_0001886>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
-        <oboInOwl:inSubset xml:lang="en">NIAID GSCID-BRC</oboInOwl:inSubset>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <obo:OBI_GSCID_BRC_Field_ID xml:lang="en">CS13</obo:OBI_GSCID_BRC_Field_ID>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
