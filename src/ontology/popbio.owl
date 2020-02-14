@@ -137,6 +137,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000304">
+        <obo:IAO_0000115>C is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the &quot;Manufacturer Role&quot;, and those people/and or machines were members or of directed by the organization to do this.</obo:IAO_0000115>
+        <rdfs:label>is_manufactured_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312">
@@ -668,6 +677,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001060</obo:EUPATH_0043061>
         <obo:IAO_0000115>A device manufactured by BioGents that is designed for operation with the BG-Sentinel trap and releases an attractant that mimics the scent of human skin.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BG-lure</obo:IAO_0000118>
@@ -802,6 +817,12 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000143</obo:EUPATH_0043061>
         <obo:IAO_0000115>A device manufactured by BioGents that is designed to count mosquitoes passing through the device, differentiating the mosquitoes from other arthropods.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BG-Counter trap catch</obo:IAO_0000118>
@@ -826,6 +847,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043041"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000028</obo:EUPATH_0043061>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001906</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod trap that is manufactured by Biogents and is designed to attract arthropods through the use of a motorized fan to mimic convection currents produced by a human. The current also pulls arthropods into the trap, where a layer of gauze prevents the arthropods from escaping along with the air current.</obo:IAO_0000115>
@@ -1633,6 +1660,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
+        <rdfs:label>organization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -1876,6 +1913,26 @@
         <obo:IAO_0000115>A spatiotemporal region encompassing some part of the life cycle of an organism.</obo:IAO_0000115>
         <rdfs:label>life cycle stage</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043063 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043063">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043082"/>
+        <rdfs:label>BioGents</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
