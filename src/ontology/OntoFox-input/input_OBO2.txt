@@ -99,6 +99,8 @@ http://purl.obolibrary.org/obo/ENVO_01000614 #Bicycle
 http://purl.obolibrary.org/obo/ENVO_01000615 #Motorcycle/Scooter 
 
 http://purl.obolibrary.org/obo/ENVO_01000462 #cement
+http://purl.obolibrary.org/obo/ENVO_00002869 #hay
+http://purl.obolibrary.org/obo/ENVO_01001117 #poultry manure
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
@@ -507,9 +509,27 @@ GO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
 
+http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0003990 #acetylcholinesterase activity
+http://purl.obolibrary.org/obo/GO_0004364 #glutathione transferase activity
+http://purl.obolibrary.org/obo/GO_0016788 #hydrolase activity, acting on ester bonds
+http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+
+http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/BFO_0003990 #acetylcholinesterase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/BFO_0004364 #glutathione transferase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/BFO_0016788 #hydrolase activity, acting on ester bonds
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -579,6 +599,20 @@ http://purl.obolibrary.org/obo/VO_0000574 #route of administration
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/VO_0000574 #route of administration
 subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0001015 #location of
+http://purl.obolibrary.org/obo/RO_0002092 #happens during
 
 [Source term retrieval setting]
 includeNoIntermediates
