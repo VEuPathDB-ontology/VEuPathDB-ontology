@@ -199,7 +199,6 @@
         <obo:IAO_0000115>An annotation property used to specify the order of terms displayed on a website.</obo:IAO_0000115>
         <obo:IAO_0000118>displayOrder</obo:IAO_0000118>
         <rdfs:label xml:lang="en">display order</rdfs:label>
-        <rdfs:label>displayOrder</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -272,7 +271,6 @@
         <obo:IAO_0000115>The original file name for the data file the variable was found in, or a shortened version of the file name that contains all relevant information to identify the data file.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dataFile</obo:IAO_0000118>
         <rdfs:label xml:lang="en">data file</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dataFile</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -282,7 +280,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001002">
         <obo:IAO_0000115>The highest level parent term (Household, Participant, Observation, Specimen) the variable falls under.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">category</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">category</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -293,7 +290,6 @@
         <obo:IAO_0000115>The variable description from the data dictionary. Useful for assigning display labels. To be provided either directly from the data provider in their codebook or filled out by ClinEpi Outreach before handing over to Ontology.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookDescription</obo:IAO_0000118>
         <rdfs:label xml:lang="en">codebook description</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookDescription</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -304,7 +300,6 @@
         <obo:IAO_0000115>All possible responses and their mapped terms for each variable, from the data dictionary. Useful for value mapping.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookValues</obo:IAO_0000118>
         <rdfs:label xml:lang="en">codebook values</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">codebookValues</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -325,7 +320,6 @@ multifilter: any value below it in the hierarchy will be displayed as a multifil
 value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">termType</obo:IAO_0000118>
         <rdfs:label xml:lang="en">term type</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">termType</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -3501,12 +3495,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A lung disease characterized by inadequate gas exchange by the respiratory system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label>respiratory failure</rdfs:label>
@@ -3659,12 +3647,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A malaria that involves neurologic damage resulting from blockage of the blood vessels, caused due to the infection of the red blood cells by Plasmodium species.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
@@ -4523,12 +4505,6 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9993">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060158"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_26"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A glucose metabolism disease that is characterized by abnormally low levels of blood glucose.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
@@ -6746,12 +6722,6 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000046">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000064"/>
         <obo:IAO_0000115>A symptom or sign that is used for the diagnosis of severe malaria based on World Health Organization (WHO) criteria.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
@@ -20987,12 +20957,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000044"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow pigmentation of the skin due to bilirubin, which in turn is the result of increased bilirubin concentration in the bloodstream.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
@@ -30866,6 +30830,7 @@ defines and states the requirements (positive or negative) for an entity to be c
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043063">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000116>An organization that manufactures mosquito traps and other mosquito control products.</obo:IAO_0000116>
         <rdfs:label>BioGents</rdfs:label>
     </owl:NamedIndividual>
     
@@ -31042,6 +31007,33 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -31049,33 +31041,6 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     
 
@@ -31094,9 +31059,9 @@ This interpretation is *not* the same as an at-all-times relation
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
         <rdfs:label>geographic location</rdfs:label>
         <oboInOwl:inSubset xml:lang="en">NIAID GSCID-BRC</oboInOwl:inSubset>
-        <obo:OBI_GSCID_BRC_Field_ID xml:lang="en">CS13</obo:OBI_GSCID_BRC_Field_ID>
-        <obo:IAO_0000111>geographic location</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <obo:IAO_0000111>geographic location</obo:IAO_0000111>
+        <obo:OBI_GSCID_BRC_Field_ID xml:lang="en">CS13</obo:OBI_GSCID_BRC_Field_ID>
     </rdf:Description>
 </rdf:RDF>
 
