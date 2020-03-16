@@ -12,10 +12,10 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2020-03-12/eupath.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/eupath/2020-03-16/eupath.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-03-16</owl:versionInfo>
         <dc:creator>John Judkins</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-03-12</owl:versionInfo>
         <dc:title>VEuPathDB Ontology</dc:title>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
@@ -10755,38 +10755,33 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000423">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001624"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000067"/>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
-                                                    </owl:Restriction>
-                                                </owl:intersectionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000762"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001624"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000067"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A data item of which parasite species detected in a blood specimen.</obo:IAO_0000115>
         <rdfs:label>parasite species information</rdfs:label>
     </owl:Class>
@@ -13768,8 +13763,8 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that indicates whether some organism is present in a specimen.</obo:IAO_0000115>
         <obo:IAO_0000116>&quot;Present&quot; in this definition means &apos;located in&apos; or &apos;part of&apos; the specimen.</obo:IAO_0000116>
-        <rdfs:comment>A data item that indicates whether some organism is present in a specimen.</rdfs:comment>
         <rdfs:label>presence of organism in specimen</rdfs:label>
     </owl:Class>
     
@@ -15935,7 +15930,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0011001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000762"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Cryptosporidium was detected by the modified acid fast staining method</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium, by modified acid stain microscopy result</obo:IAO_0000118>
@@ -18221,7 +18216,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was self-provided within the past two weeks</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Self-treated</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Fever treatment location) Self-treated</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information specifying fever self-treated in past 2 weeks</rdfs:label>
     </owl:Class>
@@ -18260,7 +18255,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000762"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is the specified output of a microscopy assay that has a sample of blood as specified input and indicates that the sample contains Plasmodium falciparum</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by microscopy) Plasmodium falciparum</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium falciparum by microscopy</rdfs:label>
     </owl:Class>
@@ -18273,7 +18268,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000762"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is the specified output of a microscopy assay that has a sample of blood as specified input and indicates that the sample contains Plasmodium vivax</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by microscopy) Plasmodium vivax</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium vivax by microscopy</rdfs:label>
     </owl:Class>
@@ -18286,7 +18281,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000762"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is the specified output of a microscopy assay that has a sample of blood as specified input and indicates that the sample contains Plasmodium malariae</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium malariae</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by microscopy) Plasmodium malariae</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium malariae by microscopy</rdfs:label>
     </owl:Class>
@@ -18312,7 +18307,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium falciparum</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species in last year) Plasmodium falciparum</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum diagnosis within past year</rdfs:label>
     </owl:Class>
@@ -18325,7 +18320,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium vivax</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species in last year) Plasmodium vivax</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax diagnosis within past year</rdfs:label>
     </owl:Class>
@@ -18338,7 +18333,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium malariae</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium malariae</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species in last year) Plasmodium malariae</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on Plasmodium malariae diagnosis within past year</rdfs:label>
     </owl:Class>
@@ -18481,7 +18476,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000431"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that specifies whether a treatment to alleviate an episode of malaria was self-administered</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Self-treated</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Where treated) Self-treated</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of self-treated malaria</rdfs:label>
     </owl:Class>
@@ -18520,7 +18515,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000518"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium falciparum was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by qPCR) Plasmodium falciparum</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium falciparum by blood sample PCR</rdfs:label>
     </owl:Class>
@@ -18533,7 +18528,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000524"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium vivax was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by qPCR) Plasmodium vivax</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium vivax by blood sample PCR</rdfs:label>
     </owl:Class>
@@ -18546,7 +18541,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000521"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium malariae that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium malariae was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium malariae</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by qPCR) Plasmodium malariae</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium malariae by blood sample PCR</rdfs:label>
     </owl:Class>
@@ -18572,7 +18567,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000518"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium falciparum that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium falciparum was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by FalciVax RDT) Plasmodium falciparum</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium falciparum by falcivax</rdfs:label>
     </owl:Class>
@@ -18585,7 +18580,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000524"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium vivax that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium vivax was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium vivax</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by FalciVax RDT) Plasmodium vivax</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium vivax by falcivax</rdfs:label>
     </owl:Class>
@@ -18624,7 +18619,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000518"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a presence of Plasmodium falciparum that is the specified output of a optimal-IT rapid diagnostic test and specifies that Plasmodium falciparum was detected</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium falciparum</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Plasmodium species, by OptiMAL RDT) Plasmodium falciparum</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium falciparum by optimal-IT</rdfs:label>
     </owl:Class>
@@ -20431,9 +20426,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043033"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000007</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod specimen collection by aspiration that occurs in the daytime.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">house resting - daytime catch</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daytime arthropod specimen collection by aspiration</rdfs:label>
     </owl:Class>
     
@@ -20812,9 +20805,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043033"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000007</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod specimen collection by aspiration that catches specimens resting inside a human house.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">house resting - daytime catch</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthropod resting in human house specimen collection by aspiration</rdfs:label>
     </owl:Class>
     
@@ -31138,18 +31129,6 @@ This interpretation is *not* the same as an at-all-times relation
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -31163,6 +31142,9 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -31175,6 +31157,15 @@ This interpretation is *not* the same as an at-all-times relation
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     
 
