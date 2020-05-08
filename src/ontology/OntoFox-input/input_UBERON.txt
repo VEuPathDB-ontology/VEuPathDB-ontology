@@ -1,0 +1,115 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_UBERON.owl
+
+#1st section - computed intermediates
+#2nd section - no intermediates
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000029 #lymph node
+http://purl.obolibrary.org/obo/UBERON_0000033 #head
+http://purl.obolibrary.org/obo/UBERON_0000160 #intestine
+http://purl.obolibrary.org/obo/UBERON_0000167 #oral cavity
+http://purl.obolibrary.org/obo/UBERON_0000178 #blood
+http://purl.obolibrary.org/obo/UBERON_0000344 #mucosa
+http://purl.obolibrary.org/obo/UBERON_0000479 #tissue
+http://purl.obolibrary.org/obo/UBERON_0000483 #epithelium
+http://purl.obolibrary.org/obo/UBERON_0000945 #stomach
+http://purl.obolibrary.org/obo/UBERON_0000948 #heart
+http://purl.obolibrary.org/obo/UBERON_0000955 #brain
+http://purl.obolibrary.org/obo/UBERON_0000964 #cornea
+http://purl.obolibrary.org/obo/UBERON_0000970 #eye
+http://purl.obolibrary.org/obo/UBERON_0001011 #hemolymph
+http://purl.obolibrary.org/obo/UBERON_0001044 #saliva-secreting gland
+http://purl.obolibrary.org/obo/UBERON_0001045 #midgut
+http://purl.obolibrary.org/obo/UBERON_0001046 #hindgut
+http://purl.obolibrary.org/obo/UBERON_0001087 #pleural fluid
+http://purl.obolibrary.org/obo/UBERON_0001088 #urine
+http://purl.obolibrary.org/obo/UBERON_0001103 #diaphragm
+http://purl.obolibrary.org/obo/UBERON_0001134 #skeletal muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0001153 #caecum
+http://purl.obolibrary.org/obo/UBERON_0001179 #peritoneal cavity
+http://purl.obolibrary.org/obo/UBERON_0001242 #intestinal mucosa
+http://purl.obolibrary.org/obo/UBERON_0001359 #cerebrospinal fluid
+http://purl.obolibrary.org/obo/UBERON_0001723 #tongue
+http://purl.obolibrary.org/obo/UBERON_0001772 #corneal epithelium
+http://purl.obolibrary.org/obo/UBERON_0001836 #saliva
+http://purl.obolibrary.org/obo/UBERON_0001896 #medulla oblongata
+http://purl.obolibrary.org/obo/UBERON_0001968 #semen
+http://purl.obolibrary.org/obo/UBERON_0001987 #placenta
+http://purl.obolibrary.org/obo/UBERON_0001988 #feces
+http://purl.obolibrary.org/obo/UBERON_0002048 #lung
+http://purl.obolibrary.org/obo/UBERON_0002106 #spleen
+http://purl.obolibrary.org/obo/UBERON_0002107 #liver
+http://purl.obolibrary.org/obo/UBERON_0002110 #gall bladder
+http://purl.obolibrary.org/obo/UBERON_0002113 #kidney
+http://purl.obolibrary.org/obo/UBERON_0002349 #myocardium
+http://purl.obolibrary.org/obo/UBERON_0002370 #thymus
+http://purl.obolibrary.org/obo/UBERON_0002371 #bone marrow
+http://purl.obolibrary.org/obo/UBERON_0002385 #muscle tissue
+http://purl.obolibrary.org/obo/UBERON_0002415 #tail
+http://purl.obolibrary.org/obo/UBERON_0002535 #gill
+http://purl.obolibrary.org/obo/UBERON_0002548 #larva
+http://purl.obolibrary.org/obo/UBERON_0005090 #muscle structure
+http://purl.obolibrary.org/obo/UBERON_0005094 #beak
+http://purl.obolibrary.org/obo/UBERON_0005384 #nasal cavity epithelium
+http://purl.obolibrary.org/obo/UBERON_0006925 #digestive gland
+http://purl.obolibrary.org/obo/UBERON_0007356 #crop
+http://purl.obolibrary.org/obo/UBERON_0019204 #skin epithelium
+http://purl.obolibrary.org/obo/UBERON_0001796 #aqueous humor of eyeball
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism, Pregnancy status
+http://purl.obolibrary.org/obo/UBERON_0000466 #immaterial anatomical entity, Host body habitat
+
+http://purl.obolibrary.org/obo/UBERON_0000061 #Host body site
+http://purl.obolibrary.org/obo/UBERON_0000463 #Host body product
+
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism
+http://purl.obolibrary.org/obo/UBERON_0000069 #larval stage
+http://purl.obolibrary.org/obo/UBERON_0000070 #pupal stage
+http://purl.obolibrary.org/obo/UBERON_0018241 #prime adult stage
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/UBERON_0009097 #gravid organism
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/UBERON_0000069 #larval stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000070 #pupal stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0018241 #prime adult stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+
+#added 2019-08-23
+http://purl.obolibrary.org/obo/UBERON_0000014 #zone of skin
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000064 #organ part
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+############################################################
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

@@ -1,0 +1,159 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_UO.owl
+
+[Source ontology]
+#comment here
+UO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UO_0000036 #year
+http://purl.obolibrary.org/obo/UO_0000035 #month
+http://purl.obolibrary.org/obo/UO_0000033 #day
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000023 #microgram
+http://purl.obolibrary.org/obo/UO_0000024 #nanogram
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+http://purl.obolibrary.org/obo/UO_0000033 #day
+http://purl.obolibrary.org/obo/UO_0000169 #parts per million
+http://purl.obolibrary.org/obo/UO_0000170 #parts per billion
+http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000188 #pi
+http://purl.obolibrary.org/obo/UO_0000189 #count unit
+http://purl.obolibrary.org/obo/UO_0000190 #ratio
+http://purl.obolibrary.org/obo/UO_0000191 #fraction
+http://purl.obolibrary.org/obo/UO_0000192 #molecule count
+http://purl.obolibrary.org/obo/UO_0000193 #purity percentage
+http://purl.obolibrary.org/obo/UO_0000194 #confluence percentage
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+http://purl.obolibrary.org/obo/UO_0000197 #liter per kilogram
+http://purl.obolibrary.org/obo/UO_0000198 #milliliter per kilogram
+http://purl.obolibrary.org/obo/UO_0000199 #microliter per kilogram
+http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+http://purl.obolibrary.org/obo/UO_0000201 #cells per milliliter
+http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000203 #katal per cubic meter
+http://purl.obolibrary.org/obo/UO_0000204 #katal per liter
+http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000206 #milliliter per cubic meter
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+http://purl.obolibrary.org/obo/UO_0000273 #milligram per liter
+http://purl.obolibrary.org/obo/UO_0000274 #microgram per milliliter
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+http://purl.obolibrary.org/obo/UO_0000309 #milligram per square meter
+http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+http://purl.obolibrary.org/obo/UO_0000182 #density unit
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UO_0000036 #year
+subClassOf http://purl.obolibrary.org/obo/UO_0000003
+http://purl.obolibrary.org/obo/UO_0000035 #month
+subClassOf http://purl.obolibrary.org/obo/UO_0000003
+http://purl.obolibrary.org/obo/UO_0000033 #day
+subClassOf http://purl.obolibrary.org/obo/UO_0000003
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+
+http://purl.obolibrary.org/obo/UO_0000023 #microgram
+subClassOf http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000024 #nanogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+http://purl.obolibrary.org/obo/UO_0000027 #degree Celsius
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000031 #minute
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000032 #hour
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000033 #day
+subClassOf http://purl.obolibrary.org/obo/UO_0000003 #time unit
+http://purl.obolibrary.org/obo/UO_0000169 #parts per million
+subClassOf http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000170 #parts per billion
+subClassOf http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+http://purl.obolibrary.org/obo/UO_0000187 #percent
+subClassOf http://purl.obolibrary.org/obo/UO_0000190 #ratio
+http://purl.obolibrary.org/obo/UO_0000188 #pi
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000189 #count unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000190 #ratio
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000191 #fraction
+subClassOf http://purl.obolibrary.org/obo/UO_0000190
+http://purl.obolibrary.org/obo/UO_0000192 #molecule count
+subClassOf http://purl.obolibrary.org/obo/UO_0000189 #count unit
+http://purl.obolibrary.org/obo/UO_0000193 #purity percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000194 #confluence percentage
+subClassOf http://purl.obolibrary.org/obo/UO_0000187 #percent
+http://purl.obolibrary.org/obo/UO_0000195 #degree Fahrenheit
+subClassOf http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+http://purl.obolibrary.org/obo/UO_0000196 #pH
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000197 #liter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000198 #milliliter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000199 #microliter per kilogram
+subClassOf http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000201 #cells per milliliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000200 #cell concentration unit
+http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000203 #katal per cubic meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000204 #katal per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000202 #catalytic (activity) concentration unit
+http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000206 #milliliter per cubic meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000207 #milliliter per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000205 #volume per unit volume
+http://purl.obolibrary.org/obo/UO_0000208 #gram per deciliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000273 #milligram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000274 #microgram per milliliter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000301 #microgram per liter
+subClassOf http://purl.obolibrary.org/obo/UO_0000182 #density unit
+http://purl.obolibrary.org/obo/UO_0000309 #milligram per square meter
+subClassOf http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+http://purl.obolibrary.org/obo/UO_0000002 #mass unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000005 #temperature unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000003 #time unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000166 #parts per notation unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+http://purl.obolibrary.org/obo/UO_0000186 #dimensionless unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000095 #volume unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+http://purl.obolibrary.org/obo/UO_0000307 #dose unit
+subClassOf http://purl.obolibrary.org/obo/UO_0000051 #concentration unit
+http://purl.obolibrary.org/obo/UO_0000182 #density unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000003 #measurement unit label
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
