@@ -1,6 +1,8 @@
 [URI of the OWL(RDF/XML) output file]
 http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl
 
+# Do not add IAO 'mentions' here - it is in externalByHand.owl
+
 ############################################################
 # APOLLO_SV, BFO, BTO, CL, CMO, DRON, EFO, ERO, FLU, FOODON, GENEPIO, GO,
 # IAO, ICO, IDO, NCIT, OBIB, OGMS, OMP, OMRSE, OPL, PCO, PDRO, PO, REO, RO, STATO, VO
@@ -327,7 +329,6 @@ IAO
 http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
 http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum, Height (cm)
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
-http://purl.obolibrary.org/obo/IAO_0000142 #mentions
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
@@ -336,8 +337,6 @@ http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
-http://purl.obolibrary.org/obo/IAO_0000142 #mentions
-subClassOf http://purl.obolibrary.org/obo/IAO_0000136 #is about
 
 [Source term retrieval setting]
 includeNoIntermediates
