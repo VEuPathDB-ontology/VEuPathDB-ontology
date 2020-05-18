@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_HP.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_HP.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_HP.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renal insufficiency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reduction in the level of performance of the kidneys in areas of function comprising the concentration of urine, removal of wastes, the maintenance of electrolyte balance, homeostasis of blood pressure, and calcium metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotypic abnormality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epistaxis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epistaxis, or nosebleed, refers to a hemorrhage localized in the nose.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000490">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deeply set eye</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye that is more deeply recessed into the plane of the face than is typical.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000692">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal alignment, positioning, or spacing of the teeth, i.e., misaligned teeth.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000711">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restlessness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>A state of unease characterized by diffuse motor activity or motion subject to limited control, nonproductive or disorganized behavior, and subjective distress.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaundice</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow pigmentation of the skin due to bilirubin, which in turn is the result of increased bilirubin concentration in the bloodstream.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000975">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperhidrosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal excessive perspiration (sweating) despite the lack of appropriate stimuli like hot and humid weather.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000980">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pallor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormally pale skin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000989">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruritus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruritus is an itch or a sensation that makes a person want to scratch. This term refers to an abnormally increased disposition to experience pruritus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001254">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lethargy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A state of disinterestedness, listlessness, and indifference, resulting in difficulty performing simple tasks or concentrating.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001259">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete absence of wakefulness and content of conscience, which manifests itself as a lack of response to any kind of external stimuli.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001744">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Splenomegaly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal increased size of the spleen.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001824">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduction inexisting body weight.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001892">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal bleeding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal susceptibility to bleeding, often referred to as a bleeding diathesis. A bleeding diathesis may be related to vascular, platelet and coagulation defects.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001944">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dehydration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001959">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polydipsia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>Excessive thirst manifested by excessive fluid intake.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forceful ejection of the contents of the stomach through the mouth by means of a series of involuntary spasmic contractions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sensation of unease in the stomach together with an urge to vomit.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) and perceived to originate in the abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory distress</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>Difficulty in breathing. The physical presentation of respiratory distress is generally referred to as labored breathing, while the sensation of respiratory distress is called shortness of breath or dyspnea.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002315">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalgia, or pain sensed in various parts of the head, not confined to the area of distribution of any nerve.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002789">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tachypnea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very rapid breathing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003111">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal blood ion concentration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the homeostasis (concentration) of a monoatomic ion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003249">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genital ulcers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003418">
+        <rdfs:label>Back pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the back.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003419">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low back pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the lower back.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004372">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduced consciousness/confusion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of consciousness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007392">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive wrinkled skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010741">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedal edema</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormal accumulation of excess fluid in the lower extremity resulting in swelling of the feet and extending upward to the lower leg.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of higher mental function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive, psychiatric or memory anomaly.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011801">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlargement of parotid gland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased size of the parotid gland.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011848">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal colic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>A type of abdominal pain that comes and goes in waves, most often starting and ending suddenly and being of severe intensity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012531">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030766">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ear pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>Pain in the ear can be a consequence of otologic disease (primary or otogenic otalgia), or can arise from pathologic processes and structures other than the ear (secondary or referred otalgia).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030828">
+        <rdfs:label>Wheezing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>A high-pitched whistling sound associated with labored breathing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031273">
+        <rdfs:label>Shock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>The state in which profound and widespread reduction of effective tissue perfusion leads first to reversible, and then if prolonged, to irreversible cellular injury.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032178">
+        <rdfs:label>Flaky paint dermatosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>A dermatosis characterized by generalized shiny, enamel-like, hyperpigmented scales in an irregular pattern. The scales may peel or desquamate, rather like old, sun-baked blistered paint, often with areas of underlying hypopigmentation. This has led to the terms peeling paint or flaky paint dermatosis (See the Figure in PMID:24285001).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100598">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulmonary edema</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluid accumulation in the lungs.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaphylactic shock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acute hypersensitivity reaction due to exposure to a previously encountered antigen.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0200026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200026">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocular pain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the eye.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0200039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pustule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small elevation of the skin containing cloudy or purulent material usually consisting of necrotic inflammatory cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0200043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verrucae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warts, benign growths on the skin or mucous membranes that cause cosmetic problems as well as pain and discomfort. Warts most often occur on the hands, feet, and genital areas.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

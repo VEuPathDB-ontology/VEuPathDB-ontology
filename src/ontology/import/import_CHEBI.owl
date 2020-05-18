@@ -1,0 +1,980 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_CHEBI.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_CHEBI.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_CHEBI.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_100147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_100147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nalidixic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monocarboxylic acid comprising 1,8-naphthyridin-4-one substituted by carboxylic acid, ethyl and methyl groups at positions 3, 1, and 7, respectively. An orally administered antibacterial, it is used in the treatment of lower urinary-tract infections due to Gram-negative bacteria, including the majority of E. coli, Enterobacter, Klebsiella, and Proteus species.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_10023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_10023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voriconazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A triazole-based antifungal agent used for the treatment of esophageal candidiasis, invasive pulmonary aspergillosis, and serious fungal infections caused by Scedosporium apiospermum and Fusarium spp. It is an inhibitor of cytochrome P450 2C9 (CYP2C9) and CYP3A4.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_100241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_100241">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ciprofloxacin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A  quinolone that is quinolin-4(1H)-one bearing cyclopropyl, carboxylic acid, fluoro and piperazin-1-yl substituents at positions 1, 3, 6 and 7, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15765">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L-dopa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An optically active form of dopa having L-configuration. Used to treat the stiffness, tremors, spasms, and poor muscle control of Parkinson&#39;s disease</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15854">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cinchona alkaloid that is cinchonidine in which the hydrogen at the 6-position of the quinoline ring is substituted by methoxy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16130">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDT</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chlorophenylethane that is 1,1,1-trichloro-2,2-diphenylethane substituted by additional chloro substituents at positions 4 of the phenyl substituents. It is a commonly used organochlorine insecticide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16240">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogen peroxide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16526">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon dioxide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17334">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any member of the group of substituted penams containing two methyl substituents at position 2, a carboxylate substituent at position 3 and a carboxamido group at position 6.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17698">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloramphenicol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17833">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gentamycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of a group of aminoglycoside antibiotics produced by fermentation of some Micromonospora spp.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrolide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrocyclic lactone with a ring of twelve or more members derived from a polyketide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25944">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pesticide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2676">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amoxicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-(4-hydroxyphenyl)acetamido group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2682">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amphotericin B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrolide antibiotic used to treat potentially life-threatening fungal infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28971">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ampicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-phenylacetamido group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2955">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azithromycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macrolide antibiotic useful for the treatment of bacterial infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Particle of zero charge, zero rest mass, spin quantum number 1, energy hnu and momentum hnu/c (h is the Planck constant, nu the frequency of radiation and c the speed of light), carrier of electromagnetic force.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bifenthrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carboxylic ester obtained by formal condensation of cis-3-(2-chloro-3,3,3-trifluoroprop-1-enyl)-2,2-dimethylcyclopropanecarboxylic acid and [(2-methyl-1,1&#39;-biphenyl)-3-yl]methanol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-hexachlorocyclohexane</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33281">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33521">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metal atom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An atom of an element that exhibits typical metallic properties, being typically shiny, with high electrical and thermal conductivity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3390">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbaryl</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbamate ester obtained by the formal condensation of  1-naphthol with methylcarbamic acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oct-1-en-3-ol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alkenyl alcohol with a structure based on a C8 unbranched chain with the hydroxy group at C-2 and unsaturation at C-1-C-2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bendiocarb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34631">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorpyrifos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An  organic thiophosphate that is O,O-diethyl hydrogen phosphorothioate in which the hydrogen of the hydroxy group has been replaced by a 3,5,6-trichloropyridin-2-yl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34632">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorpyrifos-methyl</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic thiophosphate that is O,O-dimethyl hydrogen phosphorothioate in which the hydrogen of the hydroxy group has been replaced by a 3,5,6-trichloropyridin-2-yl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34690">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dichlorvos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alkenyl phosphate that is the 2,2-dichloroethenyl ester of dimethyl phosphate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34696">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dieldrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochlorine compound resulting from the epoxidation of the double bond of aldrin. It is the active metabolite of the proinsecticde aldrin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34703">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diflubenzuron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A benzoylurea insecticide that is urea in which a hydrogen attached to one of the nitrogens is replaced by a 4-chlorophenyl group, and a hydrogen attached to the other nitrogen is replaced bgy a 2,6-difluorobenzoyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34714">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimethoate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monocarboxylic acid amide that is N-methylacetamide in which one of the hydrogens of the methyl group attached to the carbonyl moiety is replaced by a (dimethoxyphosphorothioyl)sulfanediyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34757">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenitrothion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic thiophosphate that is O,O-dimethyl O-phenyl phosphorothioate substituted by a methyl group at position 3 and a nitro group at position 4.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34761">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenthion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic thiophosphate that is O,O-dimethyl hydrogen phosphorothioate in which the hydrogen atom of the hydroxy group is replaced by a 3-methyl-4-(methylsulfanyl)phenyl group. It exhibits  acaricidal and insecticidal activities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34839">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methoprene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34905">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paraquat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic cation that consists of 4,4&#39;-bipyridine bearing two N-methyl substituents loctated at the 1- and 1&#39;-positions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34911">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclopropanecarboxylate ester in which the esterifying alcohol is 3-phenoxybenzyl alcohol and the cyclopropane ring is substituted with a 2,2-dichlorovinyl group and with gem-dimethyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34917">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenthoate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic thiophosphate that is  ethyl mandelate in which the hydroxy group has been replaced by a (dimethoxyphosphorothioyl)sulfanediyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34938">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">propoxur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carbamate ester that is phenyl methylcarbamate substituted at position 2 by a propan-2-yloxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35727">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triazoles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An azole in which the five-membered heterocyclic aromatic skeleton contains three N atoms and two C atoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3638">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chloroquine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aminoquinoline that is quinoline which is substituted at position 4 by a [5-(diethylamino)pentan-2-yl]amino group at at position 7 by chlorine. It is used for the treatment of malaria, hepatic amoebiasis, lupus erythematosus, light-sensitive skin eruptions, and rheumatoid arthritis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3770">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co-trimoxazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A two-component mixture comprising trimethoprim and sulfamethoxazole.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimalarial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drug used in the treatment of malaria. Antimalarials are usually classified on the basis of their action against Plasmodia at different stages in their life cycle in the human.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38476">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbosulfan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38677">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">famphur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38680">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenamiphos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38843">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pirimiphos-methyl</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An  organic thiophosphate that is O,O-dimethyl O-pyrimidin-4-yl phosphorothioate substituted by a methyl group at position 6 and a diethylamino group at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">profenofos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38954">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temephos</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic sulfide that is diphenyl sulfide in which the hydrogen at the para position of each of the phenyl groups has been replaced by a (dimethoxyphosphorothioyl)oxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrethrins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The active insecticidal constituents of Chrysanthemum cinerariifolium flowers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clothianidin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An N-nitro compound consisting of 2-nitroguanidine having a (2-chloro-1,3-thiazol-5-yl)methyl group at position 1 and a methyl group at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spinosad</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A two-component mixture comprising spinosyn A and spinosyn D in a ratio of approximately 5:1. Obtained from the fermentation of the naturally occurring soil dwelling bacterium Saccharopolyspora spinosa, it is used for the topical treatment of head lice.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39260">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyriproxyfen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aromatic ether that consists of propylene glycol having a 2-pyridyl group at the O-1 position and a 4-phenoxyphenyl group at the O-3 position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39314">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-cyfluthrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diastereoisomeric mixture comprising the enantiomeric pair (1R)-cis-(alphaS)- and (1S)-cis-(alphaR)-cyfluthrin in ratio 1:2 with the enantiomeric pair (1R)-trans-(alphaS)- and (1S)-trans-(alphaR)-cyfluthrin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lambda-cyhalothrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaction product comprising equal quantities of CHEBI:39323 and CHEBI:39327.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39331">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-cypermethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (1R)-cis-(alphaS)- and (1S)-cis-(alphaR)-cypermethrin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39332">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-cypermethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diastereoisomeric mixture comprising the enantiomeric pair (1R)-cis-(alphaS)- and (1S)-cis-(alphaR)-cypermethrin in ratio approximately 2:3 with the enantiomeric pair (1S)-trans-(alphaR)- and (1R)-trans-(alphaS)-cypermethrin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39347">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chlorfenapyr</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of pyrroles that is 4-bromo-1H-pyrrole-3-carbonitrile which is substituted at positions 1, 2 and 5 by ethoxymethyl, p-chlorophenyl and trifluoromethyl groups, respectively. A proinsecticide used for termite control and crop protection against several insects and mite pests.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39348">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">etofenprox</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aromatic ether that is the 3-phenoxybenzyl ether of 2-(4-ethoxyphenyl)-2-methylpropan-1-ol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39397">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetramethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyfluthrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carboxylic ester obtained by formal condensation between 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropanecarboxylic acid and (4-fluoro-3-phenoxyphenyl)(hydroxy)acetonitrile.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyhalothrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carboxylic ester obtained by formal condensation between 3-(2-chloro-3,3,3-trifluoroprop-1-en-1-yl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cypermethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A carboxylic ester resulting from the formal condensation between 3-(2,2-dichlorovinyl)-2,2-dimethylcyclopropanecarboxylic acid and the alcoholic hydroxy group of hydroxy(3-phenoxyphenyl)acetonitrile.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4388">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deltamethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclopropanecarboxylate ester obtained by formal condensation between 3-(2,2-dibromovinyl)-2,2-dimethylcyclopropanecarboxylic acid and cyano(3-phenoxyphenyl)methanol. It is the active insecticide of the proinsecticide tralomethrin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46081">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluconazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35727"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of  triazoles that is propan-2-ol substituted at position 1 and 3 by 1H-1,2,4-triazol-1-yl groups and at position 2 by a 2,4-difluorophenyl group. It is an antifungal drug used for the treatment of mucosal candidiasis and for systemic infections including systemic candidiasis, coccidioidomycosis, and cryptococcosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46787">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solvent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A liquid that can dissolve other substances (solutes) without any change in their chemical composition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_474180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_474180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caspofungin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A semisynthetic cyclic hexapeptide echinocandin antibiotic which exerts its effect by inhibiting the synthesis of 1,3-beta-D-glucan, an integral component of the fungal cell wall.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48923">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythromycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of several wide-spectrum macrolide antibiotics obtained from actinomycete Saccharopolyspora erythraea (formerly known as Streptomyces erythraeus).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fipronil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R)- and (S)-fipronil.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51213">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pivmecillinam hydrochloride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_55346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55346">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anidulafungin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A semisynthetic echinocandin anti-fungal drug. It is active against Aspergillus and Candida species and is used for the treatment of invasive candidiasis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5870">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imidacloprid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An imidazolidine that is N-nitroimidazolidin-2-imine bearing a (6-chloro-3-pyridinyl)methyl substituent at position 1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_600520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_600520">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micafungin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic hexapeptide echinocandin antibiotic which exerts its effect by inhibiting the synthesis of 1,3-beta-D-glucan, an integral component of the fungal cell wall. It is used as the sodium salt for the treatment of invasive candidiasis, and of aspergillosis in patients who are intolerant of other therapy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6076">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">itraconazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35727"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An N-arylpiperazine that is cis-ketoconazole in which the imidazol-1-yl group is replaced by a 1,2,4-triazol-1-yl group and in which the actyl group attached to the piperazine moiety is replaced by a p-[(+-)1-sec-butyl-5-oxo-1,5-dihydro-4H-1,2,4-triazol-4-yl]phenyl group. A potent P-glycoprotein and CYP3A4 inhibitor, it is used as an antifungal drug for the treatment of various fungal infections, including aspergillosis, blastomycosis, candidiasis, chromoblastomycosis, coccidioidomycosis, cryptococcosis, histoplasmosis, and sporotrichosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63609">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mefloquine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate composed of (+)-(11R,2&#39;S)- and (-)-(11S,2&#39;R)-enantiomers of mefloquine. An antimalarial agent which acts as a blood schizonticide; its mechanism of action is unknown.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64355">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posaconazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35727"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An N-arylpiperazine that consists of piperazine carrying two 4-substituted phenyl groups at positions 1 and 4. A triazole antifungal drug.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6649">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaoxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R) and (S)-malaoxon. It is the active insecticide of the proinsecticide malathion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6651">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malathion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R) and (S)-malathion. It is a broad spectrum organophosphate proinsecticide used to control a wide range of pests including Coleoptera, Diptera, fruit flies, mosquitos and spider mites.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6842">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methoxychlor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6908">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trichlorfon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phosphonic ester that is dimethyl phosphonate in which the hydrogen atom attched to the phosphorous is substituted by a 2,2,2-trichloro-1-hydroxyethyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_82108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorphoxim</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8405">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primaquine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An N-substituted diamine that is pentane-1,4-diamine substituted by a 6-methoxyquinolin-8-yl group at the N(4) position. It is a drug used in the treatment of malaria and Pneumocystis pneumonia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8811">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resmethrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
