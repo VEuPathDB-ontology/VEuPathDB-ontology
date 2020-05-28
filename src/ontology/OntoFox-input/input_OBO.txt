@@ -32,10 +32,15 @@ BFO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://purl.obolibrary.org/obo/BFO_0000067 #contains process
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000034 #function
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000018 #zero-dimensional spatial region
+subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
+http://purl.obolibrary.org/obo/BFO_0000018 #one-dimensional spatial region
+subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity 
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -203,9 +208,9 @@ http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0002033 #family relationship
 subClassOf http://purl.obolibrary.org/obo/BFO_0000020 #specifically dependent continuant
-
-#added 2019-08-23
 http://purl.obolibrary.org/obo/ERO_0001362 #immunoassay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/ERO_0000722 #patient screening
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
 
 [Source term retrieval setting]
@@ -311,7 +316,8 @@ http://purl.obolibrary.org/obo/BFO_0016788 #hydrolase activity, acting on ester 
 subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
 http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
 subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
-
+http://purl.obolibrary.org/obo/GO_0052689 #respiratory gaseous exchange by respiratory system
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -344,24 +350,6 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-
-############################################################
-[Source ontology]
-ICO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ICO_0000094 #follow-up visit
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ICO_0000094 #follow-up visit
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
 
 ############################################################
 [Source ontology]
@@ -484,6 +472,8 @@ OMRSE
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
+http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
+http://purl.obolibrary.org/obo/OMRSE_00000011 #patient role
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
@@ -492,6 +482,14 @@ http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
 subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
 subClassOf http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
+http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000011 #patient role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/OMRSE_00000146 #employment process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OMRSE_00000085 #socio-legal human social role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -566,7 +564,7 @@ PO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/PO_0009001 #fruit
-http://purl.obolibrary.org/obo/PO_0009046  #flower
+http://purl.obolibrary.org/obo/PO_0009046 #flower
 http://purl.obolibrary.org/obo/PO_0025131 #plant anatomical entity
 
 [Top level source term URIs and target direct superclass URIs]
@@ -612,6 +610,14 @@ http://purl.obolibrary.org/obo/RO_0001015 #location of
 http://purl.obolibrary.org/obo/RO_0002092 #happens during
 http://purl.obolibrary.org/obo/BFO_0000066 #occurs in
 http://purl.obolibrary.org/obo/RO_0002248 #has active ingredient
+http://purl.obolibrary.org/obo/RO_0000058 #is concretized as
+http://purl.obolibrary.org/obo/RO_0001001 #derives into
+http://purl.obolibrary.org/obo/RO_0002249 #active ingredient in
+
+[Top level source term URIs and target direct superclass URIs]
+subPropertyOf http://purl.obolibrary.org/obo/OBI_0000643 #has grain
+http://purl.obolibrary.org/obo/RO_0002418 #causally upstream of or within
+subPropertyOf http://www.w3.org/2002/07/owl#topObjectProperty
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -630,6 +636,7 @@ http://purl.obolibrary.org/obo/STATO_0000047 #count
 http://purl.obolibrary.org/obo/STATO_0000101 #has numerator
 http://purl.obolibrary.org/obo/STATO_0000259 #has denominator
 http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
+http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/STATO_0000047 #count
@@ -640,7 +647,8 @@ http://purl.obolibrary.org/obo/STATO_0000259 #has denominator
 subPropertyOf http://www.w3.org/2002/07/owl#topObjectProperty
 http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
-
+http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 [Source term retrieval setting]
 includeNoIntermediates

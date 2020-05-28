@@ -122,6 +122,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0000790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000790">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hematuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of blood in the urine. Hematuria may be gross hematuria (visible to the naked eye) or microscopic hematuria (detected by dipstick or microscopic examination of the urine).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000952 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000952">
@@ -376,6 +387,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004396">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor appetite</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
