@@ -18,7 +18,6 @@ http://purl.obolibrary.org/obo/OGMS_0000083 #physical examination finding
 http://purl.obolibrary.org/obo/OGMS_0000063 #disease course
 http://purl.obolibrary.org/obo/OGMS_0000097 #health care encounter
 http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
-# http://purl.obolibrary.org/obo/OMRSE_00002029 #education process - uncomment when in ontobee
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
@@ -47,7 +46,8 @@ http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 # http://purl.obolibrary.org/obo/OMRSE_00002029 #education process - uncomment when in ontobee
 # subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process - uncomment when in ontobee
-
+http://purl.obolibrary.org/obo/OGMS_0000104 #diagnostic process
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000096 #health care process
 
 [Source term retrieval setting]
 includeNoIntermediates

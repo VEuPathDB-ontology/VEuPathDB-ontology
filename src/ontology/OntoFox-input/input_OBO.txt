@@ -32,14 +32,13 @@ BFO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BFO_0000034 #function
-http://purl.obolibrary.org/obo/BFO_0000067 #contains process
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000034 #function
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
 http://purl.obolibrary.org/obo/BFO_0000018 #zero-dimensional spatial region
 subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
-http://purl.obolibrary.org/obo/BFO_0000018 #one-dimensional spatial region
+http://purl.obolibrary.org/obo/BFO_0000026 #one-dimensional spatial region
 subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity 
 
 [Source term retrieval setting]
@@ -316,7 +315,7 @@ http://purl.obolibrary.org/obo/BFO_0016788 #hydrolase activity, acting on ester 
 subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
 http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
 subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
-http://purl.obolibrary.org/obo/GO_0052689 #respiratory gaseous exchange by respiratory system
+http://purl.obolibrary.org/obo/GO_0007585 #respiratory gaseous exchange by respiratory system
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 
 [Source term retrieval setting]
@@ -490,6 +489,8 @@ http://purl.obolibrary.org/obo/OMRSE_00000146 #employment process
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/OMRSE_00000085 #socio-legal human social role
 subClassOf http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
+http://purl.obolibrary.org/obo/OMRSE_00000012 #health care provider role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role 
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -613,12 +614,9 @@ http://purl.obolibrary.org/obo/RO_0002248 #has active ingredient
 http://purl.obolibrary.org/obo/RO_0000058 #is concretized as
 http://purl.obolibrary.org/obo/RO_0001001 #derives into
 http://purl.obolibrary.org/obo/RO_0002249 #active ingredient in
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/RO_0002418 #causally upstream of or within
-subPropertyOf http://purl.obolibrary.org/obo/BFO_0000063 #precedes
+http://purl.obolibrary.org/obo/BFO_0000067 #contains process
 http://purl.obolibrary.org/obo/BFO_0000063 #precedes
-subPropertyOf http://www.w3.org/2002/07/owl#topObjectProperty
+http://purl.obolibrary.org/obo/RO_0002418 #causally upstream of or within
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -642,10 +640,6 @@ http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/STATO_0000047 #count
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027
-http://purl.obolibrary.org/obo/STATO_0000101 #has numerator
-subPropertyOf http://www.w3.org/2002/07/owl#topObjectProperty
-http://purl.obolibrary.org/obo/STATO_0000259 #has denominator
-subPropertyOf http://www.w3.org/2002/07/owl#topObjectProperty
 http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
