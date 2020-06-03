@@ -38,8 +38,6 @@ http://purl.obolibrary.org/obo/OBI_0001616 #Sample ID
 http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
 http://purl.obolibrary.org/obo/OBI_0001619 #Date of sample collection
 http://purl.obolibrary.org/obo/OBI_0001619 #Sample collection date
-http://purl.obolibrary.org/obo/OBI_0001620 #Latitude (degrees)
-http://purl.obolibrary.org/obo/OBI_0001621 #Longitude (degrees)
 http://purl.obolibrary.org/obo/OBI_0001622 #Title
 http://purl.obolibrary.org/obo/OBI_0001627 #Country
 http://purl.obolibrary.org/obo/OBI_0001891 #Sequencing center
@@ -228,10 +226,6 @@ http://purl.obolibrary.org/obo/OBI_0001616 #Sample ID
 subClassOf http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
 http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
 subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
-http://purl.obolibrary.org/obo/OBI_0001620 #Latitude (degrees)
-subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
-http://purl.obolibrary.org/obo/OBI_0001621 #Longitude (degrees)
-subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
 http://purl.obolibrary.org/obo/OBI_0001622 #Title
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/OBI_0001627 #Country
@@ -499,5 +493,4 @@ subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
 includeNoIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
+includeAllAxiomsRecursively
