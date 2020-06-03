@@ -1449,10 +1449,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>A phenotypic abnormality of the presence of bacteria in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000116>not in use; will replace w/Bacteremia from HP if equivalent term needed</obo:IAO_0000116>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Bacteremia</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">presence of bacteria in the blood</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_presence of bacteria in the blood</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1473,10 +1474,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>A phenotypic abnormality of the presence of a virus in the blood. It is a medical condition where viruses enter the bloodstream and hence have access to the rest of the body.</obo:IAO_0000115>
+        <obo:IAO_0000116>not in use; will replace w/Viremia from HP if equivalent term needed</obo:IAO_0000116>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Viremia</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">presence of virus in the blood</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_presence of virus in the blood</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3229,6 +3231,12 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A material entity where a clinical visit took place.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -3696,11 +3704,12 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000252">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>Pain perceived to originate in the muscle.</obo:IAO_0000115>
+        <obo:IAO_0000116>replaced by HP:0003326</obo:IAO_0000116>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label xml:lang="en">Muscle aches</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_Muscle aches</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15703,7 +15712,24 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000401 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000401"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000401">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000018"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000026"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -16442,6 +16468,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://www.ebi.ac.uk/efo/EFO_0002755 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002755"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004326 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
