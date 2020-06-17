@@ -729,15 +729,21 @@
                                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
                                                     <owl:Restriction>
                                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000011"/>
-                                                    </owl:Restriction>
-                                                    <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
                                                         <owl:someValuesFrom>
-                                                            <owl:Restriction>
-                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
-                                                            </owl:Restriction>
+                                                            <owl:Class>
+                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000011"/>
+                                                                    <owl:Restriction>
+                                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Restriction>
+                                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+                                                                            </owl:Restriction>
+                                                                        </owl:someValuesFrom>
+                                                                    </owl:Restriction>
+                                                                </owl:intersectionOf>
+                                                            </owl:Class>
                                                         </owl:someValuesFrom>
                                                     </owl:Restriction>
                                                 </owl:intersectionOf>
