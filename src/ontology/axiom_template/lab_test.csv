@@ -1,7 +1,7 @@
-﻿Ontology ID,Logical Type,molecular entity in blood
-ID,CLASS_TYPE,C 'is quality measurement of' some ('concentration of' and 'inheres in' some (% and 'part of' some blood))
-EUPATH:0023005,equivalent,hydrogencarbonate
-EUPATH:0023054,equivalent,bilirubin IXalpha
-EUPATH:0023011,equivalent,creatine
-EUPATH:0023010,equivalent,urea
-EUPATH:0000047,,hemoglobin
+Ontology ID,Logical Type,molecular entity in blood
+ID,CLASS_TYPE,C is_specified_output_of some (‘analyte assay’ and realizes some (‘analyte role’ and ‘role of’ some %) and realizes some (‘evaluant role’ and ‘role of’ some ‘blood specimen’))
+EUPATH:0023005,subclass,hydrogencarbonate
+EUPATH:0023054,subclass,bilirubin IXalpha
+EUPATH:0023011,subclass,creatine
+EUPATH:0023010,subclass,urea
+EUPATH:0000047,subclass,hemoglobin
