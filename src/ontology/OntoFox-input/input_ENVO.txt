@@ -47,7 +47,6 @@ http://purl.obolibrary.org/obo/ENVO_00002138 #beach sand
 http://purl.obolibrary.org/obo/ENVO_00002170 #compost
 http://purl.obolibrary.org/obo/ENVO_00002228 #pond water
 http://purl.obolibrary.org/obo/ENVO_00002261 #forest soil
-http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
 http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
 http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
 http://purl.obolibrary.org/obo/ENVO_00003096 #tap water
@@ -93,33 +92,26 @@ http://purl.obolibrary.org/obo/ENVO_01000599 #river water
 http://purl.obolibrary.org/obo/ENVO_01000603 #water truck
 http://purl.obolibrary.org/obo/ENVO_01000614 #Bicycle
 http://purl.obolibrary.org/obo/ENVO_01000615 #Motorcycle/Scooter 
-
 http://purl.obolibrary.org/obo/ENVO_01000462 #cement
 http://purl.obolibrary.org/obo/ENVO_00002869 #hay
 http://purl.obolibrary.org/obo/ENVO_01001117 #poultry manure
+#http://purl.obolibrary.org/obo/ENVO_01000825 #eaves - adding to externalByHand until fixed
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_00003064 #drinking water
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00000000 #geographic feature
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00002034 #biofilm
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
-http://purl.obolibrary.org/obo/ENVO_00003074 #manufactured product
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_01000462 #cement
 subClassOf http://purl.obolibrary.org/obo/ENVO_0010001 #anthropogenic environmental material
 http://purl.obolibrary.org/obo/ENVO_01001002 #animal-associated environment
 subClassOf http://purl.obolibrary.org/obo/ENVO_01001110 #ecosystem
-http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000004 #independent continuant
-
+http://purl.obolibrary.org/obo/ENVO_01001260 #waste disposal process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 [Source term retrieval setting]
 includeComputedIntermediates
 
@@ -147,12 +139,10 @@ http://purl.obolibrary.org/obo/ENVO_00000081 #mountain
 http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
 http://purl.obolibrary.org/obo/ENVO_00000067 #cave
 http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
-http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
 http://purl.obolibrary.org/obo/ENVO_00005801 #rhizosphere
 http://purl.obolibrary.org/obo/ENVO_00000078 #farm
 http://purl.obolibrary.org/obo/ENVO_00000111 #forest
 http://purl.obolibrary.org/obo/ENVO_01000408 #environmental zone
-http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_01000574 #candle
@@ -178,13 +168,11 @@ subClassOf http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
 http://purl.obolibrary.org/obo/ENVO_00000081 #mountain
 subClassOf http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
 http://purl.obolibrary.org/obo/ENVO_00000176 #elevation
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00000067 #cave
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00000330 #stalagmite
-subClassOf http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-http://purl.obolibrary.org/obo/ENVO_00000191 #solid landform
-subClassOf http://purl.obolibrary.org/obo/ENVO_00002297 #environmental feature
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_01000600 #rainwater
 subClassOf http://purl.obolibrary.org/obo/ENVO_00002011 #fresh water
 http://purl.obolibrary.org/obo/ENVO_01000469 #exterior wall

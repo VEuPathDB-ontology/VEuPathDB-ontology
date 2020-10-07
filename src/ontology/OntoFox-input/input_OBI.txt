@@ -69,7 +69,7 @@ http://purl.obolibrary.org/obo/OBI_0002001 #Illumina HiSeq 2000
 http://purl.obolibrary.org/obo/OBI_0300311 #observation design
 http://purl.obolibrary.org/obo/OBI_0302716 #pool of specimens
 http://purl.obolibrary.org/obo/OBI_0000220 #reference subject role
-http://purl.obolibrary.org/obo/OBI_0001598 #sampling time measurement datum
+http://purl.obolibrary.org/obo/OBI_0001508 #sampling time measurement datum
 http://purl.obolibrary.org/obo/OBI_1110021 #infection process
 http://purl.obolibrary.org/obo/OBI_1110122 #pathologic process
 http://purl.obolibrary.org/obo/OBI_0002444 #measurand role
@@ -165,6 +165,14 @@ http://purl.obolibrary.org/obo/OBI_0000268 #organism feature identification obje
 http://purl.obolibrary.org/obo/OBI_0002648 #individual organism specimen
 http://purl.obolibrary.org/obo/OBI_0000304 #is_manufactured_by
 http://purl.obolibrary.org/obo/OBI_0002598 #inverse polymerase chain reaction
+http://purl.obolibrary.org/obo/OBI_0002746 #induced sputum specimen
+http://purl.obolibrary.org/obo/OBI_0002747 #passage process
+http://purl.obolibrary.org/obo/OBI_0002748 #passage history record
+http://purl.obolibrary.org/obo/OBI_0002769 #karyotype information
+http://purl.obolibrary.org/obo/OBI_0002770 #partial karyotype information
+http://purl.obolibrary.org/obo/OBI_0400171 #animal cage
+http://purl.obolibrary.org/obo/OBI_0000443 #analyte assay
+http://purl.obolibrary.org/obo/OBI_0000275 #analyte role
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0001876 #cell culture
@@ -459,7 +467,6 @@ http://purl.obolibrary.org/obo/OBI_0600058 #enzymatic amplification
 subClassOf http://purl.obolibrary.org/obo/OBI_0000094 #material processing
 http://purl.obolibrary.org/obo/OBI_0000268 #organism feature identification objective
 subClassOf http://purl.obolibrary.org/obo/OBI_0000015 #biological feature identification objective
-
 http://purl.obolibrary.org/obo/OBI_0002512 #bone marrow specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 http://purl.obolibrary.org/obo/OBI_0002502 #cerebrospinal fluid specimen
@@ -486,9 +493,13 @@ http://purl.obolibrary.org/obo/OBI_0002503 #feces specimen
 subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
 subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
+http://purl.obolibrary.org/obo/OBI_0000443 #analyte assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
+http://purl.obolibrary.org/obo/OBI_0000275 #analyte role
+subClassOf http://purl.obolibrary.org/obo/OBI_0002444 #measurand role
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
-includeAllAxiomsRecursively
+includeAllAxioms

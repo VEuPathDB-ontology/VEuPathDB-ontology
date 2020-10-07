@@ -13,6 +13,7 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath_dev.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/diagnosis.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/general.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/lab_test.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/symptom_duration.owl"/>
@@ -891,12 +892,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002297 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002297"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00003064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003064"/>
@@ -1140,19 +1135,13 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000472"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A processed material that is the bottom edge of a roof.  The primary function of the eaves is to keep rain water off the walls and to prevent the ingress of water at the junction where the roof meets the wall.  The secondary function is to control solar penetration; the eaves overhang can be designed to adjust the building&apos;s solar heat gain to suit the local climate, the latitude and orientation of the building, refer to passive solar building design. The eaves overhang may also shelter openings to ventilate the roof space.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Eaves</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>eaves</rdfs:label>
+        <rdfs:label>obsolete_eaves</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -4466,7 +4455,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>A diagnosis given at time of discharge.</obo:IAO_0000115>
+        <obo:IAO_0000115>A diagnosis that is documented during the discharge process.</obo:IAO_0000115>
         <oboInOwl:inSubset>ICEMR prism</oboInOwl:inSubset>
         <rdfs:label>diagnosis at discharge</rdfs:label>
     </owl:Class>
@@ -4934,9 +4923,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000368">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
         <obo:IAO_0000115>An environmental feature for disposing garbage.</obo:IAO_0000115>
-        <rdfs:label>garbage disposal</rdfs:label>
+        <rdfs:label>obsolete_garbage disposal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5038,7 +5027,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">an information content entity that specifies the relationship between a participant under investigation and the head of the participant&apos;s household</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>relationship to head of Family</rdfs:label>
+        <rdfs:label>relationship to head of family</rdfs:label>
     </owl:Class>
     
 
@@ -5179,7 +5168,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity about travel to any place more than 10 km away from where a person live.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity about travel to any place more than 10 km away from where a person lives.</obo:IAO_0000115>
         <rdfs:label>information on travel in the last month</rdfs:label>
     </owl:Class>
     
@@ -7439,12 +7428,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000581">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
         <obo:IAO_0000115 xml:lang="en">a health care encounter in which a health care provider assists a mother in the birth of a child</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">baby&apos;s delivery</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">mode of baby delivery</rdfs:label>
+        <rdfs:label xml:lang="en">baby delivery</rdfs:label>
     </owl:Class>
     
 
@@ -7643,9 +7632,11 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000596">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002297"/>
-        <obo:IAO_0000115>An environmental feature for disposing human waste.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human waste disposal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity about disposal of human excreta material.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118>Waste disposal</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">information on disposal of human excreta material</rdfs:label>
     </owl:Class>
     
 
@@ -8198,7 +8189,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000638">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>A diagnosis given at time of hospitalization.</obo:IAO_0000115>
+        <obo:IAO_0000115>A diagnosis that is documented during the admission process.</obo:IAO_0000115>
         <oboInOwl:inSubset>ICEMR prism</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">diagnosis at hospitalization</rdfs:label>
     </owl:Class>
@@ -8255,10 +8246,11 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000596"/>
-        <obo:IAO_0000115 xml:lang="en">A human waste disposal that has the function of disposing of waste material produced by a human child</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity about disposal of excreta material produced by a child.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118>Child waste disposal</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>human child waste disposal</rdfs:label>
+        <rdfs:label>information on disposal of child excreta material</rdfs:label>
     </owl:Class>
     
 
@@ -8602,6 +8594,28 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000789">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000610"/>
         <rdfs:label>pinna lesion score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000112>A mosquito feeds on a human whereby the human acquires the blood host role for the mosquito blood meal.</obo:IAO_0000112>
+        <obo:IAO_0000115>A role borne by an organism that is gained during a process in which another organism ingests blood as food from the organism.</obo:IAO_0000115>
+        <rdfs:label>blood meal source role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>A time measurement datum that is about the duration of exposure to an insecticide that results in the death of 50% of a population of insects.</obo:IAO_0000115>
+        <obo:IAO_0000118>LT50</obo:IAO_0000118>
+        <rdfs:label>lethal insecticide time 50</rdfs:label>
     </owl:Class>
     
 
@@ -11356,14 +11370,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0015130 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a diagnosis that is an assertion that a patient who is the subject of a diagnostic process has diarrhea</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhea</obo:IAO_0000118>
-        <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of diarrhea</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015130"/>
     
 
 
@@ -15797,24 +15804,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000401 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000401">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000018"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000026"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000401"/>
     
 
 

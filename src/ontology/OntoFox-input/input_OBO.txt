@@ -4,7 +4,7 @@ http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl
 # Do not add IAO 'mentions' here - it is in externalByHand.owl
 
 ############################################################
-# APOLLO_SV, BFO, BTO, CL, CMO, DRON, EFO, ERO, FLU, FOODON, GENEPIO, GO,
+# APOLLO_SV, BFO, BTO, CL, CMO, DRON, EFO, ERO, FOODON, GENEPIO, GO,
 # IAO, IDO, NCIT, OBIB, OGMS, OMP, OMRSE, OPL, PCO, PDRO, PO, REO, RO, STATO, VO
 
 ############################################################
@@ -27,22 +27,20 @@ http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
 
 ############################################################
 [Source ontology]
-#comment here
 BFO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/BFO_0000034 #function
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000034 #function
-subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
-http://purl.obolibrary.org/obo/BFO_0000018 #zero-dimensional spatial region
-subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
-http://purl.obolibrary.org/obo/BFO_0000026 #one-dimensional spatial region
-subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity 
+http://purl.obolibrary.org/obo/BFO_0000006 #spatial region
+http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
 
 [Source term retrieval setting]
 includeNoIntermediates
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000006 #spatial region
+subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
+http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
@@ -159,7 +157,6 @@ EFO
 [Low level source term URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
 http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth, Birth date
-
 http://www.ebi.ac.uk/efo/EFO_0005056 #Age at death
 http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
 http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
@@ -167,6 +164,7 @@ http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
 http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
 http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
 http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
+http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
@@ -187,7 +185,8 @@ http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
 subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
 http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum 
-
+http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #DOID:disease
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -211,25 +210,6 @@ http://purl.obolibrary.org/obo/ERO_0001362 #immunoassay
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
 http://purl.obolibrary.org/obo/ERO_0000722 #patient screening
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-############################################################
-[Source ontology]
-FLU
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/FLU_0001025 #passage history record
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FLU_0001025 #passage history record
-subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
-
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -294,12 +274,12 @@ GO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
-
 http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
 http://purl.obolibrary.org/obo/GO_0003990 #acetylcholinesterase activity
 http://purl.obolibrary.org/obo/GO_0004364 #glutathione transferase activity
 http://purl.obolibrary.org/obo/GO_0016788 #hydrolase activity, acting on ester bonds
 http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
+http://purl.obolibrary.org/obo/GO_0033561 #regulation of water loss via skin
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
@@ -317,6 +297,8 @@ http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
 subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
 http://purl.obolibrary.org/obo/GO_0007585 #respiratory gaseous exchange by respiratory system
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0007567 #parturition
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -332,23 +314,18 @@ IAO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
-http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum, Height (cm)
+http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
-http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
-subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000400 #cartesian spatial coordinate datum
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
+includeAllAxiomsRecursively
 
 ############################################################
 [Source ontology]
@@ -360,8 +337,8 @@ http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
 http://purl.obolibrary.org/obo/IDO_0000586 #infection
 http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
-
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
@@ -371,10 +348,11 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality 
-
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -403,15 +381,12 @@ http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/NCIT_C53693 #Dog breed
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_2759 #Eukaryota
-
-#added 2019-08-23
 http://purl.obolibrary.org/obo/NCIT_C29107 #IV Fluid
 subClassOf http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
 http://purl.obolibrary.org/obo/NCIT_C85819 #thick smear technique
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/NCIT_C85820 #thin smear technique
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
-
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -473,6 +448,12 @@ http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
 http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
 http://purl.obolibrary.org/obo/OMRSE_00000011 #patient role
+http://purl.obolibrary.org/obo/OMRSE_00000209 #gender identity information content entity
+http://purl.obolibrary.org/obo/OMRSE_00000126 #patient discharge
+http://purl.obolibrary.org/obo/OMRSE_00000201 #admission process
+http://purl.obolibrary.org/obo/OMRSE_00000205 #ethnic identity information content entity
+http://purl.obolibrary.org/obo/OMRSE_00002045 #highest level of education data item
+http://purl.obolibrary.org/obo/OMRSE_00000075 #residence function
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
@@ -490,7 +471,9 @@ subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/OMRSE_00000085 #socio-legal human social role
 subClassOf http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 http://purl.obolibrary.org/obo/OMRSE_00000012 #health care provider role
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/OMRSE_00000075 #residence function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -498,6 +481,7 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+includeAllAxioms
 
 ############################################################
 [Source ontology]
@@ -507,6 +491,7 @@ OPL
 http://purl.obolibrary.org/obo/OPL_0000232 #parasite organism
 http://purl.obolibrary.org/obo/OPL_0000152 #sporozoite stage 
 http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+http://purl.obolibrary.org/obo/OPL_0000150 #gametocyte stage
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OPL_0000232 #parasite organism
@@ -529,10 +514,14 @@ PCO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/PCO_0000024 #household
+http://purl.obolibrary.org/obo/PCO_0000054 #number of generations of multicellular organism
+http://purl.obolibrary.org/obo/PCO_0000061 #parasite isolate population
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PCO_0000024 #household
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/PCO_0000054 #number of generations of multicellular organism
+subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -616,6 +605,8 @@ http://purl.obolibrary.org/obo/RO_0001001 #derives into
 http://purl.obolibrary.org/obo/BFO_0000067 #contains process
 http://purl.obolibrary.org/obo/BFO_0000063 #precedes
 http://purl.obolibrary.org/obo/RO_0002418 #causally upstream of or within
+http://purl.obolibrary.org/obo/RO_0002083 #before
+http://purl.obolibrary.org/obo/RO_0002249 #active ingredient in
 
 [Source term retrieval setting]
 includeNoIntermediates
