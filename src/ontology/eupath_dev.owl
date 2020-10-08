@@ -1427,10 +1427,10 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115 xml:lang="en">a diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has malaria</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A diagnosis that represents one of the following conclusions about a patient: that the patient has malaria, asymptomatic parasitemia, or no parasitemia.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">diagnosis of malaria</rdfs:label>
+        <rdfs:label xml:lang="en">malaria-related diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -4924,6 +4924,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000368">
         <obo:IAO_0000115>An environmental feature for disposing garbage.</obo:IAO_0000115>
+        <obo:IAO_0100001>replaced with ENVO_01001260</obo:IAO_0100001>
         <rdfs:label>obsolete_garbage disposal</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>

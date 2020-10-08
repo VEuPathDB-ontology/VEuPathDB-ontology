@@ -45,6 +45,7 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000600 #elucidation
 
 ############################################################
 [Source ontology]
@@ -92,7 +93,6 @@ CMO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CMO_0000027 #White blood cell count (per mm3)
 http://purl.obolibrary.org/obo/CMO_0000289 #Respiration rate (breaths/min)
-
 http://purl.obolibrary.org/obo/CMO_0000381 #partial pressure of blood oxygen (Po2)
 http://purl.obolibrary.org/obo/CMO_0000005 #diastolic blood pressure
 
@@ -106,14 +106,15 @@ http://purl.obolibrary.org/obo/CMO_0000381 #partial pressure of blood oxygen (Po
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
 http://purl.obolibrary.org/obo/CMO_0000005 #diastolic blood pressure
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://purl.obolibrary.org/obo/CMO_0000254 #forced expiratory volume
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-
+http://purl.obolibrary.org/obo/def #definition
 
 ############################################################
 [Source ontology]
