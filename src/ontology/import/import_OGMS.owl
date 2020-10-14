@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl"/>
     
 
@@ -18,23 +19,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label>definition</rdfs:label>
-    </owl:AnnotationProperty>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -82,10 +80,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
-        <rdfs:label>clinical finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical finding</rdfs:label>
     </owl:Class>
     
 
@@ -93,10 +91,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
-        <rdfs:label>clinical history</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&#39;s family.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&apos;s family.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical history</rdfs:label>
     </owl:Class>
     
 
@@ -104,10 +102,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000018">
-        <rdfs:label>laboratory finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115 xml:lang="en">A representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>laboratory finding</rdfs:label>
     </owl:Class>
     
 
@@ -115,10 +113,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000027">
-        <rdfs:label>clinical phenotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115 xml:lang="en">A clinically abnormal phenotype.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical phenotype</rdfs:label>
     </owl:Class>
     
 
@@ -126,9 +124,9 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031">
-        <rdfs:label>disease</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>disease</rdfs:label>
     </owl:Class>
     
 
@@ -136,10 +134,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000056">
-        <rdfs:label>clinical laboratory test</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 xml:lang="en">A measurement assay that has as input a patient-derived specimen and as output a data item that is about a quality of the specimen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical laboratory test</rdfs:label>
     </owl:Class>
     
 
@@ -147,10 +145,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000063">
-        <rdfs:label>disease course</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">The totality of all processes through which a given disease instance is realized.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>disease course</rdfs:label>
     </owl:Class>
     
 
@@ -158,10 +156,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
-        <rdfs:label>diagnosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -169,10 +167,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000083">
-        <rdfs:label>physical examination finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115 xml:lang="en">TODO: Define.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>physical examination finding</rdfs:label>
     </owl:Class>
     
 
@@ -180,10 +178,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
-        <rdfs:label>treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>treatment</rdfs:label>
     </owl:Class>
     
 
@@ -191,10 +189,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
-        <rdfs:label>health care process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A planned process with the objective to improve the health status of a patient that directly involves the treatment, diagnosis, or prevention of disease or injury of a patient</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>health care process</rdfs:label>
     </owl:Class>
     
 
@@ -202,10 +200,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
-        <rdfs:label>health care encounter</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
         <obo:IAO_0000115 xml:lang="en">A temporally-connected health care process that has as participants an organization or person realizing the health care provider role and a person realizing the patient role.  The health care provider role and patient are realized during the health care encounter</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>health care encounter</rdfs:label>
     </owl:Class>
     
 
@@ -213,10 +211,10 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
-        <rdfs:label>diagnostic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000096"/>
         <obo:IAO_0000115 xml:lang="en">A health care process that involves the interpretation of a clinical picture from a given patient (input) and the assertion to the effect that the patient has a disease, disorder, or syndrome of a certain type, or none of these (output).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>diagnostic process</rdfs:label>
     </owl:Class>
     
 
@@ -224,14 +222,14 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123">
-        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

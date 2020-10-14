@@ -284,7 +284,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0010025"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/UO_0010025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -777,12 +777,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000377">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000413"/>
                 <owl:allValuesFrom>
                     <owl:Restriction>
@@ -790,6 +784,12 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000075"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/UO_0000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1088,6 +1088,19 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000579">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/UO_0000033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2408,15 +2421,32 @@
     
 
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000033"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000036"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000036"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0010025"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025"/>
 </rdf:RDF>
 
 
