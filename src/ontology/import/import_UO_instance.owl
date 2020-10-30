@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl"/>
     
 
@@ -19,20 +18,20 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
-
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
     
 
 
@@ -65,6 +64,83 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one millionth of a gram or 10^[-6] g. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000024 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000024">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one thousandth of one millionth of a gram or 10^[-9] g. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000031 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 60 seconds. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000032 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 3600 seconds or 60 minutes. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 24 hours. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000047"/>
@@ -77,6 +153,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000054"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095"/>
@@ -86,6 +168,28 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000166"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000169 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000169">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parts per million</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000166"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6]. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000170 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000170">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parts per billion</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000166"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure as long as they are the same or 1 part in 10^[9]. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
@@ -107,9 +211,108 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000188 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000188">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless unit which denoted an irrational real number, approximately equal to 3.14159 which is the ratio of a circle&#39;s circumference to its diameter in Euclidean geometry. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000189"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000192 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule count</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless count unit which denotes the number of molecules. [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000193 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the homogeneity of a biomaterial. [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the density of an attached or monolayer culture (e.g., cell culture). [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+). [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000197">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter per kilogram</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one liter volume occupied by one kilogram of a particular substance. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per kilogram</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter per kilogram</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
@@ -119,9 +322,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per milliliter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter. [Bioedonline:Bioedonline]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000202"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per cubic meter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one cubic meter. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per liter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one thousandth of a cubic meter. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
@@ -131,9 +367,108 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per cubic meter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per liter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per deciliter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass density unit which is equal to mass of an object in grams divided by the volume in deciliters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000273 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000273">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per liter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000274 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per milliliter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000301 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per liter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UO_0000307 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000307"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000309 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per square meter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per square meter of surface area of the recipient subject. [UO:PC]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acre</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010049 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square meter</rdfs:label>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000054"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area density unit which is equal to the mass of an object in grams divided by the surface area in meters squared. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
     
 
 
@@ -151,10 +486,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000023 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000023">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one millionth of a gram or 10^[-6] g.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one millionth of a gram or 10^[-6] g. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -162,10 +496,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000024 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000024">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one thousandth of one millionth of a gram or 10^[-9] g.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nanogram</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one thousandth of one millionth of a gram or 10^[-9] g. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -173,10 +506,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000027 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Celsius</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to one kelvin degree. However, they have their zeros at different points. The centigrade scale has its zero at 273.15 K. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -184,10 +516,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000031 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 60 seconds.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 60 seconds. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -195,10 +526,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000032 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 3600 seconds or 60 minutes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 3600 seconds or 60 minutes. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -206,10 +536,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000033 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;A time unit which is equal to 24 hours.&quot; [Wikipedia:Wikipedia]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 24 hours. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -217,10 +546,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000036 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">year</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A time unit which is equal to 12 months which in science is taken to be equal to 365.25 days. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -228,10 +556,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000169 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000169">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000166"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parts per million</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000 regardless of the units of measure used as long as they are the same or 1 part in 10^[6]. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -239,10 +566,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000170 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000170">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000166"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure as long as they are the same or 1 part in 10^[9].</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parts per billion</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the amount of a given substance in a total amount of 1,000,000,000 regardless of the units of measure as long as they are the same or 1 part in 10^[9]. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -250,10 +576,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000188 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000188">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000186"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless unit which denoted an irrational real number, approximately equal to 3.14159 which is the ratio of a circle&apos;s circumference to its diameter in Euclidean geometry.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pi</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless unit which denoted an irrational real number, approximately equal to 3.14159 which is the ratio of a circle&#39;s circumference to its diameter in Euclidean geometry. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -261,10 +586,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000192 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000192">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000189"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless count unit which denotes the number of molecules.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecule count</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless count unit which denotes the number of molecules. [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -272,10 +596,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000193 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000193">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the homogeneity of a biomaterial.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purity percentage</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the homogeneity of a biomaterial. [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -283,10 +606,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000194 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000194">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the density of an attached or monolayer culture (e.g., cell culture).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confluence percentage</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless percent unit which denotes the density of an attached or monolayer culture (e.g., cell culture). [MGED:MGED]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -294,10 +616,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000195 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree Fahrenheit</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -305,10 +626,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000196 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000051"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+). [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -316,10 +636,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000197 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000197">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one liter volume occupied by one kilogram of a particular substance.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liter per kilogram</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one liter volume occupied by one kilogram of a particular substance. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -327,10 +646,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000198 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000198">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per kilogram</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to a thousandth of a liter per kilogram or 10^[-3] l/kg. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -338,10 +656,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000199 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000199">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microliter per kilogram</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specific volume unit which is equal to one millionth of a liter per kilogram or 10^[-6] l/kg. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -349,10 +666,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000201 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000200"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cells per milliliter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter. [Bioedonline:Bioedonline]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -360,10 +676,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000203 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000203">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one cubic meter.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per cubic meter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one cubic meter. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -371,10 +686,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000204 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000204">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000202"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one thousandth of a cubic meter.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">katal per liter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A catalytic (activity) concentration unit which is equal to 1 katal activity of a catalyst in a given volume of one thousandth of a cubic meter. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -382,10 +696,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000206 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000206">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per cubic meter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one cubic meter of solution. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -393,10 +706,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000207 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000207">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000205"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milliliter per liter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A volume per unit volume unit which is equal to one millionth of a liter of solute in one liter of solution. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -404,10 +716,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000208 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000208">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass density unit which is equal to mass of an object in grams divided by the volume in deciliters.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per deciliter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass density unit which is equal to mass of an object in grams divided by the volume in deciliters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -415,10 +726,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000273 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000273">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per liter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in milligrams divided by the volume in liters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -426,10 +736,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000274 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000274">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per milliliter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in millliters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -437,10 +746,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000301 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000301">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000182"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microgram per liter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit density which is equal to mass of an object in micrograms divided by the volume in liters. [UOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -448,10 +756,9 @@
     <!-- http://purl.obolibrary.org/obo/UO_0000309 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000309">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000307"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per square meter of surface area of the recipient subject.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram per square meter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dose unit which is equal to 1 milligram of a toxic or pharmaceutical substance per square meter of surface area of the recipient subject. [UO:PC]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
     
 
@@ -459,14 +766,23 @@
     <!-- http://purl.obolibrary.org/obo/UO_0010025 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010025">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000047"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acre</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area unit which is equivalent to 1 furlong x 1 chain. This is equal to an area of 4,046.856,4224 square meters, or 43,500 square feet. [Wikipedia:Wikipedia]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0010049 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0010049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gram per square meter</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An area density unit which is equal to the mass of an object in grams divided by the surface area in meters squared. [NIST:NIST]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
 
