@@ -414,6 +414,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34761">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenthion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_34839 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34839">
@@ -822,20 +836,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resmethrin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_34761  -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34761 ">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24852"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fenthion</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
