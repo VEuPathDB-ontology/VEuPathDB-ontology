@@ -1533,12 +1533,12 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000064"/>
-        <obo:IAO_0000115>A symptom or sign that is used for the diagnosis of severe malaria based on World Health Organization (WHO) criteria.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000309"/>
+        <obo:IAO_0000115>Symptom or sign information that is used for the diagnosis of severe malaria based on World Health Organization (WHO) criteria.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>severe malaria symptom or sign</rdfs:label>
+        <rdfs:label>severe malaria symptom or sign information</rdfs:label>
     </owl:Class>
     
 
@@ -1800,17 +1800,9 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000064">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000118"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:IAO_0000115>A dependent continuant which is either disease or phenotypic abnormality.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical characteristics</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_clinical characteristics</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
