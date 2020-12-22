@@ -74,6 +74,25 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 ############################################################
 [Source ontology]
+CIDO
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OPMI_0000435 #positive COVID-19 case
+http://purl.obolibrary.org/obo/CIDO_0000437 #negative COVID-19 case
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OPMI_0000435 #positive COVID-19 case
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/CIDO_0000437 #negative COVID-19 case
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+############################################################
+[Source ontology]
 CL
 
 [Low level source term URIs]
@@ -285,11 +304,12 @@ http://purl.obolibrary.org/obo/GO_0004364 #glutathione transferase activity
 http://purl.obolibrary.org/obo/GO_0016788 #hydrolase activity, acting on ester bonds
 http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
 http://purl.obolibrary.org/obo/GO_0033561 #regulation of water loss via skin
+http://purl.obolibrary.org/obo/GO_0043514 #interleukin-12 complex (Interleukin 12, p70)
+http://purl.obolibrary.org/obo/GO_1990265 #platelet-derived growth factor complex	 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
-
 http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 http://purl.obolibrary.org/obo/BFO_0003990 #acetylcholinesterase activity
@@ -304,6 +324,10 @@ http://purl.obolibrary.org/obo/GO_0007585 #respiratory gaseous exchange by respi
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://purl.obolibrary.org/obo/GO_0007567 #parturition
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0043514 #interleukin-12 complex (Interleukin 12, p70)
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_1990265 #platelet-derived growth factor complex	 
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -321,16 +345,25 @@ IAO
 http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
 http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0100001 #term replaced by
+http://purl.obolibrary.org/obo/IAO_0000311 #publication
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
 subClassOf http://purl.obolibrary.org/obo/IAO_0000400 #cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000445 #document in preparation for publication
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/IAO_0000311 #publication
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 #document
 
 [Source term retrieval setting]
 includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAxiomsRecursively
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0100001 #term replaced by
 
 ############################################################
 [Source ontology]
@@ -344,6 +377,7 @@ http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
 http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
 http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
+http://purl.obolibrary.org/obo/IDO_0000552 #endotoxin
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
@@ -358,6 +392,8 @@ http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/IDO_0000552 #endotoxin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -373,14 +409,11 @@ NCIT
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus, Fungal organism
-http://purl.obolibrary.org/obo/NCIT_C123491 #Iodamoeba butschlii
 http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus
 subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33154 #Opisthokonta
-http://purl.obolibrary.org/obo/NCIT_C123491 #Iodamoeba butschlii
-subClassOf http://purl.obolibrary.org/obo/NCBITaxon_1089792 #Iodamoeba
 http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/NCIT_C29107 #IV Fluid
@@ -389,10 +422,6 @@ http://purl.obolibrary.org/obo/NCIT_C85819 #thick smear technique
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/NCIT_C85820 #thin smear technique
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
-http://purl.obolibrary.org/obo/NCIT_C77200 #Rhinovirus
-subClassOf http://purl.obolibrary.org/obo/NCBITaxon_12059 #Enterovirus
-http://purl.obolibrary.org/obo/NCIT_C86190 #Beta-Hemolytic Streptococcus
-subClassOf http://purl.obolibrary.org/obo/NCBITaxon_1301 #Streptococcus
 
 [Source term retrieval setting]
 includeNoIntermediates
