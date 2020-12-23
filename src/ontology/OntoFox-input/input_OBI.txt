@@ -27,13 +27,11 @@ http://purl.obolibrary.org/obo/OBI_0001185 #selectively maintained organism
 http://purl.obolibrary.org/obo/OBI_0000725 #host role
 http://purl.obolibrary.org/obo/OBI_0000626 #DNA sequencing
 http://purl.obolibrary.org/obo/OBI_0000651 #Urine sample
-http://purl.obolibrary.org/obo/OBI_0000655 #Blood sample
 http://purl.obolibrary.org/obo/OBI_0000659 #Sample collection
 http://purl.obolibrary.org/obo/OBI_0000810 #Informed consent
 http://purl.obolibrary.org/obo/OBI_0000995 #Administration of material to specimen
 http://purl.obolibrary.org/obo/OBI_0001141 #Host ID
 http://purl.obolibrary.org/obo/OBI_0001169 #Age
-http://purl.obolibrary.org/obo/OBI_0001169 #Age (years)
 http://purl.obolibrary.org/obo/OBI_0001616 #Sample ID
 http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
 http://purl.obolibrary.org/obo/OBI_0001619 #Date of sample collection
@@ -218,8 +216,6 @@ http://purl.obolibrary.org/obo/OBI_0000626 #DNA sequencing
 subClassOf http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
 http://purl.obolibrary.org/obo/OBI_0000651 #Urine sample
 subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
-http://purl.obolibrary.org/obo/OBI_0000655 #Blood sample
-subClassOf http://purl.obolibrary.org/obo/OBI_0100051 #specimen
 http://purl.obolibrary.org/obo/OBI_0000659 #Sample collection
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 http://purl.obolibrary.org/obo/OBI_0000810 #Informed consent
@@ -235,8 +231,6 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered iden
 http://purl.obolibrary.org/obo/OBI_0001619 #Collection date
 subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
 http://purl.obolibrary.org/obo/OBI_0001622 #Title
-subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
-http://purl.obolibrary.org/obo/OBI_0001627 #Country
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/OBI_0001891 #Sequencing center
 subClassOf http://purl.obolibrary.org/obo/OBI_0000245 #organization
@@ -498,10 +492,19 @@ http://purl.obolibrary.org/obo/OBI_0000443 #analyte assay
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 #assay
 http://purl.obolibrary.org/obo/OBI_0000275 #analyte role
 subClassOf http://purl.obolibrary.org/obo/OBI_0002444 #measurand role
+http://purl.obolibrary.org/obo/OBI_0002157 #HBV surface antigen assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000443 #analyte assay
+http://purl.obolibrary.org/obo/OBI_0002505 #milk specimen	 
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002504 #digestive system fluid or secretion specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0001479 #specimen from organism
+http://purl.obolibrary.org/obo/OBI_0002606 #nasopharyngeal swab specimen
 
 [Source term retrieval setting]
 includeNoIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
-includeAllAnnotations
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
