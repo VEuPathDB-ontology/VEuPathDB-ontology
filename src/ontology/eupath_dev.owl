@@ -156,7 +156,6 @@
         <rdfs:comment>Term description provided by PRISM group</rdfs:comment>
         <rdfs:label xml:lang="en">obsolete_PRISM description</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </owl:AnnotationProperty>
     
 
@@ -3697,7 +3696,6 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
         <obo:IAO_0000115>A light source that light is produced from solar energy.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0100001>OBI:0002902</obo:IAO_0100001>
@@ -14451,11 +14449,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a scalar measurement datum of the concentration of creatine in blood that is the specified output of a blood test</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creatinine (mg/dL)</obo:IAO_0000118>
-        <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood creatine concentration</rdfs:label>
     </owl:Class>
     
 
@@ -14902,7 +14896,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
-                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043063"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/OBI_0002903"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001060</obo:EUPATH_0043061>
@@ -14932,7 +14926,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043041"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000153</obo:EUPATH_0043061>
