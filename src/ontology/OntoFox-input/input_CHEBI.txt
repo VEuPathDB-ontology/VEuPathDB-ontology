@@ -123,6 +123,7 @@ http://purl.obolibrary.org/obo/CHEBI_35780 #phosphate ion
 http://purl.obolibrary.org/obo/CHEBI_50211 #retinol
 http://purl.obolibrary.org/obo/CHEBI_27226 #uric acid
 http://purl.obolibrary.org/obo/CHEBI_27300 #vitamin D
+http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine - antimalarial
@@ -161,7 +162,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_87113 #antibiotic antifungal dru
 http://purl.obolibrary.org/obo/CHEBI_6076 #Itraconazole
 subClassOf http://purl.obolibrary.org/obo/CHEBI_87101 #triazole antifungal drug (has antifungal drug role)
 http://purl.obolibrary.org/obo/CHEBI_63609 #Mefloquine - antimalarial
-subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 http://purl.obolibrary.org/obo/CHEBI_64355 #Posaconazole
 subClassOf http://purl.obolibrary.org/obo/CHEBI_87101 #triazole antifungal drug (has antifungal drug role)
 http://purl.obolibrary.org/obo/CHEBI_8405 #Primaquine - antimalarial
@@ -249,9 +250,9 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_39325 #lambda-cyhalothrin - has role 'pyrethroid ester insecticide'
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_39331 #alpha-cypermethrin - has role 'pyrethroid ester insecticide'
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 http://purl.obolibrary.org/obo/CHEBI_39332 #beta-cypermethrin - has role 'pyrethroid ester insecticide'
-subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
 http://purl.obolibrary.org/obo/CHEBI_39347 #chlorfenapyr
 subClassOf http://purl.obolibrary.org/obo/CHEBI_25705 #organochlorine insecticide (has role i'side)
 http://purl.obolibrary.org/obo/CHEBI_39348 #etofenprox - has role 'pyrethroid ester insecticide'
@@ -266,14 +267,14 @@ http://purl.obolibrary.org/obo/CHEBI_4042 #cypermethrin - has role 'pyrethroid e
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_4388 #deltamethrin - has role 'pyrethroid ester insecticide'
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
-http://purl.obolibrary.org/obo/CHEBI_5063 #fipronil
-subClassOf  http://purl.obolibrary.org/obo/CHEBI_39090 #phenylpyrazole insecticide
+http://purl.obolibrary.org/obo/CHEBI_5063 #fipronil - has role insecticide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 http://purl.obolibrary.org/obo/CHEBI_5870 #imidacloprid - has role 'neonicotinoid insecticide'
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_6649 #malaoxon
-subClassOf http://purl.obolibrary.org/obo/CHEBI_25715 #organothiophosphate insecticide 
+subClassOf http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 http://purl.obolibrary.org/obo/CHEBI_6651 #malathion
-subClassOf http://purl.obolibrary.org/obo/CHEBI_25715 #organothiophosphate insecticide 
+subClassOf http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 http://purl.obolibrary.org/obo/CHEBI_6842 #methoxychlor
 subClassOf http://purl.obolibrary.org/obo/CHEBI_25705 #organochlorine insecticide (has role i'side)
 http://purl.obolibrary.org/obo/CHEBI_6908 #trichlorfon - has insecticide role
@@ -355,7 +356,11 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_35718 #antifungal agent
 http://purl.obolibrary.org/obo/CHEBI_35718 #antifungal agent
 subClassOf http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
 http://purl.obolibrary.org/obo/CHEBI_33708 #amino-acid residue
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000024 #fiat object part
+http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
 
 [Source term retrieval setting]
 includeNoIntermediates

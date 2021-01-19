@@ -56,6 +56,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
@@ -307,6 +325,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -718,7 +737,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino-acid residue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1181,7 +1200,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39331">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-cypermethrin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (1R)-cis-(alphaS)- and (1S)-cis-(alphaR)-cypermethrin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1192,7 +1211,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_39332">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-cypermethrin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diastereoisomeric mixture comprising the enantiomeric pair (1R)-cis-(alphaS)- and (1S)-cis-(alphaR)-cypermethrin in ratio approximately 2:3 with the enantiomeric pair (1S)-trans-(alphaR)- and (1R)-trans-(alphaS)-cypermethrin.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1365,7 +1384,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5063">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fipronil</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39090"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R)- and (S)-fipronil.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1471,6 +1490,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_60911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_60911">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">racemate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate is an equimolar mixture of a pair of enantiomers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_61205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_61205">
@@ -1486,7 +1516,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63609">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mefloquine</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate composed of (+)-(11R,2&#39;S)- and (-)-(11S,2&#39;R)-enantiomers of mefloquine. An antimalarial agent which acts as a blood schizonticide; its mechanism of action is unknown.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1519,7 +1549,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6649">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaoxon</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R) and (S)-malaoxon. It is the active insecticide of the proinsecticide malathion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -1530,7 +1560,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6651">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malathion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60911"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A racemate comprising equimolar amounts of (R) and (S)-malathion. It is a broad spectrum organophosphate proinsecticide used to control a wide range of pests including Coleoptera, Diptera, fruit flies, mosquitos and spider mites.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>

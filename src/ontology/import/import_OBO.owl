@@ -1092,6 +1092,17 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000600 xml:lang="en">b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above &amp; is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">object</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -1100,11 +1111,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
-        <rdfs:label xml:lang="en">material entity</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
     
 
 
@@ -1159,7 +1166,13 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+        <rdfs:label xml:lang="en">cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1303,6 +1316,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
@@ -1345,7 +1364,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/FOODON_00001287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001287">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
         <obo:IAO_0000115 xml:lang="en">A mushroom (or toadstool) is the fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or on its food source.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <rdfs:label xml:lang="en">mushroom (whole organism)</rdfs:label>
@@ -1356,7 +1375,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/FOODON_03303130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03303130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <rdfs:label xml:lang="en">infant formula</rdfs:label>
     </owl:Class>
@@ -1377,7 +1396,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/FOODON_03430151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03430151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 xml:lang="en">A solid product is a hard or soft product capable of retaining its own shape at room temperature (20 degrees C.). A soft product that is spreadable or formable is considered semisolid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <rdfs:label xml:lang="en">food (solid)</rdfs:label>
@@ -1990,6 +2009,12 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C14209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14209">
@@ -2224,7 +2249,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000117 xml:lang="en">A facility bearing the function to provide healthcare and that is administered by a health care organization for the purpose of providing health care to a patient or patient population.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">William Hogan</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -2445,7 +2470,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PCO_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <obo:IAO_0000115>An organismal entity that consists of one or more people who live in the same dwelling and also share at meals or living accommodation, and may consist of a single family or some other grouping of people.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">household</rdfs:label>
@@ -2467,7 +2492,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PCO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <obo:IAO_0000115>A microbial population of parasites that is defined by shared features such as genetic markers reflecting a common origin and distinguishing the population from other related parasite populations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">parasite isolate population</rdfs:label>
@@ -2551,6 +2576,12 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <rdfs:label xml:lang="en">threshold cycle</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000061"/>
     
 
 
@@ -2895,6 +2926,18 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -2916,25 +2959,13 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     
 

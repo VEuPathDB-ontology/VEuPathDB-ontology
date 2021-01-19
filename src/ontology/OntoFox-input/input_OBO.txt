@@ -36,6 +36,7 @@ BFO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/BFO_0000006 #spatial region
 http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+http://purl.obolibrary.org/obo/BFO_0000030 #object
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -44,6 +45,8 @@ includeNoIntermediates
 http://purl.obolibrary.org/obo/BFO_0000006 #spatial region
 subClassOf http://purl.obolibrary.org/obo/BFO_0000141 #immaterial entity
 http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/BFO_0000030 #object
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source annotation URIs]
@@ -101,7 +104,8 @@ http://purl.obolibrary.org/obo/CL_0000232 #erythrocyte
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CL_0000232 #erythrocyte
 subClassOf http://purl.obolibrary.org/obo/CL_0000000 #cell
-
+http://purl.obolibrary.org/obo/CL_0000000 #cell
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 #anatomical structure
 [Source term retrieval setting]
 includeNoIntermediates
 
@@ -249,20 +253,19 @@ FOODON
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
-
 http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
 http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
 http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_4751 #Fungi/Fungus
 http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
 subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -384,8 +387,8 @@ http://purl.obolibrary.org/obo/IDO_0000552 #endotoxin
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
 subClassOf http://purl.obolibrary.org/obo/IDO_0000586
-http://purl.obolibrary.org/obo/IDO_0000586 #infection
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040
+http://purl.obolibrary.org/obo/IDO_0000586 #infection 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
@@ -518,7 +521,7 @@ http://purl.obolibrary.org/obo/OMRSE_00000075 #residence function
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
-subClassOf  http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf  http://purl.obolibrary.org/obo/ENVO_00000070 #human construction
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
 subClassOf http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
 http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
@@ -576,7 +579,9 @@ http://purl.obolibrary.org/obo/PCO_0000061 #parasite isolate population
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PCO_0000024 #household
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+http://purl.obolibrary.org/obo/PCO_0000061 #parasite isolate population
+subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
 http://purl.obolibrary.org/obo/PCO_0000054 #number of generations of multicellular organism
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 
