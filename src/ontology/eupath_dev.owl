@@ -1012,7 +1012,7 @@ value: the value of a multifilter</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000106"/>
@@ -1045,7 +1045,7 @@ value: the value of a multifilter</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000108"/>
@@ -1068,7 +1068,7 @@ value: the value of a multifilter</obo:IAO_0000115>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000107"/>
@@ -5187,7 +5187,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000389">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115>A material entity that is used to make bed net.</obo:IAO_0000115>
         <rdfs:label>bed net material</rdfs:label>
     </owl:Class>
@@ -14454,7 +14454,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0023011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creatinine (mg/dL)</obo:IAO_0000118>
     </owl:Class>
     
@@ -16025,6 +16024,70 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115>A data item that is the specified output of an organism identification assay.</obo:IAO_0000115>
         <obo:IAO_0000118>species assay result</obo:IAO_0000118>
         <rdfs:label>organism identification datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000115>A device that is designed for the collection of arthropod larvae or pupae from water and consists of a conical net.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>well net for arthropod immatures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002913"/>
+        <obo:IAO_0000115>An arthropod specimen collection process that has the objective of collecting gravid female arthropods.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>gravid female arthropod specimen collection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002913"/>
+        <obo:IAO_0000115>An arthropod specimen collection process that involves a device that produces data specifying the types of arthropod collected.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>arthropod collection process with automated identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002904"/>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>An adult arthropod specimen collection process that has the objective of collecting arthropods capable of flight, through the use of a barrier trap.</obo:IAO_0000119>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>flying adult arthropod collection process by passive interception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000304"/>
+                <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/OBI_0002903"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A chemical substance manufactured by BioGents that is designed to attract mosquitoes by mimicking the scent of human skin.</obo:IAO_0000115>
+        <rdfs:label>BG-Lure</rdfs:label>
     </owl:Class>
     
 
