@@ -3221,18 +3221,13 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A material entity where a clinical visit took place.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0100001>OMRSE:00000102</obo:IAO_0100001>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>location of clinical visit</rdfs:label>
+        <rdfs:label>obsolete_location of clinical visit</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17242,7 +17237,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000245 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000245">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Bwindi Hospital</rdfs:label>
     </owl:NamedIndividual>
@@ -17252,7 +17247,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000246 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000246">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Jinja Hospital</rdfs:label>
     </owl:NamedIndividual>
@@ -17262,7 +17257,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000247 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000247">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Kauka Health Centre</rdfs:label>
     </owl:NamedIndividual>
@@ -17272,7 +17267,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000248 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000248">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Kihihi Health Centre IV</rdfs:label>
     </owl:NamedIndividual>
@@ -17282,7 +17277,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000249 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000249">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Nagongera Health Centre IV</rdfs:label>
     </owl:NamedIndividual>
@@ -17292,7 +17287,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000250 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000250">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">Tororo District Hospital</rdfs:label>
     </owl:NamedIndividual>
