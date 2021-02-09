@@ -59,9 +59,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000029 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
     
 
 
@@ -69,18 +75,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <rdfs:label xml:lang="en">material entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic feature</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -101,7 +97,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000016">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000063"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001999"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large expanse of saline water usually connected with an ocean.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -157,8 +152,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000027">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spring</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001479"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001784"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A point where groundwater or steam flows out of the ground, and is thus where the aquifer surface meets the ground surface or where there is a fissure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -224,7 +218,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000063">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water body</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001477"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An accumulation of water of varying size.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -235,7 +229,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000067">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cave</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naturally formed, subterranean open area or chamber.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -312,7 +306,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000176">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elevation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A landform elevated above the surrounding area.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -356,7 +350,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000330">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalagmite</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A speleothem projecting vertically upwards from a cave floor and formed by precipitation from drips.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -400,8 +394,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000486">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoreline</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001479"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001784"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The line of contact between a body of water and the land.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -435,7 +428,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001995">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -457,9 +450,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001999">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine water body</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001477"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A significant accumulation of water which is part of a marine biome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -516,7 +507,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dust</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minute solid particles with diameters less than 500 micrometers. Occurs in and may be deposited from, the atmosphere.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -572,7 +562,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002040">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wood</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -689,7 +678,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00003074">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manufactured product</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A material entity that has been processed by humans or their technology in any way, including intermediate products as well as final products.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -840,7 +829,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">water well</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115>A well which provides access to groundwater held  in an aquifer.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -895,7 +884,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000408">
         <rdfs:label>environmental zone</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -1082,9 +1071,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000560">
         <rdfs:label xml:lang="en">charcoal</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
         <obo:IAO_0000115>Charcoal is a light, black residue, consisting of carbon and any remaining ash, obtained by removing water and other volatile constituents from animal and vegetation substances. Charcoal is usually produced by slow pyrolysis, the heating of wood or other substances in the absence of oxygen.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -1102,10 +1089,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000566">
+        <rdfs:label xml:lang="en">lamp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
+        <obo:IAO_0000115>A lamp is an object which generates heat, light, or any other form of radiation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000567">
         <rdfs:label xml:lang="en">paraffin lantern</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
         <obo:IAO_0000115>A paraffin lantern is a lantern which houses a parrafin lamp in a structure of soldered or crimped-together sheet metal stampings and glass or other translucent material.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -1128,6 +1127,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000573">
         <rdfs:label xml:lang="en">battery-powered electric lamp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000566"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000572"/>
         <obo:IAO_0000115>A battery-powered electric lamp is an electric lamp which draws its power from a device composed of two or more electrochemical cells that convert stored chemical energy into electrical energy.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -1304,6 +1304,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000597">
         <rdfs:label xml:lang="en">pressure lamp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000566"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
         <obo:IAO_0000115>A pressure lamp is a portable paraffin or oil lamp in which fuel is forced up into the mantle or burner by air pressure in the reservoir, which can be increased by pumping with a plunger.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -1426,6 +1427,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000744">
         <rdfs:label xml:lang="en">human dwelling</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000073"/>
         <obo:IAO_0000115>A self-contained constructed feature used by one or more households as a home, such as a house, apartment, mobile home, houseboat or other &#39;substantial&#39; structure. A dwelling typically includes nearby outbuildings, sheds etc. within the curtilage of the property, excluding any &#39;open fields beyond&#39;. It has significance in relation to search and seizure, conveyancing of real property, burglary, trespass, and land use planning.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -1438,17 +1440,6 @@
         <rdfs:label xml:lang="en">astronomical body part</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material part of an astronomical body.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000814 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000814">
-        <rdfs:label xml:lang="en">solid environmental material</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-        <obo:IAO_0000115>An environmental material which is in a solid state.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -1480,7 +1471,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001110">
         <rdfs:label xml:lang="en">ecosystem</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000254"/>
         <obo:IAO_0000115>An environmental system which includes both living and non-living components.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -1532,46 +1523,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01001477 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001477">
-        <rdfs:label xml:lang="en">liquid astronomical body part</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001479"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001784"/>
-        <obo:IAO_0000115>A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01001479 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001479">
-        <rdfs:label xml:lang="en">fluid astronomical body part</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
-        <obo:IAO_0000115>A part of an astronomical body which is primarily composed of a continuous volume of liquid or gaseous material, shaped by one or more environmental processes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01001483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001483">
         <rdfs:label xml:lang="en">surface of an astronomical body</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010504"/>
         <obo:IAO_0000115>A surface layer where the solid or liquid material of an astronomical body comes into contact with an atmosphere or outer space.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01001784 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001784">
-        <rdfs:label xml:lang="en">compound astronomical body part</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
-        <obo:IAO_0000115>A part of an astronomical body which is primarily composed of a continuous medium bearing liquid, gaseous, and solid material in varying quantities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -1610,6 +1567,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
     
 
 
