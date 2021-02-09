@@ -116,12 +116,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16919 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16919"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_16990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16990"/>
@@ -305,12 +299,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_75108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75108"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_81351 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_81351"/>
     
 
 
@@ -869,46 +857,6 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000443"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000067"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000275"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16919"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum of the concentration of creatinine in blood that is a specified output of a blood test.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
@@ -1035,7 +983,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000067"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002505"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -1049,7 +997,7 @@
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000275"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_81351"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043509"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -4601,6 +4549,12 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood hydroxychloroquine concentration</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043509"/>
     
 
 
