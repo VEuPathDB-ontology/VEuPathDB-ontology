@@ -43,7 +43,6 @@ http://purl.obolibrary.org/obo/OBI_0001891 #Sequencing center
 http://purl.obolibrary.org/obo/OBI_0001895 #Sample collector
 http://purl.obolibrary.org/obo/OBI_0001898 #Notes
 http://purl.obolibrary.org/obo/OBI_0001901 #Alternative sample ID
-http://purl.obolibrary.org/obo/OBI_0100026 #Host organism
 http://purl.obolibrary.org/obo/OBI_0400065 #Lighting source
 http://purl.obolibrary.org/obo/OBI_0500000 #Study design
 http://purl.obolibrary.org/obo/OBI_0600047 #Sequencing assay
@@ -202,7 +201,7 @@ subClassOf http://purl.obolibrary.org/obo/OBI_0000245 #organization
 http://purl.obolibrary.org/obo/OBI_0400065 #light source
 subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 http://purl.obolibrary.org/obo/OBI_0000181 #population
-subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/OBI_0000852 #record of missing knowledge
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030
 http://purl.obolibrary.org/obo/OBI_0001554 #rate measurement datum
@@ -241,8 +240,6 @@ http://purl.obolibrary.org/obo/OBI_0001898 #Notes
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/OBI_0001901 #Alternative sample ID
 subClassOf http://purl.obolibrary.org/obo/OBI_0001616 #specimen identifier
-http://purl.obolibrary.org/obo/OBI_0100026 #Host organism
-subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
 http://purl.obolibrary.org/obo/OBI_0400065 #Lighting source
 subClassOf http://purl.obolibrary.org/obo/OBI_0000968 #device
 http://purl.obolibrary.org/obo/OBI_0500000 #Study design
@@ -595,8 +592,9 @@ http://purl.obolibrary.org/obo/OBI_0002917 #knockdown arthropod specimen collect
 subClassOf http://purl.obolibrary.org/obo/OBI_0002918 #knockdown arthropod specimen collection process
 http://purl.obolibrary.org/obo/OBI_0002918 #knockdown arthropod specimen collection process
 subClassOf http://purl.obolibrary.org/obo/OBI_0002913 #arthropod specimen collection process
-http://purl.obolibrary.org/obo/OBI_0000245 #organization
-subClassOf http://purl.obolibrary.org/obo/BFO_0000027 #object aggregate
+http://purl.obolibrary.org/obo/OBI_0002945 #population based design
+subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #Study design
+
 
 [Source term retrieval setting]
 includeNoIntermediates
