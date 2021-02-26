@@ -8,7 +8,7 @@ http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl
 # In 'definition source', only keep definition starting with lowercase "f".
 
 ############################################################
-# APOLLO_SV, BFO, BTO, CL, CMO, DRON, EFO, ERO, FOODON, GENEPIO, GO,
+# APOLLO_SV, BFO, BTO, CIDO, CL, CMO, DRON, EFO, ERO, FOODON, GENEPIO, GO,
 # IAO, IDO, OBIB, OGMS, OMP, OMRSE, OPL, PCO, PDRO, PO, REO, RO, STATO, VO
 
 ############################################################
@@ -75,6 +75,7 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ############################################################
 [Source ontology]
 CIDO
+
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OPMI_0000435 #positive COVID-19 case
 http://purl.obolibrary.org/obo/CIDO_0000437 #negative COVID-19 case
@@ -149,8 +150,6 @@ DRON
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/DRON_00000001 #clincal drug role
 http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-http://purl.obolibrary.org/obo/DRON_00017631 #artemether
-http://purl.obolibrary.org/obo/DRON_00019223 #lumefantrine
 http://purl.obolibrary.org/obo/DRON_00021246 #Chloroquine Injectable Solution
 http://purl.obolibrary.org/obo/DRON_00021247 #Chloroquine Oral Tablet
 
@@ -158,10 +157,6 @@ http://purl.obolibrary.org/obo/DRON_00021247 #Chloroquine Oral Tablet
 http://purl.obolibrary.org/obo/DRON_00000001 #clincal drug role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
 http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-http://purl.obolibrary.org/obo/DRON_00017631 #artemether
-subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-http://purl.obolibrary.org/obo/DRON_00019223 #lumefantrine
 subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
 http://purl.obolibrary.org/obo/DRON_00021246 #Chloroquine Injectable Solution
 subClassOf http://purl.obolibrary.org/obo/DRON_00000005 #drug product
@@ -558,7 +553,7 @@ http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/PCO_0000024 #household
 subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/PCO_0000061 #parasite isolate population
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/PCO_0000054 #number of generations of multicellular organism
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 
@@ -668,7 +663,7 @@ http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/STATO_0000047 #count
-subClassOf http://purl.obolibrary.org/obo/IAO_0000027
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
 http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
 http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing

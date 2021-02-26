@@ -130,6 +130,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1094,11 +1095,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
-        <rdfs:label xml:lang="en">material entity</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
     
 
 
@@ -1137,17 +1134,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CIDO_0000437 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000437">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>The representation of a negative conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
-        <rdfs:label xml:lang="en">negative COVID-19 diagnosis conclusion</rdfs:label>
-    </owl:Class>
     
 
 
@@ -1259,26 +1245,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">drug product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00017631 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00017631">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artemether</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00019223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00019223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lumefantrine</rdfs:label>
     </owl:Class>
     
 
@@ -2108,12 +2074,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMP_0000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMP_0000274">
@@ -2365,17 +2325,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000435 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000435">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>The representation of a positive conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
-        <rdfs:label xml:lang="en">positive COVID-19 diagnosis conclusion</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
@@ -2418,7 +2367,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PCO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that consists of two or more organisms, viruses, or viroids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">collection of organisms</rdfs:label>
@@ -2451,7 +2399,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PCO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
         <obo:IAO_0000115>A microbial population of parasites that is defined by shared features such as genetic markers reflecting a common origin and distinguishing the population from other related parasite populations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">parasite isolate population</rdfs:label>
@@ -2508,7 +2456,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 xml:lang="en">a count is a data item denoted by an integer and represented the number of instances or occurences of an entity</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <rdfs:label xml:lang="en">count</rdfs:label>
@@ -2909,18 +2857,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -2928,6 +2864,18 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
