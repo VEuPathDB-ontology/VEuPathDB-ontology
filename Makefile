@@ -36,7 +36,7 @@ build:
 #
 # We use the official development version of ROBOT
 build/robot.jar: | build
-	curl -L -o $@ https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
+	curl -L -o $@ "https://github.com/ontodev/robot/releases/latest/download/robot.jar"
 
 ROBOT := java -jar build/robot.jar
 
@@ -70,8 +70,10 @@ build/eupath_merged.owl: src/ontology/eupath_dev.owl | build/robot.jar build
 	--version-iri "$(OBO)/eupath/$(TODAY)/eupath_merged.owl" \
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output build/eupath_merged.tmp.owl
-	sed '/<owl:imports/d' build/eupath_merged.tmp.owl > $@
+	sed '/http:\/\/www\.w3\.org\/1999\/02\/22-rdf-syntax-ns#type/d' build/eupath_merged.tmp.owl > build/eupath_merged.tmp2.owl
+	sed '/<owl:imports/d' build/eupath_merged.tmp2.owl > $@
 	rm build/eupath_merged.tmp.owl
+	rm build/eupath_merged.tmp2.owl
 
 eupath.owl: build/eupath_merged.owl
 	$(ROBOT) reason \
