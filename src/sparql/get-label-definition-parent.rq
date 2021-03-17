@@ -1,0 +1,24 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+SELECT distinct ?entity ?type ?label ?def ?parent ?parent_label
+WHERE { 
+	?entity rdf:type ?type .
+	OPTIONAL {
+        	?entity rdfs:label ?slabel. 
+	}
+	OPTIONAL {
+		?entity obo:IAO_0000115 ?definition .
+	}
+  	OPTIONAL {
+  		?entity rdfs:subClassOf ?parent . 
+  		?parent rdfs:label ?plabel .
+  	}
+  	FILTER (!isBlank(?entity))
+	BIND (str(?slabel) AS ?label) .
+	BIND (str(?definition) AS ?def) .
+  	BIND (str(?plabel) AS ?parent_label)
+}
+order by ?ASC(?type) ASC (?entity)
