@@ -82,6 +82,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">administrative region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000014">
@@ -1089,17 +1099,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000566 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000566">
-        <rdfs:label xml:lang="en">lamp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
-        <obo:IAO_0000115>A lamp is an object which generates heat, light, or any other form of radiation.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000567">
@@ -1127,7 +1126,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000573">
         <rdfs:label xml:lang="en">battery-powered electric lamp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000566"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000572"/>
         <obo:IAO_0000115>A battery-powered electric lamp is an electric lamp which draws its power from a device composed of two or more electrochemical cells that convert stored chemical energy into electrical energy.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
@@ -1304,7 +1302,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000597">
         <rdfs:label xml:lang="en">pressure lamp</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000566"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400065"/>
         <obo:IAO_0000115>A pressure lamp is a portable paraffin or oil lamp in which fuel is forced up into the mantle or burner by air pressure in the reservoir, which can be increased by pumping with a plunger.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
