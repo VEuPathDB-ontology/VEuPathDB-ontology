@@ -1811,26 +1811,15 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_156095"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_195280"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A drug product that is the of combination artemether/lumefantrine (trade names Coartem and Riamet, Falcynate-LF). It is generally used for the treatment of acute uncomplicated Plasmodium falciparum malaria.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>artemether-lumefantrine</obo:IAO_0000118>
         <obo:IAO_0000118>coartem</obo:IAO_0000118>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Artemether/lumefantrine</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">artemether-lumefantrine drug product</rdfs:label>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/162</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">obsolete_artemether-lumefantrine drug product</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -17110,6 +17099,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000142"/>
     
 
 
