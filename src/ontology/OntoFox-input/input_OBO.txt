@@ -145,34 +145,6 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 ############################################################
 [Source ontology]
 #comment here
-DRON
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/DRON_00000001 #clincal drug role
-http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-http://purl.obolibrary.org/obo/DRON_00021246 #Chloroquine Injectable Solution
-http://purl.obolibrary.org/obo/DRON_00021247 #Chloroquine Oral Tablet
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/DRON_00000001 #clincal drug role
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
-http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-subClassOf http://purl.obolibrary.org/obo/OBI_0000047 #processed material
-http://purl.obolibrary.org/obo/DRON_00021246 #Chloroquine Injectable Solution
-subClassOf http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-http://purl.obolibrary.org/obo/DRON_00021247 #Chloroquine Oral Tablet
-subClassOf http://purl.obolibrary.org/obo/DRON_00000005 #drug product
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-############################################################
-[Source ontology]
-#comment here
 EFO
 
 [Low level source term URIs]
@@ -479,7 +451,6 @@ OMRSE
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
-http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
 http://purl.obolibrary.org/obo/OMRSE_00000011 #patient role
 http://purl.obolibrary.org/obo/OMRSE_00000209 #gender identity information content entity
 http://purl.obolibrary.org/obo/OMRSE_00000126 #patient discharge
@@ -495,8 +466,6 @@ http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
 subClassOf  http://purl.obolibrary.org/obo/ENVO_00000070 #human construction
 http://purl.obolibrary.org/obo/OMRSE_00000063 #hospital facility
 subClassOf http://purl.obolibrary.org/obo/OMRSE_00000102 #health care facility
-http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 http://purl.obolibrary.org/obo/OMRSE_00000011 #patient role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/OMRSE_00000146 #employment process
@@ -505,6 +474,10 @@ http://purl.obolibrary.org/obo/OMRSE_00000012 #health care provider role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
 http://purl.obolibrary.org/obo/OMRSE_00000075 #residence function
 subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://purl.obolibrary.org/obo/OMRSE_00000201 #admission process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/OMRSE_00000126 #patient discharge
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -513,6 +486,30 @@ includeNoIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 includeAllAxioms
+
+############################################################
+[Source ontology]
+ONTONEO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ONTONEO_00000228 #Cervical dilation
+http://purl.obolibrary.org/obo/ONTONEO_00000255 #Gestational age
+http://purl.obolibrary.org/obo/ONTONEO_00000160 #Membrane rupture
+http://purl.obolibrary.org/obo/ONTONEO_00000225 #Obstetric history
+http://purl.obolibrary.org/obo/ONTONEO_00000271 #Preterm birth
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ONTONEO_00000228 #Cervical dilation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+http://purl.obolibrary.org/obo/ONTONEO_00000271 #Preterm birth
+subClassOf http://purl.obolibrary.org/obo/GO_0007567 #parturition
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
 
 ############################################################
 [Source ontology]
@@ -556,6 +553,8 @@ http://purl.obolibrary.org/obo/PCO_0000061 #parasite isolate population
 subClassOf http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
 http://purl.obolibrary.org/obo/PCO_0000054 #number of generations of multicellular organism
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
+http://purl.obolibrary.org/obo/PCO_0000000 #collection of organisms
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
 includeNoIntermediates

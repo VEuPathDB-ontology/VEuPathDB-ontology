@@ -73,7 +73,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
-        <obo:IAO_0000111 xml:lang="en">example</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
@@ -92,7 +91,6 @@
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -142,10 +140,8 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -185,13 +181,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -205,7 +199,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label>curator note</rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -320,12 +313,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
 
 
@@ -627,25 +614,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0021011 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0021011">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:label xml:lang="en">legally revokes</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
-        <rdfs:label xml:lang="en">has_specified_input</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299">
@@ -715,7 +683,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:label xml:lang="en">inheres in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -726,7 +693,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
         <rdfs:label xml:lang="en">bearer of</rdfs:label>
         <rdfs:label xml:lang="en">bearer_of</rdfs:label>
-        <rdfs:label xml:lang="en">is bearer of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -800,6 +766,11 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/RO_0002083 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002083">
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002083"/>
+            </rdf:Description>
+        </owl:inverseOf>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <rdfs:label xml:lang="en">before</rdfs:label>
@@ -821,6 +792,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002218">
         <rdfs:label xml:lang="en">has active participant</rdfs:label>
+        <rdfs:label>obsolete has active participant</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -985,12 +957,20 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:BFO_0000179>continuant</obo:BFO_0000179>
         <obo:BFO_0000180>Continuant</obo:BFO_0000180>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:IAO_0000600 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</obo:IAO_0000601>
@@ -1087,6 +1067,31 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:BFO_0000179>gdc</obo:BFO_0000179>
+        <obo:BFO_0000180>GenericallyDependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the pdf file on your laptop, the pdf file that is a copy thereof on my laptop</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000602>(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000034"/>
@@ -1134,6 +1139,17 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000437 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000437">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <obo:IAO_0000115>The representation of a negative conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <rdfs:label xml:lang="en">negative COVID-19 diagnosis conclusion</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1224,48 +1240,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/DOID_4 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">the role of a material entity to prevent, diagnose, treat, or study disease and/or its effects</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label xml:lang="en">drug product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00021246 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Injectable Solution</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DRON_00021247 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Oral Tablet</rdfs:label>
-    </owl:Class>
     
 
 
@@ -1439,6 +1413,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
     </owl:Class>
     
@@ -1593,6 +1568,7 @@ JAR: A data item is an approximately justified approximately true approximate be
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -2017,18 +1993,10 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000111 xml:lang="en">planned process</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">planned process</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
     
 
 
@@ -2058,7 +2026,9 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001167 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+    </owl:Class>
     
 
 
@@ -2071,6 +2041,29 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="pt">história clínica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000100">
+        <rdfs:label>inpatient encounter</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2129,9 +2122,47 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000052">
+        <rdfs:label xml:lang="en">hospital function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000056">
+        <rdfs:label xml:lang="en">hospital organization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000063">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0000048"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000056"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000052"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000102"/>
         <obo:IAO_0000115 xml:lang="en">A health care facility that bears the function to provide acute and intensive healthcare services and that is run by a hospital organization and is the bearer of a hospital function.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -2170,35 +2201,11 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty>
-                    <rdf:Description>
-                        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002083"/>
-                    </rdf:Description>
-                </owl:onProperty>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">discharge process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">patient discharge</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about human travel.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/ufbmi/OMRSE/issues/79</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <dc:contributor>Jie Zheng</dc:contributor>
-        <dc:creator>Amanda Hicks</dc:creator>
-        <rdfs:label xml:lang="en">human traveling information</rdfs:label>
     </owl:Class>
     
 
@@ -2223,6 +2230,12 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002223"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000100"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 xml:lang="en">A deontic document act in which a patient is registered with a health care provider for the purpose of receiving care in an inpatient encounter.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
@@ -2232,10 +2245,28 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about some person and whether that person identifies as some particular aspect of social identity—such as a gender, an ethnicity, a race, or a sexual orientation—where the sense of identifying may correspond to either (i) an aspect of one’s cognitive representation of oneself, (ii) how one prefers to be regarded by others within some social context, or (iii) how one chooses to present oneself to others within some social context.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <dc:contributor xml:lang="en">Amanda Hicks</dc:contributor>
+        <dc:contributor xml:lang="en">Mathias Brochhausen</dc:contributor>
+        <dc:contributor xml:lang="en">Matthew Diller</dc:contributor>
+        <dc:contributor xml:lang="en">Sarah Bost</dc:contributor>
+        <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
+        <rdfs:comment xml:lang="en">We include (i)-(iii) to acknowledge that there are different senses of &quot;identify&quot; that are relevant here, and that we may not always be sure which sense the person concretizing the social identity information content entity intended. While (i) concerns how one thinks of oneself, (ii) and (iii) are more focused on one&apos;s interactions with others. Importantly, some choose not to share with others how they identify in the sense of (i). For example, one can consider oneself to be some certain gender without either wanting others to know or choosing to present oneself in a corresponding way. We distinguish (ii) and (iii) because one can prefer to be regarded some certain way without attempting to present oneself in any corresponding way.</rdfs:comment>
+        <rdfs:label xml:lang="en">social identity information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
         <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some ethnicity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -2253,7 +2284,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000204"/>
         <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some gender.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">S. Clint Dowland</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -2277,6 +2308,61 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:comment>This data item in a typical attribute-value system such as table, XML, JSON takes values like &quot;secondary education&quot;, &quot;Associate Degree&quot;, &quot;Bachelor Degree&quot;, &quot;High School&quot;, and so on.</rdfs:comment>
         <rdfs:label>highest level of education data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="pt">ruptura de membranas</rdfs:label>
+        <rdfs:label xml:lang="en">rupture of membranes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="pt">história obstétrica</rdfs:label>
+        <rdfs:label xml:lang="en">obstetric history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="en">cervix diameter measurement datum</rdfs:label>
+        <rdfs:label xml:lang="pt">medida do diâmetro do colo do útero</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="en">gestational age measurement datum</rdfs:label>
+        <rdfs:label xml:lang="pt">idade gestacional medida</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007567"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
+        <rdfs:label xml:lang="pt">parto prematuro</rdfs:label>
+        <rdfs:label xml:lang="en">preterm labour</rdfs:label>
     </owl:Class>
     
 
@@ -2325,6 +2411,17 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <obo:IAO_0000115>The representation of a positive conclusion of a diagnostic process for the COVID-19 coronavirus disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <rdfs:label xml:lang="en">positive COVID-19 diagnosis conclusion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122">
@@ -2367,6 +2464,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PCO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that consists of two or more organisms, viruses, or viroids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">collection of organisms</rdfs:label>
@@ -2824,6 +2922,15 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -2857,28 +2964,10 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </rdf:Description>
     
 
