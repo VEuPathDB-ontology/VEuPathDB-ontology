@@ -15,7 +15,6 @@ http://purl.obolibrary.org/obo/CHEBI_23888 #drug/Compound
 http://purl.obolibrary.org/obo/CHEBI_2682 #Amphotericin B
 http://purl.obolibrary.org/obo/CHEBI_34905 #Paraquat
 http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
-http://purl.obolibrary.org/obo/CHEBI_3638 #Chloroquine
 http://purl.obolibrary.org/obo/CHEBI_46081 #Fluconazole
 http://purl.obolibrary.org/obo/CHEBI_474180 #Caspofungin
 http://purl.obolibrary.org/obo/CHEBI_55346 #Anidulafungin
@@ -122,7 +121,7 @@ http://purl.obolibrary.org/obo/CHEBI_156095 #lumefantrine
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine - antimalarial
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_26513 #quinolines
 http://purl.obolibrary.org/obo/CHEBI_15854 #quinine - antimalarial
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
@@ -140,7 +139,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_87113 #antibiotic antifungal dru
 http://purl.obolibrary.org/obo/CHEBI_34905 #Paraquat (antifungal but no axiom)
 subClassOf http://purl.obolibrary.org/obo/CHEBI_24870 #ion
 http://purl.obolibrary.org/obo/CHEBI_35727 #Triazoles
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_68452 #azole
 http://purl.obolibrary.org/obo/CHEBI_3638 #Chloroquine - antimalarial
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_46081 #Fluconazole
@@ -174,7 +173,7 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_25105 #macrolide antibiotic
 http://purl.obolibrary.org/obo/CHEBI_2955 #azithromycin - antibacterial drug role
 subClassOf http://purl.obolibrary.org/obo/CHEBI_25105 #macrolide antibiotic
 http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
 http://purl.obolibrary.org/obo/CHEBI_2676 #amoxicillin - antibacterial drug role
 subClassOf http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
 http://purl.obolibrary.org/obo/CHEBI_28971 #ampicillin - antibacterial drug role
@@ -396,7 +395,7 @@ subClassOf http://purl.obolibrary.org/obo/PR_000000001 #protein
 http://purl.obolibrary.org/obo/CHEBI_82594
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 #protein
 http://purl.obolibrary.org/obo/CHEBI_51210 #pivmecillinam
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
 #http://purl.obolibrary.org/obo/CHEBI_167184 #chlorthion
 #subclassOf http://purl.obolibrary.org/obo/CHEBI_26020 #phosphate
 http://purl.obolibrary.org/obo/CHEBI_26020 #phosphate
@@ -416,7 +415,49 @@ subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_195280 #artemether
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_156095 #lumefantrine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33655 #aromatic compound
+http://purl.obolibrary.org/obo/CHEBI_24995 #lactam
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24995 #lactam
+http://purl.obolibrary.org/obo/CHEBI_161680 #aztreonam
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
+http://purl.obolibrary.org/obo/CHEBI_3547 #cephadrine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
+http://purl.obolibrary.org/obo/CHEBI_29007 #ceftriaxone
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
+http://purl.obolibrary.org/obo/CHEBI_23066 #cephalosporin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_35627 #beta-lactam
+http://purl.obolibrary.org/obo/CHEBI_204928 #cefotaxime
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23066 #cephalosporin
+http://purl.obolibrary.org/obo/CHEBI_3504 #cefpodoxime
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23066 #cephalosporin
+http://purl.obolibrary.org/obo/CHEBI_26513 #quinolines
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33655 #aromatic compound
+http://purl.obolibrary.org/obo/CHEBI_2674 #amodiaquine
+subClassOf http://purl.obolibrary.org/obo/CHEBI_26513 #quinolines
+http://purl.obolibrary.org/obo/CHEBI_24400 #glycoside
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_28864 #tobramycin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24400 #glycoside
+http://purl.obolibrary.org/obo/CHEBI_37943 #colistin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_28001 #vancomycin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_8746 #(R)-salbutamol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_49566 #cloxacillin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_17334 #penicillin
+http://purl.obolibrary.org/obo/CHEBI_68452 #azole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_6909 #metronidazole
+subClassOf http://purl.obolibrary.org/obo/CHEBI_68452 #azole
+http://purl.obolibrary.org/obo/CHEBI_16646 #carbohydrate
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_29864 #mannitol
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16646 #carbohydrate
+http://purl.obolibrary.org/obo/CHEBI_6359 #lactulose
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16646 #carbohydrate
 
 [Source term retrieval setting]
 includeNoIntermediates
