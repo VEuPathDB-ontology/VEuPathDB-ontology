@@ -4,8 +4,6 @@ http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl
 # Do not add IAO 'mentions' here - it is in externalByHand.owl
 # Remove non-IAO labels/definitions for 'definition' in OWL file.
 # Remove 'editor preferred label' label from 'editor preferred term'.
-# Remove 'definition editor' label from 'term editor'.
-# In 'definition source', only keep definition starting with lowercase "f".
 
 ############################################################
 # APOLLO_SV, BFO, BTO, CIDO, CL, CMO, DRON, EFO, ERO, FOODON, GENEPIO, GO,
@@ -421,12 +419,9 @@ http://purl.obolibrary.org/obo/IAO_0000115
 NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus, Fungal organism
 http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCIT_C14209 #Fungus
-subClassOf http://purl.obolibrary.org/obo/NCBITaxon_33154 #Opisthokonta
 http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
 subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
 http://purl.obolibrary.org/obo/NCIT_C29107 #IV Fluid
