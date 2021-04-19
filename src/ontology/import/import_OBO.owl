@@ -886,7 +886,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
         <obo:BFO_0000179>s-region</obo:BFO_0000179>
         <obo:BFO_0000180>SpatialRegion</obo:BFO_0000180>
@@ -1513,6 +1512,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
     </owl:Class>
     
@@ -2122,6 +2122,17 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about human travel.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <rdfs:label xml:lang="en">human traveling information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000146">
@@ -2147,6 +2158,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some ethnicity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">ethnic identity information content entity</rdfs:label>
@@ -2157,6 +2169,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A social identity information content entity that is about whether some person identifies as some gender.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">gender identity information content entity</rdfs:label>
@@ -2167,6 +2180,7 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OMRSE_00002045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A socio-economic data item that is about a person and their completion of an education program (and its type), where that education progam is the last one in a sequence (of education programs) that the person has completed, where each education program completed except the last one is a pre-requisite to the education program completed after it.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label>highest level of education data item</rdfs:label>
@@ -2313,7 +2327,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical object quality</obo:IAO_0000111>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in a continuant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
