@@ -1712,13 +1712,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115>A role borne by some material entity which can be delivered/administrated into some organisms and the role is realized during clinical treatment process aiming to treat symptoms, signs or diagnosed disease.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/160</obo:IAO_0000233>
-        <obo:IAO_0100001>http://purl.obolibrary.org/obo/DRON_00000001</obo:IAO_0100001>
-        <rdfs:label xml:lang="en">obsolete_medication role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:label xml:lang="en">medication role</rdfs:label>
     </owl:Class>
     
 
@@ -1741,12 +1739,6 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000058">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000060"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000029"/>
         <obo:IAO_0000115>A medication material intended to prevent or treat malaria.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
