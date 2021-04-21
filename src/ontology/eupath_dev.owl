@@ -599,9 +599,10 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000060 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000060">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000029"/>
         <obo:IAO_0000115>A relation between a medication material and a disease or symptom that it may treat.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">may treat</rdfs:label>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/121</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">obsolete_may treat</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
