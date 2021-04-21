@@ -1307,12 +1307,12 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>land area measured in acres: a scalar measurement datum of land measured in acres that may be of a particular type such as land owned by a household.</obo:IAO_0000115>
+        <obo:IAO_0000115>A scalar measurement datum of land such as land owned by a household.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000119>Person: Chris Stoeckert</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>land area measured in acres</rdfs:label>
+        <rdfs:label>land area measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -1387,12 +1387,12 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000744"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A length measurement datum of the distance in kilometers to from a dwelling to the nearest health facility.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement datum of the distance from a dwelling to the nearest health facility.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000119>Person: Chris Stoeckert</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>distance to health facility in km</rdfs:label>
+        <rdfs:label>distance to health facility</rdfs:label>
     </owl:Class>
     
 
@@ -1586,12 +1586,12 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A scalar measurement datum about the level of hemoglobin in the blood with a value in units of g/dl.</obo:IAO_0000115>
+        <obo:IAO_0000115>A scalar measurement datum about the level of hemoglobin in the blood.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
-        <rdfs:label>hemoglobin level in g per dL</rdfs:label>
+        <rdfs:label>hemoglobin level</rdfs:label>
     </owl:Class>
     
 
@@ -14401,6 +14401,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last bednet treatment</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPath</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time of most recent bednet treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0022269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0022269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000382"/>
+        <obo:IAO_0000115>A measurement datum of the total area of a land lot on which a dwelling is built.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/149</obo:IAO_0000233>
+        <rdfs:label>dwelling lot area measurement datum</rdfs:label>
     </owl:Class>
     
 
