@@ -38,7 +38,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UBERON.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2020-12-16/NIAID-GSC-BRC.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2021-04-06/NIAID-GSC-BRC.owl"/>
         <dc:creator>Chris Stoeckert</dc:creator>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
@@ -1046,7 +1046,7 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000004">
-        <obo:IAO_0000116 xml:lang="en">deprecated in favor of ENVO_01000472 &apos;building roof&apos;</obo:IAO_0000116>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/ENVO_01000472</obo:IAO_0100001>
         <rdfs:label xml:lang="en">obsolete_roof</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1269,6 +1269,7 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0400065</obo:IAO_0100001>
         <dc:source>PRISM</dc:source>
         <rdfs:label>obsolete_lighting material</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1727,9 +1728,9 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000112>quinine used in malaria medication 
 blood used in transfusion for replacement blood lost during surgery or due to a serious injury.</obo:IAO_0000112>
         <obo:IAO_0000115>A material entity that is bearer of a medication role.</obo:IAO_0000115>
-        <obo:IAO_0000116>replaced by OBIB_0000029:medication material</obo:IAO_0000116>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBIB_0000029</obo:IAO_0100001>
         <rdfs:label xml:lang="en">obsolete_medication material</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -3682,8 +3683,8 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000252">
         <obo:IAO_0000115>Pain perceived to originate in the muscle.</obo:IAO_0000115>
-        <obo:IAO_0000116>replaced by HP:0003326</obo:IAO_0000116>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/HP_0003326</obo:IAO_0100001>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">obsolete_Muscle aches</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -3914,7 +3915,6 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000285">
-        <obo:IAO_0000116>same as EUPATH_0000282: pyrimethamine, mefloquine and chloroquine resistant</obo:IAO_0000116>
         <rdfs:label>obsolete_pyrimethamine,chloroquine, and mefloquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -7588,7 +7588,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000594">
-        <obo:IAO_0000116 xml:lang="en">same as EUPATH_0000496</obo:IAO_0000116>
+        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/EUPATH_0000496</obo:IAO_0100001>
         <rdfs:label xml:lang="en">obsolete_information of specimen obtained from the mother or chid</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -8608,10 +8608,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000791 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000791">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000112>A mosquito feeds on a human whereby the human acquires the blood host role for the mosquito blood meal.</obo:IAO_0000112>
         <obo:IAO_0000115>A role borne by an organism that is gained during a process in which another organism ingests blood as food from the organism.</obo:IAO_0000115>
-        <rdfs:label>blood meal source role</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0002996</obo:IAO_0100001>
+        <rdfs:label>obsolete_blood meal source role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -10309,10 +10310,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010787">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Entamoeba histolytica was detected by an enzyme-linked immunosorbent assay</obo:IAO_0000115>
-        <obo:IAO_0000116>projects using equivalent term that has different ID</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica, by ELISA</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/EUPATH_0010695</obo:IAO_0100001>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of Entamoeba histolytica by ELISA</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -12435,10 +12436,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015423">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay</obo:IAO_0000115>
-        <obo:IAO_0000116>projects using equivalent term that has different ID</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E. coli, by bacteriology</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/EUPATH_0010630</obo:IAO_0100001>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of Escherichia coli by differential medium assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14913,17 +14914,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000034</obo:EUPATH_0043061>
         <obo:IAO_0000115>A role of a material entity realized in drawing an arthropod in the direction of the material.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attractant</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthropod attractor role</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0002997</obo:IAO_0100001>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_arthropod attractor role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15095,7 +15091,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115>A light trap that is designed to use motorized suction to trap arthropods in a collection bag once they approach the attractant. The light is supplied by an 8 watt tube, and the fan providing the suction has an 11-centimeter diameter.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OVI light-suction trap</obo:IAO_0000118>
         <obo:IAO_0000119>Parasites Vectors 8, 239 (2015)</obo:IAO_0000119>
-        <obo:IAO_0000233>OBI:0002936</obo:IAO_0000233>
+        <obo:IAO_0000233>http://purl.obolibrary.org/obo/OBI_0002936</obo:IAO_0000233>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Onderstepoort Veterinary Institute light-suction trap</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -15292,7 +15288,8 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002912"/>
         <obo:IAO_0000115>An arthropod specimen collection by aspiration that occurs in the daytime.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daytime arthropod specimen collection by aspiration</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_daytime arthropod specimen collection by aspiration</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15539,12 +15536,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002904"/>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001457</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod specimen collection process that occurs while the arthropods land on a surface.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of landing insects</obo:IAO_0000118>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003003</obo:IAO_0100001>
         <rdfs:comment>For example, while they are landing on a human bait.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landing arthropod specimen collection process</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_landing arthropod specimen collection process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15592,7 +15590,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
@@ -15602,8 +15599,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001595</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod trap that uses as attractant an animal that is not human and is the size of a chicken or smaller.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trap containing small non-human animal bait</obo:IAO_0000118>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003007</obo:IAO_0100001>
         <rdfs:comment>Small non-human animals used as bait include chickens and other birds, rabbits, rodents, and dogs.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthropod trap containing small non-human animal bait</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_arthropod trap containing small non-human animal bait</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15629,11 +15628,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002913"/>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0000514</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod specimen collection process that occurs while an arthropod that is capable of flight is resting outdoors during a period of inactivity.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of resting insects capable of flight</obo:IAO_0000118>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting flight-capable arthropod specimen collection process</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003000</obo:IAO_0100001>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_resting flight-capable arthropod specimen collection process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15653,12 +15653,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001355</obo:EUPATH_0043061>
         <obo:IAO_0000115>A device that is designed to provide a solid surface that is attractive to an arthropod as a place to rest during a period of inactivity.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trap or shelter for resting adult arthropods</obo:IAO_0000118>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003005</obo:IAO_0100001>
         <rdfs:comment>Most commonly used to collect mosquitoes.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device for resting of adult arthropods for collection</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_device for resting of adult arthropods for collection</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -15672,7 +15673,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002997"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -15687,9 +15688,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002912"/>
         <obo:IAO_0000115>An arthropod specimen collection by aspiration that catches specimens resting inside a human house.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthropod resting in human house specimen collection by aspiration</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003002</obo:IAO_0100001>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_arthropod resting in human house specimen collection by aspiration</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -16082,11 +16084,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043197">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <obo:IAO_0000115>A device that is designed for the collection of arthropod larvae or pupae from water and consists of a conical net.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>well net for arthropod immatures</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003006</obo:IAO_0100001>
+        <rdfs:label>obsolete_well net for arthropod immatures</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -16094,11 +16097,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002913"/>
         <obo:IAO_0000115>An arthropod specimen collection process that has the objective of collecting gravid female arthropods.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>gravid female arthropod specimen collection process</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0002999</obo:IAO_0100001>
+        <rdfs:label>obsolete_gravid female arthropod specimen collection process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -16106,11 +16110,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002913"/>
         <obo:IAO_0000115>An arthropod specimen collection process that involves a device that produces data specifying the types of arthropod collected.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>arthropod collection process with automated identification</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0002998</obo:IAO_0100001>
+        <rdfs:label>obsolete_arthropod collection process with automated identification</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -16118,11 +16123,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002904"/>
         <obo:IAO_0000115>An adult arthropod specimen collection process that has the objective of collecting arthropods capable of flight, through the use of a barrier trap.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>flying adult arthropod collection process by passive interception</rdfs:label>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003004</obo:IAO_0100001>
+        <rdfs:label>obsolete_flying adult arthropod collection process by passive interception</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
