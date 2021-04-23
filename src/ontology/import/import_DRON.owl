@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_DRON.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_DRON.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_DRON.owl"/>
     
 
@@ -18,30 +19,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
-        <rdfs:label>definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label>label</rdfs:label>
-    </rdf:Description>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -59,8 +62,8 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
-        <rdfs:label xml:lang="en">entity</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
     </owl:Class>
     
 
@@ -74,10 +77,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
-        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">the role of a material entity to prevent, diagnose, treat, or study disease and/or its effects</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
     </owl:Class>
     
 
@@ -85,10 +88,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
-        <rdfs:label xml:lang="en">drug product</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug product</rdfs:label>
     </owl:Class>
     
 
@@ -96,10 +99,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000017">
-        <rdfs:label xml:lang="en">drug cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">a portion of cream that is the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug cream</rdfs:label>
     </owl:Class>
     
 
@@ -107,10 +110,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000018">
-        <rdfs:label xml:lang="en">drug lotion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">a portion of lotion that is the bearer of a drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug lotion</rdfs:label>
     </owl:Class>
     
 
@@ -118,10 +121,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000020">
-        <rdfs:label xml:lang="en">drug solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">a portion of solution that is the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug solution</rdfs:label>
     </owl:Class>
     
 
@@ -129,10 +132,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000021">
-        <rdfs:label xml:lang="en">drug suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">a portion of suspension that is the bearer of a clinical drug role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug suspension</rdfs:label>
     </owl:Class>
     
 
@@ -140,10 +143,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000022">
-        <rdfs:label xml:lang="en">drug tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">a solid object typically of discoid, spheroid, or elliptic-cylindrical shape or approximations thereof, that bears a clinical drug role.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug tablet</rdfs:label>
     </owl:Class>
     
 
@@ -151,10 +154,10 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000026">
-        <rdfs:label xml:lang="en">drug capsule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000115 xml:lang="en">an object that is the bearer of a drug role and is comprised of a solid shell of elliptical-cylindrical shape and another object contained in the shell that has a scattered molecular aggregate as a proper part</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">drug capsule</rdfs:label>
     </owl:Class>
     
 
@@ -162,9 +165,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00000904 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000904">
-        <rdfs:label xml:lang="en">amoxicillin suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">amoxicillin suspension</rdfs:label>
     </owl:Class>
     
 
@@ -172,9 +175,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001104">
-        <rdfs:label xml:lang="en">Folic acid tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Folic acid tablet</rdfs:label>
     </owl:Class>
     
 
@@ -182,9 +185,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001106">
-        <rdfs:label xml:lang="en">Clotrimazole skin cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Clotrimazole skin cream</rdfs:label>
     </owl:Class>
     
 
@@ -192,9 +195,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001109">
-        <rdfs:label xml:lang="en">Nystatin suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Nystatin suspension</rdfs:label>
     </owl:Class>
     
 
@@ -202,9 +205,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001114">
-        <rdfs:label xml:lang="en">Gentamicin injectable solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Gentamicin injectable solution</rdfs:label>
     </owl:Class>
     
 
@@ -212,9 +215,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001117">
-        <rdfs:label xml:lang="en">Dexamethasone injection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Dexamethasone injection</rdfs:label>
     </owl:Class>
     
 
@@ -222,9 +225,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001123">
-        <rdfs:label xml:lang="en">Chloramphenicol solution for otic and ophthalmic administration</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Chloramphenicol solution for otic and ophthalmic administration</rdfs:label>
     </owl:Class>
     
 
@@ -232,9 +235,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001138">
-        <rdfs:label xml:lang="en">Metronidazole solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Metronidazole solution</rdfs:label>
     </owl:Class>
     
 
@@ -242,9 +245,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001509 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001509">
-        <rdfs:label xml:lang="en">prednisolone tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">prednisolone tablet</rdfs:label>
     </owl:Class>
     
 
@@ -252,9 +255,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001511">
-        <rdfs:label xml:lang="en">salbutamol suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">salbutamol suspension</rdfs:label>
     </owl:Class>
     
 
@@ -262,9 +265,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00018567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00018567">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dornase Alfa</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dornase Alfa</rdfs:label>
     </owl:Class>
     
 
@@ -272,9 +275,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020431">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Chloride Nasal Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sodium Chloride Nasal Solution</rdfs:label>
     </owl:Class>
     
 
@@ -282,9 +285,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020467">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetaminophen Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acetaminophen Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -292,9 +295,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020551 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020551">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascorbic Acid Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascorbic Acid Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -302,9 +305,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020613 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020613">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ibuprofen Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ibuprofen Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -312,9 +315,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020757">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambroxol Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ambroxol Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -322,9 +325,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00020873 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00020873">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azithromycin Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Azithromycin Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -332,9 +335,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021182">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefixime Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefixime Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -342,9 +345,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021212">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cetirizine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cetirizine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -352,9 +355,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021246">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Injectable Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Injectable Solution</rdfs:label>
     </owl:Class>
     
 
@@ -362,9 +365,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021247">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloroquine Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -372,9 +375,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021279">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorpheniramine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlorpheniramine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -382,9 +385,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021346">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciprofloxacin Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciprofloxacin Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -392,9 +395,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021406">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clotrimazole Topical Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clotrimazole Topical Solution</rdfs:label>
     </owl:Class>
     
 
@@ -402,9 +405,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021569 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021569">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diazepam Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diazepam Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -412,9 +415,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021596">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicyclomine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicyclomine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -422,9 +425,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00021709 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00021709">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domperidone Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domperidone Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -432,9 +435,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycerin Rectal Suppository</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycerin Rectal Suppository</rdfs:label>
     </owl:Class>
     
 
@@ -442,9 +445,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022124">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxyzine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxyzine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -452,9 +455,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mebendazole Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mebendazole Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -462,9 +465,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022621 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022621">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naproxen Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naproxen Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -472,9 +475,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022711">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrazepam Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrazepam Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -482,9 +485,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022759">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ondansetron Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ondansetron Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -492,9 +495,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00022806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00022806">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxycodone Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxycodone Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -502,9 +505,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00023027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin K 1 Injectable Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin K 1 Injectable Solution</rdfs:label>
     </owl:Class>
     
 
@@ -512,9 +515,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00023088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023088">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potassium Chloride Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Potassium Chloride Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -522,9 +525,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00023306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023306">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riboflavin Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riboflavin Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -532,9 +535,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00023392 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023392">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simethicone Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simethicone Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -542,9 +545,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00023558 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023558">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theophylline Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theophylline Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -552,9 +555,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00024920 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00024920">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Povidone Topical Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Povidone Topical Solution</rdfs:label>
     </owl:Class>
     
 
@@ -562,9 +565,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00025987 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00025987">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xylometazoline Nasal Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xylometazoline Nasal Solution</rdfs:label>
     </owl:Class>
     
 
@@ -572,9 +575,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00025989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00025989">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tobramycin Ophthalmic Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tobramycin Ophthalmic Solution</rdfs:label>
     </owl:Class>
     
 
@@ -582,9 +585,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026073">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketoconazole Medicated Shampoo</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketoconazole Medicated Shampoo</rdfs:label>
     </owl:Class>
     
 
@@ -592,9 +595,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026161">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betamethasone Topical Cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betamethasone Topical Cream</rdfs:label>
     </owl:Class>
     
 
@@ -602,9 +605,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026172">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calamine Topical Lotion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000018"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calamine Topical Lotion</rdfs:label>
     </owl:Class>
     
 
@@ -612,9 +615,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026303 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026303">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miconazole Topical Cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miconazole Topical Cream</rdfs:label>
     </owl:Class>
     
 
@@ -622,9 +625,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026326">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Permethrin Topical Cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Permethrin Topical Cream</rdfs:label>
     </owl:Class>
     
 
@@ -632,9 +635,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026348">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Sulfadiazine Topical Cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Sulfadiazine Topical Cream</rdfs:label>
     </owl:Class>
     
 
@@ -642,9 +645,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026595">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactulose Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lactulose Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -652,9 +655,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026717 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026717">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amlexanox Oral Paste</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amlexanox Oral Paste</rdfs:label>
     </owl:Class>
     
 
@@ -662,9 +665,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026889 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026889">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">montelukast Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">montelukast Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -672,9 +675,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00026927 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00026927">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitazoxanide Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitazoxanide Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -682,9 +685,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00027488 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00027488">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranitidine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ranitidine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -692,9 +695,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00027639 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00027639">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miconazole Oral Gel</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miconazole Oral Gel</rdfs:label>
     </owl:Class>
     
 
@@ -702,9 +705,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00027939 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00027939">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetracycline Topical Lotion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000018"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tetracycline Topical Lotion</rdfs:label>
     </owl:Class>
     
 
@@ -712,9 +715,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00027970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00027970">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moxifloxacin Ophthalmic Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moxifloxacin Ophthalmic Solution</rdfs:label>
     </owl:Class>
     
 
@@ -722,9 +725,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00028060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00028060">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artesunate Injectable Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artesunate Injectable Solution</rdfs:label>
     </owl:Class>
     
 
@@ -732,9 +735,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00028948 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00028948">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Sulfate (USP) / Hydrocortisone Topical Ointment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Sulfate (USP) / Hydrocortisone Topical Ointment</rdfs:label>
     </owl:Class>
     
 
@@ -742,9 +745,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00030554 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00030554">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythromycin Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythromycin Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -752,9 +755,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00030841 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00030841">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desloratadine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desloratadine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -762,9 +765,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00030873 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00030873">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amoxicillin / Clavulanate Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amoxicillin / Clavulanate Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -772,9 +775,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00030925 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00030925">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mefenamate Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mefenamate Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -782,9 +785,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00031432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00031432">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fexofenadine Oral Suspension</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fexofenadine Oral Suspension</rdfs:label>
     </owl:Class>
     
 
@@ -792,9 +795,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00031867 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00031867">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floxacillin Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floxacillin Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -802,9 +805,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00031892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00031892">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acyclovir Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acyclovir Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -812,9 +815,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00031946 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00031946">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluconazole Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluconazole Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -822,9 +825,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00031951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00031951">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guaifenesin / Pseudoephedrine / Triprolidine Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guaifenesin / Pseudoephedrine / Triprolidine Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -832,9 +835,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00032047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00032047">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sulfamethoxazole / Trimethoprim Oral Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sulfamethoxazole / Trimethoprim Oral Solution</rdfs:label>
     </owl:Class>
     
 
@@ -842,9 +845,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00032533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00032533">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artemether / lumefantrine Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artemether / lumefantrine Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -852,9 +855,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00032549 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00032549">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciprofloxacin Otic Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ciprofloxacin Otic Solution</rdfs:label>
     </owl:Class>
     
 
@@ -862,9 +865,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00033297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00033297">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoate / Salicylic Acid Topical Cream</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000017"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benzoate / Salicylic Acid Topical Cream</rdfs:label>
     </owl:Class>
     
 
@@ -872,9 +875,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00051859 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00051859">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinc Sulfate 20 MG Oral Tablet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinc Sulfate 20 MG Oral Tablet</rdfs:label>
     </owl:Class>
     
 
@@ -882,9 +885,9 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00775058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00775058">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Otic Solution</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Otic Solution</rdfs:label>
     </owl:Class>
     
 
@@ -892,14 +895,14 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
-        <rdfs:label xml:lang="en">processed material</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">Is a material entity that is created or changed during material processing.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">processed material</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
