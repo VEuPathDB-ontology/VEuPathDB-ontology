@@ -17932,9 +17932,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115>Site where a human life process ended.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000118>place of death</obo:IAO_0000118>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
-        <rdfs:label>place of death</rdfs:label>
+        <rdfs:label>location of death</rdfs:label>
     </owl:Class>
     
 
@@ -30074,12 +30075,15 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001352</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod trap that is designed to trap an arthropod as it emerges from water at the beginning of its adult stage.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trap for emerging adult arthropods</obo:IAO_0000118>
         <obo:IAO_0000119>American Midland Naturalist, Vol. 97, No. 2 (Apr., 1977), pp. 381-389</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trap for emerging adult arthropods</rdfs:label>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/178</obo:IAO_0000233>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/OBI_0003008</obo:IAO_0100001>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_trap for emerging adult arthropods</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
