@@ -139,19 +139,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00000070 -->
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000070"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000825 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000825">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
-        <obo:IAO_0000115>A part of a building roof which overhangs the face of a wall and, normally, projects beyond the side of a building.</obo:IAO_0000115>
-        <rdfs:comment>The primary function of the eaves is to keep rain water off the walls and to prevent the ingress of water at the junction where the roof meets the wall.  The secondary function is to control solar penetration; the eaves overhang can be designed to adjust the building&apos;s solar heat gain to suit the local climate, the latitude and orientation of the building, refer to passive solar building design. The eaves overhang may also shelter openings to ventilate the roof space.</rdfs:comment>
-        <rdfs:label>eaves</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reference to a place on the Earth, by its name or by its geographical location.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographic location</rdfs:label>
     </owl:Class>
     
 
