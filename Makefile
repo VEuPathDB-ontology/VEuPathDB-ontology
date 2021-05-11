@@ -44,14 +44,70 @@ ROBOT := java -jar build/robot.jar
 ### Imports
 #
 # Use Ontofox to import various modules.
-build/import_%.owl: src/OntoFox-input/input_%.txt | build
+build/import_%.owl: src/ontology/OntoFox-input/input_%.txt | build/robot.jar build
 	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
 
-# Use ROBOT to ensure that serialization is consistent.
-src/ontology/import/import_%.owl: build/import_%.owl
-	$(ROBOT) convert -i build/$import_*.owl -o $@
+# Use ROBOT to remove external axioms
+src/ontology/OntoFox_outputs/import_EFO.owl: build/import_EFO.owl
+	$(ROBOT) remove --input build/import_EFO.owl \
+	--base-iri 'http://www.ebi.ac.uk/efo/EFO_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
 
-IMPORT_FILES := $(wildcard src/ontology/import/import_*.owl)
+src/ontology/OntoFox_outputs/import_%.owl: build/import_%.owl
+	$(ROBOT) remove --input build/import_$*.owl \
+	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
+
+IMPORT_NAMES := APOLLO_SV\
+ BTO\
+ CHEBI\
+ CIDO\
+ CL\
+ CMO\
+ DOID\
+ DRON\
+ EFO\
+ ENVO\
+ ERO\
+ FOODON\
+ GENEPIO\
+ GO\
+ HP\
+ IAO\
+ IDO\
+ MOD\
+ NCBITaxon\
+ NCIT\
+ OBI\
+ OBIB\
+ OGMS\
+ OMP\
+ OMRSE\
+ ONTONEO\
+ OPL\
+ PATO\
+ PCO\
+ PDRO\
+ PO\
+ PR\
+ REO\
+ RO\
+ SO\
+ STATO\
+ SYMP\
+ UBERON\
+ UO\
+ VO
+
+IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/OntoFox_outputs/import_$(x).owl)
+
+#IMPORT_FILES := $(wildcard src/ontology/OntoFox_outputs/import_*.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
