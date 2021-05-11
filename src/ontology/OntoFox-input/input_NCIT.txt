@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_NCIT.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C25641 #Reference
+subClassOf http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/NCIT_C29107 #IV Fluid
+subClassOf http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
+http://purl.obolibrary.org/obo/NCIT_C85819 #thick smear technique
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+http://purl.obolibrary.org/obo/NCIT_C85820 #thin smear technique
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+

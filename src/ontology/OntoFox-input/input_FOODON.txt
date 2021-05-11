@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_FOODON.owl
+
+############################################################
+[Source ontology]
+#comment here
+FOODON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
+http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
+http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
+http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FOODON_00001287 #mushroom
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_4751 #Fungi/Fungus
+http://purl.obolibrary.org/obo/FOODON_03303130 #Infant formula
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
+http://purl.obolibrary.org/obo/FOODON_03412974 #Liquids for consumption
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
+http://purl.obolibrary.org/obo/FOODON_03430151 #Solids for consumption
+subClassOf http://purl.obolibrary.org/obo/ENVO_00010483 #environmental material
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+

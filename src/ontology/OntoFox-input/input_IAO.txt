@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_IAO.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
+http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+http://purl.obolibrary.org/obo/IAO_0000401 #one dimensional cartesian spatial coordinate datum
+http://purl.obolibrary.org/obo/IAO_0000311 #publication
+http://purl.obolibrary.org/obo/IAO_0000444 #publishing process
+http://purl.obolibrary.org/obo/IAO_0000005 #objective specification
+http://purl.obolibrary.org/obo/IAO_0000028 #symbol
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+http://purl.obolibrary.org/obo/IAO_0000064 #algorithm
+http://purl.obolibrary.org/obo/IAO_0000104 #plan specification
+http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/IAO_0000300 #textual entity
+http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://purl.obolibrary.org/obo/IAO_0000429 #email address
+http://purl.obolibrary.org/obo/IAO_0000577 #centrally registered identifier symbol
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0020000 #identifier
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000310 #document
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000027 #data item
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000033 #directive information entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/IAO_0000444 #publishing process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+

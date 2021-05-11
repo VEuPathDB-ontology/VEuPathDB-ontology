@@ -1,0 +1,64 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_GO.owl
+
+
+############################################################
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
+http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0003990 #acetylcholinesterase activity
+http://purl.obolibrary.org/obo/GO_0004364 #glutathione transferase activity
+http://purl.obolibrary.org/obo/GO_0016788 #hydrolase activity, acting on ester bonds
+http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
+http://purl.obolibrary.org/obo/GO_0033561 #regulation of water loss via skin
+http://purl.obolibrary.org/obo/GO_0043514 #interleukin-12 complex (Interleukin 12, p70)
+http://purl.obolibrary.org/obo/GO_1990265 #platelet-derived growth factor complex
+http://purl.obolibrary.org/obo/GO_0043509 #activin A complex
+http://purl.obolibrary.org/obo/GO_0070288 #ferritin complex
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+http://purl.obolibrary.org/obo/BFO_0003990 #acetylcholinesterase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/BFO_0004364 #glutathione transferase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/BFO_0016788 #hydrolase activity, acting on ester bonds
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0052689 #carboxylic ester hydrolase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0007585 #respiratory gaseous exchange by respiratory system
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0007567 #parturition
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0043514 #interleukin-12 complex (Interleukin 12, p70)
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_1990265 #platelet-derived growth factor complex	 
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0043509 #activin A complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0070288 #ferritin complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
+

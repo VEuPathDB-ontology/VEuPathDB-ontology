@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_CIDO.owl
+
+############################################################
+[Source ontology]
+CIDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OPMI_0000435 #positive COVID-19 case
+http://purl.obolibrary.org/obo/CIDO_0000437 #negative COVID-19 case
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OPMI_0000435 #positive COVID-19 case
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+http://purl.obolibrary.org/obo/CIDO_0000437 #negative COVID-19 case
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000073 #diagnosis
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

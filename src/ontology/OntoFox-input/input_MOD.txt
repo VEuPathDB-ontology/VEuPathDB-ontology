@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_MOD.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+MOD
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MOD_01090 #iodoacetamide derivatized amino-terminal residue
+http://purl.obolibrary.org/obo/MOD_00675 #oxidized residue
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MOD_01090 #iodoacetamide derivatized amino-terminal residue
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33708 #aa residue
+http://purl.obolibrary.org/obo/MOD_00675 #oxidized residue
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33708 #aa residue
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
