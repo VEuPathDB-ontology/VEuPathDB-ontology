@@ -21,6 +21,13 @@ http://purl.obolibrary.org/obo/GO_0070288 #ferritin complex
 http://purl.obolibrary.org/obo/GO_0008150 #biological_process
 http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
 http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+http://purl.obolibrary.org/obo/GO_0003964 #RNA-directed DNA polymerase activity
+http://purl.obolibrary.org/obo/GO_0010467 #gene expression
+http://purl.obolibrary.org/obo/GO_0019815 #B cell receptor complex
+http://purl.obolibrary.org/obo/GO_0042101 #T cell receptor complex
+http://purl.obolibrary.org/obo/GO_0042571 #immunoglobulin complex, circulating
+http://purl.obolibrary.org/obo/GO_0042575 #DNA polymerase complex
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/GO_0016570 #Histone modification
@@ -53,6 +60,21 @@ http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
 subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/GO_0003964 #RNA-directed DNA polymerase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0034061 #DNA polymerase activity
+http://purl.obolibrary.org/obo/GO_0034061 #DNA polymerase activity
+subClassOf http://purl.obolibrary.org/obo/GO_0003824 #catalytic activity
+http://purl.obolibrary.org/obo/GO_0010467 #gene expression
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+http://purl.obolibrary.org/obo/GO_0019815 #B cell receptor complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0042101 #T cell receptor complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0042571 #immunoglobulin complex, circulating
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+http://purl.obolibrary.org/obo/GO_0042575 #DNA polymerase complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 #protein-containing complex
+
 
 [Source term retrieval setting]
 includeNoIntermediates
