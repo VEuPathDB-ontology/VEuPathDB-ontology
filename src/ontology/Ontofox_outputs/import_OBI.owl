@@ -4444,6 +4444,22 @@ pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600058"/>
+        <obo:IAO_0000111 xml:lang="en">linear amplification</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An example is the use of the T7 promoter for amplification by transcribing many RNA copies.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An enzymatic amplification which amplifies nucleic acid sequence by making many copies off the same template.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_997 linear_amplification</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">linear amplification</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001508">
@@ -7051,7 +7067,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/OBI_0002687 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002687">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600058"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001494"/>
         <obo:IAO_0000111>ligase detection reaction</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A linear amplification that uses a thermostable ligase to amplify a piece of DNA. Because the enzyme retains activity after multiple thermal cycles, the ligations may be repeated to linearly increase product.</obo:IAO_0000115>
