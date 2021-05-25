@@ -13,33 +13,58 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath_dev.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/chebi_roles.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/clinical-chemistry-data.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/diagnosis.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/externalByHand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/general.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_CHEBI.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_DOID.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_DRON.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_ENVO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_HP.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_NCBITaxon.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBI.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PATO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PR.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_SO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_SYMP.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UBERON.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/insecticide_resistance.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/popbio_organism.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/protein_variant.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/schedule_deprecate.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/symptom_duration.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2021-04-06/NIAID-GSC-BRC.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_APOLLO_SV.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_BTO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_CHEBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_CIDO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_CL.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_CMO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_DOID.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_DRON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_EFO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_ENVO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_ERO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_FOODON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_GENEPIO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_GO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_HP.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_IAO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_IDO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_MOD.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_NCBITaxon.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OMP.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OMRSE.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_ONTONEO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OPL.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PATO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PCO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PDRO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_PR.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_REO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_RO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_SO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_STATO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_SYMP.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UBERON.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_UO_instance.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_VO.owl"/>
         <dc:creator>Chris Stoeckert</dc:creator>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
@@ -461,12 +486,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    
-
-
-    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     
 
 
@@ -16286,17 +16305,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/122</obo:IAO_0000233>
         <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VectorBase</obo:IAO_0000234>
         <rdfs:label xml:lang="en">geohash 32</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
-        <obo:IAO_0000115>A manufactured product that is a 3rd generation Indoor Residual Spraying (3GIRS) micro-encapsulated formulation of an existing organophosphate insecticide, Pirimiphos-methyl, co-developed through a partnership between Syngenta and IVCC.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.ivcc.com/market-access/actellic-300cs/</obo:IAO_0000119>
-        <rdfs:label>Actellic-300CS insecticide</rdfs:label>
     </owl:Class>
     
 

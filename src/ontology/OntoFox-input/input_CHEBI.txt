@@ -121,8 +121,25 @@ http://purl.obolibrary.org/obo/CHEBI_18276 #dihydrogen
 http://purl.obolibrary.org/obo/CHEBI_4822 #ergometrine
 http://purl.obolibrary.org/obo/CHEBI_167184 #chlorthion
 http://purl.obolibrary.org/obo/CHEBI_92511 #ketotifen
+http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_16991 #deoxyribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_28619 #acrylamide
+http://purl.obolibrary.org/obo/CHEBI_33697 #ribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+
 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_16670 #peptide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+http://purl.obolibrary.org/obo/CHEBI_33839 #macromolecule
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 http://purl.obolibrary.org/obo/CHEBI_3638 #chloroquine - antimalarial
 subClassOf http://purl.obolibrary.org/obo/CHEBI_26513 #quinolines
 http://purl.obolibrary.org/obo/CHEBI_15854 #quinine - antimalarial
@@ -331,8 +348,6 @@ http://purl.obolibrary.org/obo/CHEBI_60911 #racemate
 subClassOf http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
 http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
-http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/CHEBI_15843 #arachidonic acid
 subClassOf http://purl.obolibrary.org/obo/CHEBI_35366 #fatty acid
 http://purl.obolibrary.org/obo/CHEBI_28661 #gamma-linolenic acid
@@ -455,9 +470,24 @@ http://purl.obolibrary.org/obo/CHEBI_16737 #creatinine
 subClassOf http://purl.obolibrary.org/obo/CHEBI_24995 #lactam
 http://purl.obolibrary.org/obo/CHEBI_167184 #chlorthion
 subClassOf http://purl.obolibrary.org/obo/CHEBI_26020 #phosphate
+http://purl.obolibrary.org/obo/CHEBI_16991 #deoxyribonucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_28619 #acrylamide
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+http://purl.obolibrary.org/obo/CHEBI_33697 #ribonucleic acid
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33250 #atom
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+http://purl.obolibrary.org/obo/CHEBI_59999 #chemical substance
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
 
 [Source term retrieval setting]
-includeNoIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label

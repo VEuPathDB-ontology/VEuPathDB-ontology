@@ -1,0 +1,31 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl
+
+############################################################
+[Source ontology]
+OBIB
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
+http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
+
+http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0000953 #processed specimen
+http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+
+

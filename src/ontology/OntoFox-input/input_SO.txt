@@ -20,6 +20,8 @@ http://purl.obolibrary.org/obo/SO_0001769 #variant_phenotype
 http://purl.obolibrary.org/obo/SO_1000036 #inversion
 http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
 http://purl.obolibrary.org/obo/SO_0001026 #genome
+http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000353 #sequence_assembly
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/SO_0001000 #rRNA_16S
@@ -33,6 +35,8 @@ subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
 http://purl.obolibrary.org/obo/SO_0000703 #experimental_result_region
 subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
 http://purl.obolibrary.org/obo/SO_0000704 #gene
+subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
+http://purl.obolibrary.org/obo/SO_0000353 #sequence_assembly
 subClassOf http://purl.obolibrary.org/obo/SO_0000001 #region
 http://purl.obolibrary.org/obo/SO_0001027 #genotype
 subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
@@ -52,6 +56,9 @@ http://purl.obolibrary.org/obo/SO_1000047 #paracentric_inversion
 subClassOf http://purl.obolibrary.org/obo/SO_0001507 #variant_collection
 http://purl.obolibrary.org/obo/SO_0001026 #genome
 subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/SO_0000001 #region
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+
 
 [Source term retrieval setting]
 includeNoIntermediates

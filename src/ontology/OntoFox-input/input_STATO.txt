@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_STATO.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+STATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/STATO_0000047 #count
+http://purl.obolibrary.org/obo/STATO_0000101 #has numerator
+http://purl.obolibrary.org/obo/STATO_0000259 #has denominator
+http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
+http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/STATO_0000047 #count
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://purl.obolibrary.org/obo/STATO_0000190 #threshold cycle
+subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
+http://purl.obolibrary.org/obo/STATO_0000139 #subject pairing
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 #planned process
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

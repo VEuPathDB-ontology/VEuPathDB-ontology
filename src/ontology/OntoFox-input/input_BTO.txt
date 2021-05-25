@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_BTO.owl
+
+############################################################
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0000224 #liver cell line
+http://purl.obolibrary.org/obo/BTO_0000453 #fibroblast cell line
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BTO_0000224 #liver cell line
+subClassOf http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
+http://purl.obolibrary.org/obo/BTO_0000453 #fibroblast cell line
+subClassOf http://purl.obolibrary.org/obo/CL_0000010 #cultured cell
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

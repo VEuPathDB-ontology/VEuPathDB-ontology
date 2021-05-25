@@ -1,0 +1,28 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_PO.owl
+
+
+############################################################
+[Source ontology]
+PO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PO_0009001 #fruit
+http://purl.obolibrary.org/obo/PO_0009046 #flower
+http://purl.obolibrary.org/obo/PO_0025131 #plant anatomical entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PO_0009001 #fruit
+subClassOf http://purl.obolibrary.org/obo/PO_0025131 #plant anatomical entity
+http://purl.obolibrary.org/obo/PO_0009046 #flower
+subClassOf http://purl.obolibrary.org/obo/PO_0025131 #plant anatomical entity
+http://purl.obolibrary.org/obo/PO_0025131 #plant anatomical entity
+subClassOf http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
