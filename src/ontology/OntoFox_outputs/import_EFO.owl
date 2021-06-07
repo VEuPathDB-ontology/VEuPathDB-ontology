@@ -57,9 +57,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_229"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_4 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_7"/>
     
 
 
@@ -72,6 +84,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000414"/>
     
 
 
@@ -149,6 +167,17 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004344 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass or quantity of heaviness of an individual at BIRTH. It is expressed by units of pounds or kilograms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth weight</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004348 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004348">
@@ -211,6 +240,29 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition or physical state produced by the ingestion, injection, inhalation of or exposure to a deleterious agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poisoning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009663 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009663">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involves the genitourinary system.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involves the genitourinary system. [database_cross_reference: MONDO:patterns/location]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of genitourinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_1001491 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_1001491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_229"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the ending of pregnancy by removing a fetus or embryo before it can survive outside the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abortion</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
