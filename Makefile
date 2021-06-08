@@ -65,6 +65,7 @@ src/ontology/OntoFox_outputs/import_%.owl: build/import_%.owl
 	--output $@
 
 IMPORT_NAMES := APOLLO_SV\
+ ARO\
  BTO\
  CHEBI\
  CIDO\
@@ -72,6 +73,7 @@ IMPORT_NAMES := APOLLO_SV\
  CMO\
  DOID\
  DRON\
+ DUO\
  EFO\
  ENVO\
  ERO\
@@ -84,11 +86,15 @@ IMPORT_NAMES := APOLLO_SV\
  MOD\
  NCBITaxon\
  NCIT\
+ OAE\
+ OBCS\
  OBI\
  OBIB\
  OGMS\
+ OMIABIS\
  OMP\
  OMRSE\
+ ONS\
  ONTONEO\
  OPL\
  PATO\
