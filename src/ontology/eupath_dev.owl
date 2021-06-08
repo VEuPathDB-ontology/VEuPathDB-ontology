@@ -4628,6 +4628,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000340">
         <obo:IAO_0000115>An information content entity that is about human traveling.</obo:IAO_0000115>
         <obo:IAO_0000116>replaced with OMRSE:00000142</obo:IAO_0000116>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000142"/>
         <rdfs:label>obsolete_human traveling information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -4678,6 +4679,7 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000345">
         <obo:IAO_0000115>An information content entity that is about the highest level of schooling that a person has reached.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00002045"/>
         <rdfs:label>obsolete_educational level information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -6413,11 +6415,13 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000496 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000496">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information indicates that samples from child or from the mother, or both.</obo:IAO_0000115>
         <obo:IAO_0000119>Person: Daniel Beiting, Jie Zheng</obo:IAO_0000119>
         <obo:IAO_0000119>microbiome</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether specimen from mother or child</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/194</obo:IAO_0000233>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000594"/>
+        <rdfs:label xml:lang="en">obsolete_information on whether specimen from mother or child</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -7601,9 +7605,13 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000594 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000594">
-        <obo:IAO_0100001 xml:lang="en">http://purl.obolibrary.org/obo/EUPATH_0000496</obo:IAO_0100001>
-        <rdfs:label xml:lang="en">obsolete_information of specimen obtained from the mother or chid</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity which indicates that samples are from the child or from the mother, or both.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Beiting, Jie Zheng</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/194</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">indicator of whether specimen from mother or child</rdfs:label>
     </owl:Class>
     
 
@@ -8219,16 +8227,6 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">mouse cage number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000686 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000686">
-        <rdfs:comment>Deprecated in favor of CHEBI:38068</rdfs:comment>
-        <rdfs:label>obsolete_antimalarial</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
