@@ -562,6 +562,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0001941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal acid accumulation or depletion of base.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001941"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic acidosis (MA) is characterized by a fall in blood pH due to a reduction of serum bicarbonate concentration. This can occur as a result of either the accumulation of acids (high anion gap MA) or the loss of bicarbonate from the gastrointestinal tract or the kidney (hyperchloremic MA). By definition, MA is not due to a respirary cause.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic acidosis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0001944 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001944">
@@ -720,7 +742,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001941"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormally increased level of blood lactate (2-hydroxypropanoic acid). Lactate is produced from pyruvate by lactate dehydrogenase during normal metabolism. The terms lactate and lactic acid are often used interchangeably but lactate (the component measured in blood) is strictly a weak base whereas lactic acid is the corresponding acid. Lactic acidosis is often used clinically to describe elevated lactate but should be reserved for cases where there is a corresponding acidosis (pH below 7.35).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased serum lactate</rdfs:label>
