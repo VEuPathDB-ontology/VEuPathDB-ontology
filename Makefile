@@ -48,7 +48,7 @@ build/import_%.owl: src/ontology/OntoFox-input/input_%.txt | build/robot.jar bui
 	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
 
 # Use ROBOT to remove external axioms
-src/ontology/OntoFox_outputs/import_EFO.owl: build/import_EFO.owl
+src/ontology/imports/import_EFO.owl: build/import_EFO.owl
 	$(ROBOT) remove --input build/import_EFO.owl \
 	--base-iri 'http://www.ebi.ac.uk/efo/EFO_' \
 	--axioms external \
@@ -56,7 +56,7 @@ src/ontology/OntoFox_outputs/import_EFO.owl: build/import_EFO.owl
 	--trim false \
 	--output $@
 
-src/ontology/OntoFox_outputs/import_%.owl: build/import_%.owl
+src/ontology/imports/import_%.owl: build/import_%.owl
 	$(ROBOT) remove --input build/import_$*.owl \
 	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
 	--axioms external \
@@ -111,9 +111,9 @@ IMPORT_NAMES := APOLLO_SV\
  UO\
  VO
 
-IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/OntoFox_outputs/import_$(x).owl)
+IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/imports/import_$(x).owl)
 
-#IMPORT_FILES := $(wildcard src/ontology/OntoFox_outputs/import_*.owl)
+#IMPORT_FILES := $(wildcard src/ontology/imports/import_*.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
