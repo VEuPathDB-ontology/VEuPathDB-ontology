@@ -285,12 +285,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000056"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000093">
@@ -1834,23 +1828,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015669">
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                        <owl:someValuesFrom>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13250"/>
                             </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000056"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
@@ -2144,6 +2135,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029"/>
     
 
 
