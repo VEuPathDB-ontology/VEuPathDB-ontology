@@ -56,7 +56,7 @@ src/ontology/OntoFox_outputs/import_EFO.owl: build/import_EFO.owl
 	--trim false \
 	--output $@
 
-src/ontology/OntoFox_outputs/import_%.owl: build/import_%.owl
+src/ontology/imports/import_%.owl: build/import_%.owl
 	$(ROBOT) remove --input build/import_$*.owl \
 	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
 	--axioms external \
