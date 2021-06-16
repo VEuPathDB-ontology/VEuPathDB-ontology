@@ -6433,11 +6433,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000495 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000495">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity that idicates whether the hive was treated with tetracyline to prevent infection with the bacterial pathogen Paenibacillus larvae.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: Daniel Beiting, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <dc:source>microbiome</dc:source>
-        <rdfs:label xml:lang="en">information on whether hive treated with tetracyline</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_information on whether hive treated with tetracyline</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
