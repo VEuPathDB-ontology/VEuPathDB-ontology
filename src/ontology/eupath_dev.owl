@@ -47,7 +47,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBI.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OGMS.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OMIABIS.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OMP.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_OMRSE.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/import_ONS.owl"/>
@@ -4880,7 +4879,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000362">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity about whether a person received payment from primary economic activity.</obo:IAO_0000115>
-        <rdfs:label>information on whether received payment from primary economic activity</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether person received payment from primary economic activity</rdfs:label>
     </owl:Class>
     
 
@@ -4890,7 +4892,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity about whether a person received payment from secondary economic activity.</obo:IAO_0000115>
-        <rdfs:label>information on whether received payment from secondary economic activity</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether person received payment from secondary economic activity</rdfs:label>
     </owl:Class>
     
 
@@ -5013,9 +5018,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a human being plans to change within two years the dwelling which that human being occupies</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether a person plans to move</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether person plans to move</rdfs:label>
     </owl:Class>
     
 
@@ -5430,9 +5438,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a patient complies with a dose specification that specifies the dose of malaria medication to self-administer</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether antimalarial drugs taken as advised</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking antimalarial drugs as advised</rdfs:label>
     </owl:Class>
     
 
@@ -5442,9 +5453,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000410">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a participant under investigation self-administered antimalarial drugs in the past 2 weeks</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on whether took antimalarial drugs in last 2 weeks</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking antimalarial drugs in last 2 weeks</rdfs:label>
     </owl:Class>
     
 
@@ -5466,9 +5480,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is about a human participant under investigation and specifies whether the participant has a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on whether has existing illness</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant having existing illness</rdfs:label>
     </owl:Class>
     
 
@@ -5522,9 +5539,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a human being is manifesting a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on whether a person is sick now</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether person is sick now</rdfs:label>
     </owl:Class>
     
 
@@ -5684,7 +5704,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115>An information content entity about whether antimalarial drug treated last year</obo:IAO_0000115>
-        <rdfs:label>information on whether antimalarial drug treated last year</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant treated antimalarial drugs last year</rdfs:label>
     </owl:Class>
     
 
@@ -7422,7 +7445,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000580">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity about whether child exposed to antibiotics.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">information on whether child exposed to antibiotics</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether child exposed to antibiotics</rdfs:label>
     </owl:Class>
     
 
@@ -7467,7 +7493,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000583">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity about whether bee colony treated with tetracycline.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">information on whether bee colony treated with tetracycline</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether bee colony treated with tetracycline</rdfs:label>
     </owl:Class>
     
 
@@ -7517,9 +7546,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000588">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000087"/>
         <obo:IAO_0000115 xml:lang="en">household information that specifies whether the household relocated during its time under investigation</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether a family moved</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether a family moved</rdfs:label>
     </owl:Class>
     
 
@@ -7586,9 +7618,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000592">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">a categorical value specification that is about a collection of bee larvae and specifies whether tetracycline was administered to the larvae</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether bee larvae treated with tetracycline</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether bee larvae treated with tetracycline</rdfs:label>
     </owl:Class>
     
 
@@ -7682,9 +7717,12 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies whether a mother received an antimicrobial agent</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">information on whether antibiotics given to mom</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether antibiotics given to mother of participant</rdfs:label>
     </owl:Class>
     
 
@@ -9145,10 +9183,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that specifies whether a human participant under investigation is currently a medication-taking patient</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins, Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Currently receiving medication</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether receiving medication</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant receiving medication</rdfs:label>
     </owl:Class>
     
 
@@ -9542,10 +9583,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that specifies whether a human participant under investigation meets requirements for human subject enrollment</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eligibility for enrollment</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of participant eligibility for enrollment</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant eligibility for enrollment</rdfs:label>
     </owl:Class>
     
 
@@ -9574,10 +9617,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Adenovirus</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenovirus ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Adenovirus ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Adenovirus ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -9587,10 +9633,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010580">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Astrovirus</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrovirus ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Astrovirus ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Astrovirus ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -9600,10 +9649,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010581">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Rotavirus</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotavirus ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Rotavirus ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Rotavirus ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -9613,10 +9665,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010583">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a modified acid fast staining method was performed</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified acid fast staining method performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether modified acid fast staining method performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether modified acid fast staining method performed</rdfs:label>
     </owl:Class>
     
 
@@ -9626,10 +9681,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010588">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specifiction that specifies whether a reverse transcription polymerase chain reaction assay was performed with the objective of determining whether a specimen contains Norovirus</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norovirus RT-PCR performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Norovirus RT-PCR performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Norovirus RT-PCR performed</rdfs:label>
     </owl:Class>
     
 
@@ -9639,10 +9697,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010590">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Cryptosporidium</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Cryptosporidium ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Cryptosporidium ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -9652,10 +9713,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010591">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Entamoeba histolytica</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Entamoeba histolytica ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Entamoeba histolytica ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -9665,10 +9729,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010592">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Giardia</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia ELISA performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether Giardia ELISA performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether Giardia ELISA performed</rdfs:label>
     </owl:Class>
     
 
@@ -13159,10 +13226,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a microscopy assay was performed</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopy performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microscopy assay performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether microscopy assay performed</rdfs:label>
     </owl:Class>
     
 
@@ -13315,10 +13385,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000431"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant received treatment for malaria in a clinic, within the past year</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinic/hospital</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether treated in clinic</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether treated in clinic</rdfs:label>
     </owl:Class>
     
 
@@ -13328,10 +13401,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000431"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether the bearer of an organization health care role, which administered a treatment to alleviate an episode of malaria, was a private practice</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Private doctor</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether treated by private practice</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether treated by private practice</rdfs:label>
     </owl:Class>
     
 
@@ -13341,10 +13417,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000431"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A categorical value specification that specifies whether a treatment to alleviate an episode of malaria was self-administered</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Where treated) Self-treated</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of self-treated malaria</rdfs:label>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether malaria self-treated</rdfs:label>
     </owl:Class>
     
 
@@ -13354,10 +13432,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000431"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation who, within one year previous, was administered an antimalarial drug to alleviate symptoms of malaria. This information content entity specifies that the participant does not remember the geographic location where this treatment was provided.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Where treated) Can&apos;t remember</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgot where treatment within past year occurred</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant forgot treatment location within past year</rdfs:label>
     </owl:Class>
     
 
@@ -13471,10 +13552,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a falcivax rapid diagnostic test was performed</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FalciVax RDT performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether falcivax performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether falcivax performed</rdfs:label>
     </owl:Class>
     
 
@@ -13523,10 +13607,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether an optimal-IT rapid diagnostic test was performed</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OptiMAL RDT performed</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether optimal-IT performed</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether optimal-IT performed</rdfs:label>
     </owl:Class>
     
 
@@ -13536,10 +13623,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000852"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an information content entity that is about a human participant under investigation and specifies that the participant does not remember using a personal mosquito repellent</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Personal mosquito repellent) Can&apos;t remember</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forgot whether used personal mosquito repellent</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on participant forgetting whether used personal mosquito repellent</rdfs:label>
     </owl:Class>
     
 
@@ -13640,10 +13730,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000309"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether there exists some quality of a patient, material entity that is part of a patient, or processual entity that a patient participates in, that is both observed in a physical examination and deemed by the clinician to be of clinical significance</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any signs</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB, based on definition for &apos;sign&apos; in OGMS</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether participant has sign</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant has sign</rdfs:label>
     </owl:Class>
     
 
@@ -13653,10 +13746,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000309"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether there exists some quality of a patient that is observed by the patient or some processual entity experienced by the patient that is hypothesized by the patient to be a realization of a disease</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any symptoms</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB, based on definition for &apos;sign&apos; in OGMS</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether participant has symptom</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant has symptom</rdfs:label>
     </owl:Class>
     
 
@@ -13666,10 +13762,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was febrile in the previous 48 hours</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever in last 48 hours</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether had fever in last 48 hours</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant had fever in last 48 hours</rdfs:label>
     </owl:Class>
     
 
@@ -13692,10 +13791,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was febrile in the previous two weeks</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever in last 2 weeks</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether had fever in last two weeks</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant had fever in last two weeks</rdfs:label>
     </owl:Class>
     
 
@@ -14318,10 +14420,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0022053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was on the property of the participant&apos;s household at the time of a scheduled clinical visit</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Present at visit</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether participant present for clinical visit</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant present for clinical visit</rdfs:label>
     </owl:Class>
     
 
@@ -14533,10 +14638,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a second time while in hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take second antimalarial medication</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether second antimalarial taken</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking second antimalarial medication</rdfs:label>
     </owl:Class>
     
 
@@ -14546,10 +14654,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000308"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was discharged from hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discharged</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether discharged from hospital</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant discharged from hospital</rdfs:label>
     </owl:Class>
     
 
@@ -14572,10 +14683,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a third time while in hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take third antimalarial medication</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether third antimalarial taken</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking third antimalarial medication</rdfs:label>
     </owl:Class>
     
 
@@ -14598,10 +14712,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0023001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous twelve months</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved in last 12 months</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether moved in past twelve months</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant moved in past twelve months</rdfs:label>
     </owl:Class>
     
 
@@ -14611,10 +14728,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0023001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous month</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moved in last month</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether moved in past month</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant moved in past month</rdfs:label>
     </owl:Class>
     
 
@@ -14702,10 +14822,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation is receiving treatment to alleviate symptoms of malaria</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initiated antimalarial treatment</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether antimalarial treatment initiated</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking initial antimalarial medication</rdfs:label>
     </owl:Class>
     
 
@@ -14754,10 +14877,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fourth time while in hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take fourth antimalarial medication</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether fourth antimalarial taken</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking fourth antimalarial medication</rdfs:label>
     </owl:Class>
     
 
@@ -14767,10 +14893,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000794"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fifth time while in hospital</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Take fifth antimalarial medication</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether fifth antimalarial taken</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant taking fifth antimalarial medication</rdfs:label>
     </owl:Class>
     
 
@@ -14896,10 +15025,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether a human participant under investigation self-identifies as a member of a tribe</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tribal affilliation</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether participant is member of tribe</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant is member of tribe</rdfs:label>
     </owl:Class>
     
 
@@ -14909,10 +15041,13 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a categorical value specification that specifies whether the life-death temporal boundary of a human participant under investigation occurred during a health care encounter in a hospital facility</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert </obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Died</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on whether participant died in hospital</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether participant died in hospital</rdfs:label>
     </owl:Class>
     
 
@@ -14923,7 +15058,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000795"/>
         <obo:IAO_0000115>An information content entity that specifies whether a blood smear has been performed.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
-        <rdfs:label>indicator of blood smear performed</rdfs:label>
+        <rdfs:label>indicator of whether blood smear performed</rdfs:label>
     </owl:Class>
     
 
