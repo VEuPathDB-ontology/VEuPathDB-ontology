@@ -45,9 +45,116 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1579"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000408"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
+        <obo:IAO_0000115>The presence of more than one fungal and/or bacterial organism in a culture.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Mixed Flora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120835">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A measurement of the total number of induced abortions experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Number of Induced Abortions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120837 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120837">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A measurement of the total number of spontaneous abortions (in which the fetus is less than 20 weeks gestational age) experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Number of Spontaneous Abortions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C124435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONTONEO_00000255"/>
+        <obo:IAO_0000115>The gestational age of the subject at birth.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Gestational Age at Birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C131844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C131844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000115>A 10-item, self-rating questionnaire designed to screen postpartum women for indications of depression.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Edinburgh Postnatal Depression Scale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C154876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C154876">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <obo:IAO_0000115>A measurement of the distance between the pubic symphysis and the top of the palpable uterus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Fundal Height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
+        <obo:IAO_0000115>A respiratory infectious disorder that leads to an acute illness that requires medical attention.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Severe Acute Respiratory Infection</rdfs:label>
+    </owl:Class>
     
 
 
@@ -69,6 +176,50 @@
         <obo:IAO_0000115>A sterile liquid preparation infused into a vein.  IV fluid is prescribed as a replacement of fluid, electrolytes, calories, vitamins, and other nutritional substances.  In addition, IV fluids are used to administer blood products and medications such as chemotherapy.  Examples of IV fluids include Normal Saline, Ringers Solution, and Lactated Ringers Solution. (NCI)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>IV Fluid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C50996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50996">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A variation from processes or procedures defined in a protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. (CDISC Glossary)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Protocol Deviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>Beginning hour of sleep.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Hour Of Sleep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C69121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>A period of three months; especially one of the three three-month periods into which human pregnancy is divided.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Trimester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C83101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C83101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>The numerical identifier of the visit.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Visit Number</rdfs:label>
     </owl:Class>
     
 
@@ -95,6 +246,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+        <obo:IAO_0000115>Findings observed at the end of a pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Pregnancy Outcome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>The sounds of the fetal heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Fetal Heart Tone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92904">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A tightening of the involuntary smooth muscles of the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Uterine Contraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>Hemorrhage from the vagina that may range from light spotting to heavy flow during pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Vaginal Bleeding during Pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029"/>
@@ -104,6 +299,36 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONTONEO_00000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000255"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
 </rdf:RDF>
 
 
