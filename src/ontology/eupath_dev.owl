@@ -1607,13 +1607,15 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115>A scalar measurement datum about the level of hemoglobin in the blood.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/200</obo:IAO_0000233>
+        <obo:IAO_0100001>http://purl.obolibrary.org/obo/CMO_0000026</obo:IAO_0100001>
         <dc:source>PRISM</dc:source>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
-        <rdfs:label>hemoglobin level</rdfs:label>
+        <rdfs:label>obsolete_hemoglobin level</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
