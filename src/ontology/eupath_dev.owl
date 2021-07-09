@@ -8904,6 +8904,273 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115>A data transformation of metagenome input sequence data involving mapping to genes with full Enzyme Commision (EC) number enzyme classifications and calculation of pathways.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>metagenome pathway and function analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a metagenome pathway and function analysis for the number of copies of genes annotated at the finest (4th level) EC classification.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>4th level EC metagenome abundance data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a metagenome pathway and function analysis for the number of copies of a pathway defined by EC classifications.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>metagenome enzyme pathway abundance data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009246"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a metagenome pathway and function analysis for gene coverage in a pathway defined by EC classifications.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>metagenome enzyme pathway coverage data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115>A data transformation of input sequence data to obtain the fraction of relative abundance of organisms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative taxonomic abundance analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of kingdom.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of kingdom data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of phylum.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of phylum data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of class.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of class data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of order.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of order data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of family.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of family data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of genus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of genus data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of a relative taxonomic abundance analysis for organisms grouped at the level of species.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>relative abundance of species data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115>A data transformation of input sequence data to obtain a mean species diversity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>alpha diversity taxonomic analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009258"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of an alpha diversity taxonomic analysis based on the Shannon index of diversity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>Shannon-indexed alpha diversity data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0009260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0009260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0009258"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A data item that is the output of an alpha diversity taxonomic analysis based on the inverse Simpson index of diversity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>MicrobiomeDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/208</obo:IAO_0000233>
+        <rdfs:label>inverse Simpson-indexed alpha diversity data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010001">
