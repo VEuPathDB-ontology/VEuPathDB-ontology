@@ -168,7 +168,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000163"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal alignment, positioning, or spacing of the teeth, i.e., misaligned teeth.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tooth malposition</rdfs:label>
     </owl:Class>
     
 
@@ -478,7 +478,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001824">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduction inexisting body weight.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduction of total body weight.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
     </owl:Class>
@@ -598,7 +598,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body temperature elevated above the normal range.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
     </owl:Class>
@@ -929,6 +929,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:IAO_0000115>A deficiency in the intake of energy and nutrients.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malnutrition</rdfs:label>
     </owl:Class>
@@ -939,6 +940,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:IAO_0000115>A reduced desire to eat.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor appetite</rdfs:label>
     </owl:Class>
@@ -1245,6 +1247,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0012735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cough</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012768 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012768">
@@ -1380,7 +1393,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0033121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
         <obo:IAO_0000115>A cough with a characteristic sound that has been compared to a seal&apos;s bark.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Barking cough</rdfs:label>
