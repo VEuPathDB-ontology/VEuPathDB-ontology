@@ -439,6 +439,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0001658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Necrosis of the myocardium caused by an obstruction of the blood supply to the heart and often associated with chest pain, shortness of breath, palpitations, and anxiety as well as characteristic EKG findings and elevation of serum markers including creatine kinase-MB fraction and troponin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocardial infarction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0001743 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001743">
@@ -597,7 +608,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004370"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body temperature elevated above the normal range.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
@@ -706,6 +717,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0002045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004370"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduced body temperature due to failed thermoregulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypothermia</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0002086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002086">
@@ -713,6 +735,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of the respiratory system, which include the airways, lungs, and the respiratory muscles.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the respiratory system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any structural anomaly of the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal lung morphology</rdfs:label>
     </owl:Class>
     
 
@@ -735,6 +768,17 @@
         <obo:IAO_0000115>Respiratory distress is objectively observable as the physical or emotional consequences from the experience of dyspnea. The physical presentation of respiratory distress is generally referred to as labored breathing, while the sensation of respiratory distress is called shortness of breath or dyspnea.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory distress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002793"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lack of breathing with no movement of the respiratory muscles and no exchange of air in the lungs. This term refers to a disposition to have recurrent episodes of apnea rather than to a single event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apnea</rdfs:label>
     </owl:Class>
     
 
@@ -786,10 +830,21 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002789 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002789">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002793"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very rapid breathing.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tachypnea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anomaly of the rhythm or depth of breathing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal pattern of respiration</rdfs:label>
     </owl:Class>
     
 
@@ -800,6 +855,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal respiratory system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002904">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An increased amount of bilirubin in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperbilirubinemia</rdfs:label>
     </owl:Class>
     
 
@@ -819,7 +885,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0003111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of the homeostasis (concentration) of a monoatomic ion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormal blood ion concentration</rdfs:label>
@@ -911,6 +977,17 @@
         <obo:IAO_0000115>Abnormally low body weight.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decreased body weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An abnormality of temperature homeostasis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abnormality of temperature regulation</rdfs:label>
     </owl:Class>
     
 
@@ -1058,6 +1135,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0011029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001892"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of hemorrhage within the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internal hemorrhage</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0011032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011032">
@@ -1190,6 +1279,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0011968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011458"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired ability to eat related to problems gathering food and getting ready to suck, chew, or swallow it.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feeding difficulties</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012211">
@@ -1216,7 +1316,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0012531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025142"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
@@ -1290,6 +1390,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0025142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <obo:IAO_0000115>A symptom or manifestation indicating a systemic or general effect of a disease and that may affect the general well-being or status of an individual.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label xml:lang="en">Constitutional symptom</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0030766 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030766">
@@ -1357,6 +1468,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0032180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <obo:IAO_0000115>An abnormal level of an analyte measured in the blood.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label>Abnormal circulating metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0032319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032319">
@@ -1401,6 +1523,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0033850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025142"/>
+        <obo:IAO_0000115>Relative coldness of a body part to palpitation, often acccompanied by feelings of coldness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label>Coldness</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0040187 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040187">
@@ -1408,6 +1541,18 @@
         <obo:IAO_0000115>Systemic inflammatory response to infection in newborn babies.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Neonatal sepsis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002088"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011029"/>
+        <obo:IAO_0000115>Pulmonary hemorrhage is a bleeding within the lungs. Older children and adults may spit blood or bloody sputum. Neonates, infants and young children usually do not spit up blood. Anemia, pulmonary infiltrates, increasingling bloody return on BAL and the presence of hemosiderin-laden macrophages in broncho-alveolar lavage (BAL) fluid or lung biopsy can diagnose lung bleeding. Alveolar macrophages contain phagocytosed red blood cells and stain positive for hemosiderin, a product of hemoglobin degradation, after about 48-72 hours following pulmonary hemorraghe. Previous or recurrent bleeding can thus be distinguished from fresh events. A differentiation into local or diffuse is of importance. Also differentiate if pulmonary hemorrhage is due to a primary lung disorder or a manifestation of a systemic disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label>Pulmonary hemorrhage</rdfs:label>
     </owl:Class>
     
 
@@ -1437,7 +1582,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100598">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000969"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002088"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluid accumulation in the lungs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulmonary edema</rdfs:label>
