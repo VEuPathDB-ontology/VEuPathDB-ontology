@@ -1552,7 +1552,7 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>how often problems satisfying food needs in a household</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical measurement datum that specifies how frequently the food needs of a household were not met.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -2079,11 +2079,11 @@ blood used in transfusion for replacement blood lost during surgery or due to a 
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A scalar measurement datum that is the number of asexual parasites per ul in a specimen using microscopy.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A scalar measurement datum that is the output of a microscopy assay on a specimen and is expressed as a ratio of asexual parasites to either the quantity of specimen or number of leukocytes within it.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>asexual parasite density in count per ul by microscope</rdfs:label>
+        <rdfs:label>asexual parasite density by microscope</rdfs:label>
     </owl:Class>
     
 
@@ -5277,10 +5277,10 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum that is the result of a measurement of area and has the square meter as its measurement label</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of a measurement of area.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>total area measured in square meter</rdfs:label>
+        <rdfs:label>area measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -6508,9 +6508,9 @@ Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
-        <obo:IAO_0000115>A laboratory finding about parasite present which is negative in both blood smear and LAMP assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng, Grant Dorsey</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000523"/>
+        <obo:IAO_0000115>A presence of parasite that indicates that no parasite was detected in a specimen, either by loop-mediated isothermal amplification or blood smear.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Grant Dorsey, John Judkins</obo:IAO_0000117>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">negative blood smear and negative LAMP</rdfs:label>
     </owl:Class>
@@ -9684,11 +9684,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115>Measurement datum resulted from the volume measurement process of an entire stool.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A measurement datum that results from measuring the volume of feces excreted during an instance of defecation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Cristian Cocos, Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118>stool volume measurement datum</obo:IAO_0000118>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
-        <rdfs:label>stool volume in ml</rdfs:label>
+        <rdfs:label>feces volume measurement datum</rdfs:label>
     </owl:Class>
     
 
