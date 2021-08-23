@@ -7,7 +7,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/obsolete.owl"/>
     
 
@@ -38,6 +39,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     
 
 
@@ -83,6 +90,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -125,7 +138,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000012">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_traditional house</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -136,7 +149,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000013">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_modern house</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -162,7 +175,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000016">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_open eaves</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -173,7 +186,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000017">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_closed eaves</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -201,6 +214,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000032">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0100001 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004950"/>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_date of birth</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -212,7 +226,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000037">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality of the presence of bacteria in the blood.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not in use; will replace w/Bacteremia from HP if equivalent term needed</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not in use; will replace w/Bacteremia from HP if equivalent term needed</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Bacteremia</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of bacteria in the blood</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -225,7 +239,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000039">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phenotypic abnormality of the presence of a virus in the blood. It is a medical condition where viruses enter the bloodstream and hence have access to the rest of the body.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not in use; will replace w/Viremia from HP if equivalent term needed</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not in use; will replace w/Viremia from HP if equivalent term needed</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Viremia</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of virus in the blood</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -237,7 +251,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000041">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM observation, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM observation, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_diagnosis of complicated malaria with high parasite density</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -254,6 +268,7 @@
         <obo:IAO_0000233 rdf:resource="https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/200"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CMO_0000026"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM</dc:source>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_hemoglobin level</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -279,7 +294,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000055">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_CDC light trap assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -334,7 +349,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000103">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ventilation function to provide fresh air to a dwelling.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_dwelling ventilation function</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -366,6 +381,7 @@
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003076"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM</dc:source>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_age since birth at time of visit</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -465,7 +481,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000258">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ClinEpi household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_drinking water from protected public well</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -476,7 +492,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000259">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from ClinEpi household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">from ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_drinking water from freshwater spring</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -487,7 +503,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000260">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinEpi household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClinEpi household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_drinking water from protected well in yard</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -498,7 +514,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000262">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM household, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_drinking water from water truck</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -509,7 +525,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000279">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_symptomatic episode</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -520,7 +536,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000280">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -531,7 +547,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000281">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_pyrimethamine and chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -542,7 +558,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000282">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_pyrimethamine, mefloquine and chloroquine resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -553,7 +569,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000283">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_pyrimethamine resistant, chloroquine sensitive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -564,7 +580,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000284">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR prism, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR prism, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_record of unknown information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -585,7 +601,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000286">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not responsive to SAG therapy</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_sodium antimony gluconate resistant</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -597,7 +613,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000287">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensitive to SAG</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_sodium antimony gluconate sensitive</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -609,7 +625,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000288">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM observation, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM observation, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_no malaria parasite infection diagnosis</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -620,7 +636,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000292">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETF</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_early treatment failure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -632,7 +648,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000293">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LCF</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_late clinical failure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -644,9 +660,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000294">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison:  Also not sure about LF, it could either be late failure or lost to follow-up. </obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used </obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison:  Also not sure about LF, it could either be late failure or lost to follow-up. </obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used </obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LF</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_late failure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -658,9 +674,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000295">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison: LOSS probably also means the patient was lost to follow-up. </obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used </obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison: LOSS probably also means the patient was lost to follow-up. </obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used </obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOSS</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lost to follow-up</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -672,7 +688,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000296">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LPF</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_late parasitological failure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -684,7 +700,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000297">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LTF</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Late Treatment Failure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -696,9 +712,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000298">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison: Not sure what NULL means; it could also indicate lost to follow-up. </obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000117>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used </obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Shannon Takala Harrison: Not sure what NULL means; it could also indicate lost to follow-up. </obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Term need for annotation NIH-10K experiment, treatment outcome</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used </obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NULL</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unknown outcome</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -710,7 +726,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000299">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIVAX</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_have a subsequent P. vivax infection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -722,7 +738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000300">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WTH</obo:IAO_0000118>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_withdrew from the study</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -734,7 +750,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000301">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_summary information about a dwelling</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -760,7 +776,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000328">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_clinical visit information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -796,7 +812,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000340">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that is about human traveling.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replaced with OMRSE:00000142</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replaced with OMRSE:00000142</obo:IAO_0000116>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000142"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_human traveling information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -832,7 +848,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000373">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_information of whether malaria medication is given</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -843,7 +859,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000384">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_days of travel</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -854,7 +870,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000385">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_information of whether ship is taken during a trip</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -865,7 +881,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000394">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_information of whether address has changed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -876,7 +892,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000397">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_bed net treatment information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -887,7 +903,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000402">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_blood pressure measurement datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -898,7 +914,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000404">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_information of whether a census form filled at enrollment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -921,7 +937,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000415">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_information of whether a person is family head</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -932,7 +948,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000416">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR Amazonia, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_hospital registration number</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -943,7 +959,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000422">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_number of sexual parasite</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1017,7 +1033,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000456">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1028,7 +1044,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000457">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1039,7 +1055,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000458">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1050,7 +1066,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000459">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1061,7 +1077,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000460">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1072,7 +1088,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000461">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1083,7 +1099,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000462">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded non unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1094,7 +1110,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000463">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded non unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1105,7 +1121,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000464">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded non unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1116,7 +1132,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000465">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded non unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1127,7 +1143,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000466">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1138,7 +1154,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000467">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1149,7 +1165,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000468">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1160,7 +1176,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000469">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1171,7 +1187,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000470">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand non unique unstranded unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1182,7 +1198,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000471">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand non unique unstranded unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1193,7 +1209,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000472">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand non unique unstranded unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1204,7 +1220,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000473">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_first strand non unique unstranded unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1215,7 +1231,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000474">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand unique unstranded non unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1226,7 +1242,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000475">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand unique unstranded non unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1237,7 +1253,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000476">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand unique unstranded non unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1248,7 +1264,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000477">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand unique unstranded non unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1259,7 +1275,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000478">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand non unique first strand unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1270,7 +1286,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000479">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand non unique first strand unique proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1281,7 +1297,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000480">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand non unique first strand unique number mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1292,7 +1308,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000481">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_second strand non unique first strand unique average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1303,7 +1319,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000482">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29444.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain 12C</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1315,7 +1331,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000483">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29445.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain L26</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1383,7 +1399,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000500">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_bronchial wash specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1394,7 +1410,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000501">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_bronchoalveolar lavage fluid specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1405,7 +1421,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000502">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lung aspirate specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1416,7 +1432,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000503">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lung lesion specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1427,7 +1443,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000504">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lung mold bronch specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1438,7 +1454,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000505">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lung nodule specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1449,7 +1465,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000506">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_TGH specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1460,7 +1476,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000507">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_TGH mold iso specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1471,7 +1487,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000508">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_number of contigs</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1482,7 +1498,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000509">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_number of genes called</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1493,7 +1509,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000510">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_number of bases</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1504,7 +1520,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000511">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_lesion on arm specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1540,7 +1556,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000517">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29447.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P37005</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1579,7 +1595,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000554">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29449.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain 19F</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1591,7 +1607,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000555">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29434.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P78048</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1603,7 +1619,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000556">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29450.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P37037</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1615,7 +1631,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000557">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29451.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P37039</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1627,7 +1643,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000558">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain SC5314</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1638,7 +1654,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000559">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29435.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P57072</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1650,7 +1666,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000560">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPath/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPath/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29441.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P76055</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1662,7 +1678,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000561">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29442.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P76067</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1674,7 +1690,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000562">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29439.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P57055</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1686,7 +1702,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000563">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29443.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P78042</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1698,7 +1714,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000564">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29436.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P34048</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1710,7 +1726,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000565">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29453.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P87</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1722,7 +1738,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000566">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29452.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain GC75</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1734,7 +1750,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000567">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29438.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P75016</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1746,7 +1762,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000568">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29440.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P75063</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1758,7 +1774,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000569">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29446.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P94015</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1770,7 +1786,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000570">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29448.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P60002</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1782,7 +1798,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000571">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.beiresources.org/Catalog/Fungi/NR-29437.aspx</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Candida albicans strain P75010</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1805,7 +1821,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000574">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_NLST Clade of organism</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1872,7 +1888,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000616">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was microbiomeDB, no longer used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was microbiomeDB, no longer used</obo:IAO_0000116>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_site of ear swabbed</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1900,7 +1916,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000739">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A planned process that an organism exposed to that are not one of the variables under study.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not used</obo:IAO_0000117>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not used</obo:IAO_0000116>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MO_55 EnvironmentalHistory</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_environmental history</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2676,6 +2692,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device that consists of a network of mesh and is designed to capture adult arthropods.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001522</obo:IAO_0000119>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003049"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Can be successfully used to catch resting or flying adult arthropods.  The net typically is mounted on a frame that is attached to a handle to increase the reach. [ISBN:9781402066658]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_hand-held sweep net</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -2703,8 +2720,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043050">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The original trap CDC gravid trap (or gravid trap of Reiter) consists of a 3 inch diameter PVC inlet tube housing a 6 V motor, as used in CDC traps, on which is mounted a four-bladed 3 inch counter-clockwise fan. The inlet tube is clamped between two vertical wooden boards that fit over a black plastic box (18.5 x 14.0 x 6.5 inches). A plastic 12 inch long PVC chimney slots into the upper end of the inlet tube. The top half consists of three struts that fit into and support a netting collecting bag. For this the middle of the collecting bag is reinforced with a circular patch of denim cloth. The oviposition attractant is made by adding 1 lb of hay and 1 oz each of dried brewer&apos;s yeast and lactalbumen powder to 30 gallons of tap water. This infusion is allowed to mature for 5 days. This original gravid mosquito trap of Reiter suffers from certain limitations, namely up to 10% of the catch of adults is damaged by passing through the fan blades, and adults tend to die of desiccation. [ISBN:9781402066658]</obo:IAO_0000112>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod trap that consists of a transparent window placed in a box that holds a liquid solution deadly to arthropods. This trap is designed to stop an arthropod in flight, causing it to fall into the liquid and die.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001510</obo:IAO_0000119>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gravid trap that consists of a pan holding a hay infusion, motorized fan, and collection bag. This trap is designed to attract gravid female arthropods to the infused material, which would serve as an oviposition medium, and then draw them into the bag with the current generated by the fan.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDC gravid trap</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> J Am Mosq Control Assoc. 1988 Dec;4(4):536-8.</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001510 </obo:IAO_0000119>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003050"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Centers for Disease Control and Prevention gravid trap</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2765,7 +2784,7 @@
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001649</obo:EUPATH_0043061>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod trap that consists of a transparent window placed in a box that holds a liquid solution deadly to arthropods. This trap is designed to stop an arthropod in flight, causing it to fall into the liquid and die.</obo:IAO_0000115>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003046"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, Jonsson developed a free-standing window trap consisting of a 16 x 20-cm perspex box, 16 cm high and divided in the middle by a 20 x 36-cm sheet of perspex (window).  The two compartments of the box are filled to a depth of about 12 cm with 4-6% formalin containing a few drops of detergent; in winter ethylene glycol can be added to prevent freezing.  One or two holes drilled in one side of the box at 12 cm and covered with fine netting prevent the trap overflowing after heavy rain.  Traps are mounted on aluminium poles.  Flying insects on hitting the transparent vertical plastic window fall into the formalin.  The window trap may catch vectors that are seeking a host or moving for other purposes. [ISBN:9781402066658]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, Jonsson developed a free-standing window trap consisting of a 16 x 20-cm perspex box, 16 cm high and divided in the middle by a 20 x 36-cm sheet of perspex (window).  The two compartments of the box are filled to a depth of about 12 cm with 4-6% formalin containing a few drops of detergent; in winter ethylene glycol can be added to prevent freezing.  One or two holes drilled in one side of the box at 12 cm and covered with fine netting prevent the trap overflowing after heavy rain.  Traps are mounted on aluminium poles.  Flying insects on hitting the transparent vertical plastic window fall into the formalin.  The window trap may catch vectors that are seeking a host or moving for other purposes.&quot; [ISBN:9781402066658]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_free-standing window trap</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
