@@ -51,6 +51,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118"/>
@@ -78,7 +84,7 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
         <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label>clinical finding</rdfs:label>
@@ -144,7 +150,7 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
         <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label>diagnosis</rdfs:label>
@@ -159,6 +165,17 @@
         <obo:IAO_0000115 xml:lang="en">TODO: Define.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label>physical examination finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A structurally anomalous part of an organism acquired during fetal development and present at birth (but not necessarily hereditary) which is hypothesized to be harmful for the organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>congenital malformation</rdfs:label>
     </owl:Class>
     
 

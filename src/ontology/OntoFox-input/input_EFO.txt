@@ -19,6 +19,9 @@ http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
 http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
 http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
 http://www.ebi.ac.uk/efo/EFO_0004465 #fasting blood glucose measurement
+http://www.ebi.ac.uk/efo/EFO_0004344 #Birth weight (kg)
+http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
+http://www.ebi.ac.uk/efo/EFO_1001491 #abortion
 
 [Top level source term URIs and target direct superclass URIs]
 http://www.ebi.ac.uk/efo/EFO_0002755 #diet
@@ -43,6 +46,12 @@ http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
 subClassOf http://purl.obolibrary.org/obo/DOID_4 #DOID:disease
 http://www.ebi.ac.uk/efo/EFO_0004465 #fasting blood glucose measurement
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004344 #Birth weight (kg)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
+http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
+subClassOf http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
+http://www.ebi.ac.uk/efo/EFO_1001491 #abortion
+subClassOf http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
 
 [Source term retrieval setting]
 includeNoIntermediates

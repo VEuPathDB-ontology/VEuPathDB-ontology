@@ -56,6 +56,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CMO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of hemoglobin in a specific volume of blood, expressed as grams per deciliter of whole blood in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood hemoglobin level</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CMO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000027">
@@ -63,6 +74,17 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of white blood cells in a specified volume of blood.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">white blood cell count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement relating body weight to height in an organism; typically calculated as the weight of an individual divided by the height of that individual squared. For quadrupeds, the square of body height is often replaced by the square of body length.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body mass index (BMI)</rdfs:label>
     </owl:Class>
     
 
@@ -96,6 +118,16 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The force per unit area attributable to the oxygen, the chemical element with atomic number 8 which is the essential agent in the respiration of plants and animals, dissolved in a specified volume of blood, defined as the force per unit area exerted by oxygen in a mixture of gases in equilibrium with such a sample of blood at the same temperature.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial pressure of blood oxygen (Po2)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urine protein level</rdfs:label>
     </owl:Class>
     
 

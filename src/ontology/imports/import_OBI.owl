@@ -1354,6 +1354,43 @@ specimen can later be subject.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000750"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000931"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 18208636.Br J Nutr. 2008 Jan 22;:1-11.Effect of vitamin D supplementation on bone and vitamin D status among Pakistani immigrants in Denmark: a randomised double-blinded placebo-controlled intervention study.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philppe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000174">
@@ -2837,12 +2874,6 @@ Eur J Cancer. 2009 Jan;45(1):74-81. PMID: 19008094</obo:IAO_0000112>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood specimen</obo:IAO_0000111>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood drawn from a human for glucose assay</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -3617,6 +3648,27 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000471"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study intervention</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the part of the execution of an intervention design study which is varied between two or more subjects in the study</obo:IAO_0000115>
@@ -3717,7 +3769,7 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OBI_0000951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000951">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -6872,6 +6924,24 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500026"/>
+        <obo:IAO_0000111>defined population inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000112>inclusion based on age, sex, and living region (rural area or specified city).</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>An inclusion criterion that is based on fitting within the defined characteristics of a population based study design.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Stoeckert, Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119>MIABIS 2.0</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">920</obo:IAO_0000233>
+        <obo:IAO_0000234>MIABIS 2.0</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">defined population inclusion criterion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002489">
@@ -7142,6 +7212,40 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002507">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:IAO_0000111>saliva specimen</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from saliva.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, Penn Medicine Biobank</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>saliva specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002508">
@@ -7358,6 +7462,46 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002608">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002600"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001729"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002599"/>
+        <obo:IAO_0000111>oropharyngeal swab specimen</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is collected with a swab from the surface of a oropharynx.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Stoeckert, OBIB </obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>oropharyngeal swab specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002624 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002624">
@@ -7542,6 +7686,22 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/obi-ontology/obi/issues/1064</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>blood microbiology assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case series study design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 22213493</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design that samples only subjects who have experienced a particular event (outcome or exposure). Such a design, in contrast to a cohort study, does not permit calculation of absolute risk as non-case subjects are not included.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://orcid.org/0000-0002-8844-9165 </obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/pubmed/22213493</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case series design</rdfs:label>
     </owl:Class>
     
 
@@ -12759,6 +12919,40 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_2000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_2000012">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0012168"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_2000009"/>
+        <obo:IAO_0000111>umbilical cord blood specimen</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specimen that is derived from some umbilical cord blood</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark A. Miller|ORCID:0000-0001-9076-6066|Christian Stoeckert|ORCID:0000-0002-5714-991X</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark A. Miller|ORCID:0000-0001-9076-6066|Christian Stoeckert|ORCID:0000-0002-5714-991X</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>umbilical cord blood specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011"/>
@@ -12792,12 +12986,6 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000029"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000178 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178"/>
     
 
 
@@ -12849,9 +13037,21 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001729"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001826 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001826"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001836"/>
     
 
 
@@ -12906,6 +13106,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0007311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0007311"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0012168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0012168"/>
     
 
 

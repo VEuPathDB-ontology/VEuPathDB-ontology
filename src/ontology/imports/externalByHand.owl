@@ -187,6 +187,7 @@
     
 
 
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -238,6 +239,25 @@
     
 
 
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/224619008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/224619008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:label>Migrant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/40541001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/40541001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100598"/>
+        <rdfs:label>Acute pulmonary edema</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
@@ -274,6 +294,18 @@
     
 
 
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <obo:IAO_0000115>One of the large, unbroken masses of land into which the Earth&apos;s surface is divided.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
+        <rdfs:label>continent</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
@@ -285,9 +317,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+    <!-- http://purl.obolibrary.org/obo/HP_0100598 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100598"/>
     
 
 
@@ -297,44 +329,37 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBCS_0000169 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-        <obo:IAO_0000115>A data transformation that add two or more numbers, magnitudes, quantities, or particulars as determined by or as if by the mathematical process of addition.</obo:IAO_0000115>
-        <obo:IAO_0000116>tracker: https://github.com/obcs/obcs/issues/7</obo:IAO_0000116>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000119>http://dictionary.reference.com/browse/summing</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label xml:lang="en">summing data transformation</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count that is about the aggregate of individuals who have been recruited to participate in a study.</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
+        <rdfs:label>count of current total human study participant</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBCS_0000170 -->
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000170">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000169"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115>A data item that is produced as the output of a summing data transformation and represents the total value of the input data.</obo:IAO_0000115>
-        <obo:IAO_0000116>Tracker:https://github.com/obcs/obcs/issues/7</obo:IAO_0000116>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000119>Jie Zheng</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
-        <rdfs:label xml:lang="en">sum value</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115>A study design in which all participants or a representative subset of participants are examined at only a single time for characteristics of a interest (e.g. a specific disease).</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/obib.owl</obo:IAO_0000412>
+        <rdfs:label>cross sectional study design</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000"/>
     
 
 
@@ -356,6 +381,12 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/reo.owl"/>
         <rdfs:label xml:lang="en">social role</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
     
 
 
