@@ -1506,7 +1506,7 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PCO_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>how often problems satisfying food needs in a household</obo:IAO_0000115>
+        <obo:IAO_0000115>A categorical measurement datum that specifies how frequently the food needs of a household were not met.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1967,11 +1967,11 @@ value: the value of a multifilter</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A scalar measurement datum that is the number of asexual parasites per ul in a specimen using microscopy.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A scalar measurement datum that is the output of a microscopy assay on a specimen and is expressed as a ratio of asexual parasites to either the quantity of specimen or number of leukocytes within it.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>asexual parasite density in count per ul by microscope</rdfs:label>
+        <rdfs:label>asexual parasite density by microscope</rdfs:label>
     </owl:Class>
     
 
@@ -4950,10 +4950,10 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum that is the result of a measurement of area and has the square meter as its measurement label</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of a measurement of area.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>total area measured in square meter</rdfs:label>
+        <rdfs:label>area measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -5999,9 +5999,9 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000489 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000018"/>
-        <obo:IAO_0000115>A laboratory finding about parasite present which is negative in both blood smear and LAMP assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng, Grant Dorsey</obo:IAO_0000117>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000523"/>
+        <obo:IAO_0000115>A presence of parasite that indicates that no parasite was detected in a specimen, either by loop-mediated isothermal amplification or blood smear.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Grant Dorsey, John Judkins</obo:IAO_0000117>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">negative blood smear and negative LAMP</rdfs:label>
     </owl:Class>
@@ -7968,6 +7968,16 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is about data collected at the household level on multiple occasions.</obo:IAO_0000115>
+        <rdfs:label>household repeated measure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000787">
@@ -8071,6 +8081,28 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>sporozoite detection assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity about the groups of participants that are randomized to receive an intervention in a trial.</obo:IAO_0000115>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>study cluster information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity about the multiple households that share a location and a common trait such as infrastructure.</obo:IAO_0000115>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>community information</rdfs:label>
     </owl:Class>
     
 
@@ -8844,11 +8876,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115>Measurement datum resulted from the volume measurement process of an entire stool.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A measurement datum that results from measuring the volume of feces excreted during an instance of defecation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Cristian Cocos, Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118>stool volume measurement datum</obo:IAO_0000118>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
-        <rdfs:label>stool volume in ml</rdfs:label>
+        <rdfs:label>feces volume measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -15497,6 +15530,93 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label>geolocation provenance information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000115>An information content entity that either specifies the process by which latitude and longitude data were obtained, or specifies that it is missing knowledge.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043212"/>
+        <obo:IAO_0000115>A geolocation precision objective specification of zero decimal places.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective of zero decimal places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043212"/>
+        <obo:IAO_0000115>A geolocation precision objective specification of one decimal place.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective of one decimal place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043212"/>
+        <obo:IAO_0000115>A geolocation precision objective specification of two decimal places.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective of two decimal places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043212"/>
+        <obo:IAO_0000115>A geolocation precision objective specification of three decimal places.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective of three decimal places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043212"/>
+        <obo:IAO_0000115>A geolocation precision objective specification of four decimal places.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/126</obo:IAO_0000233>
+        <rdfs:label>geolocation precision objective of four decimal places</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
         <obo:IAO_0000115>A manufactured product that is a 3rd generation Indoor Residual Spraying (3GIRS) micro-encapsulated formulation of an existing organophosphate insecticide, Pirimiphos-methyl, co-developed through a partnership between Syngenta and IVCC.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ivcc.com/market-access/actellic-300cs</obo:IAO_0000119>
@@ -15505,9 +15625,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043212 -->
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043219 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043212">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the number of copies of the interspecific chromosomal inversion (2La) in Anopheles gambiae complex.</obo:IAO_0000115>
         <obo:IAO_0000116>2La is located on chromosome arm 2L:20524058-42165532 (approximate location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: Sharakhov, I.V., White, B.J., Sharakhova, M.V., Kayondo, J., Lobo, N.F., Santolamazza, F., Della Torre, A., Simard, F., Collins, F.H. and Besansky, N.J., 2006. Breakpoint structure reveals the unique origin of an interspecific chromosomal inversion (2La) in the Anopheles gambiae complex. Proceedings of the National Academy of Sciences, 103(16), pp.6258-6262. PMID: 16606844</obo:IAO_0000116>
@@ -15519,25 +15639,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043213 -->
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043220 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043213">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A measurement datum of the number of copies of the inversion 2Rj in Anopheles gambiae.</obo:IAO_0000115>
-        <obo:IAO_0000116>2Rj is located on chromosome arm 2R:3656857-14459087 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: Coulibaly, M.B., Lobo, N.F., Fitzpatrick, M.C., Kern, M., Grushko, O., Thaner, D.V., Traoré, S.F., Collins, F.H. and Besansky, N.J., 2007. Segmental Duplication Implicated in the Genesis of Inversion 2 Rj of Anopheles gambiae. PLoS One, 2(9), p.e849. PMID:17786220</obo:IAO_0000116>
-        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/117</obo:IAO_0000233>
-        <rdfs:label>number of copies of the 2Rj Anopheles gambiae complex chromosomal inversion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043214 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A count of the number of copies of the chromosomal inversion 2Rb in Anopheles gambiae.</obo:IAO_0000115>
+        <obo:IAO_0000115>A measurement datum of the number of copies of the chromosomal inversion 2Rb in Anopheles gambiae.</obo:IAO_0000115>
         <obo:IAO_0000116>2Rb is located on chromosome arm 2R:19023925-26758676 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: Lobo, N.F., Sangaré, D.M., Regier, A.A., Reidenbach, K.R., Bretz, D.A., Sharakhova, M.V., Emrich, S.J., Traore, S.F., Costantini, C., Besansky, N.J. and Collins, F.H., 2010. Breakpoint structure of the Anopheles gambiae 2R b chromosomal inversion. Malaria journal, 9(1), pp.1-9. PMID:20974007</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
@@ -15547,9 +15653,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043215 -->
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043221 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043215">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043221">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the number of copies of the trans-specific inversion 2Rc in Anopheles gambiae.</obo:IAO_0000115>
         <obo:IAO_0000116>2Rc is located on chromosome arm 2R:26780000-31450000 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: White, B.J., Cheng, C., Sangaré, D., Lobo, N.F., Collins, F.H. and Besansky, N.J., 2009. The population genomics of trans-specific inversion polymorphisms in Anopheles gambiae. Genetics, 183(1), pp.275-288. PMID:19581444</obo:IAO_0000116>
@@ -15561,23 +15667,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043216 -->
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043222 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A count of the number of copies of the trans-specific inversion 2Ru in Anopheles gambiae.</obo:IAO_0000115>
-        <obo:IAO_0000116>2Ru is located on chromosome arm 2R:31480000-35500000 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: White, B.J., Cheng, C., Sangaré, D., Lobo, N.F., Collins, F.H. and Besansky, N.J., 2009. The population genomics of trans-specific inversion polymorphisms in Anopheles gambiae. Genetics, 183(1), pp.275-288. PMID:19581444</obo:IAO_0000116>
-        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/117</obo:IAO_0000233>
-        <rdfs:label>number of copies of the 2Ru Anopheles gambiae complex chromosomal inversion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043217">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the number of copies of the chromosomal inversion 2Rd in Anopheles gambiae.</obo:IAO_0000115>
         <obo:IAO_0000116>2Rd is located on chromosome arm 2R:31480000-42600000 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: George, P., Sharakhova, M.V. and Sharakhov, I.V., 2010. High‐resolution cytogenetic map for the African malaria vector Anopheles gambiae. Insect molecular biology, 19(5), pp.675-682. PMID:20609021</obo:IAO_0000116>
@@ -15589,9 +15681,23 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043218 -->
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043223 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043218">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A measurement datum of the number of copies of the inversion 2Rj in Anopheles gambiae.</obo:IAO_0000115>
+        <obo:IAO_0000116>2Rj is located on chromosome arm 2R:3656857-14459087 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: Coulibaly, M.B., Lobo, N.F., Fitzpatrick, M.C., Kern, M., Grushko, O., Thaner, D.V., Traoré, S.F., Collins, F.H. and Besansky, N.J., 2007. Segmental Duplication Implicated in the Genesis of Inversion 2 Rj of Anopheles gambiae. PLoS One, 2(9), p.e849. PMID:17786220</obo:IAO_0000116>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/117</obo:IAO_0000233>
+        <rdfs:label>number of copies of the 2Rj Anopheles gambiae complex chromosomal inversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count of the number of copies of the chromosomal inversion 2Rk in Anopheles gambiae.</obo:IAO_0000115>
         <obo:IAO_0000116>2Rk is described in: Mario Coluzzi, Adriana Sabatini, Alessandra della Torre, Maria Angela Di Deco, Vincenzo Petrarca. A polytene chromosome analysis of the Anopheles gambiae species complex. PMID: 12364623</obo:IAO_0000116>
@@ -15599,6 +15705,30 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/117</obo:IAO_0000233>
         <rdfs:label>number of copies of the 2Rk Anopheles gambiae complex chromosomal inversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count of the number of copies of the trans-specific inversion 2Ru in Anopheles gambiae.</obo:IAO_0000115>
+        <obo:IAO_0000116>2Ru is located on chromosome arm 2R:31480000-35500000 (location in the AgamP3 assembly; GenBank: GCF_000005575.2) as described in: White, B.J., Cheng, C., Sangaré, D., Lobo, N.F., Collins, F.H. and Besansky, N.J., 2009. The population genomics of trans-specific inversion polymorphisms in Anopheles gambiae. Genetics, 183(1), pp.275-288. PMID:19581444</obo:IAO_0000116>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/117</obo:IAO_0000233>
+        <rdfs:label>number of copies of the 2Ru Anopheles gambiae complex chromosomal inversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An information content entity that is about data collected at the community level (e.g., village) on multiple occasions.</obo:IAO_0000115>
+        <rdfs:label>community repeated measure</rdfs:label>
     </owl:Class>
     
 
