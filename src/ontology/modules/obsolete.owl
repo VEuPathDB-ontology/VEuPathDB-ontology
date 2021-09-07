@@ -373,7 +373,10 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is about temperature.</obo:IAO_0000115>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003079"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_temperature measurement datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -401,6 +404,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A temperature measurement datum that is about an organism.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003073"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM</dc:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_organismal body temperature measurement datum</rdfs:label>
@@ -416,6 +420,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age since birth measurement datum at the time of a clinical visit.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003076"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM</dc:source>
         <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICEMR protein array</oboInOwl:inSubset>
@@ -432,13 +437,14 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An age since birth measurement datum at the time of subject enrollment.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003075"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM</dc:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_age since birth at time of enrollment</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
-    
+
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000127 -->
 
@@ -449,11 +455,12 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng </obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filter paper sample</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003055"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_blood specimen on filter paper</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000129 -->
@@ -465,6 +472,8 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> RBC specimen</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythrocyte specimen </obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ruf.rice.edu/~bioslabs/studies/sds-page/gellab1.html</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_2000016"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_red blood cell specimen</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -830,6 +839,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000301">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR, no longer used</obo:IAO_0000116>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_summary information about a dwelling</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -844,11 +854,9 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entomological measurement data</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003077"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_entomological data item</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_summary information about a dwelling</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -859,6 +867,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000328">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was ICEMR PRISM, no longer used</obo:IAO_0000116>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_clinical visit information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -870,6 +879,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000333">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One dimensional cartesian spatial coordinate datum refers to eastward-measured distance (or the x-coordinate). The terms easting and northing are geographic Cartesian coordinates for a point. Easting and northing coordinates are commonly measured in meters from a horizontal datum.</obo:IAO_0000115>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003066"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_easting coordinate measurement datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -882,11 +892,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000334">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One dimensional cartesian spatial coordinate datum refers to the northward-measured distance (or the y-coordinate). The terms easting and northing are geographic Cartesian coordinates for a point. Easting and northing coordinates are commonly measured in meters from a horizontal datum.</obo:IAO_0000115>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003067"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_northing coordinate measurement datum</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_clinical visit information</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
@@ -1022,6 +1030,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an organization that administrates a medical care center that provides healthcare services on an outpatient basis</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_clinic organization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -1070,6 +1079,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism identification assay that identifies the species of parasites by PCR.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003044"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_parasite species identification by PCR assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1082,6 +1092,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000437">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A laboratory test that can quickly establishing the diagnosis of  P. falciparum or P. vivax malaria infection by detecting the antigens in a person&apos;s blood.</obo:IAO_0000115>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003041"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_falcivax rapid diagnostic test</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1095,6 +1106,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A laboratory test that is a rapid, sensitive malaria test that is able to differentiate between P. falciparum and other malaria parasites.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003042"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_optimal-IT rapid diagnostic test</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1121,6 +1133,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a data item that is about a sequencing assay and is the ratio of the count of mapped reads to the total count of reads</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003056"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_proportion mapped reads</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1145,7 +1158,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000457">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was EuPathDB/PlasmoDB term, no longer used</obo:IAO_0000116>
-
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_average read length</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1158,7 +1170,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000458">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">was in EuPathDB/PlasmoDB, no longer used</obo:IAO_0000116>
-
         <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unstranded unique average mapping coverage</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1678,6 +1689,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A textual entity refers to a taxon or organism that is based on the normal language of everyday life; this kind of name is often contrasted with the scientific name for the same organism, which is Latinized.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Common_name</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003074"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_common name of organism</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1718,6 +1730,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that detects parasite gametocyte in a specimen.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003036"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_gametocyte detection assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -1732,6 +1745,8 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that detects parasite in a specimen using PCR.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003045"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_parasite detection by PCR assay</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -2002,6 +2017,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a protocol that, when concretized, is realized in an assay that uses chemical or biological means to infer the sequence of a biomaterial</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003069"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_sequencing protocol</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2016,6 +2032,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a symbol that denotes the bearer of a participant under investigation role</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003071"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_participant identifier</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2030,6 +2047,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a protocol such that, if it is concretized and its concretization is realized, its concretization is realized in a planned process that has as its objective collecting a specimen</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003070"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_specimen collection protocol</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2044,6 +2062,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a specimen collection time measurement datum that is the measure of a time when specimens are collected after an infection starts</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003084"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_specimen collection time post infection</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2071,6 +2090,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stool test for microorganisms</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003039"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEMS</dc:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_feces microbiology assay</rdfs:label>
@@ -2115,6 +2135,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibiotic administration before stool collection</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003057"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEMS</dc:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_antibiotic administration process</rdfs:label>
@@ -2130,6 +2151,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organization that undertakes a clinical study at some point in time.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003068"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEMS</dc:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_study center</rdfs:label>
@@ -2146,6 +2168,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axillary temperature</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003072"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_axillary temperature measurement datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2166,6 +2189,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_presence of Entamoeba histolytica by ELISA</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0011795 -->
@@ -2174,6 +2198,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A laboratory test that has a blood specimen as specified input.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003040"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_blood test</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2240,6 +2265,7 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jie Zheng </obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vacutainer sample</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003054"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_blood specimen in vacutainer</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2269,6 +2295,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device manufactured by BioGents that is designed for operation with the BG-Sentinel trap and releases an attractant that mimics the scent of human skin.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BG-lure</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001060</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003048"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_BG-lure scent dispenser</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2595,15 +2622,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_live arthropod specimen collection process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043027">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000022</obo:EUPATH_0043061>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod specimen collection process in which the arthropods are in the larval stage.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of larvae</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000022</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003052"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_larval specimen collection process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -2897,7 +2927,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_landing arthropod specimen collection process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043048 -->
@@ -2906,6 +2936,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A device that consists of a network of mesh and is designed to capture adult arthropods.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001522</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003049"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Can be successfully used to catch resting or flying adult arthropods.  The net typically is mounted on a frame that is attached to a handle to increase the reach. [ISBN:9781402066658]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_hand-held sweep net</rdfs:label>
@@ -2940,6 +2971,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDC gravid trap</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> J Am Mosq Control Assoc. 1988 Dec;4(4):536-8.</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001510 </obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003050"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Centers for Disease Control and Prevention gravid trap</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -3002,6 +3034,7 @@
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VSMO:0001649</obo:EUPATH_0043061>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod trap that consists of a transparent window placed in a box that holds a liquid solution deadly to arthropods. This trap is designed to stop an arthropod in flight, causing it to fall into the liquid and die.</obo:IAO_0000115>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003046"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For example, Jonsson developed a free-standing window trap consisting of a 16 x 20-cm perspex box, 16 cm high and divided in the middle by a 20 x 36-cm sheet of perspex (window).  The two compartments of the box are filled to a depth of about 12 cm with 4-6% formalin containing a few drops of detergent; in winter ethylene glycol can be added to prevent freezing.  One or two holes drilled in one side of the box at 12 cm and covered with fine netting prevent the trap overflowing after heavy rain.  Traps are mounted on aluminium poles.  Flying insects on hitting the transparent vertical plastic window fall into the formalin.  The window trap may catch vectors that are seeking a host or moving for other purposes.&quot; [ISBN:9781402066658]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_free-standing window trap</rdfs:label>
@@ -3059,6 +3092,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod specimen collection process in which the arthropods are in the pupal stage.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of pupae</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000050</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003053"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_pupal specimen collection process</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
@@ -3109,19 +3143,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043115 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043115">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that is about resistance to an insecticide.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003063"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_insecticide resistance datum</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-    
-    
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043077">
@@ -3136,21 +3157,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043192 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043192">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod specimen collection process in which the arthropods are in the embryo stage.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of eggs</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000049</obo:IAO_0000119>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003051"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_egg specimen collection process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-    
-    
-    
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043090">
@@ -3193,21 +3199,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0043194 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043194">
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBcv:0000961</obo:EUPATH_0043061>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that is the specified output of an organism identification assay.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species assay result</obo:IAO_0000118>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003064"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_organism identification datum</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-    
-    
-    
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043106">
@@ -3245,6 +3236,50 @@
         <obo:IAO_0000233 rdf:resource="https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/216"/>
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2563597"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_Mimomyia mimomyiaformis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043115">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that is about resistance to an insecticide.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003063"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_insecticide resistance datum</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043192">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An arthropod specimen collection process in which the arthropods are in the embryo stage.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collection of eggs</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIRO:30000049</obo:IAO_0000119>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003051"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_egg specimen collection process</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043194">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBcv:0000961</obo:EUPATH_0043061>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data item that is the specified output of an organism identification assay.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species assay result</obo:IAO_0000118>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000228"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0003064"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_organism identification datum</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
