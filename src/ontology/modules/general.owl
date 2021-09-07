@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/general.owl#"
-     xml:base="http://purl.obolibrary.org/obo/general.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/general.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/general.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -174,6 +174,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002418 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002418"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002606 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002606"/>
     
 
 
@@ -1065,12 +1071,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000579 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000579"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000581 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000581">
@@ -1725,35 +1725,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010378">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000097"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
-                                                <owl:someValuesFrom>
-                                                    <owl:Class>
-                                                        <owl:intersectionOf rdf:parseType="Collection">
-                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000051"/>
-                                                            <owl:Restriction>
-                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13250"/>
-                                                            </owl:Restriction>
-                                                        </owl:intersectionOf>
-                                                    </owl:Class>
-                                                </owl:someValuesFrom>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
@@ -1838,6 +1814,29 @@
                                         </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015669">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002606"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13250"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2139,15 +2138,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000097 -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000097"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094"/>
     
 
 
@@ -2380,5 +2379,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
