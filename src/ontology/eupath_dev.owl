@@ -540,7 +540,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043061">
         <obo:IAO_0000115>Term ID as previously used by VectorBase</obo:IAO_0000115>
-        <rdfs:label>sourced by VectorBase ID</rdfs:label>
+        <rdfs:label>obsolete_sourced by VectorBase ID</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -16990,9 +16991,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043141">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <obo:EUPATH_0043061>VBcv:0001124</obo:EUPATH_0043061>
         <obo:IAO_0000115>A ratio unit that denotes the median enzymatic activity of a field-collected population of specimens compared to that of a reference population, normalized by a base two logarithmic transformation.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001124</obo:IAO_0000119>
         <rdfs:label>unit of log2 ratio of specimen population median enzymatic activity to that of reference specimen population</rdfs:label>
     </owl:NamedIndividual>
     
