@@ -540,7 +540,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043061">
         <obo:IAO_0000115>Term ID as previously used by VectorBase</obo:IAO_0000115>
-        <rdfs:label>sourced by VectorBase ID</rdfs:label>
+        <rdfs:label>obsolete_sourced by VectorBase ID</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:AnnotationProperty>
     
 
@@ -8018,10 +8019,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000792">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:EUPATH_0043061>VBcv:0000732</obo:EUPATH_0043061>
         <obo:IAO_0000115>A time measurement datum that is about the duration of exposure to an insecticide that results in the death of 50% of a population of insects.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>LT50</obo:IAO_0000118>
+        <obo:IAO_0000119>VBcv:0000732</obo:IAO_0000119>
         <rdfs:label>lethal insecticide time 50</rdfs:label>
     </owl:Class>
     
@@ -14586,8 +14587,8 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043059"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001059</obo:EUPATH_0043061>
         <obo:IAO_0000115>An infusion material extracted from alfalfa.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0001059</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alfalfa infusion</rdfs:label>
     </owl:Class>
     
@@ -14603,9 +14604,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043059"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000037</obo:EUPATH_0043061>
         <obo:IAO_0000115>An infusion material extracted from hay.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hay or grass infusion</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000037</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hay infusion</rdfs:label>
     </owl:Class>
     
@@ -14621,9 +14622,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000153</obo:EUPATH_0043061>
         <obo:IAO_0000115>An information content entity that specifies that no attractant was used in an anthropod trap</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no attractant used</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRO:0000153</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information specifying no arthropod attractor used</rdfs:label>
     </owl:Class>
     
@@ -14873,9 +14874,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:EUPATH_0043061 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBcv:0001122</obo:EUPATH_0043061>
         <obo:IAO_0000115>A count of the traps deployed in a study design execution.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of traps</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBcv:0001122</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of traps</rdfs:label>
     </owl:Class>
     
@@ -15018,7 +15019,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043079">
-        <obo:EUPATH_0043061>VBsp:0000997</obo:EUPATH_0043061>
+        <obo:IAO_0000119>VBsp:0000997</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -15084,10 +15085,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:EUPATH_0043061>VBcv:0000733</obo:EUPATH_0043061>
         <obo:IAO_0000115>A time measurement datum that is about the duration of exposure to an insecticide that results in the death of 90% of a population of insects.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>LT90</obo:IAO_0000118>
+        <obo:IAO_0000119>VBcv:0000733</obo:IAO_0000119>
         <rdfs:label>lethal insecticide time 90</rdfs:label>
     </owl:Class>
     
@@ -15097,10 +15098,10 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043146">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:EUPATH_0043061>VBcv:0000734</obo:EUPATH_0043061>
         <obo:IAO_0000115>A time measurement datum that is about the duration of exposure to an insecticide that results in the death of 95% of a population of insects.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>LT95</obo:IAO_0000118>
+        <obo:IAO_0000119>VBcv:0000734</obo:IAO_0000119>
         <rdfs:label>lethal insecticide time 95</rdfs:label>
     </owl:Class>
     
@@ -15110,11 +15111,11 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:EUPATH_0043061>VBcv:0000714</obo:EUPATH_0043061>
         <obo:IAO_0000115>A time measurement datum specifying the time at which half of a population of insects has died as a result of exposure to insecticide.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118>KDT50</obo:IAO_0000118>
         <obo:IAO_0000119>PMC2459197</obo:IAO_0000119>
+        <obo:IAO_0000119>VBcv:0000714</obo:IAO_0000119>
         <rdfs:label>median knockdown time</rdfs:label>
     </owl:Class>
     
@@ -15286,9 +15287,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003052"/>
-        <obo:EUPATH_0043061>MIRO:30000062</obo:EUPATH_0043061>
         <obo:IAO_0000115>An arthropod specimen collection process in which the arthropods are in the larval stage and a trap is used to collect the specimens.</obo:IAO_0000115>
         <obo:IAO_0000118>collection of larvae from traps</obo:IAO_0000118>
+        <obo:IAO_0000119>MIRO:30000062</obo:IAO_0000119>
         <rdfs:label>larval specimen collection process from traps</rdfs:label>
     </owl:Class>
     
@@ -16978,9 +16979,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043140">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <obo:EUPATH_0043061>VBcv:0001116</obo:EUPATH_0043061>
         <obo:IAO_0000115>A ratio unit that denotes the mean enzymatic activity of a field-collected population of specimens compared to that of a reference population, normalized by a base two logarithmic transformation.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001116</obo:IAO_0000119>
         <rdfs:label>unit of log2 ratio of specimen population mean enzymatic activity to that of reference specimen population</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16990,9 +16991,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043141">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
-        <obo:EUPATH_0043061>VBcv:0001124</obo:EUPATH_0043061>
         <obo:IAO_0000115>A ratio unit that denotes the median enzymatic activity of a field-collected population of specimens compared to that of a reference population, normalized by a base two logarithmic transformation.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001124</obo:IAO_0000119>
         <rdfs:label>unit of log2 ratio of specimen population median enzymatic activity to that of reference specimen population</rdfs:label>
     </owl:NamedIndividual>
     
@@ -17002,9 +17003,9 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043142">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000187"/>
-        <obo:EUPATH_0043061>VBcv:0001111</obo:EUPATH_0043061>
         <obo:IAO_0000115>A fraction unit that denotes the fraction of a population exhibiting higher enzymatic activity than the 99th percentile of a reference population.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001111</obo:IAO_0000119>
         <rdfs:label>unit of population fraction with greater enzymatic activity than 99th percentile of reference population</rdfs:label>
     </owl:NamedIndividual>
     
