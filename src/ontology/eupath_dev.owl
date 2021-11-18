@@ -1792,18 +1792,18 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:hasValue rdf:resource="http://purl.obolibrary.org/obo/GAZ_00001102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A geographical location which is part of Uganda.</obo:IAO_0000115>
+        <obo:IAO_0000115>A fourth-order administrative region of Uganda.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>subcounty in Uganda</rdfs:label>
+        <rdfs:label>subcounty of Uganda</rdfs:label>
     </owl:Class>
     
 
@@ -5206,11 +5206,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000407">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115 xml:lang="en">a textual entity that denotes a political entity that is a division of a state or territory of India</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000006"/>
+        <obo:IAO_0000115>A second-order administrative region of India.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">district of India name</rdfs:label>
+        <rdfs:label>district of India</rdfs:label>
     </owl:Class>
     
 
@@ -5649,9 +5649,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000444 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000444">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A text entity denotes to a taluk.</obo:IAO_0000115>
-        <rdfs:label>taluk name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000007"/>
+        <obo:IAO_0000115>A third-order administrative region of India.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>taluk of India</rdfs:label>
     </owl:Class>
     
 
@@ -5729,9 +5731,11 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000452 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000452">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A text entity denotes to a village.</obo:IAO_0000115>
-        <rdfs:label>village name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
+        <obo:IAO_0000115>A first-order administrative region of Mali.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>region of Mali</rdfs:label>
     </owl:Class>
     
 
@@ -13289,6 +13293,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0021095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
+        <obo:IAO_0000115>A first-order administrative region of India.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>state of India</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0021096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021096">
@@ -14555,6 +14571,66 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0026002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0026002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000007"/>
+        <obo:IAO_0000115>A third-order administrative region of Thailand.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>subdistrict of Thailand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0026006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0026006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000006"/>
+        <obo:IAO_0000115>A second-order administrative region of Thailand.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>district of Thailand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0026007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0026007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
+        <obo:IAO_0000115>A first-order administrative region of Thailand.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>province of Thailand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0028020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0028020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000004"/>
+        <obo:IAO_0000115>A fifth-order administrative region of Uganda.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>parish of Uganda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0035013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0035013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000008"/>
+        <obo:IAO_0000115>A fourth-order administrative region of Bangladesh.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>union council of Bangladesh</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0035127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0035127">
@@ -14562,6 +14638,43 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115>An information content entity about the multiple households that share a location and a common trait such as infrastructure.</obo:IAO_0000115>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>community information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0038721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000006"/>
+        <obo:IAO_0000115>A second-order administrative region of Ethiopia.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>zone of Ethiopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0038722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000008"/>
+        <obo:IAO_0000115>A fourth-order administrative region of Ethiopia.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118>subdistrict of Ethiopia</obo:IAO_0000118>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>kebele of Ethiopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0038723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000007"/>
+        <obo:IAO_0000115>A third-order administrative region of Tanzania.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>woreda of Ethiopia</rdfs:label>
     </owl:Class>
     
 
@@ -15756,6 +15869,42 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>fed female insect status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0044179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0044179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000006"/>
+        <obo:IAO_0000115>A second-order administrative region of Tanzania.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>district of Uganda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0044180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0044180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000005"/>
+        <obo:IAO_0000115>A first-order administrative region of Uganda.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>region of Uganda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0049405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0049405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000008"/>
+        <obo:IAO_0000115>A fourth-order administrative region of Tanzania.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>ward of Tanzania</rdfs:label>
     </owl:Class>
     
 
