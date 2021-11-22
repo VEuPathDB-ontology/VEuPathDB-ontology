@@ -1182,17 +1182,7 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000105"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity used to build a dwelling or part of a dwelling.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1211,17 +1201,7 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000003">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000106"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a roof.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1240,17 +1220,7 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000006">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000108"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a floor</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1263,39 +1233,12 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000009">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000107"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000001"/>
         <obo:IAO_0000115>A building material used in the construction of a wall.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>wall material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000107"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A processed material shaped a small rectangular block typically made of clay mixed with sand and fired in a kiln or baked by the sun, used in building wall construction.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://www.thefreedictionary.com/brick</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">wall brick</rdfs:label>
     </owl:Class>
     
 
@@ -1353,7 +1296,7 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115>A brick with holes which is embedded in a wall to allow ventilation through it.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
@@ -1383,35 +1326,10 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000087"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content entity to indicate whether a household has electricity in a dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household having electricity information</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000109"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A material entity that consists of fuel mainly used for cooking.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>PRISM</obo:IAO_0000119>
@@ -1529,26 +1447,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A length measurement datum of the distance from a dwelling to the nearest health facility.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <obo:IAO_0000119>Person: Chris Stoeckert</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>distance to health facility</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000032"/>
@@ -1612,19 +1510,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000036"/>
-        <obo:IAO_0000115>A diagnosis of malaria without evidence of complicated malaria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Grant Dorsey</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>diagnosis of uncomplicated malaria</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000039"/>
@@ -1650,46 +1535,15 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000040"/>
-        <obo:IAO_0000115>A diagnosis of complicated malaria with signs and symptoms, such as inability to sit up or stand, vomiting everything, unable to breastfeed or drink, lethargy, which are not listed as WHO criteria used to diagnose severe malaria.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Grant Dorsey</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>diagnoses of complicated malaria with danger signs</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A diagnosis of complicated malaria based on WHO criteria that include the presence of parasite infections, most commonly P.falciparum, and any one or more of symptoms/signs of serious organ failures or abnormalities, including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and Jaundice.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
         <obo:IAO_0000119>Grant Dorsey</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>diagnosis of severe malaria</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
-        <obo:IAO_0000115 xml:lang="en">a malaria characterized by serious organ failures or abnormalities including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and jaundice.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">Centers for Disease Control and Prevention</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">severe malaria</rdfs:label>
     </owl:Class>
     
 
@@ -1740,19 +1594,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-        <obo:IAO_0000115>A clinical visit that is primarily for a regular examination.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>routine clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000051">
@@ -1772,19 +1613,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000118>human study subject</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">human participant under investigation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity whichis part of a dwelling for providing fresh air to the dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>dwelling ventilation</rdfs:label>
     </owl:Class>
     
 
@@ -1850,31 +1678,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000062 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000062">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000005"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002248"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15854"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
-        <obo:IAO_0000115>A drug product that has the chemical ingredient quinine and has antipyretic (fever-reducing), antimalarial, analgesic (painkilling), and anti-inflammatory properties.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000118>quinine</obo:IAO_0000118>
-        <obo:IAO_0000119>PRISM</obo:IAO_0000119>
-        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Quinine</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">quinine drug product</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000063"/>
@@ -1902,32 +1705,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>household information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000038"/>
-        <obo:IAO_0000115>A diagnosis of uncomplicated malaria that occurs with the first trimester of pregnancy.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>diagnosis of uncomplicated malaria in the 1st trimester of pregnancy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>A diagnosis based on presence of asexual parasites by microscopy in the absence of subjective fever or documented elevated temperature</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>diagnosis of asymptomatic microscopic parasitemia</rdfs:label>
     </owl:Class>
     
 
@@ -1979,19 +1756,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>asexual parasite density by microscope</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity about dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>dwelling information</rdfs:label>
     </owl:Class>
     
 
@@ -2058,14 +1822,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000097">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000100"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000101"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>elevated temperature or subjective fever</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
@@ -2073,35 +1829,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <dc:source>PRISM</dc:source>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
         <rdfs:label>febrile</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-        <obo:IAO_0000115>A function to provide fresh air to a closed space.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ventilation function</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000099 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000099">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000109"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A material entity in a dwelling that is designed, built, installed, selected, etc., to serve a specific function affording a convenience or service to people who are living in the dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>dwelling facility</rdfs:label>
     </owl:Class>
     
 
@@ -2115,18 +1842,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Grant Dorsey</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>subjective fever</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000101 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000097"/>
-        <obo:IAO_0000115 xml:lang="en">a febrile quality of an abnormally high temperature</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">elevated temperature</rdfs:label>
     </owl:Class>
     
 
@@ -2166,84 +1881,9 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role that inheres in a material entity that is realized in a building process in which the material entity will become part of a structure with a roof and walls standing more or less permanently in one place.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">building material role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000106 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000105"/>
-        <obo:IAO_0000115>A building material role that inheres in a material entity that is realized in a building process in which the material entity will become part of a roof.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">roof material role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000107 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000105"/>
-        <obo:IAO_0000115>A building material role that inheres in a material entity that is realized in a building process in which the material entity will become part of a wall.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">wall material role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000105"/>
-        <obo:IAO_0000115>A building material role that inheres in a material entity that is realized in a building process in which the material entity will become part of a floor.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">floor material role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000109">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role that inheres in a material entity that is realized in a process that provides a convenience or service to people who are living in a dwelling.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">dwelling facility role</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000110"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000111 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000108"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A processed material shaped a small rectangular block typically made of clay mixed with sand and fired in a kiln or baked by the sun, used in building floor construction.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://www.thefreedictionary.com/brick</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">floor brick</rdfs:label>
-    </owl:Class>
     
 
 
@@ -2394,131 +2034,15 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A data item of the total number of clinical visits which were not sheduled routine visits.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>number of non-routine clinical visits</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A data item of the total number of clinical visits which were sheduled routine visits.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>number of routine clinical visits</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                                <owl:someValuesFrom>
-                                    <owl:Class>
-                                        <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000659"/>
-                                            <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-                                            </owl:Restriction>
-                                        </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content entity that is about the type of sample/specimen collected during a clinical visit.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000119>PRISM</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">sample available information</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000127"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000128 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
-        <obo:IAO_0000115>A processed specimen that is extracted from whole blood using gradient centrifugation that separates the blood into a layer of peripheral blood mononuclear cell under the top layer of plasma. It contains lymphocytes, monocytes or macrophages that are critical components in the immune system.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
-        <obo:IAO_0000118>PBMC specimen</obo:IAO_0000118>
-        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Peripheral_blood_mononuclear_cell</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">peripheral blood mononuclear cell specimen</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000129"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000130 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
-        <obo:IAO_0000115>An average value for female Anopheles mosquitoes tested positive for carrying Plasmodium parasites across multiple collections (e.g. from a given household across CDC light trap collections) in a given period.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>average number of Plasmodium parasite-positive female Anopheles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000131 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
-        <obo:IAO_0000115>An average value for female Anopheles mosquitoes tested for carrying Plasmodium parasites across multiple collections (e.g. from a given household across CDC light trap collections) in a given period.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>average number of female Anopheles tested for Plasmodium parasite</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000132 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
-        <obo:IAO_0000115>An average percentage value for female Anopheles mosquitoes carrying Plasmodium parasites in all female mosquitoes tested for carrying Plasmodium parasites across multiple collections.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, Shon cade, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>average percent of Plasmodium parasite-positive female Anopheles</rdfs:label>
-    </owl:Class>
     
 
 
@@ -2642,25 +2166,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000091"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A clinical visit date that specifies the date/time period of a routine clinical visit.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label xml:lang="en">routine clinical visit date</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000143">
@@ -2683,58 +2188,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label xml:lang="en">household asset information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000145 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity indicating whether a person was given antimalarial therapy outside the study since last seen as part of the study.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>antimalarial therapy given outside the study since last seen information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000096"/>
-        <obo:IAO_0000115>An information content entity indicating the cause of death for a participant in the study.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>cause of participant death</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000148 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-        <obo:IAO_0000115>A clinical visit occuring because of a sickness.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>clinical visit when sick</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000149 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000149">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000532"/>
-        <obo:IAO_0000115>A covered pit latrine that does not have a latrine slab.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>covered pit latrine without slab</rdfs:label>
     </owl:Class>
     
 
@@ -2774,19 +2227,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>date of participant last seen in a study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000153 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000153">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum measuring the number of days since a clinical visit took place which resulted in a malaria diagnosis.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>days since a clinical visit with a malaria diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -2973,32 +2413,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000168 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000168">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a bed.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household bed asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000169 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000169">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a member of a household has or owns a bicycle.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household bicycle asset</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000170">
@@ -3025,97 +2439,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a cassette player.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household cassette player asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000173 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000173">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a chair.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household chair asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000174 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000174">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a clock.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household clock asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000175 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a cupboard.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household cupboard asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000176 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000176">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has electricity in their dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household electricity asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000177 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000177">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a land line or fixed location phone.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household fixed phone asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000178 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a mobile phone.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household mobile phone asset</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000179">
@@ -3125,84 +2448,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>household motorboat asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000180 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a member of a household has or owns a motorcycle or motor scooter.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household motorcycle or scooter asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a radio.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household radio asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000182 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a refrigerator.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household refrigerator asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000183 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000183">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a sofa.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household sofa asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000184 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a table.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household table asset</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000185 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000144"/>
-        <obo:IAO_0000115>A household asset information indicating whether a household has a television.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>household television asset</rdfs:label>
     </owl:Class>
     
 
@@ -3220,19 +2465,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000187 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity indicating whether a malaria episode occurred</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>incident of malaria episode information</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000188"/>
@@ -3242,19 +2474,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000189"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000190 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity indicating whether medical care occurred outside the study clinic since last seen as part of the study.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>medical care outside the study clinic since last seen information</rdfs:label>
-    </owl:Class>
     
 
 
@@ -3362,19 +2581,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000199 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000679"/>
-        <obo:IAO_0000115>An average value for the number of insecticide treated mosquito net(s) per person.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>number of insecticide treated mosquito net(s) per person</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000200">
@@ -3453,25 +2659,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000206 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000206">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100016"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content entity that indicates whether a plasma sample is lost or not.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>plasma sample lost information</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000207">
@@ -3500,84 +2687,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
         <rdfs:label>reason for participant withdrawal</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000209 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000209">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information content entity that indicates whether a redraw of a symptom occurred after a clinical visit.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>redraw of a symptom after clinical visit information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000210 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000050"/>
-        <obo:IAO_0000115>A routine clinical visit in which a blood specimen was collected for a T-cell study.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>routine clinical visit for T-cell study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000050"/>
-        <obo:IAO_0000115>A routine clinical visit in which a blood specimen was collected by finger prick and sent for lab testing (e.g., blood smear, hemoglobin level measurement).</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>routine clinical visit with finger prick</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000212 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000050"/>
-        <obo:IAO_0000115>A routine clinical visit in which a blood specimen was collected using venipuncture and sent for lab testing (e.g., blood smear, hemoglobin level measurement).</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>routine clinical visit with venipuncture</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000213 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000050"/>
-        <obo:IAO_0000115>A routine clinical visit in which no routine assessment was done during the visit.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>routine clinical visit without any routine assessment done</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000214 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000018"/>
-        <obo:IAO_0000115>An air brick with a screen that can prevent some insects get in the dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>screened air brick</rdfs:label>
     </owl:Class>
     
 
@@ -3648,45 +2757,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000220 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000220">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000517"/>
-        <obo:IAO_0000115>A pit latrine that is not sheltered by an outhouse but has a latrine slab.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>uncovered pit latrine with slab</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000517"/>
-        <obo:IAO_0000115>A pit latrine that is not sheltered by an outhouse and does not have a latrine slab.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>uncovered pit latrine without slab</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000222 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000018"/>
-        <obo:IAO_0000115>An air brick without a screen to prevent insects from enetering the dwelling.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <dc:source>PRISM</dc:source>
-        <rdfs:label>unscreened air brick</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000252"/>
@@ -3696,30 +2766,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000253"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000254 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000254">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a publicly accessible water well without a constructed barrier built around it to limit movement of waste or runoff into it</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">drinking water from open public well</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000255 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000255">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a water well with a constructed barrier built around it to limit movement of waste or runoff into the well and the well is located in the yard of a dwelling</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">drinking water from open well in yard</rdfs:label>
-    </owl:Class>
     
 
 
@@ -3765,32 +2811,9 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000261 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000261">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003064"/>
-        <obo:IAO_0000115 xml:lang="en">drinking water that is obtained from a freshwater spring without a constructed barrier built around it that would limit movement of waste or runoff into it</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">drinking water from unprotected freshwater spring</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000262 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000262"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000275 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000577"/>
-        <obo:IAO_0000115>A centrally registered identifier symbol assigned by the American Type Culture Collection (ATCC).</obo:IAO_0000115>
-        <obo:IAO_0000118>ATCC #</obo:IAO_0000118>
-        <rdfs:label>ATCC number</rdfs:label>
-    </owl:Class>
     
 
 
@@ -3997,17 +3020,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000302">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000099"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">an information content entity that is about a process in which a human being occupying a dwelling participates. It either specifies the bearer of the function that is realized in the process, or it specifies that the process does not occur in the dwelling or its yard.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
@@ -4226,43 +3238,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000313 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000313">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <obo:IAO_0000115 xml:lang="en">an entomological data item that is the specified output of an assay that has a collection of insect specimens as specified input; this collection is the specified output of exactly one catch of live specimens</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">individual entomological measurement data</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">single catch entomological measurement datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000314 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-        <obo:IAO_0000115 xml:lang="en">a clinical visit that realizes the concretization of a protocol specifying the time of the visit</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>scheduled clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000315 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000315">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000097"/>
-        <obo:IAO_0000115 xml:lang="en">a clinical visit that occurs at a time that is not mentioned in a protocol that directs the time of the visit</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>unscheduled clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000316">
@@ -4460,16 +3435,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000339 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000093"/>
-        <obo:IAO_0000115>A dwelling information about animal living in a human dwelling.</obo:IAO_0000115>
-        <rdfs:label>dwelling animal information</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000340"/>
@@ -4586,77 +3551,10 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000352 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000352">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000001"/>
-        <obo:IAO_0000115>&quot;A human social role realized in a process that often performed in exchange for payment. Many people have multiple job roles, such as those of parent, homemaker, and employee.&quot;</obo:IAO_0000115>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Job</obo:IAO_0000119>
-        <rdfs:label>job role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000353">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115>A planned process that a person participates in exchange for payment. The job role born by the person is realized in the process.</obo:IAO_0000115>
-        <rdfs:label>economic activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000354 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000353"/>
-        <obo:IAO_0000115>An economic activity that a person is involved in primarily.</obo:IAO_0000115>
-        <rdfs:label>primary economic activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000355 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000353"/>
-        <obo:IAO_0000115>An economic activity that a person is not involved in primarily.</obo:IAO_0000115>
-        <rdfs:label>secondary economic activity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000356 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity that describes a person&apos;s primary economic activity.</obo:IAO_0000115>
-        <rdfs:label>primary economic activity description</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity that describes a person&apos;s secondary economic activity.</obo:IAO_0000115>
-        <rdfs:label>secondary economic activity description</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000353"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>An information content entity about secondary economic activity a person participates in the last month.</obo:IAO_0000115>
         <rdfs:label>secondary economic activity in last month</rdfs:label>
     </owl:Class>
@@ -4773,46 +3671,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000368 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000368"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity about community where a person is living.</obo:IAO_0000115>
-        <rdfs:label>community name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000370 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000370">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity about community where a study taken place.</obo:IAO_0000115>
-        <rdfs:label>study location name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000371 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
-        <obo:IAO_0000115>A malaria medication that is generally taken for initial treatment of malaria.</obo:IAO_0000115>
-        <rdfs:label>first line malaria medication</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000372 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000372">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000058"/>
-        <obo:IAO_0000115>&quot;A malaria medication that is given when first-line medication doesn&apos;t work, or stops working.&quot;</obo:IAO_0000115>
-        <rdfs:label>second line malaria medication</rdfs:label>
-    </owl:Class>
     
 
 
@@ -4983,18 +3841,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000386 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000386">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000142"/>
-        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a geographic location in which part of a journey occurs</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on place visited during a trip</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000387 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000387">
@@ -5053,30 +3899,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">information on organization responsible for treating bed nets</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies whether a human participant under investigation is a contact for malaria, based on the partipant&apos;s association with sites in which malaria infections are known to occur</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on contact with malaria</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000393 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">an information content entity that is about a human participant under investigation and specifies whether the person is present for a scheduled clinical visit</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on participant status at visit</rdfs:label>
     </owl:Class>
     
 
@@ -5171,16 +3993,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
-        <obo:IAO_0000115>A categorical measurement datum about proximity to case dwelling.</obo:IAO_0000115>
-        <rdfs:label>proximity to case dwelling datum</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000404 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000404"/>
@@ -5193,16 +4005,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000406 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000406">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
-        <obo:IAO_0000115>A geographic location where the clinic is located.</obo:IAO_0000115>
-        <rdfs:label>clinic location</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000407">
@@ -5211,16 +4013,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">district of India name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000408 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000408">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity about a &apos;division&apos; or &apos;ward&apos; being a sub-division of a city.</obo:IAO_0000115>
-        <rdfs:label>division number</rdfs:label>
     </owl:Class>
     
 
@@ -5351,30 +4143,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">frequency of larvicide in use</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000420 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000420">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">an information content entity that specifies any locations in which a diagnostic process has occurred in the past twelve months that resulted in a diagnosis of malaria</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>information on where malaria diagnosed in last 12 months</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000421 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">a count of the number of instances of a parasite in a life cycle stage in which reproduction is asexual</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB, Centers for Disease Control and Prevention</obo:IAO_0000119>
-        <rdfs:label>number of asexual parasite</rdfs:label>
     </owl:Class>
     
 
@@ -5554,32 +4322,12 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000434 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000434">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A textual entity that denotes the public health clinic/hospital that the human subject normally uses (for non malaria illness).</obo:IAO_0000115>
-        <rdfs:label>primary health center name</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000435 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000435">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A data item of income level issued annually by the Department of Health and Human Services. Federal poverty levels are used to determine your eligibility for certain programs and benefits.</obo:IAO_0000115>
         <rdfs:label>poverty line</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000436 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000436">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>An information that specifies a person has no illness.</obo:IAO_0000115>
-        <rdfs:label>information that there is no illness</rdfs:label>
     </owl:Class>
     
 
@@ -5732,16 +4480,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
         <obo:IAO_0000115>A text entity denotes to a village.</obo:IAO_0000115>
         <rdfs:label>village name</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000453 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000453">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A text entity of a zone number denotes to a geographic location.</obo:IAO_0000115>
-        <rdfs:label>location zone number</rdfs:label>
     </owl:Class>
     
 
@@ -5923,27 +4661,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000483"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000484 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000484">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>A diagnosis based on parasites detected by microscopy (parasite density &gt; 0) or LAMP assay (LAMP result is positive) in the absence of febrile (subjective fever and  temperature&gt;=38).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">diagnosis of asymptomatic parasitemia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000485 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000485">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
-        <obo:IAO_0000115>A diagnosis based on presence of parasites by LAMP assay when microscopy result was negative in the absence of subjective fever or documented elevated temperature.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Grant Dorsey, Jie Zheng</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">diagnosis of submicroscopic parasitemia</rdfs:label>
-    </owl:Class>
     
 
 
@@ -7621,18 +6338,6 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000641 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000641">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">a symbol that denotes a cage that has the function to keep a mouse that is the bearer of a participant under investigation role</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">mouse cage number</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
@@ -7642,18 +6347,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000118>Child waste disposal</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label>information on disposal of child excreta material</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000736 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>A biological process that breeds a plant or animal by natural processes from the parent stock.</obo:IAO_0000115>
-        <obo:IAO_0000116>Term added for annotation of a Crypto SNP dataset but the term is not used.</obo:IAO_0000116>
-        <obo:IAO_0000117>Person: Jie Zheng</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">propagation</rdfs:label>
     </owl:Class>
     
 
@@ -7799,27 +6492,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000756 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000756">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000405"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115>An organism that has pathogen role.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">pathogen organism</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000757 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000757">
@@ -7894,23 +6566,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         </owl:equivalentClass>
         <obo:IAO_0000115>A Fungus that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred Fungus</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fungal strain</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000760 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000760">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5476"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001185"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>A Candida albicans that is bred to have some uniform behavioral, morphological, physiological, or genetic characteristics with similarly bred Candida albicans</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Candida albicans strain</rdfs:label>
     </owl:Class>
     
 
@@ -8067,18 +6722,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An information content entity identifying an assay and specifying whether it was performed.</obo:IAO_0000115>
         <rdfs:label>information on whether assay performed</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000796 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000796">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <obo:IAO_0000115>An assay that detects parasite organisms in a specimen that are in the sporozoite stage.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label>sporozoite detection assay</rdfs:label>
     </owl:Class>
     
 
@@ -10681,25 +9324,6 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0011797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011797"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0011802 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011802">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information content entity that is about a microscopy assay</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopy</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on microscopy assay</rdfs:label>
-    </owl:Class>
     
 
 
