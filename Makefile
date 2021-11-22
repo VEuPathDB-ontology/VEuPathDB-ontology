@@ -118,6 +118,38 @@ IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/imports/import_$(x).owl
 imports: $(IMPORT_FILES)
 
 
+### Templates
+#
+src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/ontology/eupath_dev.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri "http://purl.obolibrary.org/obo/eupath/dev/$(notdir $@)" \
+	--output $@
+
+# Update all modules
+MODULE_NAMES := assays\
+ chebi_roles\
+ clinical-chemistry-data\
+ devices\
+ diagnosis\
+ general\
+ insecticide_resistance\
+ obsolete\
+ popbio_organism\
+ protein_variant\
+ schedule_deprecate\
+ symptom_duration
+
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
+
+
 ### Build
 #
 # Here we create a standalone OWL file appropriate for release.
@@ -146,7 +178,7 @@ eupath.owl: build/eupath_merged.owl
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
-test_report.tsv: build/eupath_merged.owl
+ROBOT_report.tsv: eupath.owl
 	$(ROBOT) report \
 	--input $< \
         --fail-on none \
@@ -201,7 +233,7 @@ test: reason verify
 #
 # Full build
 .PHONY: all
-all: test eupath.owl build/terms-report.csv
+all: test eupath.owl ROBOT_report.tsv
 
 # Remove generated files
 .PHONY: clean
