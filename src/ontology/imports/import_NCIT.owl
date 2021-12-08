@@ -87,6 +87,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C106273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106273">
@@ -204,6 +210,17 @@
         <obo:IAO_0000115>A variation from processes or procedures defined in a protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. (CDISC Glossary)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label>Protocol Deviation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C62584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
+        <obo:IAO_0000115>A subtype of Staphylococcus characterized by an inability to produce free plasma coagulase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Coagulase-Negative Staphylococcus</rdfs:label>
     </owl:Class>
     
 
