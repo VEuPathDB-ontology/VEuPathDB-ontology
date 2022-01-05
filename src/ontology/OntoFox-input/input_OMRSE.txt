@@ -17,6 +17,9 @@ http://purl.obolibrary.org/obo/OMRSE_00000205 #ethnic identity information conte
 http://purl.obolibrary.org/obo/OMRSE_00002045 #highest level of education data item
 http://purl.obolibrary.org/obo/OMRSE_00000075 #residence function
 http://purl.obolibrary.org/obo/OMRSE_00000142 #human traveling information
+http://purl.obolibrary.org/obo/OMRSE_00002059 #caregiver role
+http://purl.obolibrary.org/obo/OMRSE_00002060 #family relationship
+http://purl.obolibrary.org/obo/OMRSE_00000500 #job role data item
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
@@ -43,6 +46,15 @@ http://purl.obolibrary.org/obo/OMRSE_00000209 #gender identity information conte
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
 http://purl.obolibrary.org/obo/OMRSE_00002045 #highest level of education data item
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 #data item
+http://purl.obolibrary.org/obo/OMRSE_00002059 #caregiver role
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000001 #human social role
+http://purl.obolibrary.org/obo/OMRSE_00002060 #family relationship
+subClassOf http://purl.obolibrary.org/obo/BFO_0000145 #relational quality
+http://purl.obolibrary.org/obo/OMRSE_00000077 #job role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/OMRSE_00000500 #job role data item
+subClassOf http://purl.obolibrary.org/obo/OMRSE_00000500 #data item
+
 
 [Source term retrieval setting]
 includeNoIntermediates
