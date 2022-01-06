@@ -99,6 +99,7 @@ IMPORT_NAMES := APOLLO_SV\
  PATO\
  PCO\
  PDRO\
+ PHIPO\
  PO\
  PR\
  REO\
