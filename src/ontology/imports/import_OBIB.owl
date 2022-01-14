@@ -75,6 +75,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -92,9 +116,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
     
 
 
@@ -104,22 +128,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBIB_0000026 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115>A role borne by some material entity which can be delivered/administrated into some organism and the role is realized during a clinical treatment process aiming to treat symptoms, signs or diagnosed disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
-        <rdfs:label xml:lang="en">medication role</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
     
 
 
@@ -132,7 +155,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -176,9 +199,91 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:allValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000097"/>
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:allValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A count that is about the aggregate of individuals who have been recruited to participate in a study.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">count of current total human study participant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 xml:lang="en">A study design in which all participants or a representative subset of participants are examined at only a single time for characteristics of a interest (e.g. a specific disease).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">cross sectional study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000097"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000471"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000148"/>
 </rdf:RDF>
 
 
