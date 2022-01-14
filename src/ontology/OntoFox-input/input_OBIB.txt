@@ -4,14 +4,13 @@ http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl
 ############################################################
 [Source ontology]
 OBIB
-# OMIABIS IDs will be replaced with OBIB IDs
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
 http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
 http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
-http://purl.obolibrary.org/obo/OMIABIS_0001011 #count of current total human study participant
-http://purl.obolibrary.org/obo/OMIABIS_0001018 #cross sectional study design
+http://purl.obolibrary.org/obo/OBIB_0000687 #count of current total human study participant
+http://purl.obolibrary.org/obo/OBIB_0000694 #cross sectional study design
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBIB_0000036 #buffy coat specimen
@@ -20,9 +19,9 @@ http://purl.obolibrary.org/obo/OBIB_0000029 #medication material
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/OBIB_0000236 #Blood sample volume
 subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
-http://purl.obolibrary.org/obo/OMIABIS_0001011 #count of current total human study participant
+http://purl.obolibrary.org/obo/OBIB_0000687 #count of current total human study participant
 subClassOf http://purl.obolibrary.org/obo/STATO_0000047 #count
-http://purl.obolibrary.org/obo/OMIABIS_0001018 #cross sectional study design
+http://purl.obolibrary.org/obo/OBIB_0000694 #cross sectional study design
 subClassOf http://purl.obolibrary.org/obo/OBI_0500000 #study design
 
 [Source term retrieval setting]
