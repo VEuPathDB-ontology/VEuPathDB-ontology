@@ -51,6 +51,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/VO_0000574 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000574">
@@ -58,6 +64,16 @@
         <obo:IAO_0000115>a path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label>route of administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <rdfs:label>Haemophilus influenzae serotype b</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

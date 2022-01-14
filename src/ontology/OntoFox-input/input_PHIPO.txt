@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_PHIPO.owl
+
+############################################################
+[Source ontology]
+PHIPO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
+http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+
