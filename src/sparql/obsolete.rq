@@ -1,0 +1,66 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+SELECT DISTINCT ?id
+	(GROUP_CONCAT(DISTINCT ?label;separator=" | ") AS ?labels)
+	(GROUP_CONCAT(DISTINCT ?alt;separator=" | ") AS ?alts)
+	(GROUP_CONCAT(DISTINCT ?def;separator=" | ") AS ?defs)
+	(GROUP_CONCAT(DISTINCT ?def_source;separator=" | ") AS ?def_sources)
+	(GROUP_CONCAT(DISTINCT ?ex;separator=" | ") AS ?exs)
+	(GROUP_CONCAT(DISTINCT ?ed;separator=" | ") AS ?eds)
+	(GROUP_CONCAT(DISTINCT ?note;separator=" | ") AS ?notes)
+	(GROUP_CONCAT(DISTINCT ?track;separator=" | ") AS ?tracks)
+	(GROUP_CONCAT(DISTINCT ?parent;separator=" | ") AS ?parents)
+	(GROUP_CONCAT(DISTINCT ?reason;separator=" | ") AS ?reasons)
+	(GROUP_CONCAT(DISTINCT ?trp;separator=" | ") AS ?trps)
+	(GROUP_CONCAT(DISTINCT ?svbid;separator=" | ") AS ?svbids)
+	(GROUP_CONCAT(DISTINCT ?comment;separator=" | ") AS ?comments)
+	(GROUP_CONCAT(DISTINCT ?source;separator=" | ") AS ?sources)
+WHERE {
+	?iri a owl:Class .
+	?iri rdfs:label ?label .
+  	OPTIONAL {
+	?iri obo:IAO_0000118 ?alt .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000115 ?def .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000119 ?def_source .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000112 ?ex .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000117 ?ed .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000116 ?note .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000233 ?track .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0000231 ?reason .
+	}
+	OPTIONAL {
+	?iri obo:IAO_0100001 ?trp .
+	}
+	OPTIONAL {
+	?iri obo:EUPATH_0043061 ?svbid .
+	}
+	OPTIONAL {
+	?iri rdfs:comment ?comment .
+	}
+	OPTIONAL {
+	?iri dc:source ?source .
+	}
+	FILTER (contains(str(?iri), "EUPATH_"))
+	FILTER regex(str(?label), "obsolete_") .
+	BIND(REPLACE(STR(?iri), "http://purl.obolibrary.org/obo/EUPATH_", "EUPATH:") AS ?id) .
+
+}
+GROUP BY ?id ?labels ?alts ?defs ?def_sources ?exs ?eds ?tracks ?parents ?reasons ?trp ?svbids ?comments ?sources
+ORDER BY ASC(?id)

@@ -1,0 +1,672 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_PR.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_PR.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_PR.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type II interferon that is a translation product of the human IFNG gene or a 1:1 ortholog thereof. The core domain structure consists of an Interferon gamma domain (Pfam:PF00714) that is four-helical cytokine domain with an additional helix in one of the crossover connections. It is a cytokine produced by lymphocytes activated by specific antigens or mitogens that has important immunoregulatory functions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon gamma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tumor necrosis factor, TNF-like that is a translation product of the human TNF gene or a 1:1 ortholog thereof. Tumour necrosis factor alpha (TNF) is a pleiotropic cytokine that mediates apoptosis, cell proliferation, immunomodulation, inflammation, viral replication, allergy, arthritis, septic shock, insulin resistance, autoimmune diseases, and other pathological conditions. TNF transduces these cellular responses through two distinct receptors: type I, which are expressed on all cell types, and type II, which are expressed only on cells of the immune system and endothelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interleukin-1 that is a translation product of the human IL1B gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL1RN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 receptor antagonist protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interleukin-17 that is a translation product of the human IL17A gene or a 1:1 ortholog thereof. The active product is a proinflammatory cytokine produced by activated T cells. This cytokine regulates the activities of NF-kappaB and mitogen-activated protein kinases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-17A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL7 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL13 gene or a 1:1 ortholog thereof. Interleukin-13 is a pleiotropic cytokine which may be important in the regulation of the inflammatory and immune responses. It inhibits inflammatory cytokine production and synergises with IL-2 in regulating interferon-gamma synthesis. The sequences of IL-4 and IL-13 are distantly related.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL15 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL2 gene or a 1:1 ortholog thereof. Interleukin-2 has a dual role in maintaining tolerance and contributing to immunity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CXCL8 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human IL9 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein with core architecture consisting of a Small cytokines (intecrine/chemokine), interleukin-8 like (Pfam:PF00048) domain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C/C-C motif small inducible chemokine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001889 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001889">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CD14 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD14 molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001998">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C/C-C motif small inducible chemokine that is a translation product of the CCL3, CCL3L1/CCL3L3, or CCL4 gene.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 3/4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C/C-C motif small inducible chemokine that is a member of a subfamily that includes eotaxin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eotaxin-like cytokine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C/C-C motif small inducible chemokine that is a translation product of the human CCL5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000002038"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eotaxin-like cytokine that is a translation product of the human CCL2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001998"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C-C motif chemokine 3/4 that is a translation product of the human CCL3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001998"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A C-C motif chemokine 3/4 that is a translation product of the human CCL4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000002038"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eotaxin-like cytokine that is a translation product of the human CCL11 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eotaxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CRP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-reactive protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CSF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte-macrophage colony-stimulating factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CSF3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte colony-stimulating factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human EGF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pro-epidermal growth factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MFGE8 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactadherin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A serpin that is a translation product of the human SERPINA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1-antitrypsin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000022172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000022172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K-12 aspC gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspartate aminotransferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000023540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000023540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the Escherichia coli K-12 phoA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkaline phosphatase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GPT or GPT2 genes, 1:1 orthologs thereof, or a semi-ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alanine aminotransferase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An acetylcholinesterase that is a translation product of the Anopheles gambiae Ace gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insect-type acetylcholinesterase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A voltage-gated sodium channel subunit alpha that is a translation product of the fruit fly para gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium channel protein para</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1016 that has a Gly residue at the position equivalent to Val-1016 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr V1016G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the fruit fly Rdl gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma-aminobutyric acid receptor subunit beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1011 that has a Met residue at the position equivalent to Ile-1011 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr I1011M</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1011 that has a Val residue at the position equivalent to Ile-1011 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr I1011V</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 989 that has a Pro residue at the position equivalent to Ser-989 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr S989P</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050417">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1014 that has a Ser residue at the position equivalent to Leu-1014 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr L1014S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1532 that has a Thr residue at the position equivalent to Ile-1532 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr I1532T</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1534 that has a Cys residue at the position equivalent to Phe-1534 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr F1534C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1534 that has a Leu residue at the position equivalent to Phe-1534 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr F1534L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1534 that has a Ser residue at the position equivalent to Phe-1534 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr F1534S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1575 that has a Tyr residue at the position equivalent to Asn-1575 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr N1575Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1763 that has a Tyr residue at the position equivalent to Asp-1763 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr D1763Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1016 that has an Ile residue at the position equivalent to Val-1016 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr V1016I</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050402"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An insect-type acetylcholinesterase sequence variant at position 119 that has a Ser residue at the position equivalent to Gly-119 of the amino acid sequence represented by UniProtKB:P04058-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AChE1 G119S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050413"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gamma-aminobutyric acid receptor subunit beta sequence variant at position 296 that has a Gly residue at the position equivalent to Ala-296 of the amino acid sequence represented by UniProtKB:P25123-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rdl A296G</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050440">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050413"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gamma-aminobutyric acid receptor subunit beta sequence variant at position 296 that has a Ser residue at the position equivalent to Ala-296 of the amino acid sequence represented by UniProtKB:P25123-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rdl A296S</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glutathione S-transferase epsilon that is a translation product of the Anopheles funestus GSTe2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutathione S-transferase epsilon 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050443"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glutathione S-transferase epsilon 2 sequence variant at position 119 that has a Phe residue at the position equivalent to Leu-119 of the amino acid sequence represented by UniProtKB:V9QKI4-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gste2 L119F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1014 that has a Cys residue at the position equivalent to Leu-1014 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr L1014C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050403"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sodium channel protein para sequence variant at position 1014 that has a Phe residue at the position equivalent to Leu-1014 of the amino acid sequence represented by UniProtKB:Q94615-1.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kdr L1014F</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

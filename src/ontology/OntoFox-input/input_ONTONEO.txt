@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_ONTONEO.owl
+
+
+############################################################
+[Source ontology]
+ONTONEO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ONTONEO_00000228 #Cervical dilation
+http://purl.obolibrary.org/obo/ONTONEO_00000255 #Gestational age
+http://purl.obolibrary.org/obo/ONTONEO_00000160 #Membrane rupture
+http://purl.obolibrary.org/obo/ONTONEO_00000225 #Obstetric history
+http://purl.obolibrary.org/obo/ONTONEO_00000271 #Preterm birth
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ONTONEO_00000228 #Cervical dilation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000408 #length measurement datum
+http://purl.obolibrary.org/obo/ONTONEO_00000271 #Preterm birth
+subClassOf http://purl.obolibrary.org/obo/GO_0007567 #parturition
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

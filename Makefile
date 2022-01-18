@@ -44,17 +44,112 @@ ROBOT := java -jar build/robot.jar
 ### Imports
 #
 # Use Ontofox to import various modules.
-build/import_%.owl: src/OntoFox-input/input_%.txt | build
+build/import_%.owl: src/ontology/OntoFox-input/input_%.txt | build/robot.jar build
 	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
 
-# Use ROBOT to ensure that serialization is consistent.
-src/ontology/import/import_%.owl: build/import_%.owl
-	$(ROBOT) convert -i build/$import_*.owl -o $@
+# Use ROBOT to remove external axioms
+src/ontology/imports/import_EFO.owl: build/import_EFO.owl
+	$(ROBOT) remove --input build/import_EFO.owl \
+	--base-iri 'http://www.ebi.ac.uk/efo/EFO_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
 
-IMPORT_FILES := $(wildcard src/ontology/import/import_*.owl)
+src/ontology/imports/import_%.owl: build/import_%.owl
+	$(ROBOT) remove --input build/import_$*.owl \
+	--base-iri 'http://purl.obolibrary.org/obo/$*_' \
+	--axioms external \
+	--preserve-structure false \
+	--trim false \
+	--output $@
+
+IMPORT_NAMES := APOLLO_SV\
+ ARO\
+ BTO\
+ CHEBI\
+ CIDO\
+ CL\
+ CMO\
+ DOID\
+ DRON\
+ DUO\
+ ECTO\
+ EFO\
+ ENVO\
+ ERO\
+ FOODON\
+ GENEPIO\
+ GO\
+ HP\
+ IAO\
+ IDO\
+ MOD\
+ NCBITaxon\
+ NCIT\
+ OAE\
+ OBCS\
+ OBI\
+ OBIB\
+ OGMS\
+ OMP\
+ OMRSE\
+ ONS\
+ ONTONEO\
+ OPL\
+ PATO\
+ PCO\
+ PDRO\
+ PHIPO\
+ PO\
+ PR\
+ REO\
+ RO\
+ SO\
+ STATO\
+ SYMP\
+ UBERON\
+ UO\
+ VO
+
+IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/imports/import_$(x).owl)
+
+#IMPORT_FILES := $(wildcard src/ontology/imports/import_*.owl)
 
 .PHONY: imports
 imports: $(IMPORT_FILES)
+
+
+### Templates
+#
+src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
+	echo '' > $@
+	$(ROBOT) merge \
+	--input src/ontology/eupath_dev.owl \
+	template \
+	--template $< \
+	annotate \
+	--ontology-iri "http://purl.obolibrary.org/obo/eupath/dev/$(notdir $@)" \
+	--output $@
+
+# Update all modules
+MODULE_NAMES := assays\
+ chebi_roles\
+ clinical-chemistry-data\
+ devices\
+ diagnosis\
+ general\
+ insecticide_resistance\
+ obsolete\
+ popbio_organism\
+ protein_variant\
+ schedule_deprecate\
+ symptom_duration
+
+MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
+
+.PHONY: modules
+modules: $(MODULE_FILES)
 
 
 ### Build
@@ -85,7 +180,7 @@ eupath.owl: build/eupath_merged.owl
 	--annotation owl:versionInfo "$(TODAY)" \
 	--output $@
 
-test_report.tsv: build/eupath_merged.owl
+ROBOT_report.tsv: eupath.owl
 	$(ROBOT) report \
 	--input $< \
         --fail-on none \
@@ -140,7 +235,7 @@ test: reason verify
 #
 # Full build
 .PHONY: all
-all: test eupath.owl build/terms-report.csv
+all: test eupath.owl ROBOT_report.tsv
 
 # Remove generated files
 .PHONY: clean

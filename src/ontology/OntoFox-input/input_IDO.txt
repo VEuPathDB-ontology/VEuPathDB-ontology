@@ -1,0 +1,43 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_IDO.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+IDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
+http://purl.obolibrary.org/obo/IDO_0000586 #infection
+http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
+http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
+http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
+http://purl.obolibrary.org/obo/IDO_0000552 #endotoxin
+http://purl.obolibrary.org/obo/IDO_0000562 #antibacterial
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IDO_0000566 #primary infection
+subClassOf http://purl.obolibrary.org/obo/IDO_0000586
+http://purl.obolibrary.org/obo/IDO_0000586 #infection 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/IDO_0000405 #pathogen role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/IDO_0000486 #infection prevalence
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
+http://purl.obolibrary.org/obo/IDO_0000528 #pathogen
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/IDO_0000610 #immunosuppression
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/IDO_0000552 #endotoxin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+

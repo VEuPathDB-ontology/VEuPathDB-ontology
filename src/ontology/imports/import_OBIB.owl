@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_OBIB.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000029">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000148"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity that is bearer of a medication role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">medication material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A processed specimen which is the output of a density gradient centrifugation of an anticoagulated blood specimen that contains most of the white blood cells and platelets.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Buffy_coat</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">buffy coat specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volume of blood collected in milliliters</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A scalar measurement datum that is the output of a volume measurement assay that has a blood specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">need volume measurement assay from OBI first</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Chris Stoeckert, Helena Ellis, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBIB</obo:IAO_0000119>
+        <obo:IAO_0000234 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI BBRB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood specimen volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">A count that is about the aggregate of individuals who have been recruited to participate in a study.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">count of current total human study participant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBIB_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBIB_0000694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 xml:lang="en">A study design in which all participants or a representative subset of participants are examined at only a single time for characteristics of a interest (e.g. a specific disease).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obib.owl"/>
+        <rdfs:label xml:lang="en">cross sectional study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000148"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000047"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

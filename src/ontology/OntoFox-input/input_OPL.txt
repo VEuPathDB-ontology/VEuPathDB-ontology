@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_OPL.owl
+
+############################################################
+[Source ontology]
+OPL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OPL_0000232 #parasite organism
+http://purl.obolibrary.org/obo/OPL_0000152 #sporozoite stage 
+http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+http://purl.obolibrary.org/obo/OPL_0000150 #gametocyte stage
+http://purl.obolibrary.org/obo/OPL_0000073 #oocyst stage
+http://purl.obolibrary.org/obo/OPL_0000267 #Plasmodium gametocyte
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OPL_0000232 #parasite organism
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #organism
+http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+http://purl.obolibrary.org/obo/OPL_0000152 #sporozoite stage 
+subClassOf http://purl.obolibrary.org/obo/OPL_0000181 #parasite lifecycle stage
+http://purl.obolibrary.org/obo/OPL_0000073 #oocyst stage
+subClassOf http://purl.obolibrary.org/obo/OPL_0000181 #Parasite lifecycle stage
+http://purl.obolibrary.org/obo/OPL_0000267 #Plasmodium gametocyte
+subClassOf http://purl.obolibrary.org/obo/NCBITaxon_5820 #Plasmodium
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+

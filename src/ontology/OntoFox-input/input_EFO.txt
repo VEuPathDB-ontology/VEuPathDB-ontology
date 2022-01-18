@@ -1,0 +1,61 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/eupath/dev/import_EFO.owl
+
+
+############################################################
+[Source ontology]
+#comment here
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0002755 #diet
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth, Birth date
+http://www.ebi.ac.uk/efo/EFO_0005056 #Age at death
+http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
+http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
+http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
+http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
+http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
+http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
+http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
+http://www.ebi.ac.uk/efo/EFO_0004465 #fasting blood glucose measurement
+http://www.ebi.ac.uk/efo/EFO_0004344 #Birth weight (kg)
+http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
+http://www.ebi.ac.uk/efo/EFO_1001491 #abortion
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/efo/EFO_0002755 #diet
+subClassOf http://purl.obolibrary.org/obo/OBI_0000272 #protocol
+http://www.ebi.ac.uk/efo/EFO_0004950 #date of birth
+subClassOf http://purl.obolibrary.org/obo/IAO_0000416 #time measurement datum
+http://www.ebi.ac.uk/efo/EFO_0000264 #Antibody
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://www.ebi.ac.uk/efo/EFO_0000683 #Replicate
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://www.ebi.ac.uk/efo/EFO_0005056 #Age at death
+subClassOf http://purl.obolibrary.org/obo/OBI_0001167 #age measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004309 #Platelet count (per uL blood)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004326 #Heart rate (beats/min)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004348 #Hematocrit (%)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000109 #measurement datum
+http://www.ebi.ac.uk/efo/EFO_0005528 #parasitemia measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum 
+http://www.ebi.ac.uk/efo/EFO_0008546 #poisoning
+subClassOf http://purl.obolibrary.org/obo/DOID_4 #DOID:disease
+http://www.ebi.ac.uk/efo/EFO_0004465 #fasting blood glucose measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000032 #scalar measurement datum
+http://www.ebi.ac.uk/efo/EFO_0004344 #Birth weight (kg)
+subClassOf http://purl.obolibrary.org/obo/IAO_0000414 #mass measurement datum
+http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
+subClassOf http://purl.obolibrary.org/obo/DOID_7 #disease of anatomical entity
+http://www.ebi.ac.uk/efo/EFO_1001491 #abortion
+subClassOf http://www.ebi.ac.uk/efo/EFO_0009663 #Genitourinary condition
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
