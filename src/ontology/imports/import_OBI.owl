@@ -7255,7 +7255,52 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>venereal disease research laboratory test</rdfs:label>
     </owl:Class>
+
+
     
+    <!-- http://purl.obolibrary.org/obo/OBI_0002157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002444"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>HBV surface antigen assay</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>An analyte assay that is meant to detect hepatitis B virus (HBV) surface antigens.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000117>James Overton</obo:IAO_0000117>
+        <obo:IAO_0000117>Randi Vita</obo:IAO_0000117>
+        <obo:IAO_0000118>HBsAg assay</obo:IAO_0000118>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/825</obo:IAO_0000233>
+        <obo:IAO_0000234>NCI BBRB</obo:IAO_0000234>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>HBV surface antigen assay</rdfs:label>
+    </owl:Class>
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0002444 -->
