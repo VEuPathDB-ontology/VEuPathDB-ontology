@@ -51,6 +51,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
@@ -175,7 +181,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A structurally anomalous part of an organism acquired during fetal development and present at birth (but not necessarily hereditary) which is hypothesized to be harmful for the organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
-        <rdfs:label>congenital malformation</rdfs:label>
+        <rdfs:label>congenital disorder</rdfs:label>
     </owl:Class>
     
 
@@ -231,6 +237,17 @@
         <obo:IAO_0000115>A data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label xml:lang="en">clinical data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A role borne by some material entity which can be delivered/administrated into some organism and the role is realized during a clinical treatment process aiming to treat symptoms, signs or diagnosed disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>medication role</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
