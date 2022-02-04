@@ -67,6 +67,7 @@ src/ontology/imports/import_%.owl: build/import_%.owl
 IMPORT_NAMES := APOLLO_SV\
  ARO\
  BTO\
+ CARO\
  CHEBI\
  CIDO\
  CL\
