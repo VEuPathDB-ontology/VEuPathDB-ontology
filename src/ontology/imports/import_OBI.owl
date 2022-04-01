@@ -14070,6 +14070,28 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0003259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003238"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>umbilical cord blood assay datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>An organism identification assay that is the specified output of an umbilical cord blood assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>umbilical cord blood assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0003260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003260">
