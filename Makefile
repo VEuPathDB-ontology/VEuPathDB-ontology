@@ -143,6 +143,7 @@ MODULE_NAMES := assays\
  obsolete\
  popbio_organism\
  protein_variant\
+ raw_data\
  schedule_deprecate\
  symptom_duration
 
