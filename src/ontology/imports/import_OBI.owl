@@ -939,21 +939,15 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10407 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10407"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
     
 
 
@@ -3689,30 +3683,6 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000086"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7255,9 +7225,9 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>venereal disease research laboratory test</rdfs:label>
     </owl:Class>
-
-
     
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0002157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002157">
@@ -7300,7 +7270,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>HBV surface antigen assay</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0002444 -->
@@ -10563,6 +10533,26 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000233 xml:lang="en">https://github.com/obi-ontology/obi/issues/1097</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">full karyotype information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111>single-value binding of antibody with reporter to antigen assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Detection of SARS-CoV-2 IgG antibodies by an immunoassay method, such as enzyme-linked immunosorbent assay. This test is used in conjunction with SARS-CoV-2 IgA and IgM to aid in the diagnosis of COVID-19 and in the identification of individuals infected with SARS-CoV-2.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>An assay that detects the linking of antigens and antibodies via special signaling mechanisms, such as EIA, ELISA, chemiluminescence, etc. that produces one measure (quantitative or qualitative) of the analyte of interest</obo:IAO_0000115>
+        <obo:IAO_0000116>LOINC indicates that this class would not include flow cytometry or any technique that can determine the localization of an analyte, such as peroxidase immune staining or indirect immunofluorescence (IFA)</obo:IAO_0000116>
+        <obo:IAO_0000117>Mark Andrew Miller, ORCID:0000-0001-9076-6066</obo:IAO_0000117>
+        <obo:IAO_0000118>IA</obo:IAO_0000118>
+        <obo:IAO_0000118>immunoassay</obo:IAO_0000118>
+        <obo:IAO_0000119>LOINC User&apos;s Guide, Version 2.68, PUBLISHED JUNE 2020, page 47</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1203</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>single-value binding of antibody with reporter to antigen assay</rdfs:label>
     </owl:Class>
     
 
@@ -14185,12 +14175,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003244"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in blood datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A blood microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -14273,12 +14257,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003246"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in feces datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A feces microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -14361,12 +14339,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003251"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in induced sputum datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A induced sputum microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -14449,12 +14421,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003256"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in lung datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A lung microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -14515,12 +14481,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003257"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in nasopharyngeal or oropharyngeal swab datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A nasopharyngeal or oropharyngeal swab microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -14581,12 +14541,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003258"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000111>virus in pleural fluid datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>A pleural fluid microbiology datum that is interpreted as an indication of the presence of bacteria in the specimen.</obo:IAO_0000115>
@@ -15206,16 +15160,6 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000111 xml:lang="en">organism</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">animal</obo:IAO_0000112>

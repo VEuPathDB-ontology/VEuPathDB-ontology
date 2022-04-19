@@ -81,12 +81,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0001362 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001362"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000207 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000207">
@@ -908,7 +902,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in feces that specifies whether a pathogen excluding Norovirus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Any pathogen excluding Norovirus in feces</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of any pathogen excluding Norovirus in feces</rdfs:label>
     </owl:Class>
     
 
@@ -1328,7 +1322,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ERO_0001362"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002773"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Helicobacter pylori was detected by immunoassay.</obo:IAO_0000115>
@@ -5266,7 +5260,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in pleural fluid that specifies whether pathogen and not Legionella or Klebsiella pneumoniae was detected by multiplex real time polymerase chain reaction assay.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Any pathogen except Legionella or K. pneumoniae in pleural fluid by multiplex real time polymerase chain reaction assay</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of any pathogen except Legionella or K. pneumoniae in pleural fluid by multiplex real time polymerase chain reaction assay</rdfs:label>
     </owl:Class>
     
 
@@ -6433,6 +6427,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0002692 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002692"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002773"/>
     
 
 
