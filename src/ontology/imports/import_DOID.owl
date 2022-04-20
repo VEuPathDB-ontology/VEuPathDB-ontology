@@ -197,17 +197,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DOID_0060158 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of metabolism that has _material_basis_in enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to an endocrine organ disease, organ malfunction, inadequate intake, dietary deficiency, or malabsorption.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired metabolic disease</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DOID_0060312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060312">
@@ -436,7 +425,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_10923 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10923">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_74"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood protein disease that is characterized by low number of red blood cells, repeated infections, and periodic episodes of pain, resulting from atypical hemoglobin molecules called hemoglobin S, which can distort red blood cells into a sickle, or crescent, shape.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
@@ -1294,7 +1283,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_5113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nutrition disease that is characterized by deficiency of a nutritional element, such as a vitamin, mineral, carbohydrate, protein, fat, or general energy content.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutritional deficiency disease</rdfs:label>
@@ -1391,6 +1380,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that has_material_basis_in genetic variations in the human genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_635 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_635">
@@ -1409,6 +1409,18 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system disease that affects tissues such as skin, tendons, and cartilage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_630"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of metabolism that is characterized by enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to inherited enzyme abnormality.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited metabolic disorder</rdfs:label>
     </owl:Class>
     
 
@@ -1833,7 +1845,7 @@
     <!-- http://purl.obolibrary.org/obo/DOID_9993 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9993">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0060158"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_655"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glucose metabolism disease that is characterized by abnormally low levels of blood glucose.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglycemia</rdfs:label>
