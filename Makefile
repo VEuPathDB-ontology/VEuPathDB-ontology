@@ -138,6 +138,7 @@ MODULE_NAMES := assays\
  clinical-chemistry-data\
  devices\
  diagnosis\
+ display_labels\
  general\
  insecticide_resistance\
  obsolete\
