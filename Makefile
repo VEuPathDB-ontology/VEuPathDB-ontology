@@ -142,6 +142,7 @@ MODULE_NAMES := assays\
  insecticide_resistance\
  obsolete\
  popbio_organism\
+ presence_data\
  protein_variant\
  raw_data\
  schedule_deprecate\
