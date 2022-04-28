@@ -146,6 +146,7 @@ MODULE_NAMES := assays\
  presence_data\
  protein_variant\
  raw_data\
+ threshold-cycle\
  schedule_deprecate\
  symptom_duration
 
