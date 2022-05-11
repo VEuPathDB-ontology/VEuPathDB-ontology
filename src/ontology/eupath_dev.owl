@@ -7160,7 +7160,26 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010001">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003057"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0010039"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A planned process in which a feces specimen is collected from an organism after the administration of an antibiotic to the organism, in order to determine effects of the antibiotic.</obo:IAO_0000115>
+        <rdfs:label>antibiotic administration preceding feces collection</rdfs:label>
+    </owl:Class>
     
 
 
@@ -7301,12 +7320,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
         <obo:IAO_0000115>Specimen collection process aimed at collecting a stool sample.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
-        <rdfs:label>stool collection process</rdfs:label>
+        <rdfs:label>feces specimen collection process</rdfs:label>
     </owl:Class>
     
 
