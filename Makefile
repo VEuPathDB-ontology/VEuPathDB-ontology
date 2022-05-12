@@ -45,7 +45,7 @@ ROBOT := java -jar build/robot.jar
 #
 # Use Ontofox to import various modules.
 build/import_%.owl: src/ontology/OntoFox-input/input_%.txt | build/robot.jar build
-	curl -s -F file=@$< -o $@ http://ontofox.hegroup.org/service.php
+	curl -s -F file=@$< -o $@ https://ontofox.hegroup.org/service.php
 
 # Use ROBOT to remove external axioms
 src/ontology/imports/import_EFO.owl: build/import_EFO.owl
@@ -77,7 +77,6 @@ IMPORT_NAMES := APOLLO_SV\
  ECTO\
  EFO\
  ENVO\
- ERO\
  FOODON\
  GENEPIO\
  GO\
@@ -138,11 +137,15 @@ MODULE_NAMES := assays\
  clinical-chemistry-data\
  devices\
  diagnosis\
+ display_labels\
  general\
  insecticide_resistance\
  obsolete\
  popbio_organism\
+ presence_data\
  protein_variant\
+ raw_data\
+ threshold-cycle\
  schedule_deprecate\
  symptom_duration
 

@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/raw_data.owl#"
+     xml:base="http://purl.obolibrary.org/obo/eupath/dev/raw_data.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/raw_data.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICEMR protein array</oboInOwl:inSubset>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Campylobacter in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003266"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Adenovirus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenovirus in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003266"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39733"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Astrovirus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrovirus in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010786">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Cryptosporidium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5740"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Giardia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003294"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a modified acid-fast stain microscopy and is used to determine the presence of Cryptosporidium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium in feces by modified acid-fast stain microscopy datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5759"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a microscopy assay and is used to determine the presence of Entamoeba histolytica in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica in feces by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5741"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a microscopy assay and is used to determine the presence of Giardia lamblia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia lamblia in feces by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5759"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Entamoeba histolytica in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6252"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Ascaris lumbricoides in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascaris lumbricoides in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Bacteroides fragilis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides fragilis in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003265"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6248"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Strongyloides stercoralis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongyloides stercoralis in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0020166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0020166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in blood datum that is the output of a real time polymerase chain reaction assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in blood by real time polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0023018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003263"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000267"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium gametocytes in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gametocytes in blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003281"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in umbilical cord blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in umbilical cord blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_39733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39733"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5740"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5741"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5759"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5806"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6248"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6252"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_817"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000661"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000893"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001170"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003263"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003265"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003266"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003281"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003294"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000267"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
