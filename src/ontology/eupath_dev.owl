@@ -3877,6 +3877,18 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000392 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <obo:IAO_0000115>An information content entity that specifies whether a human participant under investigation is a contact for malaria, based on the partipant&apos;s association with sites in which malaria infections are known to occur.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>information on contact with malaria</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000394"/>
@@ -6296,6 +6308,19 @@ value: the value of a multifilter</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000087"/>
+        <obo:IAO_0000115>Household information that specifies a planned process with the objective to maintain health and prevent the spread of disease.</obo:IAO_0000115>
+        <obo:IAO_0000116>This IRI was previously mistakenly assigned to &apos;antimalarial&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.afro.who.int/health-topics/hygiene</obo:IAO_0000119>
+        <rdfs:label>household hygiene information</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000722">
@@ -6305,6 +6330,18 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000118>Child waste disposal</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
         <rdfs:label>information on disposal of child excreta material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000087"/>
+        <obo:IAO_0000115>An information content entity that is about the water usage of a household.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>information on household water</rdfs:label>
     </owl:Class>
     
 
@@ -7134,7 +7171,27 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003057"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0010039"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A planned process in which a feces specimen is collected from an organism after the administration of an antibiotic to the organism, in order to determine effects of the antibiotic.</obo:IAO_0000115>
+        <rdfs:label>antibiotic administration preceding feces collection</rdfs:label>
+    </owl:Class>
     
 
 
@@ -7275,12 +7332,12 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600005"/>
         <obo:IAO_0000115>Specimen collection process aimed at collecting a stool sample.</obo:IAO_0000115>
         <obo:IAO_0000117>Person:  Cristian Cocos, Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>GEMS</dc:source>
-        <rdfs:label>stool collection process</rdfs:label>
+        <rdfs:label>feces specimen collection process</rdfs:label>
     </owl:Class>
     
 
@@ -7340,6 +7397,42 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight of caretaker alone</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caretaker of participant mass measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <obo:IAO_0000115>A length measurement datum that is the result of the first in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>first height measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <obo:IAO_0000115>A length measurement datum that is the result of the first in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>second height measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <obo:IAO_0000115>A length measurement datum that is the result of the first in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>third height measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -7658,6 +7751,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115>A time measurement datum of the duration of a health care encounter occuring in a hospital facility.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>hospitalization time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010356">
@@ -7885,6 +7990,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500026"/>
+        <obo:IAO_0000115>An eligibility criterion indicating an episode of diarrhea starting within the past seven days.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>eligibility criterion of diarrhea episode starting with past 7 days</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010418">
@@ -7979,6 +8096,24 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/142</obo:IAO_0000233>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator of whether modified acid fast staining method performed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A count of feces assays evaluating the same specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of feces assays</rdfs:label>
     </owl:Class>
     
 
@@ -8457,6 +8592,66 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count of species of bacteria in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of bacteria species in feces specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A count of species of parasite organisms in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of parasite organism species in feces specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count of species of pathogen in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of pathogen species in feces specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count of species of virus in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of virus species in feces specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010931 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010931"/>
@@ -8767,6 +8962,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convulsion</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">convulsion since illness began information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0010378"/>
+        <obo:IAO_0000115>Information on diarrhea treatment before clinical visit that mentions an oral rehydration product as the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>information on oral rehydration for diarrhea before visit</rdfs:label>
     </owl:Class>
     
 
@@ -10152,6 +10359,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cause of death</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information on cause of death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0020004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0020004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A data item that is the specified output of a data transformation that has multiple clinical data items as input.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>aggregated clinical data item</rdfs:label>
     </owl:Class>
     
 
@@ -11911,6 +12130,18 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0023038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001619"/>
+        <obo:IAO_0000115>A specimen collection time measurement datum that specifies the time of day without the date.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>specimen collection time of day measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0023040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023040">
@@ -12213,6 +12444,58 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115>An information content entity about the multiple households that share a location and a common trait such as infrastructure.</obo:IAO_0000115>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>community information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <obo:IAO_0000115>A count of macrophages in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <rdfs:label>number of macrophages in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A count of dead polymorphonuclear leukocytes in pus in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.biologyonline.com/dictionary/pus-cell</obo:IAO_0000119>
+        <rdfs:label>number of pus cells in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A count of erythrocytes in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <rdfs:label>number of erythrocytes in feces</rdfs:label>
     </owl:Class>
     
 
@@ -14345,14 +14628,14 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0004326 -->
 
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </rdf:Description>
+    </owl:Class>
     
 
 
