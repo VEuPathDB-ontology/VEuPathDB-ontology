@@ -77,7 +77,6 @@ IMPORT_NAMES := APOLLO_SV\
  ECTO\
  EFO\
  ENVO\
- ERO\
  FOODON\
  GENEPIO\
  GO\
@@ -138,11 +137,15 @@ MODULE_NAMES := assays\
  clinical-chemistry-data\
  devices\
  diagnosis\
+ display_labels\
  general\
  insecticide_resistance\
  obsolete\
  popbio_organism\
+ presence_data\
  protein_variant\
+ raw_data\
+ threshold-cycle\
  schedule_deprecate\
  symptom_duration
 
