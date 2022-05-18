@@ -14,6 +14,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath_dev.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/assays.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/chebi_roles.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/clinical-chemistry-data.owl"/>
@@ -77,7 +78,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/schedule_deprecate.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/symptom_duration.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/threshold-cycle.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo.owl"/>
         <dc:creator>Chris Stoeckert</dc:creator>
         <dc:creator>Cristian Cocos</dc:creator>
         <dc:creator>Jie Zheng</dc:creator>
@@ -13729,6 +13729,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <dc:contributor>John Judkins</dc:contributor>
         <dc:contributor>Sarah Kelly</dc:contributor>
         <rdfs:label>Lurex attractor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002933"/>
+        <obo:IAO_0000115>An arthropod trap that is designed to emit a combination of carbon dioxide, heat, water, and oct-1-en-3-ol attractants while simultaneously using suction to trap arthropods. This trap has the same design as the Mosquito Magnet Pro trap but is smaller, is more lightweight, and uses a main line electricity supply instead of propane to power itself. Both use propane to produce the arthropod attractor.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <dc:contributor>Sarah Kelly</dc:contributor>
+        <rdfs:label>Mosquito Magnet Liberty Plus trap</rdfs:label>
     </owl:Class>
     
 
