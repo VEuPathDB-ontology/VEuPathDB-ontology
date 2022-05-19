@@ -102,7 +102,11 @@
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000052 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000052"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000052">
+        <obo:IAO_0000115>An alternative label used in VEuPathDB project websites.</obo:IAO_0000115>
+        <rdfs:label>VEuPathDB alternative label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -453,16 +457,6 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">forceStringType</obo:IAO_0000118>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/185</obo:IAO_0000233>
         <rdfs:label xml:lang="en">force string type</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0001021 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0001021">
-        <obo:IAO_0000115>An alternative term used in VEuPathDB project websites.</obo:IAO_0000115>
-        <rdfs:label>VEuPathDB alternative term</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
 
@@ -7431,7 +7425,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <obo:IAO_0000115>A length measurement datum that is the result of the first in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement datum that is the result of the second in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>second height measurement datum</rdfs:label>
@@ -7443,7 +7437,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <obo:IAO_0000115>A length measurement datum that is the result of the first in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>A length measurement datum that is the result of the third in a series of assays measuring the height of the same material entity.</obo:IAO_0000115>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label>third height measurement datum</rdfs:label>
