@@ -1,4 +1,6 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
 ERROR	multiple_definitions	ONTONEO:00000160	IAO:0000115	A biological process that consists on the tear of the amniotic sac, causing the amniotic fluid to flow out through the vagina. It usually happens shortly before the birth, the expectant mother feels wetness and notices a clear odorless fluid.@en
 ERROR	multiple_definitions	ONTONEO:00000160	IAO:0000115	Um processo biológico que consiste na ruptura do saco amniótico, fazendo com que o líquido amniótico flua para fora através da vagina. Geralmente acontece pouco antes do nascimento, a gestante sente umidade e percebe um líquido claro e inodoro.@pt
 ERROR	multiple_definitions	ONTONEO:00000225	IAO:0000115	TO DO@en
@@ -17,8 +19,8 @@ ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0009663	IAO:0000115	A di
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0009663	IAO:0000115	A disease that involves the genitourinary system. [database_cross_reference: MONDO:patterns/location]
 ERROR	duplicate_definition	OBI:0002926	IAO:0000115	A light trap that is designed to use motorized suction to trap arthropods in a collection bag once they approach the light attractant.
 ERROR	duplicate_definition	OBI:0002935	IAO:0000115	A light trap that is designed to use motorized suction to trap arthropods in a collection bag once they approach the light attractant.
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative label@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
 ERROR	multiple_labels	ONTONEO:00000160	rdfs:label	ruptura de membranas@pt
 ERROR	multiple_labels	ONTONEO:00000160	rdfs:label	rupture of membranes@en
 ERROR	multiple_labels	ONTONEO:00000225	rdfs:label	história obstétrica@pt
@@ -31,31 +33,6 @@ ERROR	multiple_labels	ONTONEO:00000271	rdfs:label	parto prematuro@pt
 ERROR	multiple_labels	ONTONEO:00000271	rdfs:label	preterm labour@en
 ERROR	multiple_labels	PDRO:0000001	rdfs:label	health care prescription@en
 ERROR	multiple_labels	PDRO:0000001	rdfs:label	prescription de santé@fr
-WARN	duplicate_label_synonym	EUPATH:0001006	IAO:0000118	replaces@en
-WARN	duplicate_label_synonym	EUPATH:0001010	IAO:0000118	dataSet@en
-WARN	duplicate_label_synonym	EUPATH:0001011	IAO:0000118	repeated@en
-WARN	duplicate_label_synonym	EUPATH:0001013	IAO:0000118	hidden@en
-WARN	duplicate_label_synonym	EUPATH:0001014	IAO:0000118	scale@en
-WARN	duplicate_label_synonym	EUPATH:0021098	IAO:0000118	immediate clinical history
-WARN	duplicate_label_synonym	EUPATH:0043046	IAO:0000118	number of traps
-WARN	duplicate_label_synonym	HP:0033045	IAO:0000118	Bipedal edema
-WARN	duplicate_label_synonym	NCBITaxon:36330	IAO:0000118	Plasmodium ovale
-WARN	duplicate_label_synonym	OBI:0002937	IAO:0000118	outlet window trap
-WARN	duplicate_label_synonym	OBI:0002988	IAO:0000118	specimen collection duration
-WARN	equivalent_class_axiom_no_genus	EUPATH:0000342	IAO:0000136	OMRSE:00000146
-WARN	equivalent_class_axiom_no_genus	OBCS:0000170	OBI:0000312	OBCS:0000169
-WARN	equivalent_class_axiom_no_genus	OBI:0000094	OBI:0000417	OBI:0000456
-WARN	equivalent_class_axiom_no_genus	OBI:0000274	OBI:0000417	OBI:0000434
-WARN	equivalent_class_axiom_no_genus	OBI:0000457	OBI:0000417	OBI:0000458
-WARN	equivalent_class_axiom_no_genus	OBI:0000674	OBI:0000312	OBI:0200181
-WARN	equivalent_class_axiom_no_genus	OBI:0000679	OBI:0000312	OBI:0200170
-WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
-WARN	equivalent_class_axiom_no_genus	OBI:0000925	RO:0000053	OBI:1110093
-WARN	equivalent_class_axiom_no_genus	OBI:0002599	OBI:0000312	OBI:0002600
-WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
-WARN	equivalent_class_axiom_no_genus	OBI:0600014	OBI:0000417	OBI:0000639
-WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -108,7 +85,6 @@ WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (e
 WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
 WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
 WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
-WARN	annotation_whitespace	ERO:0001362	IAO:0000115	An assay that enables the presence or the concentration of a substance in a material to be measured by exploiting the specific binding between an analyte and the corresponding detection antibody. 
 WARN	annotation_whitespace	EUPATH:0000002	IAO:0000119	 http://en.wikipedia.org/wiki/Dwelling
 WARN	annotation_whitespace	EUPATH:0000002	IAO:0000119	Penn Group 
 WARN	annotation_whitespace	EUPATH:0000015	IAO:0000119	 http://en.wikipedia.org/wiki/Eaves
@@ -388,6 +364,16 @@ WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (ru
 defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
 @en"
 WARN	annotation_whitespace	VO:0000574	IAO:0000115	a path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. 
+WARN	duplicate_label_synonym	EUPATH:0001006	IAO:0000118	replaces@en
+WARN	duplicate_label_synonym	EUPATH:0001010	IAO:0000118	dataSet@en
+WARN	duplicate_label_synonym	EUPATH:0001011	IAO:0000118	repeated@en
+WARN	duplicate_label_synonym	EUPATH:0001013	IAO:0000118	hidden@en
+WARN	duplicate_label_synonym	EUPATH:0001014	IAO:0000118	scale@en
+WARN	duplicate_label_synonym	EUPATH:0043046	IAO:0000118	number of traps
+WARN	duplicate_label_synonym	HP:0033045	IAO:0000118	Bipedal edema
+WARN	duplicate_label_synonym	NCBITaxon:36330	IAO:0000118	Plasmodium ovale
+WARN	duplicate_label_synonym	OBI:0002937	IAO:0000118	outlet window trap
+WARN	duplicate_label_synonym	OBI:0002988	IAO:0000118	specimen collection duration
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/22097005	IAO:0000115	
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/224619008	IAO:0000115	
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/40541001	IAO:0000115	
@@ -531,7 +517,6 @@ WARN	missing_definition	EUPATH:0043072	IAO:0000115
 WARN	missing_definition	EUPATH:0043073	IAO:0000115	
 WARN	missing_definition	EUPATH:0043074	IAO:0000115	
 WARN	missing_definition	EUPATH:0043075	IAO:0000115	
-WARN	missing_definition	EUPATH:0043076	IAO:0000115	
 WARN	missing_definition	EUPATH:0043078	IAO:0000115	
 WARN	missing_definition	EUPATH:0043079	IAO:0000115	
 WARN	missing_definition	EUPATH:0043080	IAO:0000115	
@@ -602,6 +587,7 @@ WARN	missing_definition	NCBITaxon:104516	IAO:0000115
 WARN	missing_definition	NCBITaxon:10508	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1056966	IAO:0000115	
 WARN	missing_definition	NCBITaxon:107326	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1073269	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085685	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085688	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085689	IAO:0000115	
@@ -707,9 +693,12 @@ WARN	missing_definition	NCBITaxon:1282	IAO:0000115
 WARN	missing_definition	NCBITaxon:1284620	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1285602	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1288825	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1289136	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1289137	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1289171	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1291063	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12967	IAO:0000115	
+WARN	missing_definition	NCBITaxon:12968	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1301	IAO:0000115	
 WARN	missing_definition	NCBITaxon:130309	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1313	IAO:0000115	
@@ -725,6 +714,7 @@ WARN	missing_definition	NCBITaxon:1344959	IAO:0000115
 WARN	missing_definition	NCBITaxon:1350	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1351	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1352	IAO:0000115	
+WARN	missing_definition	NCBITaxon:136	IAO:0000115	
 WARN	missing_definition	NCBITaxon:136846	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1379452	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1379453	IAO:0000115	
@@ -734,6 +724,7 @@ WARN	missing_definition	NCBITaxon:138536	IAO:0000115
 WARN	missing_definition	NCBITaxon:138537	IAO:0000115	
 WARN	missing_definition	NCBITaxon:138950	IAO:0000115	
 WARN	missing_definition	NCBITaxon:138954	IAO:0000115	
+WARN	missing_definition	NCBITaxon:139	IAO:0000115	
 WARN	missing_definition	NCBITaxon:139045	IAO:0000115	
 WARN	missing_definition	NCBITaxon:139049	IAO:0000115	
 WARN	missing_definition	NCBITaxon:139053	IAO:0000115	
@@ -787,6 +778,7 @@ WARN	missing_definition	NCBITaxon:162637	IAO:0000115
 WARN	missing_definition	NCBITaxon:162997	IAO:0000115	
 WARN	missing_definition	NCBITaxon:162998	IAO:0000115	
 WARN	missing_definition	NCBITaxon:163000	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1643685	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1678250	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1701320	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1716	IAO:0000115	
@@ -875,6 +867,7 @@ WARN	missing_definition	NCBITaxon:210	IAO:0000115
 WARN	missing_definition	NCBITaxon:2104	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2116661	IAO:0000115	
 WARN	missing_definition	NCBITaxon:213849	IAO:0000115	
+WARN	missing_definition	NCBITaxon:215680	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:216372	IAO:0000115	
 WARN	missing_definition	NCBITaxon:221566	IAO:0000115	
@@ -913,6 +906,7 @@ WARN	missing_definition	NCBITaxon:2611341	IAO:0000115
 WARN	missing_definition	NCBITaxon:262009	IAO:0000115	
 WARN	missing_definition	NCBITaxon:262673	IAO:0000115	
 WARN	missing_definition	NCBITaxon:262965	IAO:0000115	
+WARN	missing_definition	NCBITaxon:263595	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2663023	IAO:0000115	
 WARN	missing_definition	NCBITaxon:266337	IAO:0000115	
 WARN	missing_definition	NCBITaxon:266366	IAO:0000115	
@@ -930,6 +924,7 @@ WARN	missing_definition	NCBITaxon:2732506	IAO:0000115
 WARN	missing_definition	NCBITaxon:2732514	IAO:0000115	
 WARN	missing_definition	NCBITaxon:273454	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2751882	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2751883	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2759	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2761511	IAO:0000115	
 WARN	missing_definition	NCBITaxon:277944	IAO:0000115	
@@ -951,8 +946,10 @@ WARN	missing_definition	NCBITaxon:289302	IAO:0000115
 WARN	missing_definition	NCBITaxon:289309	IAO:0000115	
 WARN	missing_definition	NCBITaxon:290028	IAO:0000115	
 WARN	missing_definition	NCBITaxon:29031	IAO:0000115	
+WARN	missing_definition	NCBITaxon:29169	IAO:0000115	
 WARN	missing_definition	NCBITaxon:292	IAO:0000115	
 WARN	missing_definition	NCBITaxon:294	IAO:0000115	
+WARN	missing_definition	NCBITaxon:29930	IAO:0000115	
 WARN	missing_definition	NCBITaxon:299630	IAO:0000115	
 WARN	missing_definition	NCBITaxon:30065	IAO:0000115	
 WARN	missing_definition	NCBITaxon:30066	IAO:0000115	
@@ -1057,6 +1054,13 @@ WARN	missing_definition	NCBITaxon:345925	IAO:0000115
 WARN	missing_definition	NCBITaxon:345926	IAO:0000115	
 WARN	missing_definition	NCBITaxon:346051	IAO:0000115	
 WARN	missing_definition	NCBITaxon:346061	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34607	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34609	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34619	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34620	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34621	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34630	IAO:0000115	
+WARN	missing_definition	NCBITaxon:34632	IAO:0000115	
 WARN	missing_definition	NCBITaxon:34690	IAO:0000115	
 WARN	missing_definition	NCBITaxon:34691	IAO:0000115	
 WARN	missing_definition	NCBITaxon:34692	IAO:0000115	
@@ -1076,6 +1080,7 @@ WARN	missing_definition	NCBITaxon:37124	IAO:0000115
 WARN	missing_definition	NCBITaxon:373153	IAO:0000115	
 WARN	missing_definition	NCBITaxon:374923	IAO:0000115	
 WARN	missing_definition	NCBITaxon:375138	IAO:0000115	
+WARN	missing_definition	NCBITaxon:375192	IAO:0000115	
 WARN	missing_definition	NCBITaxon:376584	IAO:0000115	
 WARN	missing_definition	NCBITaxon:376794	IAO:0000115	
 WARN	missing_definition	NCBITaxon:376830	IAO:0000115	
@@ -1116,6 +1121,7 @@ WARN	missing_definition	NCBITaxon:418998	IAO:0000115
 WARN	missing_definition	NCBITaxon:420550	IAO:0000115	
 WARN	missing_definition	NCBITaxon:42068	IAO:0000115	
 WARN	missing_definition	NCBITaxon:421623	IAO:0000115	
+WARN	missing_definition	NCBITaxon:422676	IAO:0000115	
 WARN	missing_definition	NCBITaxon:423054	IAO:0000115	
 WARN	missing_definition	NCBITaxon:42409	IAO:0000115	
 WARN	missing_definition	NCBITaxon:42411	IAO:0000115	
@@ -1130,6 +1136,8 @@ WARN	missing_definition	NCBITaxon:42433	IAO:0000115
 WARN	missing_definition	NCBITaxon:424717	IAO:0000115	
 WARN	missing_definition	NCBITaxon:424718	IAO:0000115	
 WARN	missing_definition	NCBITaxon:424720	IAO:0000115	
+WARN	missing_definition	NCBITaxon:42567	IAO:0000115	
+WARN	missing_definition	NCBITaxon:426437	IAO:0000115	
 WARN	missing_definition	NCBITaxon:42839	IAO:0000115	
 WARN	missing_definition	NCBITaxon:42897	IAO:0000115	
 WARN	missing_definition	NCBITaxon:43150	IAO:0000115	
@@ -1170,12 +1178,14 @@ WARN	missing_definition	NCBITaxon:45888	IAO:0000115
 WARN	missing_definition	NCBITaxon:46207	IAO:0000115	
 WARN	missing_definition	NCBITaxon:46209	IAO:0000115	
 WARN	missing_definition	NCBITaxon:464095	IAO:0000115	
+WARN	missing_definition	NCBITaxon:46681	IAO:0000115	
 WARN	missing_definition	NCBITaxon:468	IAO:0000115	
 WARN	missing_definition	NCBITaxon:469	IAO:0000115	
 WARN	missing_definition	NCBITaxon:46955	IAO:0000115	
 WARN	missing_definition	NCBITaxon:470	IAO:0000115	
 WARN	missing_definition	NCBITaxon:471	IAO:0000115	
 WARN	missing_definition	NCBITaxon:472572	IAO:0000115	
+WARN	missing_definition	NCBITaxon:47466	IAO:0000115	
 WARN	missing_definition	NCBITaxon:475	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4751	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4753	IAO:0000115	
@@ -1192,6 +1202,7 @@ WARN	missing_definition	NCBITaxon:48725	IAO:0000115
 WARN	missing_definition	NCBITaxon:48849	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4890	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4892	IAO:0000115	
+WARN	missing_definition	NCBITaxon:489821	IAO:0000115	
 WARN	missing_definition	NCBITaxon:4909	IAO:0000115	
 WARN	missing_definition	NCBITaxon:49916	IAO:0000115	
 WARN	missing_definition	NCBITaxon:49917	IAO:0000115	
@@ -1206,6 +1217,7 @@ WARN	missing_definition	NCBITaxon:507982	IAO:0000115
 WARN	missing_definition	NCBITaxon:508665	IAO:0000115	
 WARN	missing_definition	NCBITaxon:51022	IAO:0000115	
 WARN	missing_definition	NCBITaxon:51028	IAO:0000115	
+WARN	missing_definition	NCBITaxon:51030	IAO:0000115	
 WARN	missing_definition	NCBITaxon:51031	IAO:0000115	
 WARN	missing_definition	NCBITaxon:516961	IAO:0000115	
 WARN	missing_definition	NCBITaxon:517	IAO:0000115	
@@ -1281,6 +1293,7 @@ WARN	missing_definition	NCBITaxon:585469	IAO:0000115
 WARN	missing_definition	NCBITaxon:5855	IAO:0000115	
 WARN	missing_definition	NCBITaxon:5858	IAO:0000115	
 WARN	missing_definition	NCBITaxon:586676	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5868	IAO:0000115	
 WARN	missing_definition	NCBITaxon:58839	IAO:0000115	
 WARN	missing_definition	NCBITaxon:590	IAO:0000115	
 WARN	missing_definition	NCBITaxon:590165	IAO:0000115	
@@ -1313,6 +1326,7 @@ WARN	missing_definition	NCBITaxon:59270	IAO:0000115
 WARN	missing_definition	NCBITaxon:59271	IAO:0000115	
 WARN	missing_definition	NCBITaxon:59275	IAO:0000115	
 WARN	missing_definition	NCBITaxon:59732	IAO:0000115	
+WARN	missing_definition	NCBITaxon:60254	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6032	IAO:0000115	
 WARN	missing_definition	NCBITaxon:613	IAO:0000115	
 WARN	missing_definition	NCBITaxon:614	IAO:0000115	
@@ -1320,6 +1334,8 @@ WARN	missing_definition	NCBITaxon:615	IAO:0000115
 WARN	missing_definition	NCBITaxon:6157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:61645	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6181	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6183	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6185	IAO:0000115	
 WARN	missing_definition	NCBITaxon:620	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6201	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6202	IAO:0000115	
@@ -1346,6 +1362,7 @@ WARN	missing_definition	NCBITaxon:642	IAO:0000115
 WARN	missing_definition	NCBITaxon:64320	IAO:0000115	
 WARN	missing_definition	NCBITaxon:644	IAO:0000115	
 WARN	missing_definition	NCBITaxon:644619	IAO:0000115	
+WARN	missing_definition	NCBITaxon:647514	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6526	IAO:0000115	
 WARN	missing_definition	NCBITaxon:653292	IAO:0000115	
 WARN	missing_definition	NCBITaxon:662	IAO:0000115	
@@ -1364,8 +1381,12 @@ WARN	missing_definition	NCBITaxon:671232	IAO:0000115
 WARN	missing_definition	NCBITaxon:686	IAO:0000115	
 WARN	missing_definition	NCBITaxon:686388	IAO:0000115	
 WARN	missing_definition	NCBITaxon:69004	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6939	IAO:0000115	
 WARN	missing_definition	NCBITaxon:693996	IAO:0000115	
 WARN	missing_definition	NCBITaxon:694002	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6942	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6943	IAO:0000115	
+WARN	missing_definition	NCBITaxon:6944	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6945	IAO:0000115	
 WARN	missing_definition	NCBITaxon:69821	IAO:0000115	
 WARN	missing_definition	NCBITaxon:69822	IAO:0000115	
@@ -1379,6 +1400,7 @@ WARN	missing_definition	NCBITaxon:7148	IAO:0000115
 WARN	missing_definition	NCBITaxon:7149	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7158	IAO:0000115	
+WARN	missing_definition	NCBITaxon:71583	IAO:0000115	
 WARN	missing_definition	NCBITaxon:71585	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7159	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7160	IAO:0000115	
@@ -1410,6 +1432,7 @@ WARN	missing_definition	NCBITaxon:72408	IAO:0000115
 WARN	missing_definition	NCBITaxon:726	IAO:0000115	
 WARN	missing_definition	NCBITaxon:727	IAO:0000115	
 WARN	missing_definition	NCBITaxon:729	IAO:0000115	
+WARN	missing_definition	NCBITaxon:73034	IAO:0000115	
 WARN	missing_definition	NCBITaxon:73036	IAO:0000115	
 WARN	missing_definition	NCBITaxon:732	IAO:0000115	
 WARN	missing_definition	NCBITaxon:735	IAO:0000115	
@@ -1420,6 +1443,7 @@ WARN	missing_definition	NCBITaxon:74868	IAO:0000115
 WARN	missing_definition	NCBITaxon:74869	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74870	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74873	IAO:0000115	
+WARN	missing_definition	NCBITaxon:766	IAO:0000115	
 WARN	missing_definition	NCBITaxon:767021	IAO:0000115	
 WARN	missing_definition	NCBITaxon:767022	IAO:0000115	
 WARN	missing_definition	NCBITaxon:767023	IAO:0000115	
@@ -1498,6 +1522,7 @@ WARN	missing_definition	NCBITaxon:94475	IAO:0000115
 WARN	missing_definition	NCBITaxon:94477	IAO:0000115	
 WARN	missing_definition	NCBITaxon:94478	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9479	IAO:0000115	
+WARN	missing_definition	NCBITaxon:948	IAO:0000115	
 WARN	missing_definition	NCBITaxon:95341	IAO:0000115	
 WARN	missing_definition	NCBITaxon:95486	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9606	IAO:0000115	
@@ -1577,6 +1602,20 @@ WARN	missing_definition	dc11:description	IAO:0000115
 WARN	missing_definition	dc11:source	IAO:0000115	
 WARN	missing_definition	dc11:title	IAO:0000115	
 WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
+WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
+WARN	equivalent_class_axiom_no_genus	EUPATH:0000342	IAO:0000136	OMRSE:00000146
+WARN	equivalent_class_axiom_no_genus	OBCS:0000170	OBI:0000312	OBCS:0000169
+WARN	equivalent_class_axiom_no_genus	OBI:0000094	OBI:0000417	OBI:0000456
+WARN	equivalent_class_axiom_no_genus	OBI:0000274	OBI:0000417	OBI:0000434
+WARN	equivalent_class_axiom_no_genus	OBI:0000457	OBI:0000417	OBI:0000458
+WARN	equivalent_class_axiom_no_genus	OBI:0000674	OBI:0000312	OBI:0200181
+WARN	equivalent_class_axiom_no_genus	OBI:0000679	OBI:0000312	OBI:0200170
+WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
+WARN	equivalent_class_axiom_no_genus	OBI:0000925	RO:0000053	OBI:1110093
+WARN	equivalent_class_axiom_no_genus	OBI:0002599	OBI:0000312	OBI:0002600
+WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
+WARN	equivalent_class_axiom_no_genus	OBI:0600014	OBI:0000417	OBI:0000639
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1663,7 +1702,6 @@ INFO	lowercase_definition	EUPATH:0000386	IAO:0000115	an information content enti
 INFO	lowercase_definition	EUPATH:0000388	IAO:0000115	an information content entity that is about a patient diagnosed with malaria and describes geographic locations the patient visited@en
 INFO	lowercase_definition	EUPATH:0000390	IAO:0000115	a time measurement datum that is about a human dwelling and specifies the most recent date on which the dwelling was fumigated, i.e. filled with pesticide@en
 INFO	lowercase_definition	EUPATH:0000391	IAO:0000115	an information content entity that specifies the organization that administers insecticide to a collection of bed nets@en
-INFO	lowercase_definition	EUPATH:0000392	IAO:0000115	an information content entity that specifies whether a human participant under investigation is a contact for malaria, based on the partipant's association with sites in which malaria infections are known to occur
 INFO	lowercase_definition	EUPATH:0000393	IAO:0000115	an information content entity that is about a human participant under investigation and specifies whether the person is present for a scheduled clinical visit
 INFO	lowercase_definition	EUPATH:0000395	IAO:0000115	a count of the number of instances of a domesticated animal that is raised in an agricultural setting to produce labor and commodities@en
 INFO	lowercase_definition	EUPATH:0000396	IAO:0000115	a count of the number of instances of a domesticated animal that is kept for pleasure rather than utility@en
@@ -1685,7 +1723,6 @@ INFO	lowercase_definition	EUPATH:0000421	IAO:0000115	a count of the number of in
 INFO	lowercase_definition	EUPATH:0000425	IAO:0000115	an information content entity that is part of a diagnosis of malaria, resulting from a diagnostic process that occurred within the past year, and specifies the species of the infectious agent causing the malaria@en
 INFO	lowercase_definition	EUPATH:0000440	IAO:0000115	"\""An information content entity about a person's resident status, permanent or temporary.\"""
 INFO	lowercase_definition	EUPATH:0000455	IAO:0000115	a data item that is about a sequencing assay and is the ratio of the count of mapped reads to the total count of reads
-INFO	lowercase_definition	EUPATH:0000487	IAO:0000115	a presence of parasite that indicates whether parasites too small to be seen under light microscopy are present in a specimen. It is the specified output of a loop-mediated isothermal amplification assay@en
 INFO	lowercase_definition	EUPATH:0000530	IAO:0000115	a site in which a global positioning system receiver produces a data item specifying the location of the site@en
 INFO	lowercase_definition	EUPATH:0000543	IAO:0000115	a research organization that is located in an area where malaria is endemic and is one of many centers established by the National institute of Allergy and Infectious Diseases with the following aims: to design and conduct multidisciplinary research on the epidemiology, transmission, and pathogenesis of malaria in its specific region, to design and conduct special projects to capitalize on new opportunities and emerging public health needs, and to build clinical research capacity and improve malaria control and prevention@en
 INFO	lowercase_definition	EUPATH:0000546	IAO:0000115	gametocyte density by microscope that is the output of an assay that realizes a measurand role that inheres in Plasmodium falciparum@en
@@ -1771,52 +1808,16 @@ INFO	lowercase_definition	EUPATH:0010588	IAO:0000115	a categorical value specifi
 INFO	lowercase_definition	EUPATH:0010590	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Cryptosporidium
 INFO	lowercase_definition	EUPATH:0010591	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Entamoeba histolytica
 INFO	lowercase_definition	EUPATH:0010592	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Giardia
-INFO	lowercase_definition	EUPATH:0010599	IAO:0000115	a categorical measurement datum that specifies whether Adenovirus was detected by an enzyme-linked immunosorbent assay
 INFO	lowercase_definition	EUPATH:0010603	IAO:0000115	a categorical measurement datum that specifies whether Aeromonas was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010607	IAO:0000115	a categorical measurement datum that specifies whether Ascaris lumbricoides was detected by a microscopy assay
-INFO	lowercase_definition	EUPATH:0010611	IAO:0000115	a categorical measurement datum that specifies whether Astrovirus was detected by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0010615	IAO:0000115	a categorical measurement datum that specifies whether Trichuris trichiura was detected in feces by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0010623	IAO:0000115	a categorical measurement datum that specifies whether Balantioides coil was detected in feces by a microscopy assay
 INFO	lowercase_definition	EUPATH:0010630	IAO:0000115	a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010643	IAO:0000115	a categorical measurement datum that specifies whether Chilomastix mesnili was detected in feces by a microscopy assay
-INFO	lowercase_definition	EUPATH:0010651	IAO:0000115	a categorical measurement datum that specifies whether Cyclospora was detected in feces by microscopy
-INFO	lowercase_definition	EUPATH:0010695	IAO:0000115	a categorical measurement datum that specifies whether Entamoeba histolytica was detected in feces by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0010703	IAO:0000115	a categorical measurement datum that specifies whether Endolimax nana was detected by microsopy
-INFO	lowercase_definition	EUPATH:0010715	IAO:0000115	a categorical measurement datum that specifies whether Enterobius vermicularis was detected by microsopy
-INFO	lowercase_definition	EUPATH:0010726	IAO:0000115	a categorical measurement datum that specifies whether Hymenolepis diminuta was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010730	IAO:0000115	a categorical measurement datum that specifies whether Hymenolepis nana was detected by microscopy
-INFO	lowercase_definition	EUPATH:0010734	IAO:0000115	a categorical measurement datum that specifies whether Ancylostomatoidea was detected by microscopy
-INFO	lowercase_definition	EUPATH:0010738	IAO:0000115	a categorical measurement datum that specifies whether Iodamoeba butschlii was detected by microscopy
-INFO	lowercase_definition	EUPATH:0010754	IAO:0000115	a categorical measurement datum that specifies whether Entamoeba coli was detected by microscopy
-INFO	lowercase_definition	EUPATH:0010767	IAO:0000115	a categorical measurement datum that specifies whether Norovirus was detected by a reverse transcription polymerase chain reaction assay
-INFO	lowercase_definition	EUPATH:0010771	IAO:0000115	a categorical measurement datum that specifies whether Norovirus GI was detected by a reverse transcription polymerase chain reaction assay
-INFO	lowercase_definition	EUPATH:0010775	IAO:0000115	a categorical measurement datum that specifies whether Norovirus GII was detected by a reverse transcription polymerase chain reaction assay
 INFO	lowercase_definition	EUPATH:0010787	IAO:0000115	a categorical measurement datum that specifies whether Entamoeba histolytica was detected by an enzyme-linked immunosorbent assay
 INFO	lowercase_definition	EUPATH:0010789	IAO:0000115	a categorical measurement datum that specifies whether Plesiomonas shigelloides was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010793	IAO:0000115	a categorical measurement datum that specifies whether Rotavirus detected by an enzyme-linked immunosorbent assay
 INFO	lowercase_definition	EUPATH:0010797	IAO:0000115	a categorical measurement datum that specifies whether Salmonella was detected in feces by a differential medium assay
-INFO	lowercase_definition	EUPATH:0010801	IAO:0000115	a categorical measurement datum that specifies whether Schistosoma was detected by microscopy
 INFO	lowercase_definition	EUPATH:0010805	IAO:0000115	a categorical measurement datum that specifies whether Shigella was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010809	IAO:0000115	a categorical measurement datum that specifies whether Strongyloides stercoralis was detected by a microscopy assay
-INFO	lowercase_definition	EUPATH:0010821	IAO:0000115	a categorical measurement datum that specifies whether Taenia was detected by a microscopy assay
 INFO	lowercase_definition	EUPATH:0010825	IAO:0000115	a categorical measurement datum that specifies whether Vibrio was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0010829	IAO:0000115	a categorical measurement datum that specifies whether Yersinia enterocolitica was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0010875	IAO:0000115	a categorical measurement datum that specifies whether the objective of an assay to detect bacteria was achieved
-INFO	lowercase_definition	EUPATH:0010889	IAO:0000115	a categorical measurement datum that specifies whether the objective of an assay to detect a pathogen organism was achieved
-INFO	lowercase_definition	EUPATH:0010931	IAO:0000115	a categorical measurement datum that specifies whether an assay achieves its objective to detect a virus
-INFO	lowercase_definition	EUPATH:0010997	IAO:0000115	a presence of parasite that specifies that a parasite was detected by the modified acid fast staining method
 INFO	lowercase_definition	EUPATH:0010998	IAO:0000115	a categorical measurement datum that specifies whether Campylobacter was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010999	IAO:0000115	a categorical measurement datum that specifies whether Campylobacter was detected by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0011000	IAO:0000115	a categorical measurement datum that specifies whether Cryptosporidium was detected by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0011001	IAO:0000115	a categorical measurement datum that specifies whether Cryptosporidium was detected by the modified acid fast staining method
-INFO	lowercase_definition	EUPATH:0011003	IAO:0000115	a categorical measurement datum that specifies whether Giardia was detected by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0011005	IAO:0000115	a categorical measurement datum that specifies whether Isospora was detected by a microscopy assay
-INFO	lowercase_definition	EUPATH:0011854	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Blastocystis in a feces specimen
-INFO	lowercase_definition	EUPATH:0011855	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Clostridium difficile in a feces specimen
-INFO	lowercase_definition	EUPATH:0011856	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Entamoeba in a feces specimen
-INFO	lowercase_definition	EUPATH:0011864	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Hymenolepis nana in a feces specimen
-INFO	lowercase_definition	EUPATH:0011865	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Mycobacterium tuberculosis in a feces specimen
-INFO	lowercase_definition	EUPATH:0011868	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Plesiomonas in a feces specimen
 INFO	lowercase_definition	EUPATH:0015046	IAO:0000115	drinking water that is derived from rainwater
 INFO	lowercase_definition	EUPATH:0015107	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on food to cover healthcare costs
 INFO	lowercase_definition	EUPATH:0015108	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on goods or services other than food to cover healthcare costs
@@ -1831,7 +1832,6 @@ INFO	lowercase_definition	EUPATH:0015292	IAO:0000115	a categorical measurement d
 INFO	lowercase_definition	EUPATH:0015293	IAO:0000115	a categorical measurement datum that specifies whether Vibrio cholerae O139 was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015294	IAO:0000115	a categorical measurement datum that specifies whether Salmonella typhi was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015295	IAO:0000115	a categorical measurement datum that specifies whether a Salmonella serotype other than typhi was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0015296	IAO:0000115	a categorical measurement datum that specifies whether Sapovirus was detected by a reverse transcription polymerase chain reaction assay
 INFO	lowercase_definition	EUPATH:0015299	IAO:0000115	a categorical measurement datum that specifies whether a species of Campylobacter other than Campylobacter jejuni or Campylobacter coli was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015301	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 4b was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015302	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 5b was detected by differential medium assay
@@ -1851,28 +1851,7 @@ INFO	lowercase_definition	EUPATH:0015325	IAO:0000115	a categorical measurement d
 INFO	lowercase_definition	EUPATH:0015326	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 5a was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015327	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype X was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015328	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype Y was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0015329	IAO:0000115	a categorical measurement datum that specifies whether Astrovirus was detected by a reverse transcription polymerase chain reaction assay
-INFO	lowercase_definition	EUPATH:0015343	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cryptosporidium hominis in a feces specimen
-INFO	lowercase_definition	EUPATH:0015344	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cryptosporidium parvum in a feces specimen
-INFO	lowercase_definition	EUPATH:0015345	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Cyclospora in a feces specimen
-INFO	lowercase_definition	EUPATH:0015351	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Entamoeba histolytica in a feces specimen
-INFO	lowercase_definition	EUPATH:0015352	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Encephalitozoon intestinalis in a feces specimen
-INFO	lowercase_definition	EUPATH:0015360	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Giardia in a feces specimen
-INFO	lowercase_definition	EUPATH:0015361	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Helicobacter pylori in a feces specimen
-INFO	lowercase_definition	EUPATH:0015362	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Isospora in a feces specimen
-INFO	lowercase_definition	EUPATH:0015363	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Necator in a feces specimen
-INFO	lowercase_definition	EUPATH:0015366	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Rotavirus in a feces specimen
-INFO	lowercase_definition	EUPATH:0015381	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Salmonella in a feces specimen
-INFO	lowercase_definition	EUPATH:0015382	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Sapovirus in a feces specimen
-INFO	lowercase_definition	EUPATH:0015386	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Strongyloides in a feces specimen
-INFO	lowercase_definition	EUPATH:0015387	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Trichuris in a feces specimen
-INFO	lowercase_definition	EUPATH:0015388	IAO:0000115	the threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Vibrio cholerae in a feces specimen
-INFO	lowercase_definition	EUPATH:0015401	IAO:0000115	a categorical measurement datum that specifies whether Ancylostoma duodenale was detected by a real time polymerase chain reaction assay
-INFO	lowercase_definition	EUPATH:0015402	IAO:0000115	a categorical measurement datum that specifies whether Ascaris lumbricoides was detected by a real time polymerase chain reaction assay
 INFO	lowercase_definition	EUPATH:0015423	IAO:0000115	a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0015429	IAO:0000115	a categorical measurement datum that specifies whether Helicobacter pylori was detected by immunoassay
-INFO	lowercase_definition	EUPATH:0015431	IAO:0000115	a categorical measurement datum that specifies whether Ancylostomatoidea was detected by a real time polymerase chain reaction assay
-INFO	lowercase_definition	EUPATH:0015437	IAO:0000115	a categorical measurement datum that specifies whether Necator americanus was detected by a real time polymerase chain reaction assay
 INFO	lowercase_definition	EUPATH:0015441	IAO:0000115	a categorical measurement datum that specifies whether Shigella dysenteriae serotype 1 was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015442	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 7 was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015443	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 1a was detected by differential medium assay
@@ -1883,7 +1862,6 @@ INFO	lowercase_definition	EUPATH:0015447	IAO:0000115	a categorical measurement d
 INFO	lowercase_definition	EUPATH:0015448	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 3b was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015449	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 3c was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015450	IAO:0000115	a categorical measurement datum that specifies whether Shigella flexneri serotype 7a was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0015456	IAO:0000115	a categorical measurement datum that specifies whether Strongyloides stercoralis was detected by a real time polymerase chain reaction assay
 INFO	lowercase_definition	EUPATH:0015461	IAO:0000115	a categorical measurement datum that specifies whether Vibrio cholerae O1 biovar El Tor was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015462	IAO:0000115	a data item that is the specified output of a differential medium assay that has the objective of determining whether a specimen contains Vibrio cholerae serogroup O1
 INFO	lowercase_definition	EUPATH:0015463	IAO:0000115	a data item that is the specified output of a differential medium assay that has the objective of determining whether a specimen contains Vibrio cholerae serogroup O139
@@ -1991,16 +1969,11 @@ INFO	lowercase_definition	EUPATH:0022055	IAO:0000115	human travel informaton tha
 INFO	lowercase_definition	EUPATH:0022056	IAO:0000115	human travel information that is about a human participant under investigation and specifies both method and geographic location of the second most recent journey taken by the participant
 INFO	lowercase_definition	EUPATH:0022057	IAO:0000115	a categorical value specification that specifies whether the collection of a specimen from a human participant under investigation was prompted by a sign that the participant was febrile
 INFO	lowercase_definition	EUPATH:0022058	IAO:0000115	an information content entity that is about a human participant under investigation from which the collection of a specimen was not prompted by a sign that the partipant was febrile. This information content entity specifies that which prompted the specimen collection
-INFO	lowercase_definition	EUPATH:0022059	IAO:0000115	the threshold cycle that is the specified output of a real time polymerase chain reaction assay that has the objective of determining the number of Plasmodium vivax in a blood specimen
-INFO	lowercase_definition	EUPATH:0022060	IAO:0000115	the threshold cycle that is the specified output of a real time polymerase chain reaction assay that has the objective of determining the amount of Plasmodium falciparum in a blood specimen
 INFO	lowercase_definition	EUPATH:0022064	IAO:0000115	a time measurement datum of the last time insecticide was applied to the bednets used by a household
 INFO	lowercase_definition	EUPATH:0023001	IAO:0000115	an information content entity that is about the relocation of the household of a human participant under investigation
 INFO	lowercase_definition	EUPATH:0023002	IAO:0000115	a time measurement datum of the time point at which a human subject enrollment is complete
-INFO	lowercase_definition	EUPATH:0023004	IAO:0000115	a categorical measurement datum that specifies whether a bacterium was detected by a microscopy assay
-INFO	lowercase_definition	EUPATH:0023005	IAO:0000115	a scalar measurement datum of the concentration of bicarbonate in blood that is a specified output of a blood test
 INFO	lowercase_definition	EUPATH:0023012	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a second time while in hospital
 INFO	lowercase_definition	EUPATH:0023013	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was discharged from hospital
-INFO	lowercase_definition	EUPATH:0023018	IAO:0000115	gametocyte density by microscope that is the output of an assay that realizes a measurand role that inheres in Plasmodium
 INFO	lowercase_definition	EUPATH:0023024	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a third time while in hospital
 INFO	lowercase_definition	EUPATH:0023026	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous twelve months
 INFO	lowercase_definition	EUPATH:0023027	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous month
@@ -2013,7 +1986,6 @@ INFO	lowercase_definition	EUPATH:0023047	IAO:0000115	human traveling information
 INFO	lowercase_definition	EUPATH:0023050	IAO:0000115	a time measurement datum of the date during which a treatment starts
 INFO	lowercase_definition	EUPATH:0023051	IAO:0000115	a time measurement datum of the time point at which a treatment starts
 INFO	lowercase_definition	EUPATH:0023052	IAO:0000115	a time measurement datum specifying the time (of day) of a clinical visit scheduled for sixty days after a treatment
-INFO	lowercase_definition	EUPATH:0023054	IAO:0000115	a scalar measurement datum of the mass concentration of bilirubin in blood that is a specified output of a blood test
 INFO	lowercase_definition	EUPATH:0023055	IAO:0000115	a categorical value specification that is about a human participant under investigation and specifies whether the participant had traveled within twelve months previous
 INFO	lowercase_definition	EUPATH:0023056	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation self-identifies as a member of a tribe
 INFO	lowercase_definition	EUPATH:0023057	IAO:0000115	a categorical value specification that specifies whether the life-death temporal boundary of a human participant under investigation occurred during a health care encounter in a hospital facility
