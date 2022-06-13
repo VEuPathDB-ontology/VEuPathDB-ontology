@@ -209,9 +209,12 @@ build/current-entities.tsv: build/eupath_merged.owl src/sparql/get-eupath-entiti
 build/dropped-entities.tsv: build/released-entities.tsv build/current-entities.tsv
 	comm -23 $^ > $@
 
+new-terms.tsv: build/released-entities.tsv build/current-entities.tsv
+	comm -13 $^ > $@
+
 # Run all validation queries and exit on error.
 .PHONY: verify
-verify: verify-merged verify-entities
+verify: verify-merged verify-entities list-entities
 
 # Run validation queries on eupath_merged and exit on error.
 .PHONY: verify-merged
@@ -224,6 +227,11 @@ verify-merged: build/eupath_merged.owl $(MERGED_VIOLATION_QUERIES) | build/robot
 verify-entities: build/dropped-entities.tsv
 	@echo $(shell < $< wc -l) " eupath IRIs have been dropped"
 	@! test -s $<
+
+# Count additional terms
+.PHONY: list-entities
+list-entities: new-terms.tsv
+	@echo $(shell < $< wc -l) " terms have been added"
 
 # Run a Hermit reasoner to find inconsistencies
 .PHONY: reason
