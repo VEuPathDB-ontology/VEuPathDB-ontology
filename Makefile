@@ -203,7 +203,13 @@ build/eupath-previous-release.owl: | build
 build/released-entities.tsv: build/eupath-previous-release.owl src/sparql/get-eupath-entities.rq | build/robot.jar
 	$(ROBOT) query --input $< --select $(word 2,$^) $@
 
+build/released-labeled-entities.tsv: build/eupath-previous-release.owl src/sparql/get-eupath-labeled-entities.rq | build/robot.jar
+	$(ROBOT) query --input $< --select $(word 2,$^) $@
+
 build/current-entities.tsv: build/eupath_merged.owl src/sparql/get-eupath-entities.rq | build/robot.jar
+	$(ROBOT) query --input $< --select $(word 2,$^) $@
+
+build/current-labeled-entities.tsv: build/eupath_merged.owl src/sparql/get-eupath-labeled-entities.rq | build/robot.jar
 	$(ROBOT) query --input $< --select $(word 2,$^) $@
 
 build/released-imports.tsv: build/eupath-previous-release.owl src/sparql/get-import-entities.rq | build/robot.jar
@@ -215,7 +221,7 @@ build/current-imports.tsv: build/eupath_merged.owl src/sparql/get-import-entitie
 build/dropped-entities.tsv: build/released-entities.tsv build/current-entities.tsv
 	comm -23 $^ > $@
 
-new-terms.tsv: build/released-entities.tsv build/current-entities.tsv
+new-terms.tsv: build/released-labeled-entities.tsv build/current-labeled-entities.tsv
 	comm -13 $^ > $@
 
 new-imports.tsv: build/released-imports.tsv build/current-imports.tsv
