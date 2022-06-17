@@ -4,9 +4,8 @@ SELECT DISTINCT ?s ?label
 WHERE {
   ?s ?p ?o .
   OPTIONAL {
-	?s rdfs:label ?slabel .
+	?s rdfs:label ?label .
   }
   FILTER STRSTARTS(STR(?s), "http://purl.obolibrary.org/obo/")
-  FILTER (!CONTAINS (LCASE(STR(?s)), "eupath_"))
 }
 ORDER BY ?s
