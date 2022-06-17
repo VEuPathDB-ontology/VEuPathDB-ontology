@@ -13766,6 +13766,106 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043211"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were provided directly from a source, rather than estimated or calculated.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001143</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation provision information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043211"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that the number of decimal places in the data were truncated.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001155</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation obfuscation information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043211"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were calculated by the curator or found using a geolocation lookup service.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001141</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation estimation information from curator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043240"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were estimated using information about an administrative region.</obo:IAO_0000115>
+        <obo:IAO_0000116>Usually this means an arbitrary or centroid location within that country, or the results of a geocoding service.</obo:IAO_0000116>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001156</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation estimation from administrative region information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043241"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were estimated from information about an administrative region of first order or higher.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001157</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation data estimation information from first- or higher-order administrative region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043242"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were estimated from from information about an administrative region of second order or higher.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001158</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation estimation information from second- or higher-order administrative region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0043243"/>
+        <obo:IAO_0000115>Geolocation provenance information that specifies that data were estimated from a street address or landmark.</obo:IAO_0000115>
+        <obo:IAO_0000116>Usually this will be the result of a geocoding service.</obo:IAO_0000116>
+        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119>VBcv:0001159</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/323</obo:IAO_0000233>
+        <dc:contributor>Bob MacCallum</dc:contributor>
+        <rdfs:label>geolocation estimation information from street address or landmark</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0044179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0044179">
