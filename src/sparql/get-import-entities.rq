@@ -1,6 +1,6 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?s ?label
+SELECT DISTINCT ?id ?label
 WHERE {
   ?s ?p ?o .
   OPTIONAL {
@@ -8,5 +8,10 @@ WHERE {
   }
   FILTER STRSTARTS(STR(?s), "http://purl.obolibrary.org/obo/")
   FILTER (!CONTAINS (LCASE(STR(?s)), "eupath_"))
+  BIND (STR(?slabel) AS ?label) .
+  BIND (REPLACE(STR(?s), "http://purl.obolibrary.org/obo/", "") AS ?s2) .
+  BIND (REPLACE(STR(?s2), "http://www.ebi.ac.uk/efo/", "") AS ?s3) .
+  BIND (REPLACE(STR(?s3), "http://purl.bioontology.org/ontology/", "") AS ?s4) .
+  BIND (REPLACE(?s4, "_", ":") AS ?id) .
 }
 ORDER BY ?s
