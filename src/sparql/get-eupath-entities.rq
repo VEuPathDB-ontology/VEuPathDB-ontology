@@ -1,6 +1,9 @@
-SELECT DISTINCT ?s
+SELECT DISTINCT ?id
 WHERE {
   ?s ?p ?o .
   FILTER STRSTARTS(str(?s), "http://purl.obolibrary.org/obo/EUPATH_")
+  BIND (STR(?slabel) AS ?label) .
+  BIND (REPLACE(STR(?s), "http://purl.obolibrary.org/obo/", "") AS ?s2) .
+  BIND (REPLACE(?s2, "_", ":") AS ?id) .
 }
 ORDER BY ?s
