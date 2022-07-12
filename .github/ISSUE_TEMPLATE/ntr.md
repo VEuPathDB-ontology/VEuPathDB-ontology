@@ -17,10 +17,10 @@ The definition should be understandable even for non-specialists. Include a PubM
 
 **Suggested Parent Term** [required]
 Please look in the ontology hierarchy in a browser such as [OLS](http://www.ebi.ac.uk/ols/ontologies/eupath) or choose one from following list: 
-- [ ] Material
-- [ ] Process
-- [ ] Information
-- [ ] Characteristic/Quality
+- [ ] Material (independent of other entities and can be maintained through time, such as person, cell, sample)
+- [ ] Process (has temporal proper parts and for some time depends on some material entity, such as life cycle, cell division, heart beating, sleeping)
+- [ ] Information (generically dependent on some artifact and stands in relation of aboutness to some entity, such as data, identifier, document)
+- [ ] Characteristic/Quality (inheres in or is borne by other entities, such as height, color, disease)
 
 **Examples** [optional]
 

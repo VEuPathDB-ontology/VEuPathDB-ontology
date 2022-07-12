@@ -206,12 +206,34 @@ build/released-entities.tsv: build/eupath-previous-release.owl src/sparql/get-eu
 build/current-entities.tsv: build/eupath_merged.owl src/sparql/get-eupath-entities.rq | build/robot.jar
 	$(ROBOT) query --input $< --select $(word 2,$^) $@
 
+build/labeled-entities.tsv: build/eupath_merged.owl src/sparql/get-labeled-entities.rq | build/robot.jar
+	$(ROBOT) query --input $< --select $(word 2,$^) $@
+
+build/released-imports.tsv: build/eupath-previous-release.owl src/sparql/get-import-entities.rq | build/robot.jar
+	$(ROBOT) query --input $< --select $(word 2,$^) $@
+
+build/current-imports.tsv: build/eupath_merged.owl src/sparql/get-import-entities.rq | build/robot.jar
+	$(ROBOT) query --input $< --select $(word 2,$^) $@
+
 build/dropped-entities.tsv: build/released-entities.tsv build/current-entities.tsv
 	comm -23 $^ > $@
 
+build/new-terms-no-label.tsv: build/released-entities.tsv build/current-entities.tsv
+	comm -13 $^ > $@
+
+build/new-imports-no-label.tsv: build/released-imports.tsv build/current-imports.tsv
+	comm -13 $^ > $@	
+
+new-terms.tsv: build/new-terms-no-label.tsv build/labeled-entities.tsv
+	grep -f $^ > $@
+
+new-imports.tsv: build/new-imports-no-label.tsv build/labeled-entities.tsv
+	grep -f $^ > $@
+
+
 # Run all validation queries and exit on error.
 .PHONY: verify
-verify: verify-merged verify-entities
+verify: verify-merged verify-entities list-entities list-imports
 
 # Run validation queries on eupath_merged and exit on error.
 .PHONY: verify-merged
@@ -224,6 +246,17 @@ verify-merged: build/eupath_merged.owl $(MERGED_VIOLATION_QUERIES) | build/robot
 verify-entities: build/dropped-entities.tsv
 	@echo $(shell < $< wc -l) " eupath IRIs have been dropped"
 	@! test -s $<
+
+# Count new EUPATH terms
+.PHONY: list-entities
+list-entities: new-terms.tsv
+	@echo $(shell < $< wc -l) " EUPATH terms have been added"
+
+# Count new imports
+.PHONY: list-imports
+list-imports: new-imports.tsv
+	@echo $(shell < $< wc -l) " import terms have been added"
+
 
 # Run a Hermit reasoner to find inconsistencies
 .PHONY: reason
