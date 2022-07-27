@@ -2478,11 +2478,11 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum of the days from the time of participant enrollment in a study until the current visit.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey</obo:IAO_0000117>
+        <obo:IAO_0000115>A time measurement datum of the interval from participant enrollment in a study until the current visit.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, David Roos, Grant Dorsey, John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <dc:source>PRISM</dc:source>
-        <rdfs:label>number of days from participant enrollment in a study until current visit</rdfs:label>
+        <rdfs:label>duration of study participation from enrollment to current visit</rdfs:label>
     </owl:Class>
     
 
@@ -3529,8 +3529,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum of days in a week at primary job.</obo:IAO_0000115>
-        <rdfs:label>number of days per week at primary job</rdfs:label>
+        <obo:IAO_0000115>A measurement datum of days per week spent in one&apos;s primary occupation.</obo:IAO_0000115>
+        <rdfs:label>days per week at primary occupation</rdfs:label>
     </owl:Class>
     
 
@@ -3539,8 +3539,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum of days in a week at secondary job.</obo:IAO_0000115>
-        <rdfs:label>number of days per week at secondary job</rdfs:label>
+        <obo:IAO_0000115>A measurement datum of days per week spent in one&apos;s secondary occupation.</obo:IAO_0000115>
+        <rdfs:label>days per week at secondary occupation</rdfs:label>
     </owl:Class>
     
 
@@ -3659,8 +3659,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum about number of hours per day spend at primary economic activity.</obo:IAO_0000115>
-        <rdfs:label>number of hours per day at primary economic activity</rdfs:label>
+        <obo:IAO_0000115>A measurement datum of hours in one&apos;s primary occupation per day spent in that occupation.</obo:IAO_0000115>
+        <rdfs:label>hours per day at primary occupation</rdfs:label>
     </owl:Class>
     
 
@@ -3669,8 +3669,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum about number of hours per day spend at secondary economic activity.</obo:IAO_0000115>
-        <rdfs:label>number of hours per day at secondary economic activity</rdfs:label>
+        <obo:IAO_0000115>A measurement datum of hours in one&apos;s secondary occupation per day spent in that occupation.</obo:IAO_0000115>
+        <rdfs:label>hours per day at secondary occupation</rdfs:label>
     </owl:Class>
     
 
@@ -3733,7 +3733,7 @@ value: the value of a multifilter</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">a time measurement datum that represents the time a human being resides in a human dwelling</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>number of years living in dwelling</rdfs:label>
+        <rdfs:label>duration of residence in dwelling</rdfs:label>
     </owl:Class>
     
 
@@ -3742,10 +3742,10 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is about a human being, has years as its unit, and represents the time interval that the human being has lived in a geographic location where the inhabitants share a common trait</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum of the time interval that a human being has lived in a geographic location where the inhabitants share a common trait.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">EuPathDB</obo:IAO_0000119>
-        <rdfs:label>number of years living in community</rdfs:label>
+        <rdfs:label>duration of residence in community</rdfs:label>
     </owl:Class>
     
 
@@ -4244,8 +4244,8 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000427">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum of number of months since malaria diagnosis.</obo:IAO_0000115>
-        <rdfs:label>number of months since malaria diagnosis</rdfs:label>
+        <obo:IAO_0000115>A time measurement datum of the time since the most recent diagnosis of malaria.</obo:IAO_0000115>
+        <rdfs:label>duration since last diagnosis of malaria</rdfs:label>
     </owl:Class>
     
 
@@ -5033,10 +5033,10 @@ value: the value of a multifilter</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000525">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A time measurement datum measuring the number of days from the first specimen collection to current specimen collection from same study subject.</obo:IAO_0000115>
-        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000115>A time measurement datum measuring the time interval from the first specimen collection to the current specimen collection from the same study subject.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person:  Jie Zheng, Chris Stoeckert, John Judkins</obo:IAO_0000117>
         <oboInOwl:inSubset>ICEMR protein array</oboInOwl:inSubset>
-        <rdfs:label xml:lang="en">number of days to follow up specimen collection</rdfs:label>
+        <rdfs:label xml:lang="en">duration of study participation from first to current specimen collection</rdfs:label>
     </owl:Class>
     
 
