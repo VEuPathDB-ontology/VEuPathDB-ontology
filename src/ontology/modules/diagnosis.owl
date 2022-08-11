@@ -40,6 +40,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -51,9 +57,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000142 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
     
 
 
@@ -176,6 +194,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_1398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1398"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_1673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1673"/>
@@ -266,6 +290,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_5113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5113"/>
@@ -326,21 +356,150 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis that is an assertion that a patient has a parasitic infectious disease.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of parasitic infectious disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0025162"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis of malaria with the presence of any danger signs including inability to sit up or stand, vomiting everything, unable to breastfeed or drink and lethargy or meeting criteria for severe malaria.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant Dorsey</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of complicated malaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis of complicated malaria based on WHO criteria that include the presence of parasite infections, most commonly P.falciparum, and any one or more of symptoms/signs of serious organ failures or abnormalities, including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and Jaundice.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grant Dorsey</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of severe malaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0025162"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis of malaria based on positive blood smear with subjective fever or elevated temperature resulting in antimalarial treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penn Group</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of symptomatic malaria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000215"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has a disease other than malaria.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis of disease other than malaria</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000321 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000321"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis that is documented during the patient discharge process.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis at patient discharge</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000638 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000638"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis that is documented during the hospital admission process.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233 rdf:resource="https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/357"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis at hospital admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diagnosis of a human participant under investigation, two months before the participant&apos;s follow-up visit.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnosis previous to two month follow-up</rdfs:label>
+    </owl:Class>
     
 
 
@@ -1461,6 +1620,18 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000126"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000201"/>
     
 
 
