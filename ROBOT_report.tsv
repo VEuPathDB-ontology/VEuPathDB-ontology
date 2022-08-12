@@ -17,8 +17,6 @@ ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0002755	IAO:0000115	Regu
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0002755	IAO:0000115	The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0009663	IAO:0000115	A disease that involves the genitourinary system.
 ERROR	multiple_definitions	http://www.ebi.ac.uk/efo/EFO_0009663	IAO:0000115	A disease that involves the genitourinary system. [database_cross_reference: MONDO:patterns/location]
-ERROR	duplicate_definition	OBI:0002926	IAO:0000115	A light trap that is designed to use motorized suction to trap arthropods in a collection bag once they approach the light attractant.
-ERROR	duplicate_definition	OBI:0002935	IAO:0000115	A light trap that is designed to use motorized suction to trap arthropods in a collection bag once they approach the light attractant.
 ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative label@en
 ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
 ERROR	multiple_labels	ONTONEO:00000160	rdfs:label	ruptura de membranas@pt
@@ -374,6 +372,18 @@ WARN	duplicate_label_synonym	HP:0033045	IAO:0000118	Bipedal edema
 WARN	duplicate_label_synonym	NCBITaxon:36330	IAO:0000118	Plasmodium ovale
 WARN	duplicate_label_synonym	OBI:0002937	IAO:0000118	outlet window trap
 WARN	duplicate_label_synonym	OBI:0002988	IAO:0000118	specimen collection duration
+WARN	equivalent_class_axiom_no_genus	EUPATH:0000342	IAO:0000136	OMRSE:00000146
+WARN	equivalent_class_axiom_no_genus	OBCS:0000170	OBI:0000312	OBCS:0000169
+WARN	equivalent_class_axiom_no_genus	OBI:0000094	OBI:0000417	OBI:0000456
+WARN	equivalent_class_axiom_no_genus	OBI:0000274	OBI:0000417	OBI:0000434
+WARN	equivalent_class_axiom_no_genus	OBI:0000457	OBI:0000417	OBI:0000458
+WARN	equivalent_class_axiom_no_genus	OBI:0000674	OBI:0000312	OBI:0200181
+WARN	equivalent_class_axiom_no_genus	OBI:0000679	OBI:0000312	OBI:0200170
+WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
+WARN	equivalent_class_axiom_no_genus	OBI:0000925	RO:0000053	OBI:1110093
+WARN	equivalent_class_axiom_no_genus	OBI:0002599	OBI:0000312	OBI:0002600
+WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
+WARN	equivalent_class_axiom_no_genus	OBI:0600014	OBI:0000417	OBI:0000639
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/22097005	IAO:0000115	
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/224619008	IAO:0000115	
 WARN	missing_definition	http://purl.bioontology.org/ontology/SNOMEDCT/40541001	IAO:0000115	
@@ -582,6 +592,7 @@ WARN	missing_definition	NCBITaxon:10239	IAO:0000115
 WARN	missing_definition	NCBITaxon:102899	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10358	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1038078	IAO:0000115	
+WARN	missing_definition	NCBITaxon:10405	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10407	IAO:0000115	
 WARN	missing_definition	NCBITaxon:104516	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10508	IAO:0000115	
@@ -608,6 +619,7 @@ WARN	missing_definition	NCBITaxon:110766	IAO:0000115
 WARN	missing_definition	NCBITaxon:110788	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11080	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11082	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11102	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11103	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11137	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11157	IAO:0000115	
@@ -635,6 +647,7 @@ WARN	missing_definition	NCBITaxon:11520	IAO:0000115
 WARN	missing_definition	NCBITaxon:11552	IAO:0000115	
 WARN	missing_definition	NCBITaxon:115703	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11577	IAO:0000115	
+WARN	missing_definition	NCBITaxon:11646	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11676	IAO:0000115	
 WARN	missing_definition	NCBITaxon:117571	IAO:0000115	
 WARN	missing_definition	NCBITaxon:119089	IAO:0000115	
@@ -758,7 +771,6 @@ WARN	missing_definition	NCBITaxon:1521115	IAO:0000115
 WARN	missing_definition	NCBITaxon:1521116	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1529933	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1529942	IAO:0000115	
-WARN	missing_definition	NCBITaxon:1535326	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1538645	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1545690	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1548034	IAO:0000115	
@@ -773,6 +785,7 @@ WARN	missing_definition	NCBITaxon:160229	IAO:0000115
 WARN	missing_definition	NCBITaxon:161	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1617964	IAO:0000115	
 WARN	missing_definition	NCBITaxon:162145	IAO:0000115	
+WARN	missing_definition	NCBITaxon:162387	IAO:0000115	
 WARN	missing_definition	NCBITaxon:162636	IAO:0000115	
 WARN	missing_definition	NCBITaxon:162637	IAO:0000115	
 WARN	missing_definition	NCBITaxon:162997	IAO:0000115	
@@ -788,6 +801,7 @@ WARN	missing_definition	NCBITaxon:174825	IAO:0000115
 WARN	missing_definition	NCBITaxon:174826	IAO:0000115	
 WARN	missing_definition	NCBITaxon:175121	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1762	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1763	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1769044	IAO:0000115	
 WARN	missing_definition	NCBITaxon:177093	IAO:0000115	
 WARN	missing_definition	NCBITaxon:177094	IAO:0000115	
@@ -819,12 +833,14 @@ WARN	missing_definition	NCBITaxon:1806186	IAO:0000115
 WARN	missing_definition	NCBITaxon:1806187	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1806189	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1808015	IAO:0000115	
+WARN	missing_definition	NCBITaxon:181550	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1817	IAO:0000115	
 WARN	missing_definition	NCBITaxon:183407	IAO:0000115	
 WARN	missing_definition	NCBITaxon:184770	IAO:0000115	
 WARN	missing_definition	NCBITaxon:185578	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186751	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186802	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1868215	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186826	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186938	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1870884	IAO:0000115	
@@ -844,6 +860,7 @@ WARN	missing_definition	NCBITaxon:1962408	IAO:0000115
 WARN	missing_definition	NCBITaxon:1962409	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1962411	IAO:0000115	
 WARN	missing_definition	NCBITaxon:197	IAO:0000115	
+WARN	missing_definition	NCBITaxon:197911	IAO:0000115	
 WARN	missing_definition	NCBITaxon:197912	IAO:0000115	
 WARN	missing_definition	NCBITaxon:197913	IAO:0000115	
 WARN	missing_definition	NCBITaxon:199889	IAO:0000115	
@@ -893,6 +910,7 @@ WARN	missing_definition	NCBITaxon:253	IAO:0000115
 WARN	missing_definition	NCBITaxon:254792	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2559587	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2560076	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2560080	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2560195	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2560525	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2560526	IAO:0000115	
@@ -1068,6 +1086,7 @@ WARN	missing_definition	NCBITaxon:35336	IAO:0000115
 WARN	missing_definition	NCBITaxon:354276	IAO:0000115	
 WARN	missing_definition	NCBITaxon:35500	IAO:0000115	
 WARN	missing_definition	NCBITaxon:35732	IAO:0000115	
+WARN	missing_definition	NCBITaxon:36086	IAO:0000115	
 WARN	missing_definition	NCBITaxon:36087	IAO:0000115	
 WARN	missing_definition	NCBITaxon:36256	IAO:0000115	
 WARN	missing_definition	NCBITaxon:36330	IAO:0000115	
@@ -1094,6 +1113,7 @@ WARN	missing_definition	NCBITaxon:38743	IAO:0000115
 WARN	missing_definition	NCBITaxon:3879	IAO:0000115	
 WARN	missing_definition	NCBITaxon:38937	IAO:0000115	
 WARN	missing_definition	NCBITaxon:39733	IAO:0000115	
+WARN	missing_definition	NCBITaxon:39744	IAO:0000115	
 WARN	missing_definition	NCBITaxon:400783	IAO:0000115	
 WARN	missing_definition	NCBITaxon:40141	IAO:0000115	
 WARN	missing_definition	NCBITaxon:40323	IAO:0000115	
@@ -1172,6 +1192,7 @@ WARN	missing_definition	NCBITaxon:450634	IAO:0000115
 WARN	missing_definition	NCBITaxon:450822	IAO:0000115	
 WARN	missing_definition	NCBITaxon:450823	IAO:0000115	
 WARN	missing_definition	NCBITaxon:451864	IAO:0000115	
+WARN	missing_definition	NCBITaxon:451871	IAO:0000115	
 WARN	missing_definition	NCBITaxon:453036	IAO:0000115	
 WARN	missing_definition	NCBITaxon:45803	IAO:0000115	
 WARN	missing_definition	NCBITaxon:45888	IAO:0000115	
@@ -1210,6 +1231,8 @@ WARN	missing_definition	NCBITaxon:49918	IAO:0000115
 WARN	missing_definition	NCBITaxon:49923	IAO:0000115	
 WARN	missing_definition	NCBITaxon:503348	IAO:0000115	
 WARN	missing_definition	NCBITaxon:503354	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5036	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5037	IAO:0000115	
 WARN	missing_definition	NCBITaxon:50380	IAO:0000115	
 WARN	missing_definition	NCBITaxon:506	IAO:0000115	
 WARN	missing_definition	NCBITaxon:5067	IAO:0000115	
@@ -1223,6 +1246,7 @@ WARN	missing_definition	NCBITaxon:516961	IAO:0000115
 WARN	missing_definition	NCBITaxon:517	IAO:0000115	
 WARN	missing_definition	NCBITaxon:518105	IAO:0000115	
 WARN	missing_definition	NCBITaxon:520	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5206	IAO:0000115	
 WARN	missing_definition	NCBITaxon:526217	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53525	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53527	IAO:0000115	
@@ -1247,6 +1271,7 @@ WARN	missing_definition	NCBITaxon:544	IAO:0000115
 WARN	missing_definition	NCBITaxon:545656	IAO:0000115	
 WARN	missing_definition	NCBITaxon:546	IAO:0000115	
 WARN	missing_definition	NCBITaxon:547	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5475	IAO:0000115	
 WARN	missing_definition	NCBITaxon:5476	IAO:0000115	
 WARN	missing_definition	NCBITaxon:548	IAO:0000115	
 WARN	missing_definition	NCBITaxon:550	IAO:0000115	
@@ -1260,6 +1285,7 @@ WARN	missing_definition	NCBITaxon:56625	IAO:0000115
 WARN	missing_definition	NCBITaxon:569587	IAO:0000115	
 WARN	missing_definition	NCBITaxon:570	IAO:0000115	
 WARN	missing_definition	NCBITaxon:571	IAO:0000115	
+WARN	missing_definition	NCBITaxon:5721	IAO:0000115	
 WARN	missing_definition	NCBITaxon:5728	IAO:0000115	
 WARN	missing_definition	NCBITaxon:573	IAO:0000115	
 WARN	missing_definition	NCBITaxon:5740	IAO:0000115	
@@ -1454,6 +1480,7 @@ WARN	missing_definition	NCBITaxon:784	IAO:0000115
 WARN	missing_definition	NCBITaxon:78535	IAO:0000115	
 WARN	missing_definition	NCBITaxon:80840	IAO:0000115	
 WARN	missing_definition	NCBITaxon:810	IAO:0000115	
+WARN	missing_definition	NCBITaxon:816	IAO:0000115	
 WARN	missing_definition	NCBITaxon:817	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8342	IAO:0000115	
 WARN	missing_definition	NCBITaxon:83558	IAO:0000115	
@@ -1571,6 +1598,7 @@ WARN	missing_definition	SYMP:0000260	IAO:0000115
 WARN	missing_definition	SYMP:0000596	IAO:0000115	
 WARN	missing_definition	SYMP:0019148	IAO:0000115	
 WARN	missing_definition	SYMP:0019174	IAO:0000115	
+WARN	missing_definition	UBERON:0001444	IAO:0000115	
 WARN	missing_definition	UBERON:0005913	IAO:0000115	
 WARN	missing_definition	UBERON:0006911	IAO:0000115	
 WARN	missing_definition	UBERON:0009856	IAO:0000115	
@@ -1603,19 +1631,6 @@ WARN	missing_definition	dc11:source	IAO:0000115
 WARN	missing_definition	dc11:title	IAO:0000115	
 WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
-WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
-WARN	equivalent_class_axiom_no_genus	EUPATH:0000342	IAO:0000136	OMRSE:00000146
-WARN	equivalent_class_axiom_no_genus	OBCS:0000170	OBI:0000312	OBCS:0000169
-WARN	equivalent_class_axiom_no_genus	OBI:0000094	OBI:0000417	OBI:0000456
-WARN	equivalent_class_axiom_no_genus	OBI:0000274	OBI:0000417	OBI:0000434
-WARN	equivalent_class_axiom_no_genus	OBI:0000457	OBI:0000417	OBI:0000458
-WARN	equivalent_class_axiom_no_genus	OBI:0000674	OBI:0000312	OBI:0200181
-WARN	equivalent_class_axiom_no_genus	OBI:0000679	OBI:0000312	OBI:0200170
-WARN	equivalent_class_axiom_no_genus	OBI:0000838	OBI:0000417	OBI:0000806
-WARN	equivalent_class_axiom_no_genus	OBI:0000925	RO:0000053	OBI:1110093
-WARN	equivalent_class_axiom_no_genus	OBI:0002599	OBI:0000312	OBI:0002600
-WARN	equivalent_class_axiom_no_genus	OBI:0200000	OBI:0000417	OBI:0200166
-WARN	equivalent_class_axiom_no_genus	OBI:0600014	OBI:0000417	OBI:0000639
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1679,8 +1694,7 @@ INFO	lowercase_definition	EUPATH:0000312	IAO:0000115	an entomological data item 
 INFO	lowercase_definition	EUPATH:0000313	IAO:0000115	an entomological data item that is the specified output of an assay that has a collection of insect specimens as specified input; this collection is the specified output of exactly one catch of live specimens
 INFO	lowercase_definition	EUPATH:0000314	IAO:0000115	a clinical visit that realizes the concretization of a protocol specifying the time of the visit
 INFO	lowercase_definition	EUPATH:0000315	IAO:0000115	a clinical visit that occurs at a time that is not mentioned in a protocol that directs the time of the visit
-INFO	lowercase_definition	EUPATH:0000316	IAO:0000115	an information content entity that is about a malaria diagnosis and describes the severity of the disease or the basis for the diagnosis@en
-INFO	lowercase_definition	EUPATH:0000317	IAO:0000115	a diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has a disease other than malaria@en
+INFO	lowercase_definition	EUPATH:0000316	IAO:0000115	an information content entity that is about a malaria diagnosis and describes the severity of the disease or the basis for the diagnosis
 INFO	lowercase_definition	EUPATH:0000318	IAO:0000115	an information content entity that is about a participant under investigation and specifies the hospital admitting the participant@en
 INFO	lowercase_definition	EUPATH:0000319	IAO:0000115	a time measurement datum that is about a human being who bears a patient role and specifies the date of the patient's admission to a hospital@en
 INFO	lowercase_definition	EUPATH:0000320	IAO:0000115	a time measurement datum that is about a human being who bears a patient role and specifies the date of the patient's discharge from a hospital@en
@@ -1694,7 +1708,6 @@ INFO	lowercase_definition	EUPATH:0000372	IAO:0000115	"\""A malaria medication th
 INFO	lowercase_definition	EUPATH:0000374	IAO:0000115	a categorical value specification that is about a human being and specifies whether that human being is joined to another human being in marriage@en
 INFO	lowercase_definition	EUPATH:0000375	IAO:0000115	a categorical value specification that specifies whether a human being plans to change within two years the dwelling which that human being occupies@en
 INFO	lowercase_definition	EUPATH:0000377	IAO:0000115	a time measurement datum that represents the time a human being resides in a human dwelling@en
-INFO	lowercase_definition	EUPATH:0000378	IAO:0000115	a time measurement datum that is about a human being, has years as its unit, and represents the time interval that the human being has lived in a geographic location where the inhabitants share a common trait@en
 INFO	lowercase_definition	EUPATH:0000379	IAO:0000115	a count of the number of instances of a site, within a human dwelling and its yard, to which any resident of the dwelling has access@en
 INFO	lowercase_definition	EUPATH:0000380	IAO:0000115	a scalar measurement datum that has the square meter as its measurement label and is the result of a measurement of area that is covered by a roof@en
 INFO	lowercase_definition	EUPATH:0000383	IAO:0000115	a categorical value specification that is about a dwelling and specifies whether (a) it is owned by an occupant of the dwelling or (b) a rental agreement exists such that an occupant has an obligation to pay rent to someone who does not occupy the dwelling@en
@@ -1816,7 +1829,6 @@ INFO	lowercase_definition	EUPATH:0010797	IAO:0000115	a categorical measurement d
 INFO	lowercase_definition	EUPATH:0010805	IAO:0000115	a categorical measurement datum that specifies whether Shigella was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0010825	IAO:0000115	a categorical measurement datum that specifies whether Vibrio was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0010829	IAO:0000115	a categorical measurement datum that specifies whether Yersinia enterocolitica was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0010875	IAO:0000115	a categorical measurement datum that specifies whether the objective of an assay to detect bacteria was achieved
 INFO	lowercase_definition	EUPATH:0010998	IAO:0000115	a categorical measurement datum that specifies whether Campylobacter was detected by differential medium assay
 INFO	lowercase_definition	EUPATH:0015046	IAO:0000115	drinking water that is derived from rainwater
 INFO	lowercase_definition	EUPATH:0015107	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on food to cover healthcare costs
@@ -1924,31 +1936,6 @@ INFO	lowercase_definition	EUPATH:0022001	IAO:0000115	a geographic location that 
 INFO	lowercase_definition	EUPATH:0022002	IAO:0000115	a wall material used to build an exterior wall
 INFO	lowercase_definition	EUPATH:0022003	IAO:0000115	a wall material used to build a wall between rooms
 INFO	lowercase_definition	EUPATH:0022004	IAO:0000115	a count of the number of beds in the dwelling of a household that have a bed net hung over them
-INFO	lowercase_definition	EUPATH:0022005	IAO:0000115	a household asset information indicating whether a household has a freezer
-INFO	lowercase_definition	EUPATH:0022006	IAO:0000115	a household asset information indicating whether a household has an electrical appliance that has the function of mixing food or drink
-INFO	lowercase_definition	EUPATH:0022007	IAO:0000115	a household asset information indicating whether a household has an appliance that has a heating element as part and has the function of heating food or drink
-INFO	lowercase_definition	EUPATH:0022008	IAO:0000115	a household asset information indicating whether a household has an appliance that has the function of heating food or drink through the combustion of natural gas
-INFO	lowercase_definition	EUPATH:0022009	IAO:0000115	a household asset information indicating whether a household has an appliance that has the function of heating food or drink through the combustion of kerosene
-INFO	lowercase_definition	EUPATH:0022010	IAO:0000115	a household asset information indicating whether a household has an appliance that has the function of heating food or drink through the combustion of coal
-INFO	lowercase_definition	EUPATH:0022011	IAO:0000115	a household asset information indicating whether a household has a television set that is capable of producing grayscale images but not color images
-INFO	lowercase_definition	EUPATH:0022012	IAO:0000115	a household asset information indicating whether a household has a television set that is capable of producing color images
-INFO	lowercase_definition	EUPATH:0022013	IAO:0000115	a household asset information indicating whether a household has a device capable of playing DVDs
-INFO	lowercase_definition	EUPATH:0022014	IAO:0000115	a household asset information indicating whether a household has a sound system
-INFO	lowercase_definition	EUPATH:0022015	IAO:0000115	a household asset information indicating whether a household has cows
-INFO	lowercase_definition	EUPATH:0022016	IAO:0000115	a household asset information indicating whether a household has goats
-INFO	lowercase_definition	EUPATH:0022017	IAO:0000115	a household asset information indicating whether a household has sexually immature domesticated birds
-INFO	lowercase_definition	EUPATH:0022018	IAO:0000115	a household asset information indicating whether a household has domesticated female birds
-INFO	lowercase_definition	EUPATH:0022019	IAO:0000115	a household asset information indicating whether a household has roosters
-INFO	lowercase_definition	EUPATH:0022020	IAO:0000115	a household asset information indicating whether a household has turkeys
-INFO	lowercase_definition	EUPATH:0022021	IAO:0000115	a household asset information indicating whether a household has ducks
-INFO	lowercase_definition	EUPATH:0022022	IAO:0000115	a household asset information indicating whether a household has small parrots with long tails
-INFO	lowercase_definition	EUPATH:0022023	IAO:0000115	a household asset information indicating whether a household has parrots
-INFO	lowercase_definition	EUPATH:0022024	IAO:0000115	a household asset information indicating whether a household has monkeys
-INFO	lowercase_definition	EUPATH:0022025	IAO:0000115	a household asset information indicating whether a household has pigs
-INFO	lowercase_definition	EUPATH:0022026	IAO:0000115	a household asset information indicating whether a household has rabbits
-INFO	lowercase_definition	EUPATH:0022027	IAO:0000115	a household asset information indicating whether a household has dogs
-INFO	lowercase_definition	EUPATH:0022028	IAO:0000115	a household asset information indicating whether a household has cats
-INFO	lowercase_definition	EUPATH:0022029	IAO:0000115	a household asset information indicating whether a household has turtles
 INFO	lowercase_definition	EUPATH:0022030	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's most recent malaria episode
 INFO	lowercase_definition	EUPATH:0022031	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's second most recent malaria episode
 INFO	lowercase_definition	EUPATH:0022032	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's third most recent malaria episode
