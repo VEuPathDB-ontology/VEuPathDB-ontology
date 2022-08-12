@@ -466,6 +466,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003383"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in placental blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in placental blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10508"/>
@@ -589,6 +613,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0003294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003294"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003383"/>
     
 
 
