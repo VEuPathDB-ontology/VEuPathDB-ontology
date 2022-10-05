@@ -6,14 +6,17 @@ http://purl.obolibrary.org/obo/eupath/dev/import_PHIPO.owl
 PHIPO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
-http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
+http://purl.obolibrary.org/obo/PHIPO_0000625 #resistance to posaconazole
+http://purl.obolibrary.org/obo/PHIPO_0000590 #resistance to voriconazole
+http://purl.obolibrary.org/obo/PHIPO_0000679 #resistance to tebuconazole
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
-subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
-http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
-subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+http://purl.obolibrary.org/obo/PHIPO_0000625 #resistance to posaconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype
+http://purl.obolibrary.org/obo/PHIPO_0000590 #resistance to voriconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype
+http://purl.obolibrary.org/obo/PHIPO_0000679 #resistance to tebuconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype 
 
 [Source term retrieval setting]
 includeNoIntermediates
