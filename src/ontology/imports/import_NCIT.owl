@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -103,9 +109,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2355"/>
-        <obo:IAO_0000115>A condition of the newborn characterized by the destruction of red blood cells initiated by the transmission of anti-A or anti-B antibodies from a mother to the child via the placenta against A or B antigens of the newborn&apos;s blood.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition of the newborn characterized by the destruction of red blood cells initiated by the transmission of anti-A or anti-B antibodies from a mother to the child via the placenta against A or B antigens of the newborn&apos;s blood.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Hemolytic Disease of Newborn</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Hemolytic Disease of the Newborn</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Isoimmunization</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemolytic Disease due to ABO Isoimmunization</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>ABO Hemolytic Disease of the Newborn</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Hemolytic Disease of the Newborn</rdfs:label>
     </owl:Class>
     
 
@@ -114,9 +124,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120707">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
-        <obo:IAO_0000115>The presence of more than one fungal and/or bacterial organism in a culture.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The presence of more than one fungal and/or bacterial organism in a culture.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MIXED FLORA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed Flora</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Mixed Flora</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mixed Flora</rdfs:label>
     </owl:Class>
     
 
@@ -125,9 +137,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A measurement of the total number of induced abortions experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the total number of induced abortions experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INABORTN</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of Induced Abortions</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Number of Induced Abortions</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of Induced Abortions</rdfs:label>
     </owl:Class>
     
 
@@ -136,9 +150,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120837">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>A measurement of the total number of spontaneous abortions (in which the fetus is less than 20 weeks gestational age) experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the total number of spontaneous abortions (in which the fetus is less than 20 weeks gestational age) experienced by a female subject.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of Spontaneous Abortions</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPABORTN</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Number of Spontaneous Abortions</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of Spontaneous Abortions</rdfs:label>
     </owl:Class>
     
 
@@ -147,9 +163,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C124435">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONTONEO_00000255"/>
-        <obo:IAO_0000115>The gestational age of the subject at birth.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The gestational age of the subject at birth.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSTABRTH</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gestational Age at Birth</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weeks gestation at birth</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weeks_gestation_at_birth</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Gestational Age at Birth</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gestational Age at Birth</rdfs:label>
     </owl:Class>
     
 
@@ -158,9 +178,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C131844">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115>A 10-item, self-rating questionnaire designed to screen postpartum women for indications of depression.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 10-item, self-rating questionnaire designed to screen postpartum women for indications of depression.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EPDS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edinburgh Postnatal Depression Scale</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edinburgh Postnatal Depression Scale (EPDS)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Edinburgh Postnatal Depression Scale</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edinburgh Postnatal Depression Scale</rdfs:label>
     </owl:Class>
     
 
@@ -169,9 +192,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C154876">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
-        <obo:IAO_0000115>A measurement of the distance between the pubic symphysis and the top of the palpable uterus.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the distance between the pubic symphysis and the top of the palpable uterus.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FUNDHT</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundal Height</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Fundal Height</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundal Height</rdfs:label>
     </owl:Class>
     
 
@@ -180,9 +205,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173766">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
-        <obo:IAO_0000115>A respiratory infectious disorder that leads to an acute illness that requires medical attention.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory infectious disorder that leads to an acute illness that requires medical attention.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARI</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Acute Respiratory Infection</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Severe Acute Respiratory Infection</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Acute Respiratory Infection</rdfs:label>
     </owl:Class>
     
 
@@ -191,9 +218,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25641">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <obo:IAO_0000115>A note acknowledging a source of information or quoting a passage.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A note acknowledging a source of information or quoting a passage.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bibliographic Reference</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reference</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bibliographicDesignation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Reference</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reference</rdfs:label>
     </owl:Class>
     
 
@@ -202,9 +232,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C29107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBIB_0000029"/>
-        <obo:IAO_0000115>A sterile liquid preparation infused into a vein.  IV fluid is prescribed as a replacement of fluid, electrolytes, calories, vitamins, and other nutritional substances.  In addition, IV fluids are used to administer blood products and medications such as chemotherapy.  Examples of IV fluids include Normal Saline, Ringers Solution, and Lactated Ringers Solution. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sterile liquid preparation infused into a vein.  IV fluid is prescribed as a replacement of fluid, electrolytes, calories, vitamins, and other nutritional substances.  In addition, IV fluids are used to administer blood products and medications such as chemotherapy.  Examples of IV fluids include Normal Saline, Ringers Solution, and Lactated Ringers Solution. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IV Fluid</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intravenous Fluid</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>IV Fluid</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IV Fluid</rdfs:label>
     </owl:Class>
     
 
@@ -213,9 +245,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50996">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>A variation from processes or procedures defined in a protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. (CDISC Glossary)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A variation from processes or procedures defined in a protocol. Deviations usually do not preclude the overall evaluability of subject data for either efficacy or safety, and are often acknowledged and accepted in advance by the sponsor. (CDISC Glossary)</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DVTERM</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deviation</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PROTOCOL DEVIATION</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol Deviation</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protocol deviation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Protocol Deviation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protocol Deviation</rdfs:label>
     </owl:Class>
     
 
@@ -224,9 +261,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
-        <obo:IAO_0000115>A subtype of Staphylococcus characterized by an inability to produce free plasma coagulase.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A subtype of Staphylococcus characterized by an inability to produce free plasma coagulase.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COAGULASE NEGATIVE STAPHYLOCOCCUS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coagulase-Negative Staphylococcus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Coagulase-Negative Staphylococcus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coagulase-Negative Staphylococcus</rdfs:label>
     </owl:Class>
     
 
@@ -235,9 +275,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C64593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>Beginning hour of sleep.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beginning hour of sleep.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At Bedtime</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedtime</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hour Of Sleep</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QHS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hora somni</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Hour Of Sleep</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hour Of Sleep</rdfs:label>
     </owl:Class>
     
 
@@ -246,9 +292,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
-        <obo:IAO_0000115>A period of three months; especially one of the three three-month periods into which human pregnancy is divided.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A period of three months; especially one of the three three-month periods into which human pregnancy is divided.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trimester</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Trimester</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trimester</rdfs:label>
     </owl:Class>
     
 
@@ -257,9 +304,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12059"/>
-        <obo:IAO_0000115>A genus of single-stranded positive sense RNA viruses containing a single RNA molecule. The viral particles are not enveloped and are icosahedral in structure.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genus of single-stranded positive sense RNA viruses containing a single RNA molecule. The viral particles are not enveloped and are icosahedral in structure.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinovirus</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Rhinovirus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinovirus</rdfs:label>
     </owl:Class>
     
 
@@ -268,9 +316,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C83101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
-        <obo:IAO_0000115>The numerical identifier of the visit.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The numerical identifier of the visit.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visit Number</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visit number</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visit_number</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Visit Number</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visit Number</rdfs:label>
     </owl:Class>
     
 
@@ -279,9 +330,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85819">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115>A blood smear technique used to make a thick blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood smear technique used to make a thick blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THICK SMEAR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thick Smear Technique</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Thick Smear Technique</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thick Smear Technique</rdfs:label>
     </owl:Class>
     
 
@@ -290,9 +343,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115>A blood smear technique used to make a thin blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood smear technique used to make a thin blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THIN SMEAR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thin Smear Technique</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Thin Smear Technique</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thin Smear Technique</rdfs:label>
     </owl:Class>
     
 
@@ -301,9 +356,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90491">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
-        <obo:IAO_0000115>Findings observed at the end of a pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Findings observed at the end of a pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRGOUT</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy Outcome</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pregnancy outcome</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pregnancy_outcome</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Pregnancy Outcome</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pregnancy Outcome</rdfs:label>
     </owl:Class>
     
 
@@ -312,9 +371,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92791">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115>The sounds of the fetal heart.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The sounds of the fetal heart.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal Heart Tone</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Fetal Heart Tone</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal Heart Tone</rdfs:label>
     </owl:Class>
     
 
@@ -323,9 +383,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92904">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115>A tightening of the involuntary smooth muscles of the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tightening of the involuntary smooth muscles of the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uterine Contraction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Uterine Contraction</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uterine Contraction</rdfs:label>
     </owl:Class>
     
 
@@ -334,9 +395,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92913">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115>Hemorrhage from the vagina that may range from light spotting to heavy flow during pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemorrhage from the vagina that may range from light spotting to heavy flow during pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaginal Bleeding during Pregnancy</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label>Vaginal Bleeding during Pregnancy</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaginal Bleeding during Pregnancy</rdfs:label>
     </owl:Class>
     
 

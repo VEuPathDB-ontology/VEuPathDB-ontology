@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -56,6 +62,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_00675">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein modification that effectively either removes neutral hydrogen atoms (proton and electron), or adds oxygen atoms to a residue with or without the removal of hydrogen atoms.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OxRes</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mod.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxidized residue</rdfs:label>
     </owl:Class>
@@ -67,6 +74,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOD_01090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein modification that by reaction of iodoacetamide effectively replaces a residue alpha-amino- or alpha-imino-hydrogen with a carboxamidomethyl group.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(carbamoylmethyl)amino</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbamidomethyl</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iodoacetamide derivative</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mod.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iodoacetamide derivatized amino-terminal residue</rdfs:label>
     </owl:Class>

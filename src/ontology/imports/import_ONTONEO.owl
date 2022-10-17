@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -45,15 +51,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007567"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
     
 
 
@@ -63,22 +75,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0001167 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ONTONEO_00000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">A biological process that consists on the tear of the amniotic sac, causing the amniotic fluid to flow out through the vagina. It usually happens shortly before the birth, the expectant mother feels wetness and notices a clear odorless fluid.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">Um processo biológico que consiste na ruptura do saco amniótico, fazendo com que o líquido amniótico flua para fora através da vagina. Geralmente acontece pouco antes do nascimento, a gestante sente umidade e percebe um líquido claro e inodoro.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
@@ -91,7 +91,7 @@
     <!-- http://purl.obolibrary.org/obo/ONTONEO_00000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000225">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">TO DO</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">TO DO</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
@@ -107,6 +107,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement that refers to the diameter of the opening of the cervix measured during the cervical dilation process.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">Uma medida escalar que se refere ao diâmetro da abertura do colo do útero medida durante o processo de dilatação cervical.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">cervical dilation measurement</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="pt">valor da dilatação do colo do útero</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
         <rdfs:label xml:lang="en">cervix diameter measurement datum</rdfs:label>
         <rdfs:label xml:lang="pt">medida do diâmetro do colo do útero</rdfs:label>
@@ -117,7 +119,7 @@
     <!-- http://purl.obolibrary.org/obo/ONTONEO_00000255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONTONEO_00000255">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 xml:lang="en">A time measurement datum that is the result of measurement of the gestational age of a pregnant organism.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">Um dado de medida de tempo que é o resultado da medição da idade gestacional de um organismo grávido.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
@@ -133,6 +135,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007567"/>
         <obo:IAO_0000115 xml:lang="en">A human parturition where the birth of a baby happens with less than 37 weeks gestational age.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="pt">Um parto onde o nascimento de um bebê acontece com menos de 37 semanas da idade gestacional.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">premature birth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">preterm birth</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">preterm labor</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ontoneo.owl"/>
         <rdfs:label xml:lang="pt">parto prematuro</rdfs:label>
         <rdfs:label xml:lang="en">preterm labour</rdfs:label>

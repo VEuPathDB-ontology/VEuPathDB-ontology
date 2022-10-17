@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -56,6 +62,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that consists of two or more organisms, viruses, or viroids.</obo:IAO_0000115>
+        <obo:IAO_0000118>group of organism</obo:IAO_0000118>
+        <obo:IAO_0000118>organism collection</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">collection of organisms</rdfs:label>
     </owl:Class>
@@ -89,6 +97,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115>A count data item of the number of steps in the line of descent from a common ancestor for a multicellular organism.</obo:IAO_0000115>
+        <obo:IAO_0000118>number of generations</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pco.owl"/>
         <rdfs:label xml:lang="en">number of generations of multicellular organism</rdfs:label>
     </owl:Class>
