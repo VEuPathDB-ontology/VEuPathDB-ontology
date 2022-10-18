@@ -63,12 +63,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
@@ -818,8 +812,7 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001460 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001460">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006058"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010538"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010758"/>
         <obo:IAO_0000115>The part of the forelimb extending from the shoulder to the autopod[cjm].</obo:IAO_0000115>
         <obo:IAO_0000118>brachium</obo:IAO_0000118>
         <obo:IAO_0000118>upper extremity</obo:IAO_0000118>
@@ -1829,18 +1822,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0006058 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010758"/>
-        <obo:IAO_0000115>A collection of two or more connected limb segments. Examples: arm (comprising stylopod and zeugopod regions).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>multi-limb segment region</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0006312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0006312">
@@ -2131,19 +2112,6 @@
         <obo:IAO_0000118>epithelium pseudostratificatum columnare ciliatum (trachea et bronchi)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <rdfs:label>pseudostratified ciliated columnar epithelium</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0010538 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010758"/>
-        <obo:IAO_0000115>An appendage segment that is part of a limb/fin.</obo:IAO_0000115>
-        <obo:IAO_0000118>limb/fin segment</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <rdfs:label>paired limb/fin segment</rdfs:label>
     </owl:Class>
     
 

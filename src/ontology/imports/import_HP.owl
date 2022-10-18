@@ -57,15 +57,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000079">
@@ -1249,7 +1240,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0003826 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003826">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034241"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Death of the fetus in utero after at least 22 weeks of gestation.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal death</obo:IAO_0000118>
         <obo:IAO_0000118>Fetal demise</obo:IAO_0000118>
@@ -1336,7 +1327,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0005268 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005268">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034241"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pregnancy that ends at a stage in which the fetus is incapable of surviving on its own, defined as the spontaneous loss of a fetus before the 22th week of pregnancy.</obo:IAO_0000115>
         <obo:IAO_0000118>Early fetal demise</obo:IAO_0000118>
         <obo:IAO_0000118>Spontaneous abortion</obo:IAO_0000118>
@@ -1919,6 +1910,19 @@
         <obo:IAO_0000118>Coolness to palpation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
         <rdfs:label>Coldness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <obo:IAO_0000115>Death of a fetus in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000118>Death before birth</obo:IAO_0000118>
+        <obo:IAO_0000118>Intrauterine death</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
+        <rdfs:label>Prenatal death</rdfs:label>
     </owl:Class>
     
 
