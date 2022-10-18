@@ -103,7 +103,7 @@ http://purl.obolibrary.org/obo/HP_0002151 #Hyperlactatemia
 http://purl.obolibrary.org/obo/HP_0003641 #Heminoglobinuria
 http://purl.obolibrary.org/obo/HP_0003811 #Neonatal death
 http://purl.obolibrary.org/obo/HP_0003826 #Stillbirth
-http://purl.obolibrary.org/obo/HP_0005268 #Spontaneous abortion
+http://purl.obolibrary.org/obo/HP_0005268 #Miscarriage
 http://purl.obolibrary.org/obo/HP_0011024 #Gastrointestinal
 http://purl.obolibrary.org/obo/HP_0012211 #Renal impairment
 http://purl.obolibrary.org/obo/HP_0100518 #Dysuria
@@ -117,13 +117,14 @@ http://purl.obolibrary.org/obo/HP_0002104 #apnea
 http://purl.obolibrary.org/obo/HP_0002045 #hypothermia
 http://purl.obolibrary.org/obo/HP_0001658 #Myocardial infarction
 http://purl.obolibrary.org/obo/HP_0040223 #Pulmonary hemorrhage
+http://purl.obolibrary.org/obo/HP_0034241 #Prenatal death
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0000118 #Phenotypic abnormality
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #BFO:quality
 http://purl.obolibrary.org/obo/HP_0003811 #Neonatal death
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
-http://purl.obolibrary.org/obo/HP_0003826 #Stillbirth
+http://purl.obolibrary.org/obo/HP_0034241 #Prenatal death
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
 http://purl.obolibrary.org/obo/HP_0032319 #Health status
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000015 #clinical history
@@ -134,3 +135,14 @@ includeComputedIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+

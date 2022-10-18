@@ -787,7 +787,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1602">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_75"/>
-        <obo:IAO_0000115>A lymph node disease that is characterized by an acute or chronic inflammation of one or more lymph nodes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lymph node disease that is characterized by an acute or chronic inflammation of one or more lymph nodes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphadenitis</rdfs:label>
     </owl:Class>
@@ -1318,6 +1318,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5330">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_65"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tooth disease located_in dental pulp.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dental pulp disease</rdfs:label>
     </owl:Class>
