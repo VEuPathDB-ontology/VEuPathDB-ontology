@@ -242,6 +242,42 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/SNMI/L-26206 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNMI/L-26206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_127906"/>
+        <rdfs:label>Vibrio cholerae serotype Inaba</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNMI/L-26207 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNMI/L-26207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_127906"/>
+        <rdfs:label>Vibrio cholerae serotype Ogawa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125014008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125014008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
+        <rdfs:label>Shigella flexneri, serovar 3c</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/125017001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/125017001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
+        <rdfs:label>Shigella flexneri, serovar 4b</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/22097005 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/22097005">
@@ -335,9 +371,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_127906 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_127906"/>
     
 
 
@@ -347,49 +383,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2761511 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_623 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2761511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53541"/>
-        <rdfs:label>Aedes ledgeri</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_53541 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_53541"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0003236 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003236"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0003365 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003365">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0003236"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A data item that is the specified output of a milk assay.</obo:IAO_0000115>
-        <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
-        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1515</obo:IAO_0000233>
-        <rdfs:label>milk assay datum</rdfs:label>
-    </owl:Class>
     
 
 
