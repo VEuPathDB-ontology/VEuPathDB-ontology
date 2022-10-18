@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -56,6 +62,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region</rdfs:label>
     </owl:Class>
@@ -67,6 +74,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of the chromosome between the centromere and the telomere. Human chromosomes have two arms, the p arm (short) and the q arm (long) which are separated from each other by the centromere.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome arm</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome_arm</rdfs:label>
     </owl:Class>
@@ -78,6 +86,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSLP are a kind of sequence alteration where the number of repeated sequences in intergenic regions may differ.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSLP</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple sequence length polymorphism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple sequence length variation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple_sequence_length_variation</rdfs:label>
     </owl:Class>
@@ -89,6 +100,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:repeat_region</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:microsatellite</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsatellite locus</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsatellite marker</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short tandem repeat</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microsatellite</rdfs:label>
     </owl:Class>
@@ -100,6 +117,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000353">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence of nucleotides that has been algorithmically derived from an alignment of two or more different sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence assembly</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_assembly</rdfs:label>
     </owl:Class>
@@ -111,6 +129,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000703">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region of sequence implicated in an experimental result.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental result region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental_result_region</rdfs:label>
     </owl:Class>
@@ -122,6 +141,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:gene</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene</rdfs:label>
     </owl:Class>
@@ -133,6 +153,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosolic 16S SSU RNA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosolic 16S rRNA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosolic 16S ribosomal RNA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosolic rRNA 16S</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosolic_16S_rRNA</rdfs:label>
     </owl:Class>
@@ -166,6 +190,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of sequences (often chromosomes) taken as the standard for a given organism and genome assembly.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference genome</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference_genome</rdfs:label>
     </owl:Class>
@@ -177,6 +202,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of one or more sequences of an individual.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant collection</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_collection</rdfs:label>
     </owl:Class>
@@ -188,6 +214,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001564">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence variant where the structure of the gene is changed.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jannovar:gene_variant</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VAAST:gene_variant</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene structure variant</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">snpEff:GENE</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene_variant</rdfs:label>
     </owl:Class>
@@ -199,6 +229,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001763">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A physical quality which inheres to the variant by virtue of the number instances of the variant within a population.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant frequency</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_frequency</rdfs:label>
     </owl:Class>
@@ -210,6 +241,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001769">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality inhering in a variant by virtue of its phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant phenotype</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">variant_phenotype</rdfs:label>
     </owl:Class>
@@ -221,6 +253,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A continuous nucleotide sequence is inverted in the same position.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inversion</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inversion</rdfs:label>
     </owl:Class>
@@ -232,6 +265,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001507"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chromosomal inversion that does not include the centromere.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paracentric inversion</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paracentric_inversion</rdfs:label>
     </owl:Class>
