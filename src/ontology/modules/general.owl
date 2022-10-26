@@ -361,28 +361,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/EUPATH_0000317 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000317">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000142"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4"/>
-                            <owl:Class>
-                                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
-                            </owl:Class>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000318">
