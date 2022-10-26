@@ -122,7 +122,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C106273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_2355"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition of the newborn characterized by the destruction of red blood cells initiated by the transmission of anti-A or anti-B antibodies from a mother to the child via the placenta against A or B antigens of the newborn&apos;s blood.</obo:IAO_0000115>
-
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Hemolytic Disease of Newborn</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Hemolytic Disease of the Newborn</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABO Isoimmunization</obo:IAO_0000118>
@@ -177,6 +176,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any rod-shaped, Gram-negative, non-spore forming, motile or non-motile bacteria which can ferment lactose with the production of acid and gas.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COLIFORM BACTERIA</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coliform Bacteria</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coliform Bacteria</rdfs:label>
     </owl:Class>
@@ -368,30 +369,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A blood smear technique used to make a thin blood smear on a microscope slide which is generally used to look for blood parasites such as those causing malaria.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thin Smear Technique</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C86141 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterium that is assigned to the genus Streptococcus that is able to reduce the iron content in hemoglobin in red blood cells, thus producing green colored colonies on blood agar plates.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha-Hemolytic Streptococcus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C86190 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterium that is assigned to the genus Streptococcus that is able to facilitate the complete rupturing of red blood cells, thus producing wide, clear, zones around colonies on blood agar plates.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Hemolytic Streptococcus</rdfs:label>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THIN SMEAR</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thin Smear Technique</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -403,7 +380,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C86141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterium that is assigned to the genus Streptococcus that is able to reduce the iron content in hemoglobin in red blood cells, thus producing green colored colonies on blood agar plates.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha-Hemolytic Streptococcus</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STREPTOCOCCUS ALPHA-HEMOLYTIC</obo:IAO_0000118>
@@ -416,7 +393,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C86190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1279"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacterium that is assigned to the genus Streptococcus that is able to facilitate the complete rupturing of red blood cells, thus producing wide, clear, zones around colonies on blood agar plates.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Hemolytic Streptococcus</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STREPTOCOCCUS BETA-HEMOLYTIC</obo:IAO_0000118>
