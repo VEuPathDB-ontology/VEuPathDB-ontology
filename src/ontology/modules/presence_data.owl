@@ -7,8 +7,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/presence_data.owl"/>
     
 
@@ -48,12 +47,6 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -62,6 +55,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
     
 
 
@@ -403,7 +402,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Aeromonas in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Aeromonas unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -830,7 +828,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Plesiomonas shigelloides was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plesiomonas shigelloides in feces</rdfs:label>
     </owl:Class>
     
@@ -873,7 +870,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Salmonella in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -916,7 +912,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Shigella in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -1007,7 +1002,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Vibrio in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -1026,7 +1020,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Yersinia enterocolitica was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Yersinia enterocolitica in feces</rdfs:label>
     </owl:Class>
     
@@ -1189,7 +1182,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Campylobacter in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -1589,7 +1581,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae O1 was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O1 in feces</rdfs:label>
     </owl:Class>
     
@@ -1608,7 +1599,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae serotype Inaba was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae serotype Inaba in feces</rdfs:label>
     </owl:Class>
     
@@ -1627,7 +1617,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae serotype Ogawa was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae serotype Ogawa in feces</rdfs:label>
     </owl:Class>
     
@@ -1646,7 +1635,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae O139 was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae O139 in feces</rdfs:label>
     </owl:Class>
     
@@ -1665,7 +1653,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Salmonella enterica subsp. enterica serovar Typhi was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica subsp. enterica serovar Typhi in feces</rdfs:label>
     </owl:Class>
     
@@ -1693,7 +1680,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Salmonella enterica enterica other than Typhi was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica enterica other than Typhi</rdfs:label>
     </owl:Class>
     
@@ -1752,7 +1738,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Campylobacter other than coli or jejuni was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter non-(jejuni or coli) in feces</rdfs:label>
     </owl:Class>
     
@@ -1765,7 +1750,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Campylobacter in feces that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter unspecified in feces</rdfs:label>
     </owl:Class>
     
@@ -1784,7 +1768,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri, serovar 4b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri, serovar 4b in feces</rdfs:label>
     </owl:Class>
     
@@ -1803,7 +1786,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 5b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5b in feces</rdfs:label>
     </owl:Class>
     
@@ -1822,7 +1804,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 6 was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 6 in feces</rdfs:label>
     </owl:Class>
     
@@ -1835,7 +1816,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella non-typeable was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella non-typeable in feces</rdfs:label>
     </owl:Class>
     
@@ -1854,7 +1834,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae in feces</rdfs:label>
     </owl:Class>
     
@@ -1889,7 +1868,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio cholerae non-(O1 or O139) was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio cholerae non-(O1 or O139) in feces</rdfs:label>
     </owl:Class>
     
@@ -1942,7 +1920,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Campylobacter coli was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter coli in feces</rdfs:label>
     </owl:Class>
     
@@ -1961,7 +1938,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Campylobacter jejuni was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Campylobacter jejuni in feces</rdfs:label>
     </owl:Class>
     
@@ -1980,7 +1956,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri in feces</rdfs:label>
     </owl:Class>
     
@@ -1999,7 +1974,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella boydii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella boydii in feces</rdfs:label>
     </owl:Class>
     
@@ -2018,7 +1992,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella dysenteriae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella dysenteriae in feces</rdfs:label>
     </owl:Class>
     
@@ -2037,7 +2010,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Vibrio parahaemolyticus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Vibrio parahaemolyticus in feces</rdfs:label>
     </owl:Class>
     
@@ -2056,7 +2028,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella sonnei was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella sonnei in feces</rdfs:label>
     </owl:Class>
     
@@ -2075,7 +2046,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 4a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4a in feces</rdfs:label>
     </owl:Class>
     
@@ -2094,7 +2064,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 4c was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 4c in feces</rdfs:label>
     </owl:Class>
     
@@ -2113,7 +2082,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 5a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 5a in feces</rdfs:label>
     </owl:Class>
     
@@ -2132,7 +2100,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri X variant was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri X variant in feces</rdfs:label>
     </owl:Class>
     
@@ -2151,7 +2118,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri Y was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri Y in feces</rdfs:label>
     </owl:Class>
     
@@ -2314,7 +2280,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 1a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1a in feces</rdfs:label>
     </owl:Class>
     
@@ -2333,7 +2298,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 1b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 1b in feces</rdfs:label>
     </owl:Class>
     
@@ -2352,7 +2316,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 2a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2a in feces</rdfs:label>
     </owl:Class>
     
@@ -2371,7 +2334,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 2b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 2b in feces</rdfs:label>
     </owl:Class>
     
@@ -2390,7 +2352,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 3a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3a in feces</rdfs:label>
     </owl:Class>
     
@@ -2409,7 +2370,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 3b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 3b in feces</rdfs:label>
     </owl:Class>
     
@@ -2428,7 +2388,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri, serovar 3c was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri, serovar 3c in feces</rdfs:label>
     </owl:Class>
     
@@ -2447,7 +2406,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in feces that specifies whether Shigella flexneri 7a was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feces</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Shigella flexneri 7a in feces</rdfs:label>
     </owl:Class>
     
@@ -2551,6 +2509,78 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Helicobacter in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0020167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0020167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0033307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in specimen that specifies whether Plasmodium ovale was detected by microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium ovale by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0021028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0033307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in specimen that specifies whether Plasmodium falciparum was detected by microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium falciparum by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0021029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0021029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0033307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in specimen that specifies whether Plasmodium vivax was detected by microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium vivax by microscopy assay</rdfs:label>
     </owl:Class>
     
 
@@ -2851,6 +2881,74 @@
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of bacteria in blood by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0023032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0033307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002119"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85820"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in specimen that specifies whether Plasmodium was detected by thick smear microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium by thick smear microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0023033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0023033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EUPATH_0033307"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002119"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85819"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of organism in specimen that specifies whether Plasmodium was detected by thin smear microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Plasmodium by thin smear microscopy assay</rdfs:label>
     </owl:Class>
     
 
@@ -3300,7 +3398,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Acinetobacter in blood that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Acinetobacter unspecified in blood</rdfs:label>
     </owl:Class>
     
@@ -3313,7 +3410,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether unspecified bacteria were detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of unspecified bacteria in blood</rdfs:label>
     </owl:Class>
     
@@ -3332,7 +3428,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Enterobacter cloacae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterobacter cloacae in blood</rdfs:label>
     </owl:Class>
     
@@ -3351,7 +3446,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Enterobacteriaceae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterobacteriaceae in blood</rdfs:label>
     </owl:Class>
     
@@ -3370,7 +3464,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Enterococcus faecium was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterococcus faecium in blood</rdfs:label>
     </owl:Class>
     
@@ -3389,7 +3482,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Escherichia coli was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Escherichia coli in blood</rdfs:label>
     </owl:Class>
     
@@ -3408,7 +3500,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Haemophilus influenzae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus influenzae in blood</rdfs:label>
     </owl:Class>
     
@@ -3427,7 +3518,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Klebsiella pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Klebsiella pneumoniae in blood</rdfs:label>
     </owl:Class>
     
@@ -3446,7 +3536,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Moraxella catarrhalis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella catarrhalis in blood</rdfs:label>
     </owl:Class>
     
@@ -3465,7 +3554,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Neisseria meningitidis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Neisseria meningitidis in blood</rdfs:label>
     </owl:Class>
     
@@ -3484,7 +3572,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Pseudomonas aeruginosa was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Pseudomonas aeruginosa in blood</rdfs:label>
     </owl:Class>
     
@@ -3503,7 +3590,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Salmonella enterica enterica serovar Paratyphi A was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica enterica serovar Paratyphi A in blood</rdfs:label>
     </owl:Class>
     
@@ -3538,7 +3624,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Salmonella enterica enterica other than serovars Typhi or Paratyphi A were detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica enterica non-(Typhi or Paratyphi-A) in blood</rdfs:label>
     </owl:Class>
     
@@ -3557,7 +3642,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Salmonella enterica enterica serovar Typhi was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica enterica serovar Typhi in blood</rdfs:label>
     </owl:Class>
     
@@ -3570,7 +3654,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of Salmonella in blood that does not specify the taxon further.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella unspecified in blood</rdfs:label>
     </owl:Class>
     
@@ -3589,7 +3672,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Staphylococcus aureus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus aureus in blood</rdfs:label>
     </owl:Class>
     
@@ -3608,7 +3690,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Staphylococcus group A was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus group A in blood</rdfs:label>
     </owl:Class>
     
@@ -3627,7 +3708,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in blood that specifies whether Streptococcus pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus pneumoniae in blood</rdfs:label>
     </owl:Class>
     
@@ -3646,7 +3726,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Acinetobacter baumannii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Acinetobacter baumannii in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3665,7 +3744,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Acinetobacter calcoaceticus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Acinetobacter calcoaceticus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3684,7 +3762,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Acinetobacter lwoffii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Acinetobacter lwoffii in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3703,7 +3780,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Acinetobacter was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Acinetobacter in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3722,7 +3798,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Aeromonas hydrophila was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Aeromonas hydrophila in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3741,7 +3816,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Aggregatibacter aphrophilus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Aggregatibacter aphrophilus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3760,7 +3834,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Alpha-Hemolytic Streptococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Alpha-Hemolytic Streptococcus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3803,7 +3876,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Beta-Hemolytic Streptococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Beta-Hemolytic Streptococcus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3846,7 +3918,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Burkholderia cepacia was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Burkholderia cepacia in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3889,7 +3960,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Citrobacter braakii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Citrobacter braakii in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3908,7 +3978,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Citrobacter freundii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Citrobacter freundii in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3927,7 +3996,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Coagulase-Negative Staphylococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Coagulase-Negative Staphylococcus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3940,7 +4008,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Coliform bacilli was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Coliform bacilli in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3959,7 +4026,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Corynebacterium was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Corynebacterium in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3978,7 +4044,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Cronobacter sakazakii was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Cronobacter sakazakii in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -3997,7 +4062,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Enterobacter asburiae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterobacter asburiae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4016,7 +4080,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Enterobacter cloacae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterobacter cloacae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4035,7 +4098,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Enterobacter was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterobacter in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4054,7 +4116,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Enterococcus faecalis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterococcus faecalis in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4073,7 +4134,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Enterococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Enterococcus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4092,7 +4152,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Escherichia coli was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Escherichia coli in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4111,7 +4170,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus haemolyticus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus haemolyticus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4130,7 +4188,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus influenzae serotype b was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus influenzae serotype b in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4173,7 +4230,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus influenzae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus influenzae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4216,7 +4272,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus parahaemolyticus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus parahaemolyticus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4259,7 +4314,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus parainfluenzae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus parainfluenzae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4278,7 +4332,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Haemophilus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4297,7 +4350,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Kingella was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Kingella in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4316,7 +4368,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Klebsiella aerogenes was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Klebsiella aerogenes in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4335,7 +4386,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Klebsiella oxytoca was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Klebsiella oxytoca in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4354,7 +4404,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Klebsiella pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Klebsiella pneumoniae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4373,7 +4422,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Klebsiella was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Klebsiella in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4410,7 +4458,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Mixed gram-negative rods was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Mixed gram-negative rods in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4429,7 +4476,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Moraxella catarrhalis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella catarrhalis in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4472,7 +4518,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Moraxella nonliquefaciens was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella nonliquefaciens in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4491,7 +4536,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Moraxella was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4534,7 +4578,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Neisseria meningitidis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Neisseria meningitidis in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4553,7 +4596,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Proteus mirabilis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Proteus mirabilis in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4572,7 +4614,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Pseudomonas aeruginosa was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Pseudomonas aeruginosa in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4591,7 +4632,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Pseudomonas fluorescens was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Pseudomonas fluorescens in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4610,7 +4650,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Pseudomonas was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Pseudomonas in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4629,7 +4668,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Stutzerimonas stutzeri was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Stutzerimonas stutzeri in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4648,7 +4686,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Salmonella was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4691,7 +4728,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Salmonella enterica subsp. enterica serovar Typhi was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Salmonella enterica subsp. enterica serovar Typhi in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4710,7 +4746,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Serratia marcescens was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Serratia marcescens in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4729,7 +4764,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Serratia was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Serratia in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4748,7 +4782,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Staphylococcus aureus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus aureus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4791,7 +4824,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Staphylococcus epidermidis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus epidermidis in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4810,7 +4842,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Stenotrophomonas maltophilia was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Stenotrophomonas maltophilia in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4829,7 +4860,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus anginosus group was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus anginosus group in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4848,7 +4878,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus group A was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus group A in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4867,7 +4896,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus group C was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus group C in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4886,7 +4914,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus group G was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus group G in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4905,7 +4932,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus pneumoniae in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -4948,7 +4974,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in induced sputum that specifies whether Streptococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">induced sputum</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus in induced sputum</rdfs:label>
     </owl:Class>
     
@@ -5519,7 +5544,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in lung that specifies whether Coagulase-Negative Staphylococcus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Coagulase-Negative Staphylococcus in lung</rdfs:label>
     </owl:Class>
     
@@ -5562,7 +5586,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in lung that specifies whether Haemophilus influenzae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus influenzae in lung</rdfs:label>
     </owl:Class>
     
@@ -5653,7 +5676,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in lung that specifies whether Moraxella catarrhalis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella catarrhalis in lung</rdfs:label>
     </owl:Class>
     
@@ -5744,7 +5766,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in lung that specifies whether Staphylococcus aureus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus aureus in lung</rdfs:label>
     </owl:Class>
     
@@ -5787,7 +5808,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in lung that specifies whether Streptococcus pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus pneumoniae in lung</rdfs:label>
     </owl:Class>
     
@@ -7030,7 +7050,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in nasopharynx or oropharynx that specifies whether Streptococcus pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasopharynx or oropharynx</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus pneumoniae in nasopharynx or oropharynx</rdfs:label>
     </owl:Class>
     
@@ -7145,7 +7164,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Escherichia coli was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Escherichia coli in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -7164,7 +7182,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Haemophilus influenzae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Haemophilus influenzae in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -7255,7 +7272,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Moraxella catarrhalis was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Moraxella catarrhalis in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -7346,7 +7362,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Staphylococcus aureus was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Staphylococcus aureus in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -7389,7 +7404,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Beta Streptococcus Group F was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Beta Streptococcus Group F in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -7408,7 +7422,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A presence of bacteria in pleural fluid that specifies whether Streptococcus pneumoniae was detected.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
-        <oboInOwl:inSubset rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pleural fluid</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">presence of Streptococcus pneumoniae in pleural fluid</rdfs:label>
     </owl:Class>
     
@@ -10111,6 +10124,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36330"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_36470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36470"/>
@@ -10435,9 +10454,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5833"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5855"/>
     
 
 
@@ -10708,6 +10739,18 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C77200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C77200"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85819"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85820"/>
     
 
 
