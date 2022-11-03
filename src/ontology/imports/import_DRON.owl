@@ -187,10 +187,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DRON_00001112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Gentamicin solution</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00001114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00001112"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">Gentamicin injectable solution</rdfs:label>
     </owl:Class>
@@ -883,7 +893,7 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00775058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00775058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00001112"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Otic Solution</rdfs:label>
     </owl:Class>
