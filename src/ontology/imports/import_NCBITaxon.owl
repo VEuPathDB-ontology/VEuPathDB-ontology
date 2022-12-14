@@ -5730,6 +5730,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_360405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_360405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44549"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anopheles benarrochi B</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_36086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36086">
@@ -6820,10 +6830,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44548"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oswaldoi group</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_44550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44548"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44549"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oswaldoi subgroup</rdfs:label>
     </owl:Class>
