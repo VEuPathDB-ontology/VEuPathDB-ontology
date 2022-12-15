@@ -2870,6 +2870,15 @@ Eur J Cancer. 2009 Jan;45(1):74-81. PMID: 19008094</obo:IAO_0000112>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001573"/>
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000811"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -3564,7 +3573,7 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
         <obo:IAO_0000111>record of missing knowledge</obo:IAO_0000111>
         <obo:IAO_0000112>A statement in a journal article indicating that the age of a patient at the onset of disease is not known. A statement indicating that the weight of a mouse was not measured.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>a information content entity created to indicate that information about something is not available to the person recording it.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity created to indicate that information about something is not available to the person recording it.</obo:IAO_0000115>
         <obo:IAO_0000116>This class should probably end up in IAO. It could be further breaken down to indicate different kinds of lack of knowledge, e.g. inability to determine something vs. no attempt made to determine something vs. no informatino available if it was even attempted to determine something. The design pattern should be generalizable. &apos;unknown sex&apos; is the first example, and needed immediately.</obo:IAO_0000116>
         <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000119></obo:IAO_0000119>
@@ -7327,7 +7336,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115>An inclusion criterion that is based on fitting within the defined characteristics of a population based study design.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Stoeckert, Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119>MIABIS 2.0</obo:IAO_0000119>
-        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">920</obo:IAO_0000233>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/920</obo:IAO_0000233>
         <obo:IAO_0000234>MIABIS 2.0</obo:IAO_0000234>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">defined population inclusion criterion</rdfs:label>
@@ -11430,14 +11439,14 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002933">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
-        <obo:IAO_0000111>Mosquito Magnet trap</obo:IAO_0000111>
+        <obo:IAO_0000111>Mosquito Magnet Pro trap</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000115>An arthropod trap that is powered by propane and is designed to emit a combination of carbon dioxide, heat, water, and oct-1-en-3-ol attractants while simultaneously using suction to trap arthropods.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>IRO:0000022</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1217</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label>Mosquito Magnet trap</rdfs:label>
+        <rdfs:label>Mosquito Magnet Pro trap</rdfs:label>
     </owl:Class>
     
 
@@ -11637,7 +11646,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000115>A study design where the selection of the individuals that are included into the study are intended to be representative of all individuals in the a priori defined specific population and is done at the population level or among the population groups, generally to find the cause, incidence or spread of the disease or to see the response to the treatment, nutrition or environment.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>https://link.springer.com/referenceworkentry/10.1007%2F978-1-4419-1005-9_45, EFO_0001430 population based design</obo:IAO_0000119>
-        <obo:IAO_0000233>#1090</obo:IAO_0000233>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1090</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>population based design</rdfs:label>
     </owl:Class>
@@ -13821,7 +13830,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>blood microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a blood microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a blood microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -13865,7 +13874,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>feces microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a feces microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a feces microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -13909,7 +13918,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>urine microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a urine microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a urine microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -13953,7 +13962,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>induced sputum microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of an induced sputum microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of an induced sputum microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -13997,7 +14006,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>cerebrospinal fluid microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a cerebrospinal fluid microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a cerebrospinal fluid microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14019,7 +14028,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>endotracheal aspirate assay datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of an endotracheal aspirate assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of an endotracheal aspirate assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14041,7 +14050,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>endotracheal tube aspirate microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of an endotracheal tube aspirate microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of an endotracheal tube aspirate microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14063,7 +14072,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>lung microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a lung microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a lung microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14085,7 +14094,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>nasopharyngeal or oropharyngeal swab microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a nasopharyngeal or oropharyngeal swab microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a nasopharyngeal or oropharyngeal swab microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14107,7 +14116,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>pleural fluid microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a pleural fluid microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a pleural fluid microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14129,7 +14138,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>umbilical cord blood assay datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of an umbilical cord blood assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of an umbilical cord blood assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -14151,7 +14160,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>umbilical cord blood microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of an umbilical cord blood microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of an umbilical cord blood microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1428</obo:IAO_0000233>
@@ -15214,7 +15223,7 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         </rdfs:subClassOf>
         <obo:IAO_0000111>placental blood microbiology datum</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115>An organism identification assay that is the specified output of a placental blood microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism identification datum that is the specified output of a placental blood microbiology assay.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1297</obo:IAO_0000233>
@@ -15242,6 +15251,21 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1297</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>eukaryota in placental blood datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003454">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002920"/>
+        <obo:IAO_0000111>Mosquito Magnet Liberty Plus trap</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>An arthropod trap that is designed to emit a combination of carbon dioxide, heat, water, and oct-1-en-3-ol attractants while simultaneously using suction to trap arthropods. This trap has the same design as the Mosquito Magnet Pro trap but is smaller, is more lightweight, and uses a main line electricity supply instead of propane to power itself. Both use propane to produce the arthropod attractor.</obo:IAO_0000115>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/obi-ontology/obi/issues/1523</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>Mosquito Magnet Liberty Plus trap</rdfs:label>
     </owl:Class>
     
 
