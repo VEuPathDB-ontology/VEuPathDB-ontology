@@ -106,6 +106,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Aeromonas in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aeromonas in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0010628 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010628">
@@ -122,10 +140,100 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Campylobacter in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Campylobacter in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Campylobacter in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Campylobacter in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Escherichia coli in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Salmonella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_620"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Shigella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0010634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0010634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_662"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Vibrio in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio in feces datum</rdfs:label>
     </owl:Class>
     
 
@@ -146,8 +254,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Adenovirus in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Adenovirus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenovirus in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
     </owl:Class>
@@ -170,8 +278,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Astrovirus in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A virus in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Astrovirus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrovirus in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
     </owl:Class>
@@ -194,8 +302,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Cryptosporidium in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Cryptosporidium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
     </owl:Class>
@@ -218,8 +326,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Giardia in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Giardia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
     </owl:Class>
@@ -243,7 +351,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a modified acid-fast stain microscopy and is used to determine the presence of Cryptosporidium in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptosporidium in feces by modified acid-fast stain microscopy datum</rdfs:label>
     </owl:Class>
@@ -267,7 +375,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a microscopy assay and is used to determine the presence of Entamoeba histolytica in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica in feces by microscopy assay datum</rdfs:label>
     </owl:Class>
@@ -291,7 +399,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a microscopy assay and is used to determine the presence of Giardia lamblia in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giardia lamblia in feces by microscopy assay datum</rdfs:label>
     </owl:Class>
@@ -314,10 +422,28 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000661"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a enzyme-linked immunosorbent assay and is used to determine the presence of Entamoeba histolytica in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of an enzyme-linked immunosorbent assay and is used to determine the presence of Entamoeba histolytica in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entamoeba histolytica in feces by enzyme-linked immunosorbent assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of non-typeable Shigella flexneri in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri non-typeable in feces datum</rdfs:label>
     </owl:Class>
     
 
@@ -339,7 +465,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Ascaris lumbricoides in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascaris lumbricoides in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
     </owl:Class>
@@ -363,9 +489,45 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Bacteroides fragilis in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides fragilis in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_984897"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Shigella dysenteriae 1 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella dysenteriae 1 in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Shigella flexneri serotype 7 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri 7 in feces datum</rdfs:label>
     </owl:Class>
     
 
@@ -387,9 +549,81 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in feces datum that is the output of a reverse transcription polymerase chain reaction assay and is used to determine the presence of Strongyloides stercoralis in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongyloides stercoralis in feces by reverse transcription polymerase chain reaction assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_686"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Vibrio cholerae O1 biovar El Tor in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1 biovar El Tor in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_127906"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Vibrio cholerae O1 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O1 in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_45888"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Vibrio cholerae O139 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae O139 in feces datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0015464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0015464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Vibrio cholerae Inaba or Ogawa in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vibrio cholerae Inaba or Ogawa in feces datum</rdfs:label>
     </owl:Class>
     
 
@@ -411,7 +645,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in blood datum that is the output of a real time polymerase chain reaction assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in blood by real time polymerase chain reaction assay datum</rdfs:label>
     </owl:Class>
@@ -435,9 +669,999 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium gametocytes in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gametocytes in blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032485">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_470"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Acinetobacter baumannii in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acinetobacter baumannii in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_471"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Acinetobacter calcoaceticus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acinetobacter calcoaceticus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Acinetobacter in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acinetobacter in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_644"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Aeromonas hydrophila in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aeromonas hydrophila in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032489">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_732"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Aggregatibacter aphrophilus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggregatibacter aphrophilus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86141"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Alpha-Hemolytic Streptococcus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alpha-Hemolytic Streptococcus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C86190"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Beta-Hemolytic Streptococcus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-Hemolytic Streptococcus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Burkholderia cepacia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia cepacia in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_57706"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Citrobacter braakii in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrobacter braakii in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Citrobacter freundii in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citrobacter freundii in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Coagulase-Negative Staphylococcus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coagulase-Negative Staphylococcus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Coliform Bacteria in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coliform Bacteria in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1716"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Corynebacterium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corynebacterium in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28141"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Cronobacter sakazakii in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cronobacter sakazakii in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_61645"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Enterobacter asburiae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterobacter asburiae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_550"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Enterobacter cloacae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterobacter cloacae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032506 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032506">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_547"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Enterobacter in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterobacter in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1350"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Enterococcus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterococcus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Escherichia coli in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus haemolyticus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus haemolyticus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0000741"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus influenzae serotype b in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus influenzae serotype b in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus influenzae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus influenzae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus parahaemolyticus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus parahaemolyticus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032526">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_729"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus parainfluenzae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus parainfluenzae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032527 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032527">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Haemophilus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemophilus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32257"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Kingella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kingella in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_548"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Klebsiella aerogenes in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klebsiella aerogenes in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_571"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Klebsiella oxytoca in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klebsiella oxytoca in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032531 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Klebsiella pneumoniae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klebsiella pneumoniae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Klebsiella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klebsiella in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032538">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_480"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Moraxella catarrhalis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moraxella catarrhalis in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_478"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Moraxella nonliquefaciens in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moraxella nonliquefaciens in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032540">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Moraxella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moraxella in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Neisseria meningitidis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neisseria meningitidis in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_584"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Proteus mirabilis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteus mirabilis in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Pseudomonas aeruginosa in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas aeruginosa in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032546">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_294"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Pseudomonas fluorescens in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas fluorescens in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Pseudomonas in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Stutzerimonas stutzeri in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stutzerimonas stutzeri in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Salmonella in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salmonella in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_615"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Serratia marcescens in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serratia marcescens in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Serratia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serratia in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Staphylococcus aureus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcus aureus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1282"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Staphylococcus epidermidis in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylococcus epidermidis in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032558">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Stenotrophomonas maltophilia in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenotrophomonas maltophilia in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_671232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus anginosus group in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus anginosus group in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36470"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus sp. group A in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus sp. group A in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33972"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus sp. group C in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus sp. group C in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032562">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1320"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus sp. group G in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus sp. group G in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032565">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus pneumoniae in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus pneumoniae in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003268"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in induced sputum datum that is used to determine the presence of Streptococcus pneumoniae serotype 2 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus pneumoniae serotype 2 in induced sputum datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in nasopharyngeal or oropharyngeal swab datum that is used to determine the presence of Streptococcus pneumoniae serotype 2 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus pneumoniae serotype 2 in nasopharyngeal or oropharyngeal swab datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in nasopharyngeal or oropharyngeal swab datum that is used to determine the presence of Streptococcus pneumoniae serotype 3 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus pneumoniae serotype 3 in nasopharyngeal or oropharyngeal swab datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0032746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0032746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in nasopharyngeal or oropharyngeal swab datum that is used to determine the presence of Streptococcus pneumoniae serotype 4 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streptococcus pneumoniae serotype 4 in nasopharyngeal or oropharyngeal swab datum</rdfs:label>
     </owl:Class>
     
 
@@ -459,9 +1683,51 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in umbilical cord blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person: John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in umbilical cord blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003383"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0002119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A eukaryota in placental blood datum that is the output of a microscopy assay and is used to determine the presence of Plasmodium in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium in placental blood by microscopy assay datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0003264"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bacteria in feces datum that is used to determine the presence of Shigella flexneri that is not serotype 7 in the specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEuPathDB</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigella flexneri not 7 in feces datum</rdfs:label>
     </owl:Class>
     
 
@@ -472,15 +1738,219 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_127906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_127906"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1282"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1301"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1320"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1350"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1716"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_294"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_316"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32257"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33972"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_36470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_36470"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39733 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39733"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40324"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_45888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_45888"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_469"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_471"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_475"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_478"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_480"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_547"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_548"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_550"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_562"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_570"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_571"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_573"/>
     
 
 
@@ -502,6 +1972,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_57706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_57706"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5806"/>
@@ -511,6 +1987,48 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5820 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_613"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_615"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_61645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_61645"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_620"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_623"/>
     
 
 
@@ -526,9 +2044,111 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_644"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_662"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_666 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_671232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_671232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_686"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_726"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_729"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_732"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_735"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_817 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_817"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_984897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_984897"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C122046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C62584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62584"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C86190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C86190"/>
     
 
 
@@ -580,6 +2200,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0003268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003268"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003275"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0003281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003281"/>
@@ -592,9 +2224,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0003383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003383"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPL_0000267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000267"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000741"/>
 </rdf:RDF>
 
 

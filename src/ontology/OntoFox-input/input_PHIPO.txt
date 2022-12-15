@@ -6,14 +6,17 @@ http://purl.obolibrary.org/obo/eupath/dev/import_PHIPO.owl
 PHIPO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
-http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
+http://purl.obolibrary.org/obo/PHIPO_0000625 #resistance to posaconazole
+http://purl.obolibrary.org/obo/PHIPO_0000590 #resistance to voriconazole
+http://purl.obolibrary.org/obo/PHIPO_0000679 #resistance to tebuconazole
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PHIPO_0000625 #phenotype: resistance to posaconazole
-subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
-http://purl.obolibrary.org/obo/PHIPO_0000590 #phenotype: resistance to voriconazole
-subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #Anti-fungal agent resistance
+http://purl.obolibrary.org/obo/PHIPO_0000625 #resistance to posaconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype
+http://purl.obolibrary.org/obo/PHIPO_0000590 #resistance to voriconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype
+http://purl.obolibrary.org/obo/PHIPO_0000679 #resistance to tebuconazole
+subClassOf http://purl.obolibrary.org/obo/OMP_0000274 #antimicrobial agent resistance phenotype 
 
 [Source term retrieval setting]
 includeNoIntermediates
@@ -21,4 +24,14 @@ includeNoIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
-
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term

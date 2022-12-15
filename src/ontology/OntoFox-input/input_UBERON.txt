@@ -10,6 +10,8 @@ UBERON
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/UBERON_0000029 #lymph node
 http://purl.obolibrary.org/obo/UBERON_0000033 #head
+http://purl.obolibrary.org/obo/UBERON_0000066 #fully formed stage (adult stage)
+http://purl.obolibrary.org/obo/UBERON_0000069 #larval stage
 http://purl.obolibrary.org/obo/UBERON_0000160 #intestine
 http://purl.obolibrary.org/obo/UBERON_0000167 #oral cavity
 http://purl.obolibrary.org/obo/UBERON_0000178 #blood
@@ -90,6 +92,8 @@ http://purl.obolibrary.org/obo/UBERON_0001557 #upper respiratory tract
 http://purl.obolibrary.org/obo/UBERON_0001826 #nasal cavity mucosa
 http://purl.obolibrary.org/obo/UBERON_0001729 #oropharynx
 http://purl.obolibrary.org/obo/UBERON_0012168 #umbilical cord blood
+http://purl.obolibrary.org/obo/UBERON_0014405 #nymph stage
+http://purl.obolibrary.org/obo/UBERON_8470000 #placental blood
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/UBERON_0001062 #anatomical entity
@@ -170,6 +174,21 @@ http://purl.obolibrary.org/obo/UBERON_0000465
 subClassOf http://purl.obolibrary.org/obo/UBERON_0001062
 http://purl.obolibrary.org/obo/UBERON_0000466
 subClassOf http://purl.obolibrary.org/obo/UBERON_0001062
+http://purl.obolibrary.org/obo/UBERON_0001137
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000475
+http://purl.obolibrary.org/obo/UBERON_0008337
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000475
+http://purl.obolibrary.org/obo/UBERON_0001444
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000475
+http://purl.obolibrary.org/obo/UBERON_0010758
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000475
+http://purl.obolibrary.org/obo/UBERON_0011676
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000475
+http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/UBERON_0001460 #arm
+subClassOf http://purl.obolibrary.org/obo/UBERON_0010758
+
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -177,22 +196,16 @@ includeComputedIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
+http://purl.obolibrary.org/obo/IAO_0000118 #alternative term
 
-############################################################
-[Source ontology]
-UBERON
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/UBERON_0000105 #life cycle stage
-subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
 

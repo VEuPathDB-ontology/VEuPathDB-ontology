@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -143,6 +149,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000904">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
+        <obo:IAO_0000118 xml:lang="en">amoxicillin syrup</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">amoxicillin suspension</rdfs:label>
     </owl:Class>
@@ -173,8 +180,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
+        <obo:IAO_0000118>Nystatin oral drop</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">Nystatin suspension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00001112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <rdfs:label xml:lang="en">Gentamicin solution</rdfs:label>
     </owl:Class>
     
 
@@ -182,7 +200,7 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00001114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00001112"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">Gentamicin injectable solution</rdfs:label>
     </owl:Class>
@@ -203,6 +221,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <obo:IAO_0000118>Chloramphenicol eye/ear drop</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">Chloramphenicol solution for otic and ophthalmic administration</rdfs:label>
     </owl:Class>
@@ -244,6 +263,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00001511">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000021"/>
+        <obo:IAO_0000118 xml:lang="en">salbutamol syrup</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label xml:lang="en">salbutamol suspension</rdfs:label>
     </owl:Class>
@@ -873,7 +893,7 @@
     <!-- http://purl.obolibrary.org/obo/DRON_00775058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00775058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000020"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00001112"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gentamicin Otic Solution</rdfs:label>
     </owl:Class>

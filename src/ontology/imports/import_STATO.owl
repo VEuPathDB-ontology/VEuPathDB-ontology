@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -99,6 +105,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">A z-score (also known as z-value, standard score, or normal score) is a measure of the divergence of an individual experimental result from the most probable result, the mean. Z is expressed in terms of the number of standard deviations from the mean value.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
+        <rdfs:label xml:lang="en">z-score</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/STATO_0000139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000139">
@@ -115,6 +132,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000047"/>
         <obo:IAO_0000115 xml:lang="en">Threshold cycle (or Ct or Cq) is a count which is defined as the fractional PCR cycle number at which the reporter fluorescence is greater than the threshold in the context of the RT-qPCR assay. The Ct is a basic principle of real time PCR and is an essential component in producing accurate and reproducible data.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Cq</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Ct</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <rdfs:label xml:lang="en">threshold cycle</rdfs:label>
     </owl:Class>
