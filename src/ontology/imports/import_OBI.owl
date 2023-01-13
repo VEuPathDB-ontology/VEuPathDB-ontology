@@ -515,6 +515,12 @@ https://sourceforge.net/tracker/index.php?func=detail&amp;aid=3512902&amp;group_
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000080 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000080"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000081 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000081"/>
@@ -15442,6 +15448,35 @@ http://vivoweb.org/ontology/core#FundingOrganization</rdfs:seeAlso>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label>antigen specific antibodies in milk assay datum</rdfs:label>
     </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0003416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0003416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000408"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001460"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>mid-upper arm circumference datum</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A length measurement datum that is the specified output of an assay measuring the length around an upper arm, taken midway along the upper arm.</obo:IAO_0000115>
+        <obo:IAO_0000119>The Mother and Child Health and Education Trust</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>mid-upper arm circumference datum</rdfs:label>
+    </owl:Class>
     
 
 
@@ -17287,6 +17322,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000146"/>
@@ -17344,6 +17385,12 @@ https://sourceforge.net/p/obi/obi-terms/738/</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001359"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001460"/>
     
 
 
