@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/import_EFO.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/import_EFO.owl"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/import_EFO.owl"/>
     
 
@@ -19,18 +19,24 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
@@ -93,12 +99,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0001167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167"/>
@@ -108,10 +108,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0000264 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An antibody function (or antigen binding function) is an infection-fighting protein molecule in blood or secretory fluids that tags, neutralizes, and helps destroy pathogenic microorganisms such as bacteria, viruses and toxins.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody</rdfs:label>
     </owl:Class>
     
 
@@ -119,22 +119,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0000683 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000683">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A role played by a a biological sample in the context of an experiment where the intent is that biological or technical variation is measured.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0002755 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002755">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular course of eating and drinking adopted by a person or animal. This does not include DIET THERAPY, a specific diet prescribed in the treatment of a disease.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diet</rdfs:label>
     </owl:Class>
     
 
@@ -142,10 +130,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004309 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004309">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet count</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of PLATELETS per unit volume in a sample of venous BLOOD.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platelet count</rdfs:label>
     </owl:Class>
     
 
@@ -153,10 +141,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004326 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart rate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The number of times the HEART VENTRICLES contract per unit of time, usually per minute.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart rate</rdfs:label>
     </owl:Class>
     
 
@@ -164,10 +152,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004344 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004344">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth weight</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000414"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mass or quantity of heaviness of an individual at BIRTH. It is expressed by units of pounds or kilograms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth weight</rdfs:label>
     </owl:Class>
     
 
@@ -175,10 +163,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004348 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004348">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematocrit</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The volume of packed RED BLOOD CELLS in a blood specimen. The volume is measured by centrifugation in a tube with graduated markings, or with automated blood cell counters. It is an indicator of erythrocyte status in disease. For example, ANEMIA shows a low value; POLYCYTHEMIA, a high value.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematocrit</rdfs:label>
     </owl:Class>
     
 
@@ -186,10 +174,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004465 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004465">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting blood glucose measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An fasting blood glucose measurement is a measurement of glucose in the blood of a patient at some defined time point after eating.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fasting blood glucose measurement</rdfs:label>
     </owl:Class>
     
 
@@ -197,10 +185,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004950 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004950">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of birth</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The point in time at which an individual was born.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date of birth</rdfs:label>
     </owl:Class>
     
 
@@ -208,10 +196,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005056 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005056">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age at death</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001167"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The age at which death occurs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age at death</rdfs:label>
     </owl:Class>
     
 
@@ -219,10 +207,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005528 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005528">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasitemia measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantification of the content of parasites in the blood, used as a measurement of parasite load in the organism and an indication of the degree of an active parasitic infection</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasitemia measurement</rdfs:label>
     </owl:Class>
     
 
@@ -230,10 +218,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0008546 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008546">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poisoning</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition or physical state produced by the ingestion, injection, inhalation of or exposure to a deleterious agent.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poisoning</rdfs:label>
     </owl:Class>
     
 
@@ -241,10 +229,10 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0009663 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009663">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of genitourinary system</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involves the genitourinary system. [database_cross_reference: MONDO:patterns/location]</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of genitourinary system</rdfs:label>
     </owl:Class>
     
 
@@ -252,14 +240,25 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_1001491 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_1001491">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abortion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009663"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the ending of pregnancy by removing a fetus or embryo before it can survive outside the uterus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abortion</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
 
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/IAO_0000416
+http://purl.obolibrary.org/obo/OBI_0001167
+http://purl.obolibrary.org/obo/IAO_0000109
+http://purl.obolibrary.org/obo/IAO_0000032
+http://purl.obolibrary.org/obo/DOID_4
+http://purl.obolibrary.org/obo/IAO_0000414
+http://purl.obolibrary.org/obo/DOID_7
+-->

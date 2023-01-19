@@ -45,6 +45,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
@@ -58,6 +64,17 @@
         <obo:IAO_0000115>A structured interview intended to capture detailed information about all foods and beverages (and possibly, dietary supplements) consumed by the respondent in the past 24 hours, most commonly, from midnight to midnight the previous day. A key feature of the 24HR is that, when appropriate, the respondent is asked for more detailed information than first reported. For example, a respondent reporting chicken for dinner or a sandwich for lunch would be asked about the preparation method and type of bread. This open-ended response structure is designed to prompt respondents to provide a comprehensive and detailed report of all foods and beverages consumed. A 24h can also be filled at home by the responder, and be checked during an interview to further improve it with additional details</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
         <rdfs:label>24-hour dietary recall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">In nutrition, diet is the sum of food consumed by a person or other organism</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ons.owl"/>
+        <rdfs:label xml:lang="en">diet</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
