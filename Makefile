@@ -118,7 +118,6 @@ IMPORT_FILES := $(foreach x,$(IMPORT_NAMES),src/ontology/imports/import_$(x).owl
 .PHONY: imports
 imports: $(IMPORT_FILES)
 
-
 ### Templates
 #
 src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
@@ -132,23 +131,11 @@ src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
 	--output $@
 
 # Update all modules
-MODULE_NAMES := assays\
- chebi_roles\
- clinical-chemistry-data\
- devices\
- diagnosis\
+MODULE_NAMES := eupath_terms\
+ axioms\
  display_labels\
- general\
- insecticide_resistance\
  obsolete\
- popbio_organism\
- presence_data\
- protein_variant\
- raw_data\
- threshold-cycle\
- schedule_deprecate\
- symptom_duration
-
+ schedule_deprecate
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
 
 .PHONY: modules
