@@ -67,6 +67,13 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/obsolete.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eupath/dev/schedule_deprecate.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-02-19/omo.owl"/>
+        <dc:creator>Chris Stoeckert</dc:creator>
+        <dc:creator>Cristian Cocos</dc:creator>
+        <dc:creator>Jie Zheng</dc:creator>
+        <dc:creator>John Judkins</dc:creator>
+        <dc:description>The VEuPathDB ontology is an application ontology developed to encode our understanding of what data is about in the public resources developed and maintained by the Eukaryotic Pathogen, Host and Vector Genomics Resource (VEuPathDB; https://veupathdb.org). The VEuPathDB ontology was previously named the EuPathDB ontology prior to EuPathDB joining with VectorBase.The ontology was built based on the Ontology of Biomedical Investigations (OBI) with integration of other OBO ontologies such as PATO, OGMS, DO, etc. as needed for coverage. Currently the VEuPath ontology is primarily intended to be used for support of the VEuPathDB sites. Terms with VEuPathDB ontology IDs that are not specific to VEuPathDB will be submitted to OBO Foundry ontologies for subsequent import and replacement of those terms when they are available.</dc:description>
+        <dc:title>VEuPathDB Ontology</dc:title>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
     </owl:Ontology>
     
 
@@ -139,6 +146,14 @@
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label>title</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
