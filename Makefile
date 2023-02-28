@@ -133,9 +133,22 @@ src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
 # Update all modules
 MODULE_NAMES := eupath_terms\
  axioms\
+ assays\
+ chebi_roles\
+ clinical-chemistry-data\
+ devices\
+ diagnosis\
  display_labels\
+ insecticide_resistance\
  obsolete\
- schedule_deprecate
+ popbio_organism\
+ presence_data\
+ protein_variant\
+ raw_data\
+ threshold-cycle\
+ schedule_deprecate\
+ symptom_duration
+
 MODULE_FILES := $(foreach x,$(MODULE_NAMES),src/ontology/modules/$(x).owl)
 
 .PHONY: modules
