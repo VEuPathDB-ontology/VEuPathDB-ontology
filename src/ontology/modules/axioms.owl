@@ -24,7 +24,15 @@
 
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000052 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000052"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000052">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     
 
 
@@ -8733,7 +8741,6 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004326 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
