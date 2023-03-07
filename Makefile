@@ -133,7 +133,6 @@ src/ontology/modules/%.owl: src/ontology/templates/%.tsv | build/robot.jar
 # Update all modules
 MODULE_NAMES := eupath_terms\
  axioms\
- assays\
  chebi_roles\
  clinical-chemistry-data\
  devices\
