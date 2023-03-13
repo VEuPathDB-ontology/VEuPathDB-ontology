@@ -1,69 +1,69 @@
-Ontology ID	label	Subclass	Logical Type	definition	definition source	term tracker item	term editor	disease	associated axioms
-ID	A rdfs:label	SC %	CLASS_TYPE	A definition	A definition source	AI term tracker item	A term editor	C mentions some %	C %
-EUPATH:0000036	diagnosis of parasitic infectious disease	diagnosis		A diagnosis that is an assertion that a patient has a parasitic infectious disease.	VEuPathDB		Person: John Judkins	parasitic infectious disease	
-EUPATH:0000040	diagnosis of complicated malaria	diagnosis of malaria		"A diagnosis of malaria with the presence of any danger signs including inability to sit up or stand, vomiting everything, unable to breastfeed or drink and lethargy or meeting criteria for severe malaria."	Grant Dorsey		"Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey"		
-EUPATH:0000043	diagnosis of severe malaria	diagnosis of complicated malaria		"A diagnosis of complicated malaria based on WHO criteria that include the presence of parasite infections, most commonly P.falciparum, and any one or more of symptoms/signs of serious organ failures or abnormalities, including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and Jaundice."	Grant Dorsey		"Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey"		
-EUPATH:0000090	diagnosis of symptomatic malaria	diagnosis of malaria		A diagnosis of malaria based on positive blood smear with subjective fever or elevated temperature resulting in antimalarial treatment.	Penn Group		"Person:  Jie Zheng, Chris Stoeckert, Grant Dorsey"		
-EUPATH:0000317	diagnosis of disease other than malaria	diagnosis	subclass	"A diagnosis that is an assertion that a patient, who is the subject of a diagnostic process, has a disease other than malaria."	VEuPathDB		Person: John Judkins	((disease) and (not (malaria)))	
-EUPATH:0000321	diagnosis at patient discharge	diagnosis	subclass	A diagnosis that is documented during the patient discharge process.	VEuPathDB	https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/357	Person: John Judkins		('part of' some (is_specified_output_of some 'patient discharge'))
-EUPATH:0000638	diagnosis at hospital admission	diagnosis	subclass	A diagnosis that is documented during the hospital admission process.	VEuPathDB	https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/357	Person: John Judkins		('part of' some (is_specified_output_of some 'admission process'))
-EUPATH:0010393	diagnosis previous to two month follow-up	diagnosis		"A diagnosis of a human participant under investigation, two months before the participant's follow-up visit."	VEuPathDB		Person: John Judkins		
-EUPATH:0015130	diagnosis of diarrhea at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has diarrhea.	VEuPathDB		Person: John Judkins	diarrhea	
-EUPATH:0015131	diagnosis of dysentery at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has dysentery.	VEuPathDB		Person: John Judkins	dysentery	
-EUPATH:0015132	diagnosis of pneumonia of lower repiratory tract disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pneumonia or lower respiratory tract disease.	VEuPathDB		Person: John Judkins	(pneumonia or 'lower respiratory tract disease')	
-EUPATH:0015135	diagnosis of malaria at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has malaria.	VEuPathDB		Person: John Judkins	malaria	
-EUPATH:0015136	diagnosis of nutritional deficiency disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has nutritional deficiency disease.	VEuPathDB		Person: John Judkins	nutritional deficiency disease	
-EUPATH:0015137	diagnosis of typhoid fever at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has typhoid fever.	VEuPathDB		Person: John Judkins	typhoid fever	
-EUPATH:0021163	diagnosis of chikungunya at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has chikungunya.	VEuPathDB		Person: John Judkins	chikungunya	
-EUPATH:0021165	diagnosis of dengue disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has dengue disease.	VEuPathDB		Person: John Judkins	dengue disease	
-EUPATH:0021169	diagnosis of gastrointestinal infection at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has a gastrointestinal infection.	VEuPathDB		Person: John Judkins	('disease by infectious agent' and 'gastrointestinal system disease')	
-EUPATH:0021177	diagnosis of leptospirosis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has leptospirosis.	VEuPathDB		Person: John Judkins	leptospirosis	
-EUPATH:0021221	diagnosis of scrub typhus at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has scrub typhus.	VEuPathDB		Person: John Judkins	scrub typhus	
-EUPATH:0021229	diagnosis of viral hepatitis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has viral hepatitis.	VEuPathDB		Person: John Judkins	viral hepatitis	
-EUPATH:0033376	diagnosis of pneumonia at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pneumonia.	VEuPathDB		Person: John Judkins	pneumonia	
-EUPATH:0033377	diagnosis of bronchiolitis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has bronchiolitis.	VEuPathDB		Person: John Judkins	bronchiolitis	
-EUPATH:0033379	diagnosis of lower respiratory tract disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has lower respiratory tract disease.	VEuPathDB		Person: John Judkins	lower respiratory tract disease	
-EUPATH:0033380	diagnosis of seizure at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has seizure.	VEuPathDB		Person: John Judkins	seizure	
-EUPATH:0033381	diagnosis of chronic mucocutaneous candidiasis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has chronic mucocutaneous candidiasis.	VEuPathDB		Person: John Judkins	chronic mucocutaneous candidiasis	
-EUPATH:0033382	diagnosis of anemia at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has anemia.	VEuPathDB		Person: John Judkins	anemia	
-EUPATH:0033383	diagnosis of neonatal sepsis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has neonatal sepsis.	VEuPathDB		Person: John Judkins	Neonatal sepsis	
-EUPATH:0033385	diagnosis of osteomyelitis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has osteomyelitis.	VEuPathDB		Person: John Judkins	osteomyelitis	
-EUPATH:0033386	diagnosis of asthma at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has asthma.	VEuPathDB		Person: John Judkins	asthma	
-EUPATH:0033387	diagnosis of otitis media at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has otitis media.	VEuPathDB		Person: John Judkins	otitis media	
-EUPATH:0033388	diagnosis of neonatal asphyxia at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has neonatal asphyxia.	VEuPathDB		Person: John Judkins	Neonatal asphyxia	
-EUPATH:0033389	diagnosis of pneumocystosis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pneumocystosis.	VEuPathDB		Person: John Judkins	pneumocystosis	
-EUPATH:0033390	diagnosis of cellulitis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has cellulitis.	VEuPathDB		Person: John Judkins	cellulitis	
-EUPATH:0033391	diagnosis of pneumothorax at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pneumothorax.	VEuPathDB		Person: John Judkins	pneumothorax	
-EUPATH:0033392	diagnosis of cerebral palsy at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has cerebral palsy.	VEuPathDB		Person: John Judkins	cerebral palsy	
-EUPATH:0033394	diagnosis of congenital heart disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has congenital heart disease.	VEuPathDB		Person: John Judkins	congenital heart disease	
-EUPATH:0033395	diagnosis of physical disorder at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has physical disorder.	VEuPathDB		Person: John Judkins	physical disorder	
-EUPATH:0033398	diagnosis of protein-energy malnutrition at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has protein-energy malnutrition.	VEuPathDB		Person: John Judkins	protein-energy malnutrition	
-EUPATH:0033399	diagnosis of pleural empyema at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pleural empyema.	VEuPathDB		Person: John Judkins	pleural empyema	
-EUPATH:0033400	diagnosis of pulmonary tuberculosis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has pulmonary tuberculosis.	VEuPathDB		Person: John Judkins	pulmonary tuberculosis	
-EUPATH:0033401	diagnosis of epilepsy at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has epilepsy.	VEuPathDB		Person: John Judkins	epilepsy	
-EUPATH:0033402	diagnosis of septic arthritis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has septic arthritis.	VEuPathDB		Person: John Judkins	septic arthritis	
-EUPATH:0033404	diagnosis of bacterial sepsis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has bacterial sepsis.	VEuPathDB		Person: John Judkins	bacterial sepsis	
-EUPATH:0033405	diagnosis of seizure precipitated by febrile infection at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has fever-induced seizures.	VEuPathDB		Person: John Judkins	Seizure precipitated by febrile infection	
-EUPATH:0033406	diagnosis of sickle cell anemia at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has sickle cell anemia.	VEuPathDB		Person: John Judkins	sickle cell anemia	
-EUPATH:0033407	diagnosis of gastroenteritis at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has gastroenteritis.	VEuPathDB		Person: John Judkins	gastroenteritis	
-EUPATH:0033409	diagnosis of parasitic helminthiasis infectious disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has parasitic helminthiasis infectious disease.	VEuPathDB		Person: John Judkins	parasitic helminthiasis infectious disease	
-EUPATH:0033411	diagnosis of human immunodeficiency virus infectious disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has human immunodeficiency virus infectious disease.	VEuPathDB		Person: John Judkins	human immunodeficiency virus infectious disease	
-EUPATH:0033412	diagnosis of urinary system disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has urinary system disease.	VEuPathDB		Person: John Judkins	urinary system disease	
-EUPATH:0033413	diagnosis of immunosuppression at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has immunosuppression.	VEuPathDB		Person: John Judkins	immunosuppression	
-EUPATH:0033414	diagnosis of upper respiratory tract disease at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has upper respiratory tract disease.	VEuPathDB		Person: John Judkins	upper respiratory tract disease	
-EUPATH:0033415	diagnosis of pulmonary tuberculosis at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has pulmonary tuberculosis.	VEuPathDB		Person: John Judkins	pulmonary tuberculosis	
-EUPATH:0033417	diagnosis of extrapulmonary tuberculosis at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has extrapulmonary tuberculosis.	VEuPathDB		Person: John Judkins	extrapulmonary tuberculosis	
-EUPATH:0033418	diagnosis of severe anemia at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has severe anemia.	VEuPathDB		Person: John Judkins	severe anemia	
-EUPATH:0033419	diagnosis of bronchiolitis or respiratory syncytial virus infectious disease at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has bronchiolitis or respiratory syncytial virus infectious disease at hospital admission.	VEuPathDB		Person: John Judkins	(bronchiolitis or 'respiratory syncytial virus infectious disease')	
-EUPATH:0033421	diagnosis of asthma at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has asthma.	VEuPathDB		Person: John Judkins	asthma	
-EUPATH:0033423	diagnosis of measles at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has measles.	VEuPathDB		Person: John Judkins	measles	
-EUPATH:0033424	diagnosis of bronchitis at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has bronchitis.	VEuPathDB		Person: John Judkins	bronchitis	
-EUPATH:0033425	diagnosis of malaria at hospital admission	diagnosis at hospital admission	subclass	A diagnosis at hospital admission that is an assertion that a patient has malaria.	VEuPathDB		Person: John Judkins	malaria	
-EUPATH:0033426	diagnosis of global developmental delay or cerebral palsy at hospital admission	diagnosis	subclass	A diagnosis at hospital admission that is an assertion that a patient has global developmental delay or cerebral palsy .	VEuPathDB		Person: John Judkins	('Global developmental delay' or 'cerebral palsy')	
-EUPATH:0033427	diagnosis of meningitis at hospital admission	diagnosis	subclass	A diagnosis that is an assertion that a patient has meningitis.	VEuPathDB		Person: John Judkins	meningitis	
-EUPATH:0025044	diagnosis of diarrhea	diagnosis	subclass	A diagnosis that is an assertion that a patient has diarrhea.	VEuPathDB		Person: John Judkins	diarrhea	
-EUPATH:0025162	diagnosis of malaria	diagnosis	subclass	A diagnosis that is an assertion that a patient has malaria.	VEuPathDB		Person: John Judkins	malaria	
-EUPATH:0025045	diagnosis of pneumonia	diagnosis	subclass	A diagnosis that is an assertion that a patient has pneumonia.	VEuPathDB		Person: John Judkins	pneumonia	
-EUPATH:0025046	diagnosis of upper respiratory tract disease	diagnosis	subclass	A diagnosis that is an assertion that a patient has upper respiratory tract disease.	VEuPathDB		Person: John Judkins	upper respiratory tract disease	
-EUPATH:0033384	diagnosis of anemic heart failure at patient discharge	diagnosis at patient discharge	subclass	A diagnosis at patient discharge that is an assertion that a patient has anemia and heart failure.	VEuPathDB		Person: John Judkins	anemia	
-EUPATH:0033384			subclass					Congestive heart failure	
+Ontology ID	label	Subclass	disease	associated axioms
+ID		SC %	SC mentions some %	SC %
+EUPATH:0000036	diagnosis of parasitic infectious disease	diagnosis	parasitic infectious disease	
+EUPATH:0000040	diagnosis of complicated malaria	diagnosis of malaria		
+EUPATH:0000043	diagnosis of severe malaria	diagnosis of complicated malaria		
+EUPATH:0000090	diagnosis of symptomatic malaria	diagnosis of malaria		
+EUPATH:0000317	diagnosis of disease other than malaria	diagnosis	((disease) and (not (malaria)))	
+EUPATH:0000321	diagnosis at patient discharge	diagnosis		('part of' some (is_specified_output_of some 'patient discharge'))
+EUPATH:0000638	diagnosis at hospital admission	diagnosis		('part of' some (is_specified_output_of some 'admission process'))
+EUPATH:0010393	diagnosis previous to two month follow-up	diagnosis		
+EUPATH:0015130	diagnosis of diarrhea at patient discharge	diagnosis at patient discharge	diarrhea	
+EUPATH:0015131	diagnosis of dysentery at patient discharge	diagnosis at patient discharge	dysentery	
+EUPATH:0015132	diagnosis of pneumonia of lower repiratory tract disease at patient discharge	diagnosis at patient discharge	(pneumonia or 'lower respiratory tract disease')	
+EUPATH:0015135	diagnosis of malaria at patient discharge	diagnosis at patient discharge	malaria	
+EUPATH:0015136	diagnosis of nutritional deficiency disease at patient discharge	diagnosis at patient discharge	nutritional deficiency disease	
+EUPATH:0015137	diagnosis of typhoid fever at patient discharge	diagnosis at patient discharge	typhoid fever	
+EUPATH:0021163	diagnosis of chikungunya at patient discharge	diagnosis at patient discharge	chikungunya	
+EUPATH:0021165	diagnosis of dengue disease at patient discharge	diagnosis at patient discharge	dengue disease	
+EUPATH:0021169	diagnosis of gastrointestinal infection at patient discharge	diagnosis at patient discharge	('disease by infectious agent' and 'gastrointestinal system disease')	
+EUPATH:0021177	diagnosis of leptospirosis at patient discharge	diagnosis at patient discharge	leptospirosis	
+EUPATH:0021221	diagnosis of scrub typhus at patient discharge	diagnosis at patient discharge	scrub typhus	
+EUPATH:0021229	diagnosis of viral hepatitis at patient discharge	diagnosis at patient discharge	viral hepatitis	
+EUPATH:0033376	diagnosis of pneumonia at patient discharge	diagnosis at patient discharge	pneumonia	
+EUPATH:0033377	diagnosis of bronchiolitis at patient discharge	diagnosis at patient discharge	bronchiolitis	
+EUPATH:0033379	diagnosis of lower respiratory tract disease at patient discharge	diagnosis at patient discharge	lower respiratory tract disease	
+EUPATH:0033380	diagnosis of seizure at patient discharge	diagnosis at patient discharge	seizure	
+EUPATH:0033381	diagnosis of chronic mucocutaneous candidiasis at patient discharge	diagnosis at patient discharge	chronic mucocutaneous candidiasis	
+EUPATH:0033382	diagnosis of anemia at patient discharge	diagnosis at patient discharge	anemia	
+EUPATH:0033383	diagnosis of neonatal sepsis at patient discharge	diagnosis at patient discharge	Neonatal sepsis	
+EUPATH:0033385	diagnosis of osteomyelitis at patient discharge	diagnosis at patient discharge	osteomyelitis	
+EUPATH:0033386	diagnosis of asthma at patient discharge	diagnosis at patient discharge	asthma	
+EUPATH:0033387	diagnosis of otitis media at patient discharge	diagnosis at patient discharge	otitis media	
+EUPATH:0033388	diagnosis of neonatal asphyxia at patient discharge	diagnosis at patient discharge	Neonatal asphyxia	
+EUPATH:0033389	diagnosis of pneumocystosis at patient discharge	diagnosis at patient discharge	pneumocystosis	
+EUPATH:0033390	diagnosis of cellulitis at patient discharge	diagnosis at patient discharge	cellulitis	
+EUPATH:0033391	diagnosis of pneumothorax at patient discharge	diagnosis at patient discharge	pneumothorax	
+EUPATH:0033392	diagnosis of cerebral palsy at patient discharge	diagnosis at patient discharge	cerebral palsy	
+EUPATH:0033394	diagnosis of congenital heart disease at patient discharge	diagnosis at patient discharge	congenital heart disease	
+EUPATH:0033395	diagnosis of physical disorder at patient discharge	diagnosis at patient discharge	physical disorder	
+EUPATH:0033398	diagnosis of protein-energy malnutrition at patient discharge	diagnosis at patient discharge	protein-energy malnutrition	
+EUPATH:0033399	diagnosis of pleural empyema at patient discharge	diagnosis at patient discharge	pleural empyema	
+EUPATH:0033400	diagnosis of pulmonary tuberculosis at patient discharge	diagnosis at patient discharge	pulmonary tuberculosis	
+EUPATH:0033401	diagnosis of epilepsy at patient discharge	diagnosis at patient discharge	epilepsy	
+EUPATH:0033402	diagnosis of septic arthritis at patient discharge	diagnosis at patient discharge	septic arthritis	
+EUPATH:0033404	diagnosis of bacterial sepsis at patient discharge	diagnosis at patient discharge	bacterial sepsis	
+EUPATH:0033405	diagnosis of seizure precipitated by febrile infection at patient discharge	diagnosis at patient discharge	Seizure precipitated by febrile infection	
+EUPATH:0033406	diagnosis of sickle cell anemia at patient discharge	diagnosis at patient discharge	sickle cell anemia	
+EUPATH:0033407	diagnosis of gastroenteritis at patient discharge	diagnosis at patient discharge	gastroenteritis	
+EUPATH:0033409	diagnosis of parasitic helminthiasis infectious disease at patient discharge	diagnosis at patient discharge	parasitic helminthiasis infectious disease	
+EUPATH:0033411	diagnosis of human immunodeficiency virus infectious disease at patient discharge	diagnosis at patient discharge	human immunodeficiency virus infectious disease	
+EUPATH:0033412	diagnosis of urinary system disease at patient discharge	diagnosis at patient discharge	urinary system disease	
+EUPATH:0033413	diagnosis of immunosuppression at patient discharge	diagnosis at patient discharge	immunosuppression	
+EUPATH:0033414	diagnosis of upper respiratory tract disease at patient discharge	diagnosis at patient discharge	upper respiratory tract disease	
+EUPATH:0033415	diagnosis of pulmonary tuberculosis at hospital admission	diagnosis at hospital admission	pulmonary tuberculosis	
+EUPATH:0033417	diagnosis of extrapulmonary tuberculosis at hospital admission	diagnosis at hospital admission	extrapulmonary tuberculosis	
+EUPATH:0033418	diagnosis of severe anemia at hospital admission	diagnosis at hospital admission	severe anemia	
+EUPATH:0033419	diagnosis of bronchiolitis or respiratory syncytial virus infectious disease at hospital admission	diagnosis at hospital admission	(bronchiolitis or 'respiratory syncytial virus infectious disease')	
+EUPATH:0033421	diagnosis of asthma at hospital admission	diagnosis at hospital admission	asthma	
+EUPATH:0033423	diagnosis of measles at hospital admission	diagnosis at hospital admission	measles	
+EUPATH:0033424	diagnosis of bronchitis at hospital admission	diagnosis at hospital admission	bronchitis	
+EUPATH:0033425	diagnosis of malaria at hospital admission	diagnosis at hospital admission	malaria	
+EUPATH:0033426	diagnosis of global developmental delay or cerebral palsy at hospital admission	diagnosis	('Global developmental delay' or 'cerebral palsy')	
+EUPATH:0033427	diagnosis of meningitis at hospital admission	diagnosis	meningitis	
+EUPATH:0025044	diagnosis of diarrhea	diagnosis	diarrhea	
+EUPATH:0025162	diagnosis of malaria	diagnosis	malaria	
+EUPATH:0025045	diagnosis of pneumonia	diagnosis	pneumonia	
+EUPATH:0025046	diagnosis of upper respiratory tract disease	diagnosis	upper respiratory tract disease	
+EUPATH:0033384	diagnosis of anemic heart failure at patient discharge	diagnosis at patient discharge	anemia	
+EUPATH:0033384			Congestive heart failure	
