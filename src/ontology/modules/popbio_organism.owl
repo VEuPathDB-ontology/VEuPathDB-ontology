@@ -1,12 +1,30 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/eupath/dev/popbio_organism.owl#"
      xml:base="http://purl.obolibrary.org/obo/eupath/dev/popbio_organism.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/eupath/dev/popbio_organism.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     
 
 
@@ -160,6 +178,14 @@
     <!-- http://purl.obolibrary.org/obo/EUPATH_0043087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043087">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216372"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63366"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_63408"/>
     </owl:Class>
     
@@ -333,15 +359,130 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44482"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_317812"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_317812"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53527"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043268">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216373"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63367"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63368"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_63408"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53545"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44482"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44482"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0043272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0043272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44482"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_174620 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_174620"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_193510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_193510">
+        <obo:IAO_0000118>Anopheles amharicus</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_216373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216373"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2320533 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2320533"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_317812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_317812"/>
     
 
 
@@ -414,6 +555,24 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_59134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_59134"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_63366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_63367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_63368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_63368"/>
     
 
 
