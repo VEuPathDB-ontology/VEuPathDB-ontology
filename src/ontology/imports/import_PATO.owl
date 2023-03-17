@@ -51,6 +51,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
@@ -179,6 +185,17 @@
         <obo:IAO_0000115>A physical quality of the thermal energy of a system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <rdfs:label>temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115>A quality of a single process inhering in a bearer by virtue of the bearer&apos;s occurrence per unit time.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <rdfs:label>rate</rdfs:label>
     </owl:Class>
     
 
