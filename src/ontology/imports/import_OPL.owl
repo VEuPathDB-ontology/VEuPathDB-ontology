@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -61,9 +67,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parasite lifecycle stage of sporozoa consisting of a zygote enclosed by cyst wall.</obo:IAO_0000115>
+        <obo:IAO_0000115>A parasite lifecycle stage of sporozoa consisting of a zygote enclosed by cyst wall.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oocyst stage</rdfs:label>
+        <rdfs:label>oocyst stage</rdfs:label>
     </owl:Class>
     
 
@@ -72,9 +78,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life cycle stage where a cell differentiates into male or female sexual forms.</obo:IAO_0000115>
+        <obo:IAO_0000115>A life cycle stage where a cell differentiates into male or female sexual forms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gametocyte stage</rdfs:label>
+        <rdfs:label>gametocyte stage</rdfs:label>
     </owl:Class>
     
 
@@ -83,9 +89,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parasite lifecycle stage of some sporozoans where cells divide through sporogony producing daughter cells called sporozoites that infect new hosts.</obo:IAO_0000115>
+        <obo:IAO_0000115>A parasite lifecycle stage of some sporozoans where cells divide through sporogony producing daughter cells called sporozoites that infect new hosts.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporozoite stage</rdfs:label>
+        <rdfs:label>sporozoite stage</rdfs:label>
     </owl:Class>
     
 
@@ -94,9 +100,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A life cycle stage of a parasite.</obo:IAO_0000115>
+        <obo:IAO_0000115>A life cycle stage of a parasite.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasite lifecycle stage</rdfs:label>
+        <rdfs:label>parasite lifecycle stage</rdfs:label>
     </owl:Class>
     
 
@@ -105,9 +111,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parasite organism</rdfs:label>
+        <rdfs:label>parasite organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPL_0000263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPL_0000181"/>
+        <obo:IAO_0000115>A parasite lifecycle stage that occurs as a result of asexual replication in the red blood cells of the host organism. For Plasmodium species these stages can include merozoites, trophozoites, and schizonts.</obo:IAO_0000115>
+        <obo:IAO_0000118>asexual blood stage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
+        <rdfs:label>asexual lifecycle in host red blood cell stage</rdfs:label>
     </owl:Class>
     
 
@@ -116,9 +134,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPL_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5820"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Plasmodium that is located either in the bloodstream of the vertebrate host or midgut of mosquito vector during gametocyte stage. Gametocytes are the precursor cells of the macro- or microgametes</obo:IAO_0000115>
+        <obo:IAO_0000115>A Plasmodium that is located either in the bloodstream of the vertebrate host or midgut of mosquito vector during gametocyte stage. Gametocytes are the precursor cells of the macro- or microgametes</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opl.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plasmodium gametocyte</rdfs:label>
+        <rdfs:label>Plasmodium gametocyte</rdfs:label>
     </owl:Class>
     
 
@@ -130,5 +148,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
