@@ -1,4 +1,7 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	missing_label	oboInOwl:ObsoleteClass	rdfs:label	
+ERROR	multiple_definitions	ONTONEO:00000125	IAO:0000115	A zero-dimensional temporal region that is the date of the first day of menstruation before a presenting illness or the advent of pregnancy-related amenorrhea. The date is used in estimating the expected date of delivery.@en
+ERROR	multiple_definitions	ONTONEO:00000125	IAO:0000115	Uma região temporal zero-dimensional que é a data do primeiro dia da menstruação antes da apresentação de uma doença ou o advento da amenorréia relacionada à gravidez. A data é usada para estimar a data esperada de entrega.@pt
 ERROR	multiple_definitions	ONTONEO:00000160	IAO:0000115	A biological process that consists on the tear of the amniotic sac, causing the amniotic fluid to flow out through the vagina. It usually happens shortly before the birth, the expectant mother feels wetness and notices a clear odorless fluid.@en
 ERROR	multiple_definitions	ONTONEO:00000160	IAO:0000115	Um processo biológico que consiste na ruptura do saco amniótico, fazendo com que o líquido amniótico flua para fora através da vagina. Geralmente acontece pouco antes do nascimento, a gestante sente umidade e percebe um líquido claro e inodoro.@pt
 ERROR	multiple_definitions	ONTONEO:00000225	IAO:0000115	TO DO@en
@@ -11,8 +14,10 @@ ERROR	multiple_definitions	ONTONEO:00000271	IAO:0000115	A human parturition wher
 ERROR	multiple_definitions	ONTONEO:00000271	IAO:0000115	Um parto onde o nascimento de um bebê acontece com menos de 37 semanas da idade gestacional.@pt
 ERROR	multiple_definitions	PDRO:0000001	IAO:0000115	A document authored by a health care provider that specifies how to realize some health care process for a particular patient.@en
 ERROR	multiple_definitions	PDRO:0000001	IAO:0000115	Un document créé par un fournisseur de soin indiquant comment réaliser une partie d'un processus de santé pour un patient particulier.@fr
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative label@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
+ERROR	multiple_labels	ONTONEO:00000125	rdfs:label	data da última menstruação@pt
+ERROR	multiple_labels	ONTONEO:00000125	rdfs:label	date of last menstruation@en
 ERROR	multiple_labels	ONTONEO:00000160	rdfs:label	ruptura de membranas@pt
 ERROR	multiple_labels	ONTONEO:00000160	rdfs:label	rupture of membranes@en
 ERROR	multiple_labels	ONTONEO:00000225	rdfs:label	história obstétrica@pt
@@ -77,33 +82,6 @@ WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (e
 WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
 WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
 WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
-WARN	annotation_whitespace	EUPATH:0000002	IAO:0000119	 http://en.wikipedia.org/wiki/Dwelling
-WARN	annotation_whitespace	EUPATH:0000002	IAO:0000119	Penn Group 
-WARN	annotation_whitespace	EUPATH:0000015	IAO:0000119	 http://en.wikipedia.org/wiki/Eaves
-WARN	annotation_whitespace	EUPATH:0000015	IAO:0000119	Penn Group 
-WARN	annotation_whitespace	EUPATH:0000024	IAO:0000119	 PRISM
-WARN	annotation_whitespace	EUPATH:0000024	IAO:0000119	Penn Group 
-WARN	annotation_whitespace	EUPATH:0000030	IAO:0000119	 Person: Chris Stoeckert
-WARN	annotation_whitespace	EUPATH:0000030	IAO:0000119	Penn Group 
-WARN	annotation_whitespace	EUPATH:0000057	IAO:0000112	 blood used in transfusion for replacement blood lost during surgery or due to a serious injury.
-WARN	annotation_whitespace	EUPATH:0000057	IAO:0000112	quinine used in malaria medication 
-WARN	annotation_whitespace	EUPATH:0000063	IAO:0000118	 artemether-lumefantrine
-WARN	annotation_whitespace	EUPATH:0000063	IAO:0000118	coartem 
-WARN	annotation_whitespace	EUPATH:0000063	IAO:0000119	 http://en.wikipedia.org/wiki/Artemether/lumefantrine
-WARN	annotation_whitespace	EUPATH:0000063	IAO:0000119	PRISM 
-WARN	annotation_whitespace	EUPATH:0000127	IAO:0000117	 Chris Stoeckert
-WARN	annotation_whitespace	EUPATH:0000127	IAO:0000117	Jie Zheng 
-WARN	annotation_whitespace	EUPATH:0000129	IAO:0000118	 RBC specimen
-WARN	annotation_whitespace	EUPATH:0000129	IAO:0000118	erythrocyte specimen 
-WARN	annotation_whitespace	EUPATH:0000294	IAO:0000116	 Shannon Takala Harrison:  Also not sure about LF, it could either be late failure or lost to follow-up. 
-WARN	annotation_whitespace	EUPATH:0000294	IAO:0000116	 Term need for annotation NIH-10K experiment, treatment outcome
-WARN	annotation_whitespace	EUPATH:0000294	IAO:0000116	was in EuPathDB/PlasmoDB, no longer used 
-WARN	annotation_whitespace	EUPATH:0000295	IAO:0000116	 Shannon Takala Harrison: LOSS probably also means the patient was lost to follow-up. 
-WARN	annotation_whitespace	EUPATH:0000295	IAO:0000116	 Term need for annotation NIH-10K experiment, treatment outcome
-WARN	annotation_whitespace	EUPATH:0000295	IAO:0000116	no longer used 
-WARN	annotation_whitespace	EUPATH:0000298	IAO:0000116	 Shannon Takala Harrison: Not sure what NULL means; it could also indicate lost to follow-up. 
-WARN	annotation_whitespace	EUPATH:0000298	IAO:0000116	 Term need for annotation NIH-10K experiment, treatment outcome
-WARN	annotation_whitespace	EUPATH:0000298	IAO:0000116	was EuPathDB/PlasmoDB term, no longer used 
 WARN	annotation_whitespace	EUPATH:0000362	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0000362	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0000363	IAO:0000117	 Jie Zheng
@@ -120,8 +98,6 @@ WARN	annotation_whitespace	EUPATH:0000417	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0000417	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0000428	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0000428	IAO:0000117	Chris Stoeckert 
-WARN	annotation_whitespace	EUPATH:0000496	IAO:0000119	 Person: Daniel Beiting, Jie Zheng
-WARN	annotation_whitespace	EUPATH:0000496	IAO:0000119	microbiome 
 WARN	annotation_whitespace	EUPATH:0000580	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0000580	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0000583	IAO:0000117	 Jie Zheng
@@ -164,8 +140,6 @@ WARN	annotation_whitespace	EUPATH:0021060	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0021060	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0021066	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0021066	IAO:0000117	Chris Stoeckert 
-WARN	annotation_whitespace	EUPATH:0021083	IAO:0000117	 Chris Stoeckert
-WARN	annotation_whitespace	EUPATH:0021083	IAO:0000117	Jie Zheng 
 WARN	annotation_whitespace	EUPATH:0021088	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0021088	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0021089	IAO:0000117	 Jie Zheng
@@ -196,44 +170,8 @@ WARN	annotation_whitespace	EUPATH:0023056	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0023056	IAO:0000117	Chris Stoeckert 
 WARN	annotation_whitespace	EUPATH:0023057	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0023057	IAO:0000117	Chris Stoeckert 
-WARN	annotation_whitespace	EUPATH:0043006	IAO:0000119	 IRO:0000031
-WARN	annotation_whitespace	EUPATH:0043006	IAO:0000119	Cire. N. J. agrie. Exp. Stn. 1942 No.421 pp.8 
-WARN	annotation_whitespace	EUPATH:0043008	IAO:0000118	 EVS light trap
-WARN	annotation_whitespace	EUPATH:0043008	IAO:0000118	EVS trap catch 
-WARN	annotation_whitespace	EUPATH:0043008	IAO:0000119	 IRO:0000029
-WARN	annotation_whitespace	EUPATH:0043008	IAO:0000119	VSMO:0001295 
-WARN	annotation_whitespace	EUPATH:0043011	IAO:0000119	 VSMO:0001906
-WARN	annotation_whitespace	EUPATH:0043011	IAO:0000119	IRO:0000028 
-WARN	annotation_whitespace	EUPATH:0043013	IAO:0000119	 IRO:0000154
-WARN	annotation_whitespace	EUPATH:0043013	IAO:0000119	Parasites Vectors 8, 239 (2015) 
-WARN	annotation_whitespace	EUPATH:0043014	IAO:0000119	 IRO:0000021
-WARN	annotation_whitespace	EUPATH:0043014	IAO:0000119	Proceedings of the Eighty-Second Annual Meeting of the New Jersey Mosquito Control Association, Inc. 1989, pp 53-57. 
-WARN	annotation_whitespace	EUPATH:0043015	IAO:0000119	 IRO:0000191
-WARN	annotation_whitespace	EUPATH:0043015	IAO:0000119	The American Journal of Tropical Medicine and Hygiene, Volume s1-19, Issue 2, 1 Mar 1939, p. 131 - 140 
-WARN	annotation_whitespace	EUPATH:0043018	IAO:0000119	 IRO:0000141
-WARN	annotation_whitespace	EUPATH:0043018	IAO:0000119	Kreppel et al. Parasites & Vectors  (2015) 8:462 
-WARN	annotation_whitespace	EUPATH:0043020	IAO:0000119	 IRO:0000014
-WARN	annotation_whitespace	EUPATH:0043020	IAO:0000119	38th Report East Malling Research Station 1949-50 , 1951, p.148 
-WARN	annotation_whitespace	EUPATH:0043030	IAO:0000118	 ovitrap catch
-WARN	annotation_whitespace	EUPATH:0043030	IAO:0000118	oviposition trap 
-WARN	annotation_whitespace	EUPATH:0043030	IAO:0000119	 MIRO:30000016
-WARN	annotation_whitespace	EUPATH:0043030	IAO:0000119	VSMO:0001501 
-WARN	annotation_whitespace	EUPATH:0043036	IAO:0000119	 MIRO:30000020
-WARN	annotation_whitespace	EUPATH:0043036	IAO:0000119	Bull World Health Organ. 1948; 1(2): 253–296. 
-WARN	annotation_whitespace	EUPATH:0043042	IAO:0000118	 collection of arthropods
-WARN	annotation_whitespace	EUPATH:0043042	IAO:0000118	field population catch 
-WARN	annotation_whitespace	EUPATH:0043042	IAO:0000119	 VSMO:0001445
-WARN	annotation_whitespace	EUPATH:0043042	IAO:0000119	MIRO:30000044 
-WARN	annotation_whitespace	EUPATH:0043049	IAO:0000119	 VSMO:0001352
-WARN	annotation_whitespace	EUPATH:0043049	IAO:0000119	American Midland Naturalist, Vol. 97, No. 2 (Apr., 1977), pp. 381-389 
-WARN	annotation_whitespace	EUPATH:0043050	IAO:0000119	 J Am Mosq Control Assoc. 1988 Dec;4(4):536-8.
-WARN	annotation_whitespace	EUPATH:0043050	IAO:0000119	VSMO:0001510 
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000118	 collection of larvae from dippers 
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000118	 collection of pupae from dippers
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000118	dipper for immatures 
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000119	 MIRO:30000063
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000119	 MIRO:30000064 
-WARN	annotation_whitespace	EUPATH:0043052	IAO:0000119	VSMO:0001479 
+WARN	annotation_whitespace	EUPATH:0043087	IAO:0000117	 Jie Zheng https://orcid.org/0000-0002-2999-0103
+WARN	annotation_whitespace	EUPATH:0043087	IAO:0000117	John Judkins ORCID:0000-0001-6595-0902 
 WARN	annotation_whitespace	EUPATH:0043202	IAO:0000117	 Jie Zheng
 WARN	annotation_whitespace	EUPATH:0043202	IAO:0000117	Bob MacCallum 
 WARN	annotation_whitespace	EUPATH:0043203	IAO:0000117	 Jie Zheng
@@ -355,6 +293,7 @@ WARN	annotation_whitespace	OBI:0002684	IAO:0000118	nested PCR
 WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
 defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
 @en"
+WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
 WARN	annotation_whitespace	VO:0000574	IAO:0000115	a path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. 
 WARN	duplicate_exact_synonym	UBERON:0000069	IAO:0000118	zoea
 WARN	duplicate_exact_synonym	UBERON:0002548	IAO:0000118	zoea
@@ -431,6 +370,8 @@ WARN	duplicate_exact_synonym	UBERON:0000069	IAO:0000118	caterpillar
 WARN	duplicate_exact_synonym	UBERON:0002548	IAO:0000118	caterpillar
 WARN	duplicate_exact_synonym	UBERON:0000069	IAO:0000118	bipinnaria
 WARN	duplicate_exact_synonym	UBERON:0002548	IAO:0000118	bipinnaria
+WARN	duplicate_exact_synonym	NCBITaxon:124916	IAO:0000118	Armigeres
+WARN	duplicate_exact_synonym	NCBITaxon:317811	IAO:0000118	Armigeres
 WARN	duplicate_exact_synonym	GO:0019815	IAO:0000118	antibody
 WARN	duplicate_exact_synonym	GO:0042571	IAO:0000118	antibody
 WARN	duplicate_exact_synonym	NCBITaxon:44482	IAO:0000118	Anopheles
@@ -493,11 +434,6 @@ WARN	duplicate_label_synonym	CHEBI:6076	IAO:0000118	itraconazole
 WARN	duplicate_label_synonym	CHEBI:64355	IAO:0000118	posaconazole
 WARN	duplicate_label_synonym	CHEBI:65136	IAO:0000118	(4Z,7Z,10Z,13Z,16Z)-docosa-4,7,10,13,16-pentaenoic acid
 WARN	duplicate_label_synonym	ENVO:00002003	IAO:0000118	fecal material
-WARN	duplicate_label_synonym	EUPATH:0001006	IAO:0000118	replaces@en
-WARN	duplicate_label_synonym	EUPATH:0001010	IAO:0000118	dataSet@en
-WARN	duplicate_label_synonym	EUPATH:0001011	IAO:0000118	repeated@en
-WARN	duplicate_label_synonym	EUPATH:0001013	IAO:0000118	hidden@en
-WARN	duplicate_label_synonym	EUPATH:0001014	IAO:0000118	scale@en
 WARN	duplicate_label_synonym	HP:0000271	IAO:0000118	Abnormality of the face
 WARN	duplicate_label_synonym	HP:0000478	IAO:0000118	Abnormality of the eye
 WARN	duplicate_label_synonym	HP:0000490	IAO:0000118	Deeply set eye
@@ -510,6 +446,7 @@ WARN	duplicate_label_synonym	HP:0001072	IAO:0000118	Thickened skin
 WARN	duplicate_label_synonym	HP:0001197	IAO:0000118	Abnormality of prenatal development or birth
 WARN	duplicate_label_synonym	HP:0001254	IAO:0000118	Lethargy
 WARN	duplicate_label_synonym	HP:0001259	IAO:0000118	Coma
+WARN	duplicate_label_synonym	HP:0001392	IAO:0000118	Abnormality of the liver
 WARN	duplicate_label_synonym	HP:0001518	IAO:0000118	Small for gestational age
 WARN	duplicate_label_synonym	HP:0001622	IAO:0000118	Premature birth
 WARN	duplicate_label_synonym	HP:0001626	IAO:0000118	Abnormality of the cardiovascular system
@@ -562,6 +499,7 @@ WARN	duplicate_label_synonym	NCIT:C122046	IAO:0000118	Coliform Bacteria
 WARN	duplicate_label_synonym	NCIT:C124435	IAO:0000118	Gestational Age at Birth
 WARN	duplicate_label_synonym	NCIT:C131844	IAO:0000118	Edinburgh Postnatal Depression Scale
 WARN	duplicate_label_synonym	NCIT:C154876	IAO:0000118	Fundal Height
+WARN	duplicate_label_synonym	NCIT:C16502	IAO:0000118	Diagnostic Imaging
 WARN	duplicate_label_synonym	NCIT:C173766	IAO:0000118	Severe Acute Respiratory Infection
 WARN	duplicate_label_synonym	NCIT:C25641	IAO:0000118	Reference
 WARN	duplicate_label_synonym	NCIT:C29107	IAO:0000118	IV Fluid
@@ -570,7 +508,9 @@ WARN	duplicate_label_synonym	NCIT:C62584	IAO:0000118	Coagulase-Negative Staphylo
 WARN	duplicate_label_synonym	NCIT:C64593	IAO:0000118	Hour Of Sleep
 WARN	duplicate_label_synonym	NCIT:C69121	IAO:0000118	Trimester
 WARN	duplicate_label_synonym	NCIT:C77200	IAO:0000118	Rhinovirus
+WARN	duplicate_label_synonym	NCIT:C81236	IAO:0000118	Birth Complication
 WARN	duplicate_label_synonym	NCIT:C83101	IAO:0000118	Visit Number
+WARN	duplicate_label_synonym	NCIT:C83164	IAO:0000118	Birth Year
 WARN	duplicate_label_synonym	NCIT:C85819	IAO:0000118	Thick Smear Technique
 WARN	duplicate_label_synonym	NCIT:C85820	IAO:0000118	Thin Smear Technique
 WARN	duplicate_label_synonym	NCIT:C86141	IAO:0000118	Alpha-Hemolytic Streptococcus
@@ -598,7 +538,6 @@ WARN	duplicate_label_synonym	UBERON:0014405	IAO:0000118	nymph stage
 WARN	duplicate_label_synonym	UBERON:0017672	IAO:0000118	abdominal viscera
 WARN	duplicate_label_synonym	UBERON:0035612	IAO:0000118	nasal turbinal
 WARN	duplicate_label_synonym	http://www.ebi.ac.uk/efo/EFO_0000264	IAO:0000118	antibody
-WARN	equivalent_class_axiom_no_genus	EUPATH:0000342	IAO:0000136	OMRSE:00000146
 WARN	equivalent_class_axiom_no_genus	OBCS:0000170	OBI:0000312	OBCS:0000169
 WARN	equivalent_class_axiom_no_genus	OBI:0000094	OBI:0000417	OBI:0000456
 WARN	equivalent_class_axiom_no_genus	OBI:0000274	OBI:0000417	OBI:0000434
@@ -628,6 +567,7 @@ WARN	missing_definition	CHEBI:26413	IAO:0000115
 WARN	missing_definition	CHEBI:32888	IAO:0000115	
 WARN	missing_definition	CHEBI:34556	IAO:0000115	
 WARN	missing_definition	CHEBI:34839	IAO:0000115	
+WARN	missing_definition	CHEBI:34916	IAO:0000115	
 WARN	missing_definition	CHEBI:35143	IAO:0000115	
 WARN	missing_definition	CHEBI:38476	IAO:0000115	
 WARN	missing_definition	CHEBI:38677	IAO:0000115	
@@ -745,7 +685,6 @@ WARN	missing_definition	ENVO:00003096	IAO:0000115
 WARN	missing_definition	ENVO:00003097	IAO:0000115	
 WARN	missing_definition	ENVO:0010003	IAO:0000115	
 WARN	missing_definition	ENVO:01000599	IAO:0000115	
-WARN	missing_definition	ENVO:01000825	IAO:0000115	
 WARN	missing_definition	EUPATH:0043067	IAO:0000115	
 WARN	missing_definition	EUPATH:0043068	IAO:0000115	
 WARN	missing_definition	EUPATH:0043069	IAO:0000115	
@@ -785,7 +724,18 @@ WARN	missing_definition	EUPATH:0043114	IAO:0000115
 WARN	missing_definition	EUPATH:0043247	IAO:0000115	
 WARN	missing_definition	EUPATH:0043254	IAO:0000115	
 WARN	missing_definition	EUPATH:0043255	IAO:0000115	
+WARN	missing_definition	EUPATH:0043263	IAO:0000115	
+WARN	missing_definition	EUPATH:0043264	IAO:0000115	
+WARN	missing_definition	EUPATH:0043265	IAO:0000115	
+WARN	missing_definition	EUPATH:0043266	IAO:0000115	
+WARN	missing_definition	EUPATH:0043267	IAO:0000115	
+WARN	missing_definition	EUPATH:0043268	IAO:0000115	
+WARN	missing_definition	EUPATH:0043269	IAO:0000115	
+WARN	missing_definition	EUPATH:0043270	IAO:0000115	
+WARN	missing_definition	EUPATH:0043271	IAO:0000115	
+WARN	missing_definition	EUPATH:0043272	IAO:0000115	
 WARN	missing_definition	FOODON:03303130	IAO:0000115	
+WARN	missing_definition	FOODON:03450002	IAO:0000115	
 WARN	missing_definition	HP:0001939	IAO:0000115	
 WARN	missing_definition	HP:0001944	IAO:0000115	
 WARN	missing_definition	HP:0002795	IAO:0000115	
@@ -826,7 +776,9 @@ WARN	missing_definition	NCBITaxon:10508	IAO:0000115
 WARN	missing_definition	NCBITaxon:1056966	IAO:0000115	
 WARN	missing_definition	NCBITaxon:107326	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1073269	IAO:0000115	
+WARN	missing_definition	NCBITaxon:108405	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085685	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1085687	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085688	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085689	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1085690	IAO:0000115	
@@ -846,6 +798,7 @@ WARN	missing_definition	NCBITaxon:110766	IAO:0000115
 WARN	missing_definition	NCBITaxon:110788	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11080	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11082	IAO:0000115	
+WARN	missing_definition	NCBITaxon:110926	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11102	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11103	IAO:0000115	
 WARN	missing_definition	NCBITaxon:11137	IAO:0000115	
@@ -888,6 +841,7 @@ WARN	missing_definition	NCBITaxon:12058	IAO:0000115
 WARN	missing_definition	NCBITaxon:12059	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1205936	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1205938	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1205941	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1205942	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1205943	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1205944	IAO:0000115	
@@ -896,9 +850,12 @@ WARN	missing_definition	NCBITaxon:1205946	IAO:0000115
 WARN	missing_definition	NCBITaxon:1206013	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206014	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206015	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1206036	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1206047	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206282	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206287	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206303	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1206307	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206794	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1206795	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12080	IAO:0000115	
@@ -908,9 +865,11 @@ WARN	missing_definition	NCBITaxon:12086	IAO:0000115
 WARN	missing_definition	NCBITaxon:120868	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120869	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120870	IAO:0000115	
+WARN	missing_definition	NCBITaxon:120871	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120872	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120873	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120874	IAO:0000115	
+WARN	missing_definition	NCBITaxon:120876	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120877	IAO:0000115	
 WARN	missing_definition	NCBITaxon:120878	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1212470	IAO:0000115	
@@ -921,9 +880,16 @@ WARN	missing_definition	NCBITaxon:122929	IAO:0000115
 WARN	missing_definition	NCBITaxon:1236	IAO:0000115	
 WARN	missing_definition	NCBITaxon:123673	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1239	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1245327	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1245328	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1245347	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1245360	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1245386	IAO:0000115	
+WARN	missing_definition	NCBITaxon:124916	IAO:0000115	
 WARN	missing_definition	NCBITaxon:124917	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12637	IAO:0000115	
+WARN	missing_definition	NCBITaxon:126679	IAO:0000115	
+WARN	missing_definition	NCBITaxon:126683	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12730	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1279	IAO:0000115	
 WARN	missing_definition	NCBITaxon:127906	IAO:0000115	
@@ -939,6 +905,7 @@ WARN	missing_definition	NCBITaxon:1289171	IAO:0000115
 WARN	missing_definition	NCBITaxon:1291063	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12967	IAO:0000115	
 WARN	missing_definition	NCBITaxon:12968	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1300248	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1301	IAO:0000115	
 WARN	missing_definition	NCBITaxon:130309	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1313	IAO:0000115	
@@ -958,6 +925,7 @@ WARN	missing_definition	NCBITaxon:135621	IAO:0000115
 WARN	missing_definition	NCBITaxon:136	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1379452	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1379453	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1385	IAO:0000115	
 WARN	missing_definition	NCBITaxon:138531	IAO:0000115	
 WARN	missing_definition	NCBITaxon:138534	IAO:0000115	
 WARN	missing_definition	NCBITaxon:138536	IAO:0000115	
@@ -977,10 +945,13 @@ WARN	missing_definition	NCBITaxon:140438	IAO:0000115
 WARN	missing_definition	NCBITaxon:140439	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1411916	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1424507	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1424567	IAO:0000115	
 WARN	missing_definition	NCBITaxon:142786	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1428	IAO:0000115	
 WARN	missing_definition	NCBITaxon:142886	IAO:0000115	
 WARN	missing_definition	NCBITaxon:142887	IAO:0000115	
 WARN	missing_definition	NCBITaxon:142888	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1430	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1437010	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1481111	IAO:0000115	
 WARN	missing_definition	NCBITaxon:149459	IAO:0000115	
@@ -1006,6 +977,7 @@ WARN	missing_definition	NCBITaxon:1549675	IAO:0000115
 WARN	missing_definition	NCBITaxon:1551375	IAO:0000115	
 WARN	missing_definition	NCBITaxon:157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1578836	IAO:0000115	
+WARN	missing_definition	NCBITaxon:1581554	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1582038	IAO:0000115	
 WARN	missing_definition	NCBITaxon:159154	IAO:0000115	
 WARN	missing_definition	NCBITaxon:160229	IAO:0000115	
@@ -1023,6 +995,7 @@ WARN	missing_definition	NCBITaxon:1674146	IAO:0000115
 WARN	missing_definition	NCBITaxon:1678250	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1701320	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1716	IAO:0000115	
+WARN	missing_definition	NCBITaxon:173086	IAO:0000115	
 WARN	missing_definition	NCBITaxon:174620	IAO:0000115	
 WARN	missing_definition	NCBITaxon:174621	IAO:0000115	
 WARN	missing_definition	NCBITaxon:174825	IAO:0000115	
@@ -1065,6 +1038,7 @@ WARN	missing_definition	NCBITaxon:181550	IAO:0000115
 WARN	missing_definition	NCBITaxon:1817	IAO:0000115	
 WARN	missing_definition	NCBITaxon:183407	IAO:0000115	
 WARN	missing_definition	NCBITaxon:184770	IAO:0000115	
+WARN	missing_definition	NCBITaxon:185573	IAO:0000115	
 WARN	missing_definition	NCBITaxon:185578	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186751	IAO:0000115	
 WARN	missing_definition	NCBITaxon:186802	IAO:0000115	
@@ -1081,6 +1055,7 @@ WARN	missing_definition	NCBITaxon:190378	IAO:0000115
 WARN	missing_definition	NCBITaxon:190385	IAO:0000115	
 WARN	missing_definition	NCBITaxon:190765	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1931080	IAO:0000115	
+WARN	missing_definition	NCBITaxon:193510	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1935182	IAO:0000115	
 WARN	missing_definition	NCBITaxon:194	IAO:0000115	
 WARN	missing_definition	NCBITaxon:195	IAO:0000115	
@@ -1095,6 +1070,7 @@ WARN	missing_definition	NCBITaxon:199889	IAO:0000115
 WARN	missing_definition	NCBITaxon:199890	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2021401	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2035320	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2038102	IAO:0000115	
 WARN	missing_definition	NCBITaxon:206113	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2066577	IAO:0000115	
@@ -1104,6 +1080,8 @@ WARN	missing_definition	NCBITaxon:2067443	IAO:0000115
 WARN	missing_definition	NCBITaxon:2067447	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2067448	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2067460	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2068716	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2068722	IAO:0000115	
 WARN	missing_definition	NCBITaxon:207245	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2081834	IAO:0000115	
 WARN	missing_definition	NCBITaxon:209	IAO:0000115	
@@ -1115,6 +1093,7 @@ WARN	missing_definition	NCBITaxon:213849	IAO:0000115
 WARN	missing_definition	NCBITaxon:215680	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2157	IAO:0000115	
 WARN	missing_definition	NCBITaxon:216372	IAO:0000115	
+WARN	missing_definition	NCBITaxon:216373	IAO:0000115	
 WARN	missing_definition	NCBITaxon:221566	IAO:0000115	
 WARN	missing_definition	NCBITaxon:222	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2259328	IAO:0000115	
@@ -1125,10 +1104,13 @@ WARN	missing_definition	NCBITaxon:228919	IAO:0000115
 WARN	missing_definition	NCBITaxon:228920	IAO:0000115	
 WARN	missing_definition	NCBITaxon:228921	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2320533	IAO:0000115	
+WARN	missing_definition	NCBITaxon:232374	IAO:0000115	
 WARN	missing_definition	NCBITaxon:232555	IAO:0000115	
 WARN	missing_definition	NCBITaxon:233155	IAO:0000115	
 WARN	missing_definition	NCBITaxon:237895	IAO:0000115	
 WARN	missing_definition	NCBITaxon:24	IAO:0000115	
+WARN	missing_definition	NCBITaxon:243888	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2488823	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2497569	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2497571	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2501931	IAO:0000115	
@@ -1163,16 +1145,19 @@ WARN	missing_definition	NCBITaxon:269190	IAO:0000115
 WARN	missing_definition	NCBITaxon:2697049	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2698737	IAO:0000115	
 WARN	missing_definition	NCBITaxon:270338	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2709557	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2732396	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2732406	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2732408	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2732506	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2732514	IAO:0000115	
 WARN	missing_definition	NCBITaxon:273454	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2745526	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2751882	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2751883	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2759	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2761511	IAO:0000115	
+WARN	missing_definition	NCBITaxon:2773399	IAO:0000115	
 WARN	missing_definition	NCBITaxon:277944	IAO:0000115	
 WARN	missing_definition	NCBITaxon:2785382	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28090	IAO:0000115	
@@ -1184,6 +1169,8 @@ WARN	missing_definition	NCBITaxon:284565	IAO:0000115
 WARN	missing_definition	NCBITaxon:284566	IAO:0000115	
 WARN	missing_definition	NCBITaxon:286	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28624	IAO:0000115	
+WARN	missing_definition	NCBITaxon:28680	IAO:0000115	
+WARN	missing_definition	NCBITaxon:28694	IAO:0000115	
 WARN	missing_definition	NCBITaxon:287	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28875	IAO:0000115	
 WARN	missing_definition	NCBITaxon:28901	IAO:0000115	
@@ -1211,6 +1198,7 @@ WARN	missing_definition	NCBITaxon:301835	IAO:0000115
 WARN	missing_definition	NCBITaxon:303	IAO:0000115	
 WARN	missing_definition	NCBITaxon:30390	IAO:0000115	
 WARN	missing_definition	NCBITaxon:30458	IAO:0000115	
+WARN	missing_definition	NCBITaxon:30459	IAO:0000115	
 WARN	missing_definition	NCBITaxon:308708	IAO:0000115	
 WARN	missing_definition	NCBITaxon:308709	IAO:0000115	
 WARN	missing_definition	NCBITaxon:308710	IAO:0000115	
@@ -1245,6 +1233,8 @@ WARN	missing_definition	NCBITaxon:317803	IAO:0000115
 WARN	missing_definition	NCBITaxon:317805	IAO:0000115	
 WARN	missing_definition	NCBITaxon:317807	IAO:0000115	
 WARN	missing_definition	NCBITaxon:317808	IAO:0000115	
+WARN	missing_definition	NCBITaxon:317811	IAO:0000115	
+WARN	missing_definition	NCBITaxon:317812	IAO:0000115	
 WARN	missing_definition	NCBITaxon:319534	IAO:0000115	
 WARN	missing_definition	NCBITaxon:320069	IAO:0000115	
 WARN	missing_definition	NCBITaxon:32008	IAO:0000115	
@@ -1265,6 +1255,7 @@ WARN	missing_definition	NCBITaxon:325439	IAO:0000115
 WARN	missing_definition	NCBITaxon:325441	IAO:0000115	
 WARN	missing_definition	NCBITaxon:325443	IAO:0000115	
 WARN	missing_definition	NCBITaxon:32561	IAO:0000115	
+WARN	missing_definition	NCBITaxon:328018	IAO:0000115	
 WARN	missing_definition	NCBITaxon:329099	IAO:0000115	
 WARN	missing_definition	NCBITaxon:329100	IAO:0000115	
 WARN	missing_definition	NCBITaxon:329101	IAO:0000115	
@@ -1294,6 +1285,7 @@ WARN	missing_definition	NCBITaxon:337687	IAO:0000115
 WARN	missing_definition	NCBITaxon:337963	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33972	IAO:0000115	
 WARN	missing_definition	NCBITaxon:33988	IAO:0000115	
+WARN	missing_definition	NCBITaxon:345577	IAO:0000115	
 WARN	missing_definition	NCBITaxon:345579	IAO:0000115	
 WARN	missing_definition	NCBITaxon:345580	IAO:0000115	
 WARN	missing_definition	NCBITaxon:345740	IAO:0000115	
@@ -1330,6 +1322,7 @@ WARN	missing_definition	NCBITaxon:36470	IAO:0000115
 WARN	missing_definition	NCBITaxon:36809	IAO:0000115	
 WARN	missing_definition	NCBITaxon:37020	IAO:0000115	
 WARN	missing_definition	NCBITaxon:37124	IAO:0000115	
+WARN	missing_definition	NCBITaxon:371907	IAO:0000115	
 WARN	missing_definition	NCBITaxon:373153	IAO:0000115	
 WARN	missing_definition	NCBITaxon:374923	IAO:0000115	
 WARN	missing_definition	NCBITaxon:375138	IAO:0000115	
@@ -1398,8 +1391,10 @@ WARN	missing_definition	NCBITaxon:42897	IAO:0000115
 WARN	missing_definition	NCBITaxon:43150	IAO:0000115	
 WARN	missing_definition	NCBITaxon:43151	IAO:0000115	
 WARN	missing_definition	NCBITaxon:43180	IAO:0000115	
+WARN	missing_definition	NCBITaxon:43181	IAO:0000115	
 WARN	missing_definition	NCBITaxon:435321	IAO:0000115	
 WARN	missing_definition	NCBITaxon:43786	IAO:0000115	
+WARN	missing_definition	NCBITaxon:43816	IAO:0000115	
 WARN	missing_definition	NCBITaxon:43817	IAO:0000115	
 WARN	missing_definition	NCBITaxon:44314	IAO:0000115	
 WARN	missing_definition	NCBITaxon:44417	IAO:0000115	
@@ -1453,6 +1448,7 @@ WARN	missing_definition	NCBITaxon:481	IAO:0000115
 WARN	missing_definition	NCBITaxon:481899	IAO:0000115	
 WARN	missing_definition	NCBITaxon:482	IAO:0000115	
 WARN	missing_definition	NCBITaxon:482538	IAO:0000115	
+WARN	missing_definition	NCBITaxon:48397	IAO:0000115	
 WARN	missing_definition	NCBITaxon:48418	IAO:0000115	
 WARN	missing_definition	NCBITaxon:487	IAO:0000115	
 WARN	missing_definition	NCBITaxon:487103	IAO:0000115	
@@ -1496,6 +1492,7 @@ WARN	missing_definition	NCBITaxon:53540	IAO:0000115
 WARN	missing_definition	NCBITaxon:53541	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53542	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53543	IAO:0000115	
+WARN	missing_definition	NCBITaxon:53544	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53545	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53549	IAO:0000115	
 WARN	missing_definition	NCBITaxon:53550	IAO:0000115	
@@ -1513,9 +1510,11 @@ WARN	missing_definition	NCBITaxon:5476	IAO:0000115
 WARN	missing_definition	NCBITaxon:548	IAO:0000115	
 WARN	missing_definition	NCBITaxon:550	IAO:0000115	
 WARN	missing_definition	NCBITaxon:55418	IAO:0000115	
+WARN	missing_definition	NCBITaxon:56069	IAO:0000115	
 WARN	missing_definition	NCBITaxon:561	IAO:0000115	
 WARN	missing_definition	NCBITaxon:561267	IAO:0000115	
 WARN	missing_definition	NCBITaxon:562	IAO:0000115	
+WARN	missing_definition	NCBITaxon:56282	IAO:0000115	
 WARN	missing_definition	NCBITaxon:562834	IAO:0000115	
 WARN	missing_definition	NCBITaxon:566029	IAO:0000115	
 WARN	missing_definition	NCBITaxon:56625	IAO:0000115	
@@ -1621,6 +1620,8 @@ WARN	missing_definition	NCBITaxon:6274	IAO:0000115
 WARN	missing_definition	NCBITaxon:629	IAO:0000115	
 WARN	missing_definition	NCBITaxon:630	IAO:0000115	
 WARN	missing_definition	NCBITaxon:63366	IAO:0000115	
+WARN	missing_definition	NCBITaxon:63367	IAO:0000115	
+WARN	missing_definition	NCBITaxon:63368	IAO:0000115	
 WARN	missing_definition	NCBITaxon:63408	IAO:0000115	
 WARN	missing_definition	NCBITaxon:642	IAO:0000115	
 WARN	missing_definition	NCBITaxon:64320	IAO:0000115	
@@ -1646,6 +1647,7 @@ WARN	missing_definition	NCBITaxon:671232	IAO:0000115
 WARN	missing_definition	NCBITaxon:686	IAO:0000115	
 WARN	missing_definition	NCBITaxon:686388	IAO:0000115	
 WARN	missing_definition	NCBITaxon:69004	IAO:0000115	
+WARN	missing_definition	NCBITaxon:690715	IAO:0000115	
 WARN	missing_definition	NCBITaxon:6939	IAO:0000115	
 WARN	missing_definition	NCBITaxon:693996	IAO:0000115	
 WARN	missing_definition	NCBITaxon:694002	IAO:0000115	
@@ -1659,6 +1661,7 @@ WARN	missing_definition	NCBITaxon:702	IAO:0000115
 WARN	missing_definition	NCBITaxon:703	IAO:0000115	
 WARN	missing_definition	NCBITaxon:70327	IAO:0000115	
 WARN	missing_definition	NCBITaxon:704160	IAO:0000115	
+WARN	missing_definition	NCBITaxon:707281	IAO:0000115	
 WARN	missing_definition	NCBITaxon:71031	IAO:0000115	
 WARN	missing_definition	NCBITaxon:712	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7148	IAO:0000115	
@@ -1689,6 +1692,7 @@ WARN	missing_definition	NCBITaxon:7182	IAO:0000115
 WARN	missing_definition	NCBITaxon:7183	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7190	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7198	IAO:0000115	
+WARN	missing_definition	NCBITaxon:7199	IAO:0000115	
 WARN	missing_definition	NCBITaxon:7200	IAO:0000115	
 WARN	missing_definition	NCBITaxon:72132	IAO:0000115	
 WARN	missing_definition	NCBITaxon:724	IAO:0000115	
@@ -1702,11 +1706,14 @@ WARN	missing_definition	NCBITaxon:732	IAO:0000115
 WARN	missing_definition	NCBITaxon:735	IAO:0000115	
 WARN	missing_definition	NCBITaxon:743691	IAO:0000115	
 WARN	missing_definition	NCBITaxon:743692	IAO:0000115	
+WARN	missing_definition	NCBITaxon:743693	IAO:0000115	
 WARN	missing_definition	NCBITaxon:743694	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74868	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74869	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74870	IAO:0000115	
 WARN	missing_definition	NCBITaxon:74873	IAO:0000115	
+WARN	missing_definition	NCBITaxon:753891	IAO:0000115	
+WARN	missing_definition	NCBITaxon:75832	IAO:0000115	
 WARN	missing_definition	NCBITaxon:766	IAO:0000115	
 WARN	missing_definition	NCBITaxon:767021	IAO:0000115	
 WARN	missing_definition	NCBITaxon:767022	IAO:0000115	
@@ -1742,6 +1749,7 @@ WARN	missing_definition	NCBITaxon:869070	IAO:0000115
 WARN	missing_definition	NCBITaxon:869071	IAO:0000115	
 WARN	missing_definition	NCBITaxon:869072	IAO:0000115	
 WARN	missing_definition	NCBITaxon:869073	IAO:0000115	
+WARN	missing_definition	NCBITaxon:869251	IAO:0000115	
 WARN	missing_definition	NCBITaxon:87177	IAO:0000115	
 WARN	missing_definition	NCBITaxon:871895	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8782	IAO:0000115	
@@ -1749,10 +1757,18 @@ WARN	missing_definition	NCBITaxon:87882	IAO:0000115
 WARN	missing_definition	NCBITaxon:87883	IAO:0000115	
 WARN	missing_definition	NCBITaxon:88112	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8825	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8830	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8852	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8853	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8867	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8869	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8899	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8900	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8901	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8906	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8910	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8911	IAO:0000115	
+WARN	missing_definition	NCBITaxon:8912	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8930	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8931	IAO:0000115	
 WARN	missing_definition	NCBITaxon:8932	IAO:0000115	
@@ -1773,6 +1789,7 @@ WARN	missing_definition	NCBITaxon:91347	IAO:0000115
 WARN	missing_definition	NCBITaxon:9146	IAO:0000115	
 WARN	missing_definition	NCBITaxon:91561	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9187	IAO:0000115	
+WARN	missing_definition	NCBITaxon:9205	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9223	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9263	IAO:0000115	
 WARN	missing_definition	NCBITaxon:9265	IAO:0000115	
@@ -1867,11 +1884,7 @@ WARN	missing_definition	UO:0000202	IAO:0000115
 WARN	missing_definition	UO:0000205	IAO:0000115	
 WARN	missing_definition	UO:0000307	IAO:0000115	
 WARN	missing_definition	VO:0000741	IAO:0000115	
-WARN	missing_definition	dc11:description	IAO:0000115	
-WARN	missing_definition	dc11:source	IAO:0000115	
-WARN	missing_definition	dc11:title	IAO:0000115	
 WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115	
-WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
 INFO	lowercase_definition	BFO:0000016	IAO:0000600	b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en
@@ -1904,19 +1917,19 @@ INFO	lowercase_definition	DRON:00000020	IAO:0000115	a portion of solution that i
 INFO	lowercase_definition	DRON:00000021	IAO:0000115	a portion of suspension that is the bearer of a clinical drug role@en
 INFO	lowercase_definition	DRON:00000022	IAO:0000115	a solid object typically of discoid, spheroid, or elliptic-cylindrical shape or approximations thereof, that bears a clinical drug role.@en
 INFO	lowercase_definition	DRON:00000026	IAO:0000115	an object that is the bearer of a drug role and is comprised of a solid shell of elliptical-cylindrical shape and another object contained in the shell that has a scattered molecular aggregate as a proper part@en
-INFO	lowercase_definition	EUPATH:0000025	IAO:0000115	number of rooms in a dwelling that are used for sleeping.
+INFO	lowercase_definition	EUPATH:0000025	IAO:0000115	number of rooms in a dwelling that are used for sleeping.@en
 INFO	lowercase_definition	EUPATH:0000045	IAO:0000115	a malaria characterized by serious organ failures or abnormalities including cerebral malaria, severe anemia, generalized convulsions, hypoglycemia, respiratory distress, fluid and electrolyte disturbances, acute renal failure, ARDS, circulatory collapse, abnormal bleeding, and jaundice.
 INFO	lowercase_definition	EUPATH:0000051	IAO:0000115	a human being who bears a participant under investigation role@en
-INFO	lowercase_definition	EUPATH:0000097	IAO:0000115	elevated temperature or subjective fever
+INFO	lowercase_definition	EUPATH:0000097	IAO:0000115	elevated temperature or subjective fever@en
 INFO	lowercase_definition	EUPATH:0000101	IAO:0000115	a febrile quality of an abnormally high temperature
 INFO	lowercase_definition	EUPATH:0000104	IAO:0000115	an organism that is the bearer of a partipant under investigation role@en
 INFO	lowercase_definition	EUPATH:0000112	IAO:0000115	definition shown on EuPathDB website
 INFO	lowercase_definition	EUPATH:0000254	IAO:0000115	drinking water that is obtained from a publicly accessible water well without a constructed barrier built around it to limit movement of waste or runoff into it
 INFO	lowercase_definition	EUPATH:0000255	IAO:0000115	drinking water that is obtained from a water well with a constructed barrier built around it to limit movement of waste or runoff into the well and the well is located in the yard of a dwelling
 INFO	lowercase_definition	EUPATH:0000256	IAO:0000115	drinking water accessed through a plumbing fixture located inside a human dwelling@en
-INFO	lowercase_definition	EUPATH:0000257	IAO:0000115	drinking water obtained through a plumbing fixture located in the yard of a human dwelling
+INFO	lowercase_definition	EUPATH:0000257	IAO:0000115	drinking water obtained through a plumbing fixture located in the yard of a human dwelling@en
 INFO	lowercase_definition	EUPATH:0000261	IAO:0000115	drinking water that is obtained from a freshwater spring without a constructed barrier built around it that would limit movement of waste or runoff into it
-INFO	lowercase_definition	EUPATH:0000276	IAO:0000115	half life datum (t 1/2) for cleaning parasite
+INFO	lowercase_definition	EUPATH:0000276	IAO:0000115	half life datum (t 1/2) for cleaning parasite@en
 INFO	lowercase_definition	EUPATH:0000277	IAO:0000115	a rate measurement datum that represents the number of parasite organisms removed from the bearer of a host role by means of the biological processes of the bearer of the host role@en
 INFO	lowercase_definition	EUPATH:0000278	IAO:0000115	a time measurement datum that is the result of measuring the time it takes for the biological processes of the bearer of a host role to remove parasite organisms within it, until such time as the organisms cannot be detected@en
 INFO	lowercase_definition	EUPATH:0000290	IAO:0000115	a time measurement datum that represents the beginning of the first process in which a parasitemia is realized@en
@@ -1970,12 +1983,12 @@ INFO	lowercase_definition	EUPATH:0000411	IAO:0000115	an information content enti
 INFO	lowercase_definition	EUPATH:0000412	IAO:0000115	an information content entity that is about a human participant under investigation and specifies whether the participant has a disease@en
 INFO	lowercase_definition	EUPATH:0000413	IAO:0000115	a categorical value specification that is about a health care provider role that is realized in a treatment to alleviate symptoms of a fever. It either specifies whether this role is borne by a hospital or clinic, private practice, or the patient, or it specifies that this information is missing.@en
 INFO	lowercase_definition	EUPATH:0000417	IAO:0000115	an information content entity that specifies whether a human being is manifesting a disease@en
-INFO	lowercase_definition	EUPATH:0000418	IAO:0000115	"\""An information content entity is about who are indoor residents, such as only human, or human and animals.\"""
+INFO	lowercase_definition	EUPATH:0000418	IAO:0000115	"\""An information content entity is about who are indoor residents, such as only human, or human and animals.\""@en"
 INFO	lowercase_definition	EUPATH:0000419	IAO:0000115	a measurement datum that approximates the temporal interval between applications of larvicide at the same site@en
 INFO	lowercase_definition	EUPATH:0000420	IAO:0000115	an information content entity that specifies any locations in which a diagnostic process has occurred in the past twelve months that resulted in a diagnosis of malaria
 INFO	lowercase_definition	EUPATH:0000421	IAO:0000115	a count of the number of instances of a parasite in a life cycle stage in which reproduction is asexual
 INFO	lowercase_definition	EUPATH:0000425	IAO:0000115	an information content entity that is part of a diagnosis of malaria, resulting from a diagnostic process that occurred within the past year, and specifies the species of the infectious agent causing the malaria@en
-INFO	lowercase_definition	EUPATH:0000440	IAO:0000115	"\""An information content entity about a person's resident status, permanent or temporary.\"""
+INFO	lowercase_definition	EUPATH:0000440	IAO:0000115	"\""An information content entity about a person's resident status, permanent or temporary.\""@en"
 INFO	lowercase_definition	EUPATH:0000455	IAO:0000115	a data item that is about a sequencing assay and is the ratio of the count of mapped reads to the total count of reads
 INFO	lowercase_definition	EUPATH:0000530	IAO:0000115	a site in which a global positioning system receiver produces a data item specifying the location of the site@en
 INFO	lowercase_definition	EUPATH:0000543	IAO:0000115	a research organization that is located in an area where malaria is endemic and is one of many centers established by the National institute of Allergy and Infectious Diseases with the following aims: to design and conduct multidisciplinary research on the epidemiology, transmission, and pathogenesis of malaria in its specific region, to design and conduct special projects to capitalize on new opportunities and emerging public health needs, and to build clinical research capacity and improve malaria control and prevention@en
@@ -1988,13 +2001,13 @@ INFO	lowercase_definition	EUPATH:0000552	IAO:0000115	parasite density by PCR tha
 INFO	lowercase_definition	EUPATH:0000575	IAO:0000115	a data item that is about some virulence and is the count of infectious agents that kill half of a collection of human beings infected with the agents@en
 INFO	lowercase_definition	EUPATH:0000576	IAO:0000115	a data item that is about some virulence and is the proportion of the number of human beings with a disease (caused by the bearer of the virulence) that die of the disease@en
 INFO	lowercase_definition	EUPATH:0000581	IAO:0000115	a health care encounter in which a health care provider assists a mother in the birth of a child@en
-INFO	lowercase_definition	EUPATH:0000584	IAO:0000115	main source of nutrition for a child
-INFO	lowercase_definition	EUPATH:0000585	IAO:0000115	main source of nutrition for a child for each month
+INFO	lowercase_definition	EUPATH:0000584	IAO:0000115	main source of nutrition for a child@en
+INFO	lowercase_definition	EUPATH:0000585	IAO:0000115	main source of nutrition for a child for each month@en
 INFO	lowercase_definition	EUPATH:0000588	IAO:0000115	household information that specifies whether the household relocated during its time under investigation@en
 INFO	lowercase_definition	EUPATH:0000589	IAO:0000115	an information content entity that is about the bearer of a host role@en
 INFO	lowercase_definition	EUPATH:0000590	IAO:0000115	the diet of an animal that is the bearer of a host role@en
 INFO	lowercase_definition	EUPATH:0000592	IAO:0000115	a categorical value specification that is about a collection of bee larvae and specifies whether tetracycline was administered to the larvae@en
-INFO	lowercase_definition	EUPATH:0000593	IAO:0000115	mass measurement datum is about a host that measured at specimen collection process
+INFO	lowercase_definition	EUPATH:0000593	IAO:0000115	mass measurement datum is about a host that measured at specimen collection process@en
 INFO	lowercase_definition	EUPATH:0000595	IAO:0000115	a count that is about a dwelling and is also the result of counting the instances of a child that occupies the dwelling@en
 INFO	lowercase_definition	EUPATH:0000597	IAO:0000115	a ratio that is about a dwelling, is expressed as a percent, has a count of adult occupants of the dwelling as the numerator, and has a count of all occupants of the dwelling as the denominator@en
 INFO	lowercase_definition	EUPATH:0000598	IAO:0000115	a ratio that is about a dwelling, is expressed as a percent, has a count of male occupants of the dwelling as the numerator, and has a count of all occupants of the dwelling as the denominator@en
@@ -2037,137 +2050,137 @@ INFO	lowercase_definition	EUPATH:0000637	IAO:0000115	a skin symptom or sign info
 INFO	lowercase_definition	EUPATH:0000639	IAO:0000115	a population that is the bearer of a study group role@en
 INFO	lowercase_definition	EUPATH:0000640	IAO:0000115	a symbol that denotes a cage that has the function to keep an animal that is the bearer of a participant under investigation role@en
 INFO	lowercase_definition	EUPATH:0000641	IAO:0000115	a symbol that denotes a cage that has the function to keep a mouse that is the bearer of a participant under investigation role
-INFO	lowercase_definition	EUPATH:0004991	IAO:0000115	a time measurement datum specifying the date of a clinical visit scheduled for sixty days after a treatment
-INFO	lowercase_definition	EUPATH:0010016	IAO:0000115	an information content entity that is about a realization of diarrhea
-INFO	lowercase_definition	EUPATH:0010032	IAO:0000115	environmental system associated with the dwelling used by humans.
-INFO	lowercase_definition	EUPATH:0010035	IAO:0000115	study participant information that specifies details of the study design execution in which the human participant under investigation is participating
-INFO	lowercase_definition	EUPATH:0010037	IAO:0000115	an information content entity that is about a human being in the community of a human participant under investigation and identifies the relationship between them both
-INFO	lowercase_definition	EUPATH:0010040	IAO:0000115	an information content entity that specifies an antibiotic that is administered to a human participant under investigation, which precedes stool collection from the participant
-INFO	lowercase_definition	EUPATH:0010078	IAO:0000115	an average value that is the specified output of a data transformation that has as input only length measurement data about height
-INFO	lowercase_definition	EUPATH:0010084	IAO:0000115	a length measurement datum that is the result of the first in a series of assays measuring the length around the same upper arm, such that the measurement is taken midway along the upper arm
-INFO	lowercase_definition	EUPATH:0010085	IAO:0000115	a length measurement datum that is the result of the second in a series of assays measuring the length around the same upper arm, such that the measurement is taken midway along the upper arm
-INFO	lowercase_definition	EUPATH:0010096	IAO:0000115	a rate measurement datum that is about a human participant under investigation and is the specified output of the first of a series of countings of instances of the participant's respiration
-INFO	lowercase_definition	EUPATH:0010097	IAO:0000115	a rate measurement datum that is about a human participant under investigation and is the specified output of the second of a series of countings of instances of the participant's respiration
-INFO	lowercase_definition	EUPATH:0010098	IAO:0000115	an average value that is the specified output of a data transformation that has two or more respiratory rates of the same human participant under investigation as specified input
-INFO	lowercase_definition	EUPATH:0010217	IAO:0000115	a quality of water composition, shape, or structure that inheres in fecal material
-INFO	lowercase_definition	EUPATH:0010319	IAO:0000115	a time measurement datum of the date at which a dehydration treatment is administered
-INFO	lowercase_definition	EUPATH:0010320	IAO:0000115	a time measurement datum of the time of day at which a dehydration treatment is administered
-INFO	lowercase_definition	EUPATH:0010379	IAO:0000115	an information content entity that specifies how the money was raised to cover the cost of a health care encounter
-INFO	lowercase_definition	EUPATH:0010494	IAO:0000115	a categorical measurement datum that is about a maximum fever temperature in Celsius and specifies whether its value is at least 37.5
-INFO	lowercase_definition	EUPATH:0010579	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Adenovirus
-INFO	lowercase_definition	EUPATH:0010580	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Astrovirus
-INFO	lowercase_definition	EUPATH:0010581	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Rotavirus
-INFO	lowercase_definition	EUPATH:0010583	IAO:0000115	a categorical value specification that specifies whether a modified acid fast staining method was performed
-INFO	lowercase_definition	EUPATH:0010588	IAO:0000115	a categorical value specifiction that specifies whether a reverse transcription polymerase chain reaction assay was performed with the objective of determining whether a specimen contains Norovirus
-INFO	lowercase_definition	EUPATH:0010590	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Cryptosporidium
-INFO	lowercase_definition	EUPATH:0010591	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Entamoeba histolytica
-INFO	lowercase_definition	EUPATH:0010592	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Giardia
+INFO	lowercase_definition	EUPATH:0004991	IAO:0000115	a time measurement datum specifying the date of a clinical visit scheduled for sixty days after a treatment@en
+INFO	lowercase_definition	EUPATH:0010016	IAO:0000115	an information content entity that is about a realization of diarrhea@en
+INFO	lowercase_definition	EUPATH:0010032	IAO:0000115	environmental system associated with the dwelling used by humans.@en
+INFO	lowercase_definition	EUPATH:0010035	IAO:0000115	study participant information that specifies details of the study design execution in which the human participant under investigation is participating@en
+INFO	lowercase_definition	EUPATH:0010037	IAO:0000115	an information content entity that is about a human being in the community of a human participant under investigation and identifies the relationship between them both@en
+INFO	lowercase_definition	EUPATH:0010040	IAO:0000115	an information content entity that specifies an antibiotic that is administered to a human participant under investigation, which precedes stool collection from the participant@en
+INFO	lowercase_definition	EUPATH:0010078	IAO:0000115	an average value that is the specified output of a data transformation that has as input only length measurement data about height@en
+INFO	lowercase_definition	EUPATH:0010084	IAO:0000115	a length measurement datum that is the result of the first in a series of assays measuring the length around the same upper arm, such that the measurement is taken midway along the upper arm@en
+INFO	lowercase_definition	EUPATH:0010085	IAO:0000115	a length measurement datum that is the result of the second in a series of assays measuring the length around the same upper arm, such that the measurement is taken midway along the upper arm@en
+INFO	lowercase_definition	EUPATH:0010096	IAO:0000115	a rate measurement datum that is about a human participant under investigation and is the specified output of the first of a series of countings of instances of the participant's respiration@en
+INFO	lowercase_definition	EUPATH:0010097	IAO:0000115	a rate measurement datum that is about a human participant under investigation and is the specified output of the second of a series of countings of instances of the participant's respiration@en
+INFO	lowercase_definition	EUPATH:0010098	IAO:0000115	an average value that is the specified output of a data transformation that has two or more respiratory rates of the same human participant under investigation as specified input@en
+INFO	lowercase_definition	EUPATH:0010217	IAO:0000115	a quality of water composition, shape, or structure that inheres in fecal material@en
+INFO	lowercase_definition	EUPATH:0010319	IAO:0000115	a time measurement datum of the date at which a dehydration treatment is administered@en
+INFO	lowercase_definition	EUPATH:0010320	IAO:0000115	a time measurement datum of the time of day at which a dehydration treatment is administered@en
+INFO	lowercase_definition	EUPATH:0010379	IAO:0000115	an information content entity that specifies how the money was raised to cover the cost of a health care encounter@en
+INFO	lowercase_definition	EUPATH:0010494	IAO:0000115	a categorical measurement datum that is about a maximum fever temperature in Celsius and specifies whether its value is at least 37.5@en
+INFO	lowercase_definition	EUPATH:0010579	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Adenovirus@en
+INFO	lowercase_definition	EUPATH:0010580	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Astrovirus@en
+INFO	lowercase_definition	EUPATH:0010581	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Rotavirus@en
+INFO	lowercase_definition	EUPATH:0010583	IAO:0000115	a categorical value specification that specifies whether a modified acid fast staining method was performed@en
+INFO	lowercase_definition	EUPATH:0010588	IAO:0000115	a categorical value specifiction that specifies whether a reverse transcription polymerase chain reaction assay was performed with the objective of determining whether a specimen contains Norovirus@en
+INFO	lowercase_definition	EUPATH:0010590	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Cryptosporidium@en
+INFO	lowercase_definition	EUPATH:0010591	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Entamoeba histolytica@en
+INFO	lowercase_definition	EUPATH:0010592	IAO:0000115	a categorical value specification that specifies whether an enzyme linked immunosorbent assay was performed with the objective of determining whether a specimen contains Giardia@en
 INFO	lowercase_definition	EUPATH:0010787	IAO:0000115	a categorical measurement datum that specifies whether Entamoeba histolytica was detected by an enzyme-linked immunosorbent assay
-INFO	lowercase_definition	EUPATH:0015046	IAO:0000115	drinking water that is derived from rainwater
-INFO	lowercase_definition	EUPATH:0015107	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on food to cover healthcare costs
-INFO	lowercase_definition	EUPATH:0015108	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on goods or services other than food to cover healthcare costs
-INFO	lowercase_definition	EUPATH:0015109	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was derived from savings
-INFO	lowercase_definition	EUPATH:0015110	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was borrowed
-INFO	lowercase_definition	EUPATH:0015111	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs derived from money obtained through the sale of assets
-INFO	lowercase_definition	EUPATH:0015112	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was donated but not by any member of the patient's household
-INFO	lowercase_definition	EUPATH:0015113	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was donated by a friend or relative of the patient
+INFO	lowercase_definition	EUPATH:0015046	IAO:0000115	drinking water that is derived from rainwater@en
+INFO	lowercase_definition	EUPATH:0015107	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on food to cover healthcare costs@en
+INFO	lowercase_definition	EUPATH:0015108	IAO:0000115	information on raising money for health care encounter that specifies that less money was spent on goods or services other than food to cover healthcare costs@en
+INFO	lowercase_definition	EUPATH:0015109	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was derived from savings@en
+INFO	lowercase_definition	EUPATH:0015110	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was borrowed@en
+INFO	lowercase_definition	EUPATH:0015111	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs derived from money obtained through the sale of assets@en
+INFO	lowercase_definition	EUPATH:0015112	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was donated but not by any member of the patient's household@en
+INFO	lowercase_definition	EUPATH:0015113	IAO:0000115	information on raising money for health care encounter that specifies that the money to cover healthcare costs was donated by a friend or relative of the patient@en
 INFO	lowercase_definition	EUPATH:0015423	IAO:0000115	a categorical measurement datum that specifies whether Escherichia coli was detected by differential medium assay
-INFO	lowercase_definition	EUPATH:0021014	IAO:0000115	a domesticated animal that is raised in an agricultural setting to produce labor and commodities
-INFO	lowercase_definition	EUPATH:0021016	IAO:0000115	a categorical value specification that specifies that a bed net is not used
-INFO	lowercase_definition	EUPATH:0021017	IAO:0000115	a categorical value specification that specifies that a bed net is used, but it is not treated with insecticide
-INFO	lowercase_definition	EUPATH:0021018	IAO:0000115	a categorical value specification that specifies that a bed net is used, but it was last treated earlier than six months ago
-INFO	lowercase_definition	EUPATH:0021019	IAO:0000115	a categorical value specification that specifies that a bed net is used, and it was last treated more recently than six months previous
-INFO	lowercase_definition	EUPATH:0021020	IAO:0000115	a categorical value specification that specifies that a bed net is used, and it was treated with long last insecticide
-INFO	lowercase_definition	EUPATH:0021023	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was provided at a clinic within the past two weeks
-INFO	lowercase_definition	EUPATH:0021024	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was provided by a self-employed health care provider within the past two weeks
-INFO	lowercase_definition	EUPATH:0021025	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was self-provided within the past two weeks
-INFO	lowercase_definition	EUPATH:0021026	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant had a fever within the past two weeks but did not receive treatment for the fever
-INFO	lowercase_definition	EUPATH:0021027	IAO:0000115	a data item that is the specified output of a microscopy assay that has a sample of blood as specified input and indicates that the sample does not contain Plasmodium
-INFO	lowercase_definition	EUPATH:0021031	IAO:0000115	a categorical value specification that specifies whether a microscopy assay was performed
-INFO	lowercase_definition	EUPATH:0021032	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium falciparum
-INFO	lowercase_definition	EUPATH:0021033	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium vivax
-INFO	lowercase_definition	EUPATH:0021034	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium malariae
-INFO	lowercase_definition	EUPATH:0021035	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium, but does not remember the species of Plasmodium
-INFO	lowercase_definition	EUPATH:0021036	IAO:0000115	information on antimalarial drug used last year that specifies artesunate as the drug administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021038	IAO:0000115	an information content entity that is about a human participant under investigation who, within one year previous, was administered an antimalarial drug to alleviate symptoms of malaria. This information content entity specifies that the participant does not remember which drug was administered.
-INFO	lowercase_definition	EUPATH:0021039	IAO:0000115	information on antimalarial drug used last year that specifies a combination of aretesunate, pyrimethamine, and sulphadox as the drugs administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021040	IAO:0000115	information on antimalarial drug used last year that specifies chloroquine or primaquine as the drugs administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021041	IAO:0000115	information on antimalarial drug used last year that specifies pyrimethamine or sulphadoxine as the drugs administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021042	IAO:0000115	information on antimalarial drug used last year that specifies quinine or quinidine as the drugs administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021043	IAO:0000115	information on antimalarial drug used last year that specifies tetracycline or doxycycline as the drugs administered as the most recent treatment
-INFO	lowercase_definition	EUPATH:0021044	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment for malaria in a clinic, within the past year
-INFO	lowercase_definition	EUPATH:0021045	IAO:0000115	a categorical value specification that specifies whether the bearer of an organization health care role, which administered a treatment to alleviate an episode of malaria, was a private practice
-INFO	lowercase_definition	EUPATH:0021047	IAO:0000115	an information content entity that is about a human participant under investigation who, within one year previous, was administered an antimalarial drug to alleviate symptoms of malaria. This information content entity specifies that the participant does not remember the geographic location where this treatment was provided.
-INFO	lowercase_definition	EUPATH:0021048	IAO:0000115	a presence of parasite that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that no Plasmodium was detected
-INFO	lowercase_definition	EUPATH:0021049	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium falciparum was detected
-INFO	lowercase_definition	EUPATH:0021050	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium vivax was detected
-INFO	lowercase_definition	EUPATH:0021051	IAO:0000115	a presence of Plasmodium malariae that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium malariae was detected
-INFO	lowercase_definition	EUPATH:0021052	IAO:0000115	a presence of Plasmodium ovale that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium ovale was detected
-INFO	lowercase_definition	EUPATH:0021053	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium falciparum was detected
-INFO	lowercase_definition	EUPATH:0021054	IAO:0000115	a presence of Plasmodium vivax that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium vivax was detected
-INFO	lowercase_definition	EUPATH:0021055	IAO:0000115	a presence of parasite that is the specified output of a falcivax rapid diagnostic test and indicates that no Plasmodium was detected
-INFO	lowercase_definition	EUPATH:0021056	IAO:0000115	a categorical value specification that specifies whether a falcivax rapid diagnostic test was performed
-INFO	lowercase_definition	EUPATH:0021057	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a optimal-IT rapid diagnostic test and specifies that Plasmodium falciparum was detected
-INFO	lowercase_definition	EUPATH:0021058	IAO:0000115	a presence of parasite that is the specified output of a optimal-IT rapid diagnostic test and specifies that an antigen common to multiple Plasmodium species was detected
-INFO	lowercase_definition	EUPATH:0021059	IAO:0000115	a presence of parasite that is the specified output of an optimal-IT rapid diagnostic test and specifies that no Plasmodium was detected
-INFO	lowercase_definition	EUPATH:0021060	IAO:0000115	a categorical value specification that specifies whether an optimal-IT rapid diagnostic test was performed
-INFO	lowercase_definition	EUPATH:0021066	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant does not remember using a personal mosquito repellent
-INFO	lowercase_definition	EUPATH:0021073	IAO:0000115	an information content entity that specifies that a human participant under investigation does not remember whether insecticide was applied in the previous 12 months
-INFO	lowercase_definition	EUPATH:0021074	IAO:0000115	healthcare information that specifies that the organization that typically provides the healthcare is funded by a government rather than funded independently
-INFO	lowercase_definition	EUPATH:0021075	IAO:0000115	healthcare information that specifies that the organization that typically provides the healthcare is funded independently of any government
-INFO	lowercase_definition	EUPATH:0021076	IAO:0000115	water accessed through a plumbing fixture located inside a human dwelling
-INFO	lowercase_definition	EUPATH:0021079	IAO:0000115	water derived from water that is part of either a stream or a river
-INFO	lowercase_definition	EUPATH:0021085	IAO:0000115	a time measurement datum of the day that encompasses a process that has as specified output a data item about a household
-INFO	lowercase_definition	EUPATH:0021088	IAO:0000115	a categorical value specification that specifies whether there exists some quality of a patient, material entity that is part of a patient, or processual entity that a patient participates in, that is both observed in a physical examination and deemed by the clinician to be of clinical significance
-INFO	lowercase_definition	EUPATH:0021089	IAO:0000115	a categorical value specification that specifies whether there exists some quality of a patient that is observed by the patient or some processual entity experienced by the patient that is hypothesized by the patient to be a realization of a disease
-INFO	lowercase_definition	EUPATH:0021090	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was febrile in the previous 48 hours
-INFO	lowercase_definition	EUPATH:0021091	IAO:0000115	a categorical value specification that specifies whether medication to treat malaria was administered in the past two weeks to a human participant under investigation
-INFO	lowercase_definition	EUPATH:0021096	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was febrile in the previous two weeks
+INFO	lowercase_definition	EUPATH:0021014	IAO:0000115	a domesticated animal that is raised in an agricultural setting to produce labor and commodities@en
+INFO	lowercase_definition	EUPATH:0021016	IAO:0000115	a categorical value specification that specifies that a bed net is not used@en
+INFO	lowercase_definition	EUPATH:0021017	IAO:0000115	a categorical value specification that specifies that a bed net is used, but it is not treated with insecticide@en
+INFO	lowercase_definition	EUPATH:0021018	IAO:0000115	a categorical value specification that specifies that a bed net is used, but it was last treated earlier than six months ago@en
+INFO	lowercase_definition	EUPATH:0021019	IAO:0000115	a categorical value specification that specifies that a bed net is used, and it was last treated more recently than six months previous@en
+INFO	lowercase_definition	EUPATH:0021020	IAO:0000115	a categorical value specification that specifies that a bed net is used, and it was treated with long last insecticide@en
+INFO	lowercase_definition	EUPATH:0021023	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was provided at a clinic within the past two weeks@en
+INFO	lowercase_definition	EUPATH:0021024	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was provided by a self-employed health care provider within the past two weeks@en
+INFO	lowercase_definition	EUPATH:0021025	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment, for a fever, that was self-provided within the past two weeks@en
+INFO	lowercase_definition	EUPATH:0021026	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant had a fever within the past two weeks but did not receive treatment for the fever@en
+INFO	lowercase_definition	EUPATH:0021027	IAO:0000115	a data item that is the specified output of a microscopy assay that has a sample of blood as specified input and indicates that the sample does not contain Plasmodium@en
+INFO	lowercase_definition	EUPATH:0021031	IAO:0000115	a categorical value specification that specifies whether a microscopy assay was performed@en
+INFO	lowercase_definition	EUPATH:0021032	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium falciparum@en
+INFO	lowercase_definition	EUPATH:0021033	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium vivax@en
+INFO	lowercase_definition	EUPATH:0021034	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium malariae@en
+INFO	lowercase_definition	EUPATH:0021035	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant remembers being diagnosed, within the past year, with a disease by Plasmodium, but does not remember the species of Plasmodium@en
+INFO	lowercase_definition	EUPATH:0021036	IAO:0000115	information on antimalarial drug used last year that specifies artesunate as the drug administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021038	IAO:0000115	an information content entity that is about a human participant under investigation who, within one year previous, was administered an antimalarial drug to alleviate symptoms of malaria. This information content entity specifies that the participant does not remember which drug was administered.@en
+INFO	lowercase_definition	EUPATH:0021039	IAO:0000115	information on antimalarial drug used last year that specifies a combination of aretesunate, pyrimethamine, and sulphadox as the drugs administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021040	IAO:0000115	information on antimalarial drug used last year that specifies chloroquine or primaquine as the drugs administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021041	IAO:0000115	information on antimalarial drug used last year that specifies pyrimethamine or sulphadoxine as the drugs administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021042	IAO:0000115	information on antimalarial drug used last year that specifies quinine or quinidine as the drugs administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021043	IAO:0000115	information on antimalarial drug used last year that specifies tetracycline or doxycycline as the drugs administered as the most recent treatment@en
+INFO	lowercase_definition	EUPATH:0021044	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant received treatment for malaria in a clinic, within the past year@en
+INFO	lowercase_definition	EUPATH:0021045	IAO:0000115	a categorical value specification that specifies whether the bearer of an organization health care role, which administered a treatment to alleviate an episode of malaria, was a private practice@en
+INFO	lowercase_definition	EUPATH:0021047	IAO:0000115	an information content entity that is about a human participant under investigation who, within one year previous, was administered an antimalarial drug to alleviate symptoms of malaria. This information content entity specifies that the participant does not remember the geographic location where this treatment was provided.@en
+INFO	lowercase_definition	EUPATH:0021048	IAO:0000115	a presence of parasite that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that no Plasmodium was detected@en
+INFO	lowercase_definition	EUPATH:0021049	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium falciparum was detected@en
+INFO	lowercase_definition	EUPATH:0021050	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium vivax was detected@en
+INFO	lowercase_definition	EUPATH:0021051	IAO:0000115	a presence of Plasmodium malariae that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium malariae was detected@en
+INFO	lowercase_definition	EUPATH:0021052	IAO:0000115	a presence of Plasmodium ovale that is the specified output of a parasite detection by PCR assay, has a blood specimen as specified input, and specifies that Plasmodium ovale was detected@en
+INFO	lowercase_definition	EUPATH:0021053	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium falciparum was detected@en
+INFO	lowercase_definition	EUPATH:0021054	IAO:0000115	a presence of Plasmodium vivax that is the specified output of a falcivax rapid diagnostic test and specifies that Plasmodium vivax was detected@en
+INFO	lowercase_definition	EUPATH:0021055	IAO:0000115	a presence of parasite that is the specified output of a falcivax rapid diagnostic test and indicates that no Plasmodium was detected@en
+INFO	lowercase_definition	EUPATH:0021056	IAO:0000115	a categorical value specification that specifies whether a falcivax rapid diagnostic test was performed@en
+INFO	lowercase_definition	EUPATH:0021057	IAO:0000115	a presence of Plasmodium falciparum that is the specified output of a optimal-IT rapid diagnostic test and specifies that Plasmodium falciparum was detected@en
+INFO	lowercase_definition	EUPATH:0021058	IAO:0000115	a presence of parasite that is the specified output of a optimal-IT rapid diagnostic test and specifies that an antigen common to multiple Plasmodium species was detected@en
+INFO	lowercase_definition	EUPATH:0021059	IAO:0000115	a presence of parasite that is the specified output of an optimal-IT rapid diagnostic test and specifies that no Plasmodium was detected@en
+INFO	lowercase_definition	EUPATH:0021060	IAO:0000115	a categorical value specification that specifies whether an optimal-IT rapid diagnostic test was performed@en
+INFO	lowercase_definition	EUPATH:0021066	IAO:0000115	an information content entity that is about a human participant under investigation and specifies that the participant does not remember using a personal mosquito repellent@en
+INFO	lowercase_definition	EUPATH:0021073	IAO:0000115	an information content entity that specifies that a human participant under investigation does not remember whether insecticide was applied in the previous 12 months@en
+INFO	lowercase_definition	EUPATH:0021074	IAO:0000115	healthcare information that specifies that the organization that typically provides the healthcare is funded by a government rather than funded independently@en
+INFO	lowercase_definition	EUPATH:0021075	IAO:0000115	healthcare information that specifies that the organization that typically provides the healthcare is funded independently of any government@en
+INFO	lowercase_definition	EUPATH:0021076	IAO:0000115	water accessed through a plumbing fixture located inside a human dwelling@en
+INFO	lowercase_definition	EUPATH:0021079	IAO:0000115	water derived from water that is part of either a stream or a river@en
+INFO	lowercase_definition	EUPATH:0021085	IAO:0000115	a time measurement datum of the day that encompasses a process that has as specified output a data item about a household@en
+INFO	lowercase_definition	EUPATH:0021088	IAO:0000115	a categorical value specification that specifies whether there exists some quality of a patient, material entity that is part of a patient, or processual entity that a patient participates in, that is both observed in a physical examination and deemed by the clinician to be of clinical significance@en
+INFO	lowercase_definition	EUPATH:0021089	IAO:0000115	a categorical value specification that specifies whether there exists some quality of a patient that is observed by the patient or some processual entity experienced by the patient that is hypothesized by the patient to be a realization of a disease@en
+INFO	lowercase_definition	EUPATH:0021090	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was febrile in the previous 48 hours@en
+INFO	lowercase_definition	EUPATH:0021091	IAO:0000115	a categorical value specification that specifies whether medication to treat malaria was administered in the past two weeks to a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0021096	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was febrile in the previous two weeks@en
 INFO	lowercase_definition	EUPATH:0021098	IAO:0000115	a clinical history that is about a human participant under investigation and contains only statements about health-relevant qualities that come into existence after the enrollment of the participant in the study
-INFO	lowercase_definition	EUPATH:0022001	IAO:0000115	a geographic location that is either a city or an area containing settlements where the inhabitants share a common trait
-INFO	lowercase_definition	EUPATH:0022002	IAO:0000115	a wall material used to build an exterior wall
-INFO	lowercase_definition	EUPATH:0022003	IAO:0000115	a wall material used to build a wall between rooms
-INFO	lowercase_definition	EUPATH:0022004	IAO:0000115	a count of the number of beds in the dwelling of a household that have a bed net hung over them
-INFO	lowercase_definition	EUPATH:0022030	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's most recent malaria episode
-INFO	lowercase_definition	EUPATH:0022031	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's second most recent malaria episode
-INFO	lowercase_definition	EUPATH:0022032	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's third most recent malaria episode
-INFO	lowercase_definition	EUPATH:0022033	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's fourth most recent malaria episode
-INFO	lowercase_definition	EUPATH:0022034	IAO:0000115	a time measurement datum of the duration of the most recent journey of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022035	IAO:0000115	a time measurement datum of the duration of the second most recent journey of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022036	IAO:0000115	a time measurement datum of the duration of the third most recent journey of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022037	IAO:0000115	a time measurement datum of the duration of the fourth most recent journey of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022038	IAO:0000115	an information content entity that specifies which rivers were visited during the most recent journey of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022040	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has most recently traveled
-INFO	lowercase_definition	EUPATH:0022042	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the second most recently
-INFO	lowercase_definition	EUPATH:0022044	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the third most recently
-INFO	lowercase_definition	EUPATH:0022046	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the fourth most recently
-INFO	lowercase_definition	EUPATH:0022048	IAO:0000115	a time measurement datum of the time since the beginning of the most significant occupation of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022049	IAO:0000115	a time measurement datum of the time since the beginning of the second most significant occupation of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0022053	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was on the property of the participant's household at the time of a scheduled clinical visit
-INFO	lowercase_definition	EUPATH:0022055	IAO:0000115	human travel informaton that is about a human participant under investigation and specifies both method and geographic location of the most recent journey taken by the participant
-INFO	lowercase_definition	EUPATH:0022056	IAO:0000115	human travel information that is about a human participant under investigation and specifies both method and geographic location of the second most recent journey taken by the participant
-INFO	lowercase_definition	EUPATH:0022057	IAO:0000115	a categorical value specification that specifies whether the collection of a specimen from a human participant under investigation was prompted by a sign that the participant was febrile
-INFO	lowercase_definition	EUPATH:0022058	IAO:0000115	an information content entity that is about a human participant under investigation from which the collection of a specimen was not prompted by a sign that the partipant was febrile. This information content entity specifies that which prompted the specimen collection
-INFO	lowercase_definition	EUPATH:0022064	IAO:0000115	a time measurement datum of the last time insecticide was applied to the bednets used by a household
-INFO	lowercase_definition	EUPATH:0023001	IAO:0000115	an information content entity that is about the relocation of the household of a human participant under investigation
-INFO	lowercase_definition	EUPATH:0023002	IAO:0000115	a time measurement datum of the time point at which a human subject enrollment is complete
-INFO	lowercase_definition	EUPATH:0023012	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a second time while in hospital
-INFO	lowercase_definition	EUPATH:0023013	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was discharged from hospital
-INFO	lowercase_definition	EUPATH:0023024	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a third time while in hospital
-INFO	lowercase_definition	EUPATH:0023026	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous twelve months
-INFO	lowercase_definition	EUPATH:0023027	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous month
-INFO	lowercase_definition	EUPATH:0023031	IAO:0000115	a falcivax rapid diagnostic test that occurs in a hospital facility
-INFO	lowercase_definition	EUPATH:0023040	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation is receiving treatment to alleviate symptoms of malaria
-INFO	lowercase_definition	EUPATH:0023043	IAO:0000115	human traveling information that specifies which subnational regions a human participant under investigation had visited within one month previous
-INFO	lowercase_definition	EUPATH:0023045	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fourth time while in hospital
-INFO	lowercase_definition	EUPATH:0023046	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fifth time while in hospital
-INFO	lowercase_definition	EUPATH:0023047	IAO:0000115	human traveling information that specifies which subnational regions a human participant under investigation had visited within twelve months previous
-INFO	lowercase_definition	EUPATH:0023050	IAO:0000115	a time measurement datum of the date during which a treatment starts
-INFO	lowercase_definition	EUPATH:0023051	IAO:0000115	a time measurement datum of the time point at which a treatment starts
-INFO	lowercase_definition	EUPATH:0023052	IAO:0000115	a time measurement datum specifying the time (of day) of a clinical visit scheduled for sixty days after a treatment
-INFO	lowercase_definition	EUPATH:0023055	IAO:0000115	a categorical value specification that is about a human participant under investigation and specifies whether the participant had traveled within twelve months previous
-INFO	lowercase_definition	EUPATH:0023056	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation self-identifies as a member of a tribe
-INFO	lowercase_definition	EUPATH:0023057	IAO:0000115	a categorical value specification that specifies whether the life-death temporal boundary of a human participant under investigation occurred during a health care encounter in a hospital facility
+INFO	lowercase_definition	EUPATH:0022001	IAO:0000115	a geographic location that is either a city or an area containing settlements where the inhabitants share a common trait@en
+INFO	lowercase_definition	EUPATH:0022002	IAO:0000115	a wall material used to build an exterior wall@en
+INFO	lowercase_definition	EUPATH:0022003	IAO:0000115	a wall material used to build a wall between rooms@en
+INFO	lowercase_definition	EUPATH:0022004	IAO:0000115	a count of the number of beds in the dwelling of a household that have a bed net hung over them@en
+INFO	lowercase_definition	EUPATH:0022030	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's most recent malaria episode@en
+INFO	lowercase_definition	EUPATH:0022031	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's second most recent malaria episode@en
+INFO	lowercase_definition	EUPATH:0022032	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's third most recent malaria episode@en
+INFO	lowercase_definition	EUPATH:0022033	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation had traveled within the two weeks previous to the time of the participant's fourth most recent malaria episode@en
+INFO	lowercase_definition	EUPATH:0022034	IAO:0000115	a time measurement datum of the duration of the most recent journey of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022035	IAO:0000115	a time measurement datum of the duration of the second most recent journey of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022036	IAO:0000115	a time measurement datum of the duration of the third most recent journey of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022037	IAO:0000115	a time measurement datum of the duration of the fourth most recent journey of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022038	IAO:0000115	an information content entity that specifies which rivers were visited during the most recent journey of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022040	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has most recently traveled@en
+INFO	lowercase_definition	EUPATH:0022042	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the second most recently@en
+INFO	lowercase_definition	EUPATH:0022044	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the third most recently@en
+INFO	lowercase_definition	EUPATH:0022046	IAO:0000115	human traveling information that specifies the community to which a human participant under investigation has traveled the fourth most recently@en
+INFO	lowercase_definition	EUPATH:0022048	IAO:0000115	a time measurement datum of the time since the beginning of the most significant occupation of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022049	IAO:0000115	a time measurement datum of the time since the beginning of the second most significant occupation of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0022053	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was on the property of the participant's household at the time of a scheduled clinical visit@en
+INFO	lowercase_definition	EUPATH:0022055	IAO:0000115	human travel informaton that is about a human participant under investigation and specifies both method and geographic location of the most recent journey taken by the participant@en
+INFO	lowercase_definition	EUPATH:0022056	IAO:0000115	human travel information that is about a human participant under investigation and specifies both method and geographic location of the second most recent journey taken by the participant@en
+INFO	lowercase_definition	EUPATH:0022057	IAO:0000115	a categorical value specification that specifies whether the collection of a specimen from a human participant under investigation was prompted by a sign that the participant was febrile@en
+INFO	lowercase_definition	EUPATH:0022058	IAO:0000115	an information content entity that is about a human participant under investigation from which the collection of a specimen was not prompted by a sign that the partipant was febrile. This information content entity specifies that which prompted the specimen collection@en
+INFO	lowercase_definition	EUPATH:0022064	IAO:0000115	a time measurement datum of the last time insecticide was applied to the bednets used by a household@en
+INFO	lowercase_definition	EUPATH:0023001	IAO:0000115	an information content entity that is about the relocation of the household of a human participant under investigation@en
+INFO	lowercase_definition	EUPATH:0023002	IAO:0000115	a time measurement datum of the time point at which a human subject enrollment is complete@en
+INFO	lowercase_definition	EUPATH:0023012	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a second time while in hospital@en
+INFO	lowercase_definition	EUPATH:0023013	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was discharged from hospital@en
+INFO	lowercase_definition	EUPATH:0023024	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a third time while in hospital@en
+INFO	lowercase_definition	EUPATH:0023026	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous twelve months@en
+INFO	lowercase_definition	EUPATH:0023027	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation moved to a different dwelling in the previous month@en
+INFO	lowercase_definition	EUPATH:0023031	IAO:0000115	a falcivax rapid diagnostic test that occurs in a hospital facility@en
+INFO	lowercase_definition	EUPATH:0023040	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation is receiving treatment to alleviate symptoms of malaria@en
+INFO	lowercase_definition	EUPATH:0023043	IAO:0000115	human traveling information that specifies which subnational regions a human participant under investigation had visited within one month previous@en
+INFO	lowercase_definition	EUPATH:0023045	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fourth time while in hospital@en
+INFO	lowercase_definition	EUPATH:0023046	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation was administered malaria medication a fifth time while in hospital@en
+INFO	lowercase_definition	EUPATH:0023047	IAO:0000115	human traveling information that specifies which subnational regions a human participant under investigation had visited within twelve months previous@en
+INFO	lowercase_definition	EUPATH:0023050	IAO:0000115	a time measurement datum of the date during which a treatment starts@en
+INFO	lowercase_definition	EUPATH:0023051	IAO:0000115	a time measurement datum of the time point at which a treatment starts@en
+INFO	lowercase_definition	EUPATH:0023052	IAO:0000115	a time measurement datum specifying the time (of day) of a clinical visit scheduled for sixty days after a treatment@en
+INFO	lowercase_definition	EUPATH:0023055	IAO:0000115	a categorical value specification that is about a human participant under investigation and specifies whether the participant had traveled within twelve months previous@en
+INFO	lowercase_definition	EUPATH:0023056	IAO:0000115	a categorical value specification that specifies whether a human participant under investigation self-identifies as a member of a tribe@en
+INFO	lowercase_definition	EUPATH:0023057	IAO:0000115	a categorical value specification that specifies whether the life-death temporal boundary of a human participant under investigation occurred during a health care encounter in a hospital facility@en
 INFO	lowercase_definition	IAO:0000221	IAO:0000115	m is a quality measurement of q at t. When q is a quality, there is a measurement process p that has specified output m, a measurement datum, that is about q@en
 INFO	lowercase_definition	IAO:0000235	IAO:0000115	inverse of the relation 'denotes'@en
 INFO	lowercase_definition	IAO:0000413	IAO:0000115	relates a process to a time-measurement-datum that represents the duration of the process@en
@@ -2268,7 +2281,9 @@ INFO	lowercase_definition	RO:0001015	IAO:0000115	a relation between two independ
 INFO	lowercase_definition	RO:0001025	IAO:0000115	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en
 INFO	lowercase_definition	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y
 INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
 INFO	lowercase_definition	RO:0002223	IAO:0000115	inverse of starts with
+INFO	lowercase_definition	RO:0002229	IAO:0000115	inverse of ends with
 INFO	lowercase_definition	RO:0002249	IAO:0000115	inverse of has active ingredient
 INFO	lowercase_definition	RO:0002314	IAO:0000115	q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w.
 INFO	lowercase_definition	RO:0002351	IAO:0000115	has member is a mereological relation between a collection and an item.
