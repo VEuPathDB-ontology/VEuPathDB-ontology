@@ -617,6 +617,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a beta-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).</obo:IAO_0000115>
+        <obo:IAO_0000118>4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol</obo:IAO_0000118>
+        <obo:IAO_0000118>Albuterol</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label>albuterol</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_25540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25540">
@@ -1342,6 +1355,19 @@
         <obo:IAO_0000118>hemoglobin</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label>hemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>Any of naturally occurring compounds and synthetic analogues, based on the cyclopenta[a]phenanthrene carbon skeleton, partially or completely hydrogenated; there are usually methyl groups at C-10 and C-13, and often an alkyl group at C-17. By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred. Natural steroids are derived biogenetically from squalene which is a triterpene.</obo:IAO_0000115>
+        <obo:IAO_0000118>Steroid</obo:IAO_0000118>
+        <obo:IAO_0000118>steroids</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label>steroid</rdfs:label>
     </owl:Class>
     
 
@@ -2248,10 +2274,22 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_8746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8746">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2549"/>
         <obo:IAO_0000118>4-[(1R)-2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <rdfs:label>(R)-salbutamol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A member of the class of  furans used to treat  peptic ulcer disease (PUD) and gastroesophageal reflux disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>(E)-N-{2-[({5-[(dimethylamino)methyl]-2-furyl}methyl)sulfanyl]ethyl}-N&apos;-methyl-2-nitroethene-1,1-diamine</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label>ranitidine</rdfs:label>
     </owl:Class>
     
 
