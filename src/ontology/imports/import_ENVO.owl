@@ -146,6 +146,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000029"/>
         <obo:IAO_0000115>Artificial watercourse with no flow or a controlled flow used for navigation, drainage or irrigation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class refers to the water contained in a canal channel, and not the channel itself.</rdfs:comment>
         <rdfs:label>canal</rdfs:label>
     </owl:Class>
     
@@ -179,6 +180,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000023"/>
         <obo:IAO_0000115>A stream which, through permanent or seasonal flow processes, moves from elevated land towards lower elevations through a definite channel and empties either into a sea, lake, or another river or ends on land as bed seepage and evapotranspiration exceed water supply.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>&quot;There are no official definitions for the generic term river as applied to geographic features, although in some countries or communities a stream is defined by its size. Many names for small rivers are specific to geographic location; examples are &quot;run&quot; in some parts of the United States, &quot;burn&quot; in Scotland and northeast England, and &quot;beck&quot; in northern England. Sometimes a river is defined as being larger than a creek, but not always: the language is vague.&quot;</rdfs:comment>
         <rdfs:label>river</rdfs:label>
     </owl:Class>
     
@@ -212,6 +214,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115 xml:lang="en">A surface landform which provides an egress for groundwater or steam to flow out of the ground.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment xml:lang="en">Springs are typically where an aquifer surface meets the ground surface or where there is a fissure.</rdfs:comment>
         <rdfs:label>spring</rdfs:label>
     </owl:Class>
     
@@ -289,6 +292,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115>An accumulation of water of varying size.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>https://en.wikipedia.org/wiki/ The term body of water most often refers to large accumulations of water, such as oceans, seas, and lakes, but it includes smaller pools of water such as ponds, wetlands, or more rarely, puddles. A body of water does not have to be still or contained; Rivers, streams, canals, and other geographical features where water moves from one place to another are also considered bodies of water.</rdfs:comment>
         <rdfs:label>water body</rdfs:label>
     </owl:Class>
     
@@ -466,6 +470,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
         <obo:IAO_0000115>A two-dimensional continuant fiat boundary which is located between a landmass and a water body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment xml:lang="en">1) this term is usually used for larger water bodies like lakes and oceans, 2) that the actual spatial extent of a shoreline, and the sharpness of its boundaries, is often arbitrarily or operationally defined, and 3) this term is for the physical shoreline, not the one- or two-dimensional representation of shorelines.</rdfs:comment>
         <rdfs:label>shoreline</rdfs:label>
     </owl:Class>
     
@@ -500,6 +505,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115>A rock is a naturally occurring solid aggregate of one or more minerals or mineraloids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>From https://en.wikipedia.org/wiki/ [A mineral] is different from a rock, which can be an aggregate of minerals or non-minerals and does not have a specific chemical composition. The exact definition of a mineral is under debate, especially with respect to the requirement a valid species be abiogenic, and to a lesser extent with regards to it having an ordered atomic structure.</rdfs:comment>
         <rdfs:label>rock</rdfs:label>
     </owl:Class>
     
@@ -511,6 +517,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 xml:lang="en">An environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, interstitial gases, liquids, and a broad range of resident micro- and macroorganisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>&apos;In engineering terms, soil is referred to as regolith, or loose rock material that lies above the &apos;solid geology&apos;. Soil is commonly referred to as &quot;earth&quot; or &quot;dirt&quot;; technically, the term &quot;dirt&quot; should be restricted to displaced soil.&apos; https://en.wikipedia.org/wiki/Soil
+
+&quot; The upper limit of soil is the boundary between soil and air, shallow water, live plants, or plant materials that have not begun to decompose. Areas are not considered to have soil if the surface is permanently covered by water too deep (typically more than 2.5 meters) for the growth of rooted plants.
+
+The lower boundary that separates soil from the nonsoil underneath is most difficult to define. Soil consists of horizons near the Earth&apos;s surface that, in contrast to the underlying parent material, have been altered by the interactions of climate, relief, and living organisms over time. Commonly, soil grades at its lower boundary to hard rock or to earthy materials virtually devoid of animals, roots, or other marks of biological activity. For purposes of classification, the lower boundary of soil is arbitrarily set at 200 cm.&quot;  Soil taxonomy, 2nd Ed., quoted in http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054280</rdfs:comment>
         <rdfs:label>soil</rdfs:label>
     </owl:Class>
     
@@ -522,6 +533,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000617"/>
         <obo:IAO_0000115>A significant accumulation of water which is part of a marine biome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Ideas like &quot;significant&quot; are fuzzy and need to be modelled more accurately. The definition is a candidate for review.</rdfs:comment>
         <rdfs:label>marine water body</rdfs:label>
     </owl:Class>
     
@@ -545,6 +557,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02000022"/>
         <obo:IAO_0000115>An excreta material which is composed primarily of feces, an excreta consisting of waste products expelled from an animal&apos;s digestive tract through the anus (or cloaca) during defecation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>ENVO bodily fluid classes differ from UBERON&apos;s treatment of bodily fluids. UBERON refers to the substance itself (&quot;S&quot;). We assert that UBERON&apos;s classes are the primary compositional component of the terms in ENVO (&quot;S material&quot;). Use of the ENVO terms is typically recommended when you wish to indicate that there may be other materials intermixed with S.</rdfs:comment>
+        <rdfs:comment>This is distinct from classes such as http://purl.obolibrary.org/obo/UBERON_0001988 in that it refers to the environmental material composed primarily of feces rather than &apos;just&apos; feces.</rdfs:comment>
         <rdfs:label>fecal material</rdfs:label>
     </owl:Class>
     
@@ -567,6 +581,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115>Sediment is an environmental substance comprised of any particulate matter that can be transported by fluid flow and which eventually is deposited as a layer of solid particles on the bedor bottom of a body of water or other liquid.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>It is recommended to use a combination of sediment terms to describe a more specific sediment type.</rdfs:comment>
         <rdfs:label>sediment</rdfs:label>
     </owl:Class>
     
@@ -578,6 +593,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 xml:lang="en">Particulate environmental material with diameters less than 500 micrometers.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment xml:lang="en">Dust occurs in and may be deposited from the atmosphere.</rdfs:comment>
         <rdfs:label>dust</rdfs:label>
     </owl:Class>
     
@@ -589,6 +605,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
         <obo:IAO_0000115>Water which contains a significant concentration of dissolved salts.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>The threshold salt concentration for classifying water as saline varies, but typically begins at about 1,000 to 3,000 parts salt per million parts water or 0.1–0.3% salt by weight.</rdfs:comment>
         <rdfs:label>saline water</rdfs:label>
     </owl:Class>
     
@@ -600,6 +617,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
         <obo:IAO_0000115>Water which has a low concentration of dissolved solutes, particularly that of sodium chloride.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>The lower bound of solute concentration required for water to be considered freshwater is variable, but is always less than that of seawater, and often cited as less than 1 gram of solutes per 1 litre of water.</rdfs:comment>
         <rdfs:label>fresh water</rdfs:label>
     </owl:Class>
     
@@ -836,6 +854,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
         <obo:IAO_0000115>A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Everything under this parent must be a mass noun. All subclasses are to be understood as being composed primarily of the named entity, rather than restricted to that entity. For example, &quot;ENVO:water&quot; is to be understood as &quot;environmental material composed primarly of some CHEBI:water&quot;. This class is currently being aligned to the Basic Formal Ontology. Following this alignment, its definition and the definitions of its subclasses will be revised.</rdfs:comment>
         <rdfs:label>environmental material</rdfs:label>
     </owl:Class>
     
@@ -847,6 +866,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000281"/>
         <obo:IAO_0000115>A layer of some material entity which is adjacent to one or more of its external boundaries and directly interacts with its immediate surroundings.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class is distinct from a geometric surface, which is two-dimensional. The idea of &quot;uppermost&quot; may be problematic. Further, the definition of layer (the superclass of surface in rev 133) references surface. This may be another issue. Perhaps this can be made into an inferred class using &apos;bounding layer of&apos; some material entity, note that &apos;bounding layer&apos; implies containment, which may not be valid here.</rdfs:comment>
         <rdfs:label>surface layer</rdfs:label>
     </owl:Class>
     
@@ -858,6 +878,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115>Airborne solid particles (also called dust or particulate matter (PM)) or liquid droplets.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Should connect to PATO as &quot;quality of an aerosol&quot;</rdfs:comment>
         <rdfs:label>aerosol</rdfs:label>
     </owl:Class>
     
@@ -879,6 +900,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_0010003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This is quite odd and it probably should be obsoleted. Any material that is a participant in an agricultural process can be seen as an agricultural material.</rdfs:comment>
         <rdfs:label>agricultural environmental material</rdfs:label>
     </owl:Class>
     
@@ -912,6 +934,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 xml:lang="en">Particulate environmental material which is composed primarily of particles of sand with only minor proportions of other substances.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment xml:lang="en">This definition is intentionally ambiguous to support the multiple thresholds set by different authorities. Some authorities consider as sands soil material that contains 85% or more sand; the percentage of silt plus 1.5 times the percentage of clay does not exceed 15. coarse sand (sable grossier) 25% or more very coarse and coarse sand, and less than 50% any other one grade of sand.</rdfs:comment>
         <rdfs:label>sand</rdfs:label>
     </owl:Class>
     
@@ -945,6 +968,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A layer is a quantity of some material which is spatially continuous, has comparable thickness, and usually covers some surface.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Preliminary definition.</rdfs:comment>
         <rdfs:label>layer</rdfs:label>
     </owl:Class>
     
@@ -956,6 +980,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115>A site which has its extent determined by the presence or influence of one or more components of an environmental system or the processes occurring therein.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Formerly, this class was an experimental class and a subclass of &quot;environmental feature&quot;. It is now aligned to BFO. The class was not obsoleted as the core semantics maintained their stability through its transition.</rdfs:comment>
         <rdfs:label>environmental zone</rdfs:label>
     </owl:Class>
     
@@ -967,6 +992,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000070"/>
         <obo:IAO_0000115>A building part is a construction which is part of a building.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Not recommended for annotation. This class is likely to be made into an inferred class as its subclasses are distributed among more meaningful superclasses (i.e. ceiling is_a surface layer). See for example, &quot;building floor&quot;. The boundaries between building parts may be bona fide or fiat.</rdfs:comment>
         <rdfs:label>building part</rdfs:label>
     </owl:Class>
     
@@ -989,6 +1015,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
         <obo:IAO_0000115>Concrete is a composite material composed of an aggregate bonded together with a fluid cement which hardens over time.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Missing the class for &quot;aggregate&quot; - tricky to define what it is, exactly. Again, seems more like some sort of material/disposition hybrid.</rdfs:comment>
         <rdfs:label>concrete</rdfs:label>
     </owl:Class>
     
@@ -1000,6 +1027,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010001"/>
         <obo:IAO_0000115>Masonry cement is a substance used in construction that has the disposition to set and harden and thus may be used to bind materials together.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>&quot;Cement&quot; refers more to a disposition than a specific material.</rdfs:comment>
         <rdfs:label>masonry cement</rdfs:label>
     </owl:Class>
     
@@ -1022,6 +1050,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000420"/>
         <obo:IAO_0000115>A roof is the covering on the uppermost part of a building which provides protection from animals and weather, notably rain, but also heat, wind and sunlight. A roof is also the framing or structure which supports the covering</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class is meant to represent roofs which are parts of buildings, rather than a roofs of cave and other natural formations.</rdfs:comment>
         <rdfs:label>building roof</rdfs:label>
     </owl:Class>
     
@@ -1033,6 +1062,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_0010003"/>
         <obo:IAO_0000115>Thatch is material composed of dry vegetation such as straw, water reed, sedge (Cladium mariscus), rushes, or heather.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Some sort of logical definition towards:
+composed_primarily_of some ((straw or &apos;water reed&apos; or rushes or sedge or heather) and has_quality dry)
+should be considered, where &quot;rushes&quot;, &quot;sedge&quot;, etc are represented as materials rather than some sort of taxon.</rdfs:comment>
         <rdfs:label>thatch</rdfs:label>
     </owl:Class>
     
@@ -1044,6 +1076,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
         <obo:IAO_0000115>A brick is a masonry unit which is composed of kneaded clay-bearing soil, expanded clay aggregate, sand and lime, or concrete material, fire-hardened or air-dried.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Generally used to refer to the masonry unit rather than a material.</rdfs:comment>
         <rdfs:label>brick</rdfs:label>
     </owl:Class>
     
@@ -1077,6 +1110,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
         <obo:IAO_0000115>A fixture which is used primarily for the collection and, in some cases, disposal of human urine and feces.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>&quot;disposal&quot; may not be the most precise way to describe fill-in latrines. Note that no assertion is made on whether these fixtures are in- or outdoors.</rdfs:comment>
         <rdfs:label>toilet fixture</rdfs:label>
     </owl:Class>
     
@@ -1088,6 +1122,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000516"/>
         <obo:IAO_0000115>A pit latrine is a latrine which is constructed by digging a hole in the ground.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class refers to human latrines. Note that some pit latrines can use pour-flush mechanisms. &quot;Infectious diarrhea resulted in about 0.7 million deaths in children under five years old in 2011 and 250 million lost school days.[4][5] Pit latrines are the lowest cost method of separating feces from people.[3]&quot; - https://en.wikipedia.org/wiki/Pit_latrine</rdfs:comment>
         <rdfs:label>pit latrine</rdfs:label>
     </owl:Class>
     
@@ -1309,6 +1344,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000587"/>
         <obo:IAO_0000115>A chair is a piece of furniture with a raised surface commonly used to seat a single person.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class, along with benches, stools, and the like, can be grouped under &quot;seating furniture&quot; or similar. However, this is probably better as an inferred class using some sort of BFO:function in the subclass annotation.</rdfs:comment>
         <rdfs:label xml:lang="en">chair</rdfs:label>
     </owl:Class>
     
@@ -1320,6 +1356,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00003074"/>
         <obo:IAO_0000115>A piece of furniture is a movable object intended to support various human activities such as seating (e.g., chairs, stools and sofas) and sleeping (e.g., beds).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>The assumption is that furniture is manufactured, which is arguable. Further, according to Black&apos;s Law Dictionary (http://thelawdictionary.org/furniture/) many classes can be subclasses of &apos;piece of furntiure&apos;: &quot;This term includes that which furnishes, or with which anything is furnished or supplied; whatever must be supplied to a house, a room, or the like, to make it habitable, convenient, or agreeable; goods, vessels, utensils, and other appendages necessary or convenient for housekeeping; whatever is added to the interior of a house or apartment, for use or convenience. Bell v. Holding, 27 Ind. 173.The term “furniture” embraces everything about the house that has been usually enjoyed there, including plate, linen, china, and pictures. 1 Endicott v. Endicott, 41N. J. Eq. 96, 3 Atl. 157.The word “furniture” made use of in the disposition of the law. or in the conventions or acts of persons, comprehends only such furniture as is intended for use and ornament of apartments, but not libraries which happen to be there, nor plate. Civ.Code La. art. 477.&quot; However, this would eventually be absurd and limit other groupings. Perhaps some sort of &apos;furnishing&apos; BFO:function would be a better way to handle this.</rdfs:comment>
         <rdfs:label xml:lang="en">piece of furniture</rdfs:label>
     </owl:Class>
     
@@ -1418,6 +1455,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000604"/>
         <obo:IAO_0000115>A motor vehicle is a vehicle which is propelled by an engine or motor and that does not operate on rails.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>Subclasses will be added by inference.</rdfs:comment>
         <rdfs:label xml:lang="en">motor vehicle</rdfs:label>
     </owl:Class>
     
@@ -1496,6 +1534,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>An environmental system which can sustain and allow the growth of an ecological population.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>A habitat&apos;s specificity to an ecological population differentiates it from other environment classes.</rdfs:comment>
         <rdfs:label xml:lang="en">habitat</rdfs:label>
     </owl:Class>
     
@@ -1541,6 +1580,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000420"/>
         <obo:IAO_0000115>A part of a building roof which overhangs the face of a wall and, normally, projects beyond the side of a building.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>The primary function of the eaves is to keep rain water off the walls and to prevent the ingress of water at the junction where the roof meets the wall. The secondary function is to control solar penetration; the eaves overhang can be designed to adjust the building&apos;s solar heat gain to suit the local climate, the latitude and orientation of the building, refer to passive solar building design. The eaves overhang may also shelter openings to ventilate the roof space.</rdfs:comment>
         <rdfs:label xml:lang="en">eaves</rdfs:label>
     </owl:Class>
     
@@ -1564,6 +1604,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115>A material which is composed primarily of one or more pure metals and which shows their properties.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>While this class allows for some degree of contamination by non-metal substances, the material represented should show at least some of the typical features of a pure metal: hardness (except for liquid metals), opacity, lustre, malleability, fusibility, ductile  and good electrical and thermal conductivity.</rdfs:comment>
         <rdfs:label xml:lang="en">metallic material</rdfs:label>
     </owl:Class>
     
@@ -1575,6 +1616,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000115>Environmental variability which inheres in an astronomical body part or in outer space.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>This class refers to all weather, including atmospheric and space weather. Please use a subclass for more specificity.</rdfs:comment>
         <rdfs:label xml:lang="en">weather</rdfs:label>
     </owl:Class>
     
@@ -1642,6 +1684,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010504"/>
         <obo:IAO_0000115>A surface layer where the solid or liquid material of an astronomical body comes into contact with an atmosphere or outer space.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>a useful class: this can be used to define sub-terrestrial and sub-marine entities</rdfs:comment>
         <rdfs:label xml:lang="en">surface of an astronomical body</rdfs:label>
     </owl:Class>
     
@@ -1666,6 +1709,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
         <obo:IAO_0000115>A bodily fluid material which is composed primarily of excreta, bodily fluids consisting of matter which contains the waste products of biological processes, including urine or feces, discharged from an organism&apos;s body.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment>ENVO bodily fluid classes differ from UBERON&apos;s treatment of bodily fluids. UBERON refers to the substance itself (&quot;S&quot;). We assert that UBERON&apos;s classes are the primary compositional component of the terms in ENVO (&quot;S material&quot;). Use of the ENVO terms is typically recommended when you wish to indicate that there may be other materials intermixed with S.</rdfs:comment>
         <rdfs:label>excreta material</rdfs:label>
     </owl:Class>
     
@@ -1677,6 +1721,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
         <obo:IAO_0000115 xml:lang="en">An environmental material consisting of organic matter from plants and/or animals that is used in agriculture as fertilizer.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <rdfs:comment xml:lang="en">Most manure consists of animal feces; other sources include compost and green manure.</rdfs:comment>
         <rdfs:label xml:lang="en">manure</rdfs:label>
     </owl:Class>
     
