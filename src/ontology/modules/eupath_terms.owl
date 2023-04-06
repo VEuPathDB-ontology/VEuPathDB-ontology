@@ -2704,8 +2704,13 @@ Blood smear not indicated</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000451 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000451">
-        <obo:IAO_0000115 xml:lang="en">An information content entity about healthcare that is private or public.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare information</rdfs:label>
+        <obo:IAO_0000112>public, private, or community funded health care</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Health care information that specifies the source of funding for a health care process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/441</obo:IAO_0000233>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">indicator of health care source</rdfs:label>
     </owl:Class>
     
 
@@ -4383,6 +4388,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000119>https://www.biorxiv.org/content/10.1101/2022.03.09.483664v1</obo:IAO_0000119>
         <dc:contributor>Ann Sizemore Blevins</dc:contributor>
         <rdfs:label xml:lang="en">eukaryote detection and abundance analysis using CORRAL software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000816">
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a health care process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/441</obo:IAO_0000233>
+        <dc:contributor>Jie Zheng</dc:contributor>
+        <rdfs:label xml:lang="en">health care information</rdfs:label>
     </owl:Class>
     
 
@@ -9959,6 +9977,33 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0024160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0024160">
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum of the duration since the last application of pesticide to a bed net.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/445</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">duration since bed net treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0024266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0024266">
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum of the duration a human being has owned a bed net.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/446</obo:IAO_0000233>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">time of bed net ownership</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0025044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0025044">
@@ -9992,6 +10037,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0025092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0025092">
+        <obo:IAO_0000115 xml:lang="en">The first mention of a medication that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/501</obo:IAO_0000233>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">first medication in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0025125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0025125">
@@ -10010,6 +10068,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">diagnosis of malaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0025175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0025175">
+        <obo:IAO_0000115 xml:lang="en">A data item that specifies which group a value for &apos;duration since bed net treatment&apos; belongs to when the data are grouped by range of values.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/446</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">categorical time of bed net ownership</rdfs:label>
     </owl:Class>
     
 
@@ -15490,6 +15562,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036074">
+        <obo:IAO_0000115 xml:lang="en">The site of a human subject enrollment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/520</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">location of human subject enrollment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0036228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036228">
@@ -16289,6 +16374,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">multiplex qRT-PCR threshold cycle for Poliovirus 3 in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036337">
+        <obo:IAO_0000115 xml:lang="en">A feces assay datum of the concentration of REG1B.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628379/</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/506</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">feces REG1B concentration</rdfs:label>
     </owl:Class>
     
 
@@ -18560,6 +18659,32 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048312">
+        <obo:IAO_0000115 xml:lang="en">Information on disposal of human excreta material that specifies whether a latrine was observed by an investigation agent as being used for storage.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/512</obo:IAO_0000233>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">indicator of latrine used for storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048313">
+        <obo:IAO_0000115 xml:lang="en">A household information that specifies whether the diversity of food consumed by the household meets the minimum standard set by the World Health Organization.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>https://inddex.nutrition.tufts.edu/data4diets/indicator/household-dietary-diversity-score-hdds</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/513</obo:IAO_0000233>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">indicator of whether household met WHO diet minimum dietary diversity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0049405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0049405">
@@ -18567,6 +18692,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>Person: John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ward of Tanzania</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0050504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0050504">
+        <obo:IAO_0000115 xml:lang="en">The first mention of an antibiotic that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/496</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">first antibiotic in treatment</rdfs:label>
     </owl:Class>
     
 
@@ -18721,7 +18860,232 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000116>The label and definition for this term have been changed from the previous release, mainly to correct a mistaken reference to serotype 7 rather than serotype 6.</obo:IAO_0000116>
         <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <dc:contributor>Sheena Tomko</dc:contributor>
         <rdfs:label xml:lang="en">TaqMan threshold cycle for Shigella flexneri in feces excluding serotype 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060120">
+        <obo:IAO_0000115 xml:lang="en">A body mass index (BMI) calculated from measurements of the biological mother of a child.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/491</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">maternal body mass index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060121">
+        <obo:IAO_0000115 xml:lang="en">A treatment information that specifies the date of the last administration of a steroid in the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/492</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">date of end of steroid treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060122">
+        <obo:IAO_0000115 xml:lang="en">Treatment information that specifies whether a caregiver of a participant under investigation reported administering zinc to the participant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/493</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">indicator of caregiver reporting zinc administered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060125">
+        <obo:IAO_0000115 xml:lang="en">The second mention of an antibiotic that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/496</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">second antibiotic in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060126">
+        <obo:IAO_0000115 xml:lang="en">A treatment information that specifies the date of the last administration of the antibiotic that is mentioned first as part of the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/497</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">date of end of first antibiotic treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060127">
+        <obo:IAO_0000115 xml:lang="en">A treatment information that specifies the date of the last administration of the antibiotic that is mentioned second as part of the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/498</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">date of end of second antibiotic treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060128">
+        <obo:IAO_0000115 xml:lang="en">A treatment information that specifies the date of the last administration of albuterol in the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/499</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">date of end of albuterol treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060129">
+        <obo:IAO_0000115 xml:lang="en">A treatment information that specifies the date of the last administration of ranitidine in the treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/500</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">date of end of ranitidine treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060130">
+        <obo:IAO_0000115 xml:lang="en">The second mention of a medication that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/501</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">second medication in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060131">
+        <obo:IAO_0000115 xml:lang="en">The third mention of a medication that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/502</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">third medication in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060132">
+        <obo:IAO_0000115 xml:lang="en">The fourth mention of a medication that is administered as part of a treatment.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/503</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">fourth medication in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060137">
+        <obo:IAO_0000115 xml:lang="en">An age measurement datum of the age at which developmental maturation of a human being is evaluated according to the Bayley scale of infant and toddler development.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/508</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">age of Bayley scale evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060139">
+        <obo:IAO_0000115 xml:lang="en">An information content entity that specifies food products, including water, fed to a neonate within approximately an hour after its birth.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/510</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">information on food fed to neonate at birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060143">
+        <obo:IAO_0000115 xml:lang="en">The threshold cycle that is the specified output of a fluorogenic PCR assay that has the objective of determining the number of Campylobacter in a feces specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/519</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">TaqMan threshold cycle for Shigella flexneri 6 in feces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060144">
+        <obo:IAO_0000115 xml:lang="en">A location of human subject enrollment in which the biological mother of a child becomes the bearer of a participant under investigation role that is secondary to that of her child.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/520</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">location of maternal human subject enrollment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060145">
+        <obo:IAO_0000115 xml:lang="en">A time measurement datum of the duration of a treatment consisting of oral administrations of medication with a nebulizer.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/521</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">duration of treatment with nebulizer</rdfs:label>
     </owl:Class>
     
 
@@ -18736,6 +19100,90 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
         <dc:contributor>Sheena Tomko</dc:contributor>
         <rdfs:label xml:lang="en">indicator of suckling behavior within hour after baby delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061761">
+        <obo:IAO_0000115 xml:lang="en">An information content entity that specifies whether bag valve mask ventilation was performed during a baby delivery.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.bioontology.org/ontology/SNOMEDCT/425447009</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/435</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">indicator of bag valve mask ventilation performed during baby delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061763">
+        <obo:IAO_0000115 xml:lang="en">Information that specifies the frequency at which a planned process, in which a birth attendant participates, is observed by an investigation agent.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/437</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">information on frequency of observed birth attendant activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061764">
+        <obo:IAO_0000115 xml:lang="en">Health care information that is about health care processes that occur during admission for baby delivery and involve the same patient.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/438</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">information on health care during admission for baby delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061765">
+        <obo:IAO_0000115 xml:lang="en">Health care information that is about health care processes that occur immediately before baby delivery and involve the same patient.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/439</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">information on health care immediately preceding baby delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061766">
+        <obo:IAO_0000115 xml:lang="en">Health care information that is about health care processes that occur during baby delivery and involve the same patient.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/440</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">information on health care during baby delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0061767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0061767">
+        <obo:IAO_0000115 xml:lang="en">Health care information that is about health care processes that occur in the hour after baby delivery and involve the same patient.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/441</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">plan specification for health care in hour after baby delivery</rdfs:label>
     </owl:Class>
     
 
