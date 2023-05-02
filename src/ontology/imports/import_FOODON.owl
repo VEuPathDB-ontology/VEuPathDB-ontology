@@ -28,6 +28,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
@@ -51,9 +57,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Foodon product type</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">food product</rdfs:label>
+    </owl:Class>
     
 
 

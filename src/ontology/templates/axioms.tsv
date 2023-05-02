@@ -1,7 +1,5 @@
 ontology ID	Type	parent property	parent class	logical type	axiom
 ID	TYPE	SP %	C %	CLASS_TYPE	C % SPLIT=|
-EUPATH:0000052	Annotation property	alternative label			
-http://www.ebi.ac.uk/efo/EFO_0004326	Class				'is about' some heart
 EUPATH:0000001	Class			equivalent	'material entity' and 'has role' some 'building material role'
 EUPATH:0000003	Class			equivalent	'building material' and 'has role' some 'roof material role'
 EUPATH:0000006	Class			equivalent	'building material' and 'has role' some 'floor material role'
@@ -21,6 +19,7 @@ EUPATH:0000035	Class		genotype information
 EUPATH:0000046	Class		symptom or sign information		
 EUPATH:0000048	Class		categorical measurement datum		(is_specified_output_of some 'clinical laboratory test')
 EUPATH:0000051	Class			equivalent	'Homo sapiens' and 'has role' some 'participant under investigation role'
+EUPATH:0000052	Annotation property	alternative label			
 EUPATH:0000054	Class		fourth-order administrative region		'part of' value Uganda
 EUPATH:0000058	Class		medication material		
 EUPATH:0000059	Class		medication material		
@@ -114,7 +113,7 @@ EUPATH:0000306	Class			equivalent	'genotype information' and 'is about' some (ge
 EUPATH:0000307	Class		information content entity	equivalent	'is about' some (genotype and 'is concretized as' some 'Homo sapiens')
 EUPATH:0000308	Class		information content entity		'is about' some ('part of' some ('health care encounter' and 'occurs in' some 'hospital facility'))
 EUPATH:0000309	Class		information content entity		
-EUPATH:0000310	Class		information content entity	equivalent	'information content entity' and 'is about' some 'health care encounter'
+EUPATH:0000310	Class			equivalent	'information content entity' and 'is about' some 'health care encounter'
 EUPATH:0000311	Class		information content entity		'is about' some 'health care encounter'
 EUPATH:0000312	Class		data item		
 EUPATH:0000318	Class		information content entity		(denotes some ('hospital facility' and 'contains process' some ('health care encounter' and realizes some ('patient role' and 'role of' some 'participant under investigation'))))
@@ -128,7 +127,7 @@ EUPATH:0000326	Class		information content entity
 EUPATH:0000335	Class		information on disposal of human excreta material		
 EUPATH:0000336	Class		count		
 EUPATH:0000337	Class		count		
-EUPATH:0000338	Class		information content entity		'is about' some ('diagnosis of malaria' and is_specified_output_of some ('diagnostic process' and 'has part' some 'organism identification assay'))
+EUPATH:0000338	Class		information content entity		'is about' some ('diagnosis of malaria' and is_specified_output_of some ('diagnostic process' and 'has part' some 'organism detection assay'))
 EUPATH:0000341	Class		information content entity		
 EUPATH:0000342	Class		information content entity	equivalent	'is about' some 'employment process'
 EUPATH:0000343	Class		organism		
@@ -182,7 +181,7 @@ EUPATH:0000414	Class		time measurement datum
 EUPATH:0000417	Class		information content entity		
 EUPATH:0000418	Class		household information		'is about' some 'human dwelling'
 EUPATH:0000419	Class		measurement datum		
-EUPATH:0000423	Class		presence of organism in specimen		(is_specified_output_of some ('organism identification assay' and realizes some ('evaluant role' and 'role of' some 'blood specimen')))
+EUPATH:0000423	Class		presence of organism in specimen		(is_specified_output_of some ('organism detection assay' and realizes some ('evaluant role' and 'role of' some 'blood specimen')))
 EUPATH:0000424	Class		country name		
 EUPATH:0000425	Class		information content entity		'is about' some diagnosis and mentions some malaria
 EUPATH:0000426	Class		count		
@@ -205,7 +204,7 @@ EUPATH:0000447	Class		textual entity
 EUPATH:0000448	Class		textual entity		
 EUPATH:0000449	Class		region of Mali		
 EUPATH:0000450	Class		human traveling information		
-EUPATH:0000451	Class		information content entity		'is about' some 'health care process'
+EUPATH:0000451	Class		health care information		
 EUPATH:0000452	Class		first-order administrative region		
 EUPATH:0000486	Class		count		'is about' some 'health care encounter'
 EUPATH:0000490	Class		information content entity		
@@ -347,6 +346,7 @@ EUPATH:0000811	Class		16s ribosomal gene sequencing assay
 EUPATH:0000812	Class		16s ribosomal gene sequencing assay		
 EUPATH:0000813	Class		16s ribosomal gene sequencing assay		
 EUPATH:0000815	Class		data transformation		
+EUPATH:0000816	Class			equivalent	'information content entity' and 'is about' some 'health care process'
 EUPATH:0004991	Class		time measurement datum		
 EUPATH:0005032	Class		parasitemia measurement		
 EUPATH:0009246	Class		data transformation		
@@ -506,8 +506,8 @@ EUPATH:0021059	Class		presence of parasite
 EUPATH:0021060	Class		information on whether assay performed		
 EUPATH:0021066	Class		record of missing knowledge		
 EUPATH:0021073	Class		record of missing knowledge		
-EUPATH:0021074	Class		healthcare information		
-EUPATH:0021075	Class		healthcare information		
+EUPATH:0021074	Class		health care information		
+EUPATH:0021075	Class		health care information		
 EUPATH:0021076	Class		liquid water		
 EUPATH:0021079	Class		liquid water		
 EUPATH:0021084	Class		household asset information		
@@ -599,6 +599,11 @@ EUPATH:0023052	Class		time measurement datum
 EUPATH:0023055	Class		human traveling information		'is about' some 'human participant under investigation'
 EUPATH:0023056	Class		study participant information		'is about' some 'human social role'
 EUPATH:0023057	Class		physical examination finding		
+EUPATH:0024160	Class		time measurement datum		
+EUPATH:0024266	Class		time measurement datum		
+EUPATH:0025092	Class		treatment information		
+EUPATH:0025174	Class		data item		(is_specified_output_of some ('data transformation' and has_specified_input some 'duration since bed net treatment'))|'has value specification' some 'categorical value specification'
+EUPATH:0025175	Class		data item		(is_specified_output_of some ('data transformation' and has_specified_input some 'duration of bed net ownership'))|'has value specification' some 'categorical value specification'
 EUPATH:0026002	Class		third-order administrative region		
 EUPATH:0026006	Class		second-order administrative region		
 EUPATH:0026007	Class		first-order administrative region		
@@ -607,9 +612,10 @@ EUPATH:0035013	Class		fourth-order administrative region
 EUPATH:0035127	Class		information content entity		
 EUPATH:0036002	Class		protocol		
 EUPATH:0036026	Class		collecting specimen from organism		
-EUPATH:0036056	Class		count		is about' some macrophage|(is_specified_output_of some 'feces assay')
+EUPATH:0036056	Class		count		'is about' some macrophage|(is_specified_output_of some 'feces assay')
 EUPATH:0036057	Class		count		'is about' some granulocyte
-EUPATH:0036058	Class		count		is about' some erythrocyte|(is_specified_output_of some 'feces assay')
+EUPATH:0036058	Class		count		'is about' some erythrocyte|(is_specified_output_of some 'feces assay')
+EUPATH:0036074	Class			equivalent	(site and ('contains process' some 'human subject enrollment'))
 EUPATH:0037004	Class		count		
 EUPATH:0038721	Class		second-order administrative region		
 EUPATH:0038722	Class		fourth-order administrative region		
@@ -679,14 +685,39 @@ EUPATH:0043245	Class		conclusion based on data
 EUPATH:0043256	Class		time measurement datum		'is about' some ('process boundary' and starts some (has_specified_output some 'collection of specimens'))
 EUPATH:0043257	Class		time measurement datum		'is about' some ('process boundary' and ends some (has_specified_output some 'collection of specimens'))
 EUPATH:0043258	Class		information content entity		'is about' some (has_specified_output some 'collection of specimens')
-EUPATH:0043274	Class		collecting specimen from organism		
-EUPATH:0044179	Class		second-order administrative region		
-EUPATH:0044180	Class		first-order administrative region		
-EUPATH:0048259	Class		saliva assay		
-EUPATH:0049405	Class		fourth-order administrative region		
 EUPATH:0043259	Class		information content entity		
 EUPATH:0043260	Class		record of missing knowledge		
 EUPATH:0043261	Class		information on collected tick population		
 EUPATH:0043262	Class		information on collected tick population		
+EUPATH:0043274	Class		collecting specimen from organism		
+EUPATH:0044179	Class		second-order administrative region		
+EUPATH:0044180	Class		first-order administrative region		
+EUPATH:0048259	Class		saliva assay		
 EUPATH:0048293	Class		information on suckling behavior		
+EUPATH:0048312	Class		information on disposal of human excreta material		
+EUPATH:0048313	Class		household information		
+EUPATH:0049405	Class		fourth-order administrative region		
+EUPATH:0050504	Class		treatment information		'is about' some antibiotics
+EUPATH:0060120	Class		body mass index (BMI)		
+EUPATH:0060121	Class		treatment information		
+EUPATH:0060122	Class		treatment information		
+EUPATH:0060125	Class		treatment information		'is about' some antibiotics
+EUPATH:0060126	Class		treatment information		'has part' some 'first antibiotic in treatment'
+EUPATH:0060127	Class		treatment information		'has part' some 'second antibiotic in treatment'
+EUPATH:0060128	Class		treatment information		
+EUPATH:0060129	Class		treatment information		
+EUPATH:0060130	Class		treatment information		
+EUPATH:0060131	Class		treatment information		
+EUPATH:0060132	Class		treatment information		
+EUPATH:0060137	Class		age measurement datum		
+EUPATH:0060139	Class		information content entity		(mentions some 'food product')
+EUPATH:0060144	Class		location of human subject enrollment		
+EUPATH:0060145	Class		treatment information		'is duration of' some treatment
 EUPATH:0061381	Class		information on suckling behavior		
+EUPATH:0061761	Class		information content entity		
+EUPATH:0061763	Class		information content entity		
+EUPATH:0061764	Class		health care information		
+EUPATH:0061765	Class		health care information		
+EUPATH:0061766	Class		health care information		
+EUPATH:0061767	Class		health care information		
+http://www.ebi.ac.uk/efo/EFO_0004326	Class				'is about' some heart
