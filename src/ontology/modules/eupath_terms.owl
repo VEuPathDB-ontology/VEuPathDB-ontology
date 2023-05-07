@@ -4494,7 +4494,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/EUPATH_0000825 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000825">
-        <obo:IAO_0000115 xml:lang="en">A feces assay that has a maternal blood specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A feces assay that has a maternal feces specimen as evaluant.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">maternal feces assay</rdfs:label>
     </owl:Class>
     
@@ -6329,6 +6329,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011748">
+        <obo:IAO_0000115 xml:lang="en">A feces assay that measures some material entity, the amount of which could indicate the occurence of an inflammatory reponse in the organism from which the specimen was collected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/507</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">feces assay to detect inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0011756 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011756">
@@ -6337,6 +6351,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118>ALRI episodes</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">information on acute lower respiratory tract disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011848">
+        <obo:IAO_0000115 xml:lang="en">A feces assay that measures some material entity, the amount of which could indicate the occurence of an inflammatory reponse in the organism from which the specimen was collected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/507</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">feces assay to detect inflammation</rdfs:label>
     </owl:Class>
     
 
@@ -10121,7 +10149,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/446</obo:IAO_0000233>
         <dc:contributor>Sheena Tomko</dc:contributor>
-        <rdfs:label xml:lang="en">time of bed net ownership</rdfs:label>
+        <rdfs:label xml:lang="en">duration of bed net ownership</rdfs:label>
     </owl:Class>
     
 
@@ -10200,10 +10228,24 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A data item that specifies which group a value for &apos;duration since bed net treatment&apos; belongs to when the data are grouped by range of values.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/445</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">categorical duration since bed net treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0025175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0025175">
+        <obo:IAO_0000115 xml:lang="en">A data item that specifies which group a value for &apos;duration of bed net ownership&apos; belongs to when the data are grouped by range of values.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/446</obo:IAO_0000233>
         <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
         <dc:contributor>Sheena Tomko</dc:contributor>
-        <rdfs:label xml:lang="en">categorical time of bed net ownership</rdfs:label>
+        <rdfs:label xml:lang="en">categorical duration of bed net ownership</rdfs:label>
     </owl:Class>
     
 
@@ -18878,6 +18920,15 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048245">
+        <obo:IAO_0000115 xml:lang="en">A urine assay that has a maternal urine specimen as evaluant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">maternal urine assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0048259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048259">
@@ -18885,6 +18936,34 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">maternal saliva assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048290">
+        <obo:IAO_0000115 xml:lang="en">A eukaryota in maternal urine datum that specifies whether Schistosoma was detected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/449</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">presence of Schistosoma in maternal urine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048291">
+        <obo:IAO_0000115 xml:lang="en">A eukaryota in maternal urine datum that specifies whether a eukaryote was detected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/450</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">presence of eukaryote in maternal urine</rdfs:label>
     </owl:Class>
     
 
@@ -19261,6 +19340,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
         <dc:contributor>Sheena Tomko</dc:contributor>
         <rdfs:label xml:lang="en">fourth medication in treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060136">
+        <obo:IAO_0000115 xml:lang="en">A feces assay to detect inflammation, for which the specimen is collected from the biological mother of an infant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/507</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">maternal feces assay to detect inflammation</rdfs:label>
     </owl:Class>
     
 
