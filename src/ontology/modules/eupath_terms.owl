@@ -4275,7 +4275,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A umbilical cord blood microbiology datum that indicates whether some organism was detected.</obo:IAO_0000115>
         <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">presence or organism in umbilical cord blood</rdfs:label>
+        <rdfs:label xml:lang="en">presence of organism in umbilical cord blood</rdfs:label>
     </owl:Class>
     
 
@@ -4401,6 +4401,101 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/441</obo:IAO_0000233>
         <dc:contributor>Jie Zheng</dc:contributor>
         <rdfs:label xml:lang="en">health care information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000817">
+        <obo:IAO_0000115 xml:lang="en">A participant under investigation that is the female biological parent of a participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/GSSO_001986</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">maternal participant under investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000818">
+        <obo:IAO_0000115 xml:lang="en">A collecting specimen from organism in which the organism is a maternal participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">maternal specimen collection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000819 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000819">
+        <obo:IAO_0000115 xml:lang="en">A participant under investigation that is an offspring of a participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C42708</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">offspring participant under investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000820">
+        <obo:IAO_0000115 xml:lang="en">A collecting specimen from organism in which the organism is an offspring participant under investigation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">offspring specimen collection process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000821">
+        <obo:IAO_0000115 xml:lang="en">A data item that is the specified output of a maternal urine microbiology assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">maternal urine microbiology datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000822">
+        <obo:IAO_0000115 xml:lang="en">A urine specimen that is the specified output of a maternal specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <rdfs:label xml:lang="en">maternal urine specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000823">
+        <obo:IAO_0000115 xml:lang="en">A saliva specimen that is the specified output of a maternal specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">maternal saliva specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000824">
+        <obo:IAO_0000115 xml:lang="en">A feces specimen that is the specified output of a maternal specimen collection process.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">maternal feces specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0000825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0000825">
+        <obo:IAO_0000115 xml:lang="en">A feces assay that has a maternal feces specimen as evaluant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">maternal feces assay</rdfs:label>
     </owl:Class>
     
 
@@ -6186,6 +6281,19 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011482">
+        <obo:IAO_0000115 xml:lang="en">A collecting specimen from organism that has the objective to obtain a blood specimen.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">blood specimen collection process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0011649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011649">
@@ -6217,6 +6325,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000118>Calories</obo:IAO_0000118>
         <obo:IAO_0000119>EuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">calorie intake measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0011748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0011748">
+        <obo:IAO_0000115 xml:lang="en">A feces assay that measures some material entity, the amount of which could indicate the occurence of an inflammatory reponse in the organism from which the specimen was collected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/507</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">feces assay to detect inflammation</rdfs:label>
     </owl:Class>
     
 
@@ -15459,6 +15581,58 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036014">
+        <obo:IAO_0000115 xml:lang="en">A blood specimen collected from a maternal participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">maternal blood specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036017">
+        <obo:IAO_0000115 xml:lang="en">A milk specimen collected from a maternal participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">maternal milk specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036020">
+        <obo:IAO_0000115 xml:lang="en">A milk assay that has a maternal milk specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">maternal milk assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0036022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036022">
+        <obo:IAO_0000115 xml:lang="en">A blood assay that has a maternal blood specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">maternal blood assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0036026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0036026">
@@ -16629,6 +16803,15 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0038027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038027">
+        <obo:IAO_0000115 xml:lang="en">An organism detection assay that detects microorganisms in a maternal urine specimen.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">maternal urine microbiology assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0038317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038317">
@@ -16636,6 +16819,15 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">presence of Treponema in blood by venereal disease research laboratory test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0038654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0038654">
+        <obo:IAO_0000115 xml:lang="en">An organism microbiology assay that detects microorganisms in a maternal blood specimen.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">maternal blood microbiology assay</rdfs:label>
     </owl:Class>
     
 
@@ -16746,6 +16938,45 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">presence of Treponema in blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042245">
+        <obo:IAO_0000115 xml:lang="en">A blood assay that has a offspring blood specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">offspring blood assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042251">
+        <obo:IAO_0000115 xml:lang="en">A blood specimen collected from an offspring participant under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">offspring blood specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0042334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0042334">
+        <obo:IAO_0000115 xml:lang="en">A blood microbiology assay that has a offspring blood specimen as evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/548</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">offspring blood microbiology assay</rdfs:label>
     </owl:Class>
     
 
@@ -18663,6 +18894,27 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048232">
+        <obo:IAO_0000115 xml:lang="en">A eukaryota in maternal urine datum that specifies whether Schistosoma mansoni was detected by microscopy assay.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <rdfs:label xml:lang="en">presence of Schistosoma mansoni in maternal urine by microscopy assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048245">
+        <obo:IAO_0000115 xml:lang="en">A urine assay that has a maternal urine specimen as evaluant.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">maternal urine assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0048259 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048259">
@@ -18670,6 +18922,34 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000117>John Judkins</obo:IAO_0000117>
         <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
         <rdfs:label xml:lang="en">maternal saliva assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048290">
+        <obo:IAO_0000115 xml:lang="en">A eukaryota in maternal urine datum that specifies whether Schistosoma was detected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/449</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">presence of Schistosoma in maternal urine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0048291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0048291">
+        <obo:IAO_0000115 xml:lang="en">A eukaryota in maternal urine datum that specifies whether a eukaryote was detected.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/450</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">presence of eukaryote in maternal urine</rdfs:label>
     </owl:Class>
     
 
@@ -19050,6 +19330,20 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EUPATH_0060136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060136">
+        <obo:IAO_0000115 xml:lang="en">A feces assay to detect inflammation, for which the specimen is collected from the biological mother of an infant.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Judkins ORCID:0000-0001-6595-0902</obo:IAO_0000117>
+        <obo:IAO_0000119>VEuPathDB</obo:IAO_0000119>
+        <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/507</obo:IAO_0000233>
+        <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
+        <dc:contributor>Sheena Tomko</dc:contributor>
+        <rdfs:label xml:lang="en">maternal feces assay to detect inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EUPATH_0060137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EUPATH_0060137">
@@ -19213,7 +19507,7 @@ CD3T188G is a polymophism on the human CD36 gene.</obo:IAO_0000116>
         <obo:IAO_0000233>https://github.com/VEuPathDB-ontology/VEuPathDB-ontology/issues/441</obo:IAO_0000233>
         <obo:IAO_0000234>ClinEpiDB</obo:IAO_0000234>
         <dc:contributor>Sheena Tomko</dc:contributor>
-        <rdfs:label xml:lang="en">plan specification for health care in hour after baby delivery</rdfs:label>
+        <rdfs:label xml:lang="en">information on health care in hour after baby delivery</rdfs:label>
     </owl:Class>
     
 
