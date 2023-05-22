@@ -225,74 +225,6 @@ WARN	annotation_whitespace	IAO:0000597	IAO:0000112	"Datatype: idrange:1
 Annotations: 'has ID range allocated to': \""Chris Mungall\""
 EquivalentTo: xsd:integer[> 2151 , <= 2300]
 @en"
-WARN	annotation_whitespace	OBI:0000070	IAO:0000116	12/3/12: BP: the reference to the 'physical examination' is included to point out that a prediction is not an assay, as that does not require physical examiniation. 
-WARN	annotation_whitespace	OBI:0000086	IAO:0000232	"Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.
-
-May 28 2013. Updated definition taken from ReO based on discussions initiated in Philly 2011 workshop.  Former defnition described a narrower view of reagents in chemistry that restricts bearers of the role to be chemical entities (\""a role played by a molecular entity used to produce a chemical reaction to detect, measure, or produce other substances\"").  Updated definition allows for broader view of reagents in the domain of biomedical research to include larger materials that have parts that participate chemically in a molecular reaction or interaction.
-"
-WARN	annotation_whitespace	OBI:0000097	IAO:0000232	"Following OBI call November 2012,26th:
- 
-1. it was decided there was no need for moving the children class and making them siblings of study subject role.
-2. it also settles the disambiguation about 'study subject'. This is about the individual participating in the investigation/study, Not the 'topic' (as in 'toxicity study') of the investigation/study
-
-This note closes the issue and validates the class definition to be part of the OBI core
-editor = PRS
-@en"
-WARN	annotation_whitespace	OBI:0000124	IAO:0000112	"The relation between the conclusion \""Gene tpbA is involved in EPS production\"" and the data items produced using two sets of organisms, one being a tpbA knockout, the other being tpbA wildtype tested in polysacharide production assays and analyzed using an ANOVA. "
-WARN	annotation_whitespace	OBI:0000338	IAO:0000112	Concluding that a gene is upregulated in a tissue sample based on the band intensity in a western blot.  Concluding that a patient has a infection based on measurement of an elevated body temperature and reported headache. Concluding that there were problems in an investigation because data from PCR and microarray are conflicting. Concluding that 'defects in gene XYZ cause cancer due to improper DNA repair' based on data from experiments in that study that gene XYZ is involved in DNA repair, and the conclusion of a previous study that cancer patients have an increased number of mutations in this gene. 
-WARN	annotation_whitespace	OBI:0000339	IAO:0000116	7/18/2011 BP: planning used to itself be a planned process. Barry Smith pointed out that this would lead to an infinite regression, as there would have to be a plan to conduct a planning process, which in itself would be the result of planning etc. Therefore, the restrictions on 'planning' were loosened to allow for informal processes that result in an 'ad hoc plan '. This required changing from 'has_specified_output some plan specifiction' to 'has_participant some plan specification'. 
-WARN	annotation_whitespace	OBI:0000651	IAO:0000116	4/10/2011BP: It seems to me that the editor notes refer to a previous version, and are no longer relevant. 
-WARN	annotation_whitespace	OBI:0000938	IAO:0000119	"Bjoern Peters
-"
-WARN	annotation_whitespace	OBI:0000968	IAO:0000116	"2012-12-17 JAO: In common lab usage, there is a distinction made between devices and reagents that is difficult to model. Therefore we have chosen to specifically exclude reagents from the definition of \""device\"", and are enumerating the types of roles that a reagent can perform.
-
-2013-6-5 MHB: The following clarifications are outcomes of the May 2013 Philly Workshop. Reagents are distinguished from devices that also participate in scientific techniques by the fact that reagents are chemical or biological in nature and necessarily participate in some chemical interaction or reaction during the realization of their experimental role. By contrast, devices do not participate in such chemical reactions/interactions.  Note that there are cases where devices use reagent components during their operation, where the reagent-device distinction is less clear.  For example:
-
-(1) An HPLC machine is considered a device, but has a column that holds a stationary phase resin as an operational component.  This resin qualifies as a device if it participates purely in size exclusion, but bears a reagent role that is realized in the running of a column if it interacts electrostatically or chemically with the evaluant. The container the resin is in (“the column”) considered alone is a device. So the entire column as well as the entire HPLC machine are devices that have a reagent as an operating part.
-
-(2) A pH meter is a device, but its electrode component bears a reagent role in virtue of its interacting directly with the evaluant in execution of an assay.
-
-(3) A gel running  box  is a device that has a metallic lead as a component that participates in a chemical reaction with the running buffer when a charge is passed through it.  This metallic lead is considered to have a reagent role as a component of this device realized in the running of a gel.
-
-In the examples above, a reagent is an operational component of a device, but the device itself does not realize a reagent role (as bearing a reagent role is not transitive across the part_of relation).  In this way, the asserted disjointness between a reagent and device holds, as both roles are never realized in the same bearer during execution of an assay.  "
-WARN	annotation_whitespace	OBI:0000973	IAO:0000115	"A measurement datum that representing the primary structure of a macromolecule(it's sequence) sometimes associated with an indicator of confidence of that measurement.
-"
-WARN	annotation_whitespace	OBI:0000995	IAO:0000112	Staining cells in a tissue slice with a dye. 
-WARN	annotation_whitespace	OBI:0001167	IAO:0000116	"note that we are currently defining subtypes of age measurement datum that specify when the age is relative to, e.g. planting, as we don't have adequate temporal predicates yet.
-life of bearer doesn't imply organism
-this assay measures time not developmental stage. we recognize that development can take different time periods under different conditions such as media / temperature
-age as a quality is dubious; we plan to revisit
-stages in development are currently handled with controlled vocabulary, such as 2-somite stage "
-WARN	annotation_whitespace	OBI:0001171	IAO:0000115	The time it takes for 50% of a class of stochastic processes to occur. 
-WARN	annotation_whitespace	OBI:0001173	IAO:0000112	providing a training course for UCSD employees how to run a DNA sequencer; sequencing a DNA sample provided by a service consumer restricted to non-human samples; giving access to tissue samples in a biobank within OHSU; JAX shipping mice from their colony 
-WARN	annotation_whitespace	OBI:0001185	IAO:0000117	Bjoern Peters, Helen Parkinson, Philippe Rocca-Serra, Jie Zheng, Chris Stoeckert 
-WARN	annotation_whitespace	OBI:0001404	IAO:0000232	"MO definition:
-The genotype of the individual organism from which the biomaterial was derived. Individual genetic characteristics include polymorphisms, disease alleles, and haplotypes.
-
-examples in ArrayExpress
-wild_type
-MutaMouse (CD2F1 mice with lambda-gt10LacZ integration)
-AlfpCre; SNF5 flox/knockout
-p53 knock out
-C57Bl/6 gp130lox/lox MLC2vCRE/+
-fer-15; fem-1
-df/df
-pat1-114/pat1-114 ade6-M210/ade6-M216 h+/h+ (cells are diploid)
-@en"
-WARN	annotation_whitespace	OBI:0001573	IAO:0000112	The part of a FASTA file that contains the letters ACTGGGAA 
-WARN	annotation_whitespace	OBI:0001573	IAO:0000232	8/29/11 call: This is added after a request from Melanie and Yu. They should review it further. This should be a child of 'sequence data', and as of the current definition will infer there.  
-WARN	annotation_whitespace	OBI:0001909	IAO:0000116	"In the Philly 2013 workshop, we recognized the limitations of \""conclusion textual entity\"", and we introduced this as more general. The need for the 'textual entity' term going forward is up for future debate. "
-WARN	annotation_whitespace	OBI:0001912	IAO:0000115	A processed material that serves as a liquid vehicle for freezing cells for long term quiescent stroage, which contains chemicls needed to sustain cell viability across freeze-thaw cycles. 
-WARN	annotation_whitespace	OBI:0001948	IAO:0000115	A textual entity that is used to denote a sequence assembly. 
-WARN	annotation_whitespace	OBI:0002534	IAO:0000119	Chris Stoeckert, NCI BBRB 
-WARN	annotation_whitespace	OBI:0002606	IAO:0000119	Chris Stoeckert, OBIB 
-WARN	annotation_whitespace	OBI:0002608	IAO:0000119	Chris Stoeckert, OBIB 
-WARN	annotation_whitespace	OBI:0002674	IAO:0000117	http://orcid.org/0000-0002-8844-9165 
-WARN	annotation_whitespace	OBI:0002684	IAO:0000118	 nested-PCR
-WARN	annotation_whitespace	OBI:0002684	IAO:0000118	nested PCR 
-WARN	annotation_whitespace	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
-defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
-@en"
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
 WARN	annotation_whitespace	VO:0000574	IAO:0000115	a path that is located in gross anatomical part of an organism (e.g., human) and is used for administering a vaccine, a drug, fluid, poison, or other substance into the body. 
 WARN	duplicate_exact_synonym	UBERON:0000069	IAO:0000118	zoea
@@ -372,6 +304,7 @@ WARN	duplicate_exact_synonym	UBERON:0000069	IAO:0000118	bipinnaria
 WARN	duplicate_exact_synonym	UBERON:0002548	IAO:0000118	bipinnaria
 WARN	duplicate_exact_synonym	NCBITaxon:124916	IAO:0000118	Armigeres
 WARN	duplicate_exact_synonym	NCBITaxon:317811	IAO:0000118	Armigeres
+WARN	duplicate_exact_synonym	GO:0019814	IAO:0000118	antibody
 WARN	duplicate_exact_synonym	GO:0019815	IAO:0000118	antibody
 WARN	duplicate_exact_synonym	GO:0042571	IAO:0000118	antibody
 WARN	duplicate_exact_synonym	NCBITaxon:44482	IAO:0000118	Anopheles
@@ -438,8 +371,6 @@ WARN	duplicate_label_synonym	HP:0000271	IAO:0000118	Abnormality of the face
 WARN	duplicate_label_synonym	HP:0000478	IAO:0000118	Abnormality of the eye
 WARN	duplicate_label_synonym	HP:0000490	IAO:0000118	Deeply set eye
 WARN	duplicate_label_synonym	HP:0000707	IAO:0000118	Abnormality of the nervous system
-WARN	duplicate_label_synonym	HP:0000708	IAO:0000118	Behavioral abnormality
-WARN	duplicate_label_synonym	HP:0000711	IAO:0000118	Restlessness
 WARN	duplicate_label_synonym	HP:0000951	IAO:0000118	Abnormality of the skin
 WARN	duplicate_label_synonym	HP:0000952	IAO:0000118	Jaundice
 WARN	duplicate_label_synonym	HP:0001072	IAO:0000118	Thickened skin
@@ -2198,7 +2129,7 @@ INFO	lowercase_definition	OBI:0000220	IAO:0000115	a reference subject  role whic
 INFO	lowercase_definition	OBI:0000231	IAO:0000115	a material processing that digests the fraction of input material that is susceptible to that enzyme@en
 INFO	lowercase_definition	OBI:0000274	IAO:0000115	is a process with the objective to place a material entity bearing the 'material to be added role' into a material bearing the 'target of material addition role'.@en
 INFO	lowercase_definition	OBI:0000304	IAO:0000115	"c is_manufactured_by o means that there was a process p in which c was built in which a person, or set of people or machines did the work(bore the \""Manufacturer Role\"", and those people/and or machines were members or of directed by the organization to do this.@en"
-INFO	lowercase_definition	OBI:0000319	IAO:0000115	material to be added role is a protocol participant role realized by a material which is added into a material bearing the target of material addition role in a material addition process@en
+INFO	lowercase_definition	OBI:0000318	IAO:0000115	a eluate is a material entity which results from an elution, e.g. from a chromatography column. it has as part a material entity with role mobile phase@en
 INFO	lowercase_definition	OBI:0000339	IAO:0000115	a process of creating or modifying a plan specification@en
 INFO	lowercase_definition	OBI:0000405	IAO:0000115	a complementary nucleotide probe role which inheres in nucleic acid molecular entity and is realized by the use of the entity bearing the role to initiate chain elongation.
 INFO	lowercase_definition	OBI:0000406	IAO:0000115	is double stranded DNA that is the specified output of a polymerase chain reaction@en
@@ -2212,17 +2143,18 @@ INFO	lowercase_definition	OBI:0000432	IAO:0000115	a material entity resulting fr
 INFO	lowercase_definition	OBI:0000434	IAO:0000115	is the specification of an objective to add a material into a target material. The adding is asymmetric in the sense that the target material largely retains its identity@en
 INFO	lowercase_definition	OBI:0000437	IAO:0000115	an assay objective to determine the presence or concentration of an analyte in the evaluant@en
 INFO	lowercase_definition	OBI:0000439	IAO:0000115	a material entity resulting from the polymerization of agarose after heating agarose suspended in some buffer solution@en
-INFO	lowercase_definition	OBI:0000444	IAO:0000115	target of material addition role is a role realized by an entity into which a material is added in a material addition process
 INFO	lowercase_definition	OBI:0000456	IAO:0000115	an objective specifiction that creates an specific output object from input materials.@en
 INFO	lowercase_definition	OBI:0000458	IAO:0000115	is the objective to manufacture a material of a certain function (device)@en
 INFO	lowercase_definition	OBI:0000471	IAO:0000115	a planned process that carries out a study design
 INFO	lowercase_definition	OBI:0000552	IAO:0000115	reverse transcribe pcr is a process which allow amplification of cDNA during a pcr reaction while the cDNA results from a retrotranscription of messenger RNA isolated from a material entity.
+INFO	lowercase_definition	OBI:0000576	IAO:0000115	a material entity that consists of all the molecules of a specific type that are located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates@en
 INFO	lowercase_definition	OBI:0000639	IAO:0000115	is an objective to transform a material entity into spatially separated components.
 INFO	lowercase_definition	OBI:0000643	IAO:0000115	the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car.
 INFO	lowercase_definition	OBI:0000651	IAO:0000115	a portion of urine collected from an organism
 INFO	lowercase_definition	OBI:0000652	IAO:0000115	is a material processing with the objective to combine two or more material entities as input into a single material entity as output.
 INFO	lowercase_definition	OBI:0000655	IAO:0000115	a material entity derived from a portion of blood collected from an organism
 INFO	lowercase_definition	OBI:0000671	IAO:0000115	a material obtained from an organism in order to be a representative of the whole
+INFO	lowercase_definition	OBI:0000685	IAO:0000115	is a process with the objective to prepare a liquid solution of one or more chemicals at desired concentrations.
 INFO	lowercase_definition	OBI:0000690	IAO:0000115	is a process which realizes a material separation objective by relying on antibodies to specifically binding to material entity
 INFO	lowercase_definition	OBI:0000725	IAO:0000115	host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role
 INFO	lowercase_definition	OBI:0000732	IAO:0000115	an enzyme that has a specific target cleavage sites within nucleic acids
@@ -2230,6 +2162,7 @@ INFO	lowercase_definition	OBI:0000750	IAO:0000115	a directive information entity
 INFO	lowercase_definition	OBI:0000811	IAO:0000115	a quality of a DNA molecule that inheres in its bearer due to the order of its DNA nucleotide residues.
 INFO	lowercase_definition	OBI:0000838	IAO:0000115	a process with that achieves the objective to maintain some or all of the characteristics of an input material over time
 INFO	lowercase_definition	OBI:0000858	IAO:0000115	a record indicating that the biological sex of an organism is not known.
+INFO	lowercase_definition	OBI:0000873	IAO:0000115	a specimen that was taken from a live organism
 INFO	lowercase_definition	OBI:0000880	IAO:0000115	an extract which is the output of an extraction process in which RNA molecules are isolated from a specimen.
 INFO	lowercase_definition	OBI:0000925	IAO:0000115	is a material entity bearing the disposition to infect an organism@en
 INFO	lowercase_definition	OBI:0000931	IAO:0000115	the part of the execution of an intervention design study which is varied between two or more subjects in the study
@@ -2244,22 +2177,24 @@ INFO	lowercase_definition	OBI:0001352	IAO:0000115	a genetic alteration informati
 INFO	lowercase_definition	OBI:0001369	IAO:0000115	an allele information that is about the allele found most frequently in natural populations, or in standard laboratory stocks for a given organism.@en
 INFO	lowercase_definition	OBI:0001404	IAO:0000115	a data item that is about genetic material including polymorphisms, disease alleles, and haplotypes.@en
 INFO	lowercase_definition	OBI:0001969	IAO:0000115	biodiversity assessment objective is an objective of a planned process aimed at producing data item whose interpretation should provide insight about variety of biological species found in a biological sample at macroscopic or microscopic level@en
-INFO	lowercase_definition	OBI:0002489	IAO:0000115	an organism identification assay that uses a differential medium to achieve its objective
 INFO	lowercase_definition	OBI:0100016	IAO:0000115	a material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.@en
 INFO	lowercase_definition	OBI:0300311	IAO:0000115	observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.
+INFO	lowercase_definition	OBI:0302732	IAO:0000115	solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation@en
+INFO	lowercase_definition	OBI:0302733	IAO:0000115	solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution@en
 INFO	lowercase_definition	OBI:0302885	IAO:0000115	filtration is a process which separates components suspended in a fluid based on granularity properties relying on a filter device@en
 INFO	lowercase_definition	OBI:0302886	IAO:0000115	centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation@en
 INFO	lowercase_definition	OBI:0302890	IAO:0000115	polymerization is process by which molecular entity of small mass are aggregated in motifs over the course of a chemical reaction catalyzed by enzymes or other molecular entities acting as catalyst. polymerization results in molecular entity of high molecular weight@en
 INFO	lowercase_definition	OBI:0302903	IAO:0000115	a planned process by which totally or partially complementary, single-stranded nucleic acids are  combined into a single molecule called heteroduplex or homoduplex to an extent depending on the amount of complementarity.@en
+INFO	lowercase_definition	OBI:0302905	IAO:0000115	the process of extracting one material from another by washing with a solvent to remove adsorbed material from an adsorbent (as in washing of loaded ion-exchange resins to remove captured ions)@en
 INFO	lowercase_definition	OBI:0500026	IAO:0000115	"an eligibility criterion (rule) is_a selection criterion which 
-defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
-@en"
+defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.@en"
 INFO	lowercase_definition	OBI:0600005	IAO:0000115	a process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation@en
 INFO	lowercase_definition	OBI:0600014	IAO:0000115	a material processing in which components of an input material become segregated in space@en
 INFO	lowercase_definition	OBI:0600018	IAO:0000115	a material processing in which the input substance is partitioned into a number of portions that are similar in composition.@en
 INFO	lowercase_definition	OBI:0600024	IAO:0000115	a protocol application in which cells are kept alive in a defined environment outside of an organism.  part of cell_culturing@en
 INFO	lowercase_definition	OBI:0600028	IAO:0000115	a protocol with the objective to transcribe single-stranded RNA into complementary DNA (cDNA)@en
 INFO	lowercase_definition	OBI:0600036	IAO:0000115	a process through which a new type of cell culture or cell line is created, either through the isolation and culture of one or more cells from a fresh source, or the deliberate experimental modification of an existing cell culture (e.g passaging a primary culture to become a secondary culture or line, or the immortalization or stable genetic modification of an existing culture or line).
+INFO	lowercase_definition	OBI:0600046	IAO:0000115	the use of a biomaterial's preferential affinity for either the mobile phase or the stationary phase to separate it from other materials of differing affinity@en
 INFO	lowercase_definition	OBI:0600050	IAO:0000115	an enzymatic cleavage that uses an enzyme with a strong affinity for specific cleavage sites in the input material@en
 INFO	lowercase_definition	OBI:0600052	IAO:0000115	a protocol application that uses diffusion through a semi-permeable membrane to separate an input material into two fractions of different composition@en
 INFO	lowercase_definition	OBI:0600053	IAO:0000115	a protocol application that uses an electrical potential to move material through a defined matrix in order to separate it by its resistance to movement and its charge@en
@@ -2274,6 +2209,7 @@ INFO	lowercase_definition	RO:0000057	IAO:0000115	a relation between a process an
 INFO	lowercase_definition	RO:0000079	IAO:0000115	a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0000081	IAO:0000115	a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0000085	IAO:0000115	a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	RO:0000086	IAO:0000115	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0000087	IAO:0000115	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0001000	IAO:0000115	a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en
 INFO	lowercase_definition	RO:0001001	IAO:0000115	a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity@en
